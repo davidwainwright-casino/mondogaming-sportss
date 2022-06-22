@@ -1,0 +1,36 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+# RewriteBase /forums/
+RewriteCond $1 !^(index\.php|assets|install|update)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# For godady Shared Hosting Server uncomment the line below
+# RewriteRule ^(.*)$ index.php?/$1 [L]
+
+# Please comment this if you have uncommented the above
+RewriteRule ^(.*)$ index.php/$1 [NC,L,QSA]
+
+</IfModule>
+
+
+# Uncomment all line below to improve caching - remove # from start
+
+# <IfModule mod_headers.c>
+#   <FilesMatch ".(css|js)$">
+#     Header set Cache-Control "max-age=7200, public"
+#   </FilesMatch>
+# </IfModule>
+
+# <IfModule mod_expires.c>
+# ExpiresActive On
+# ExpiresByType image/jpg "access plus 1 year"
+# ExpiresByType image/jpeg "access plus 1 year"
+# ExpiresByType image/gif "access plus 1 year"
+# ExpiresByType image/png "access plus 1 year"
+# ExpiresByType text/css "access plus 1 month"
+# ExpiresByType text/x-javascript "access plus 1 month"
+# ExpiresByType image/x-icon "access plus 1 year"
+# ExpiresDefault "access plus 2 days"
+# </IfModule>

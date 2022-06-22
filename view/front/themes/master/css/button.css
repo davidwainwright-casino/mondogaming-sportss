@@ -1,0 +1,708 @@
+/* == Buttons == */
+.yoyo.button {
+  cursor: pointer;
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  vertical-align: middle;
+  background-color: #C8CBCE;
+  color: #1e2022;
+  font-family: inherit;
+  font-weight: 600;
+  margin: 0em 0.25rem 0em 0em;
+  padding: 1rem 1.875rem;
+  line-height: 1;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: .250rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: content-box;
+  will-change: inherit;
+  border: 1px solid #C8CBCE;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.yoyo.button:hover,
+.yoyo.button:active,
+.yoyo.button:focus {
+  color: #fff;
+  background: #1e2022;
+  border-color: #1e2022;
+  box-shadow: 0 4px 17px rgba(30,32,34, 0.35);
+}
+.yoyo.button:active,
+.yoyo.button.active {
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.125) inset;
+  background-image: none;
+  outline: 0px none;
+}
+/* == basic == */
+.yoyo.basic.buttons .button,
+.yoyo.basic.button,
+.yoyo.basic.primary.buttons .button,
+.yoyo.basic.primary.button,
+.yoyo.basic.secondary.buttons .button,
+.yoyo.basic.secondary.button,
+.yoyo.basic.positive.buttons .button,
+.yoyo.basic.positive.button,
+.yoyo.basic.negative.buttons .button,
+.yoyo.basic.negative.button,
+.yoyo.basic.white.buttons .button,
+.yoyo.basic.white.button,
+.yoyo.simple.buttons .button,
+.yoyo.simple.button,
+.yoyo.simple.primary.buttons .button,
+.yoyo.simple.primary.button,
+.yoyo.simple.secondary.buttons .button,
+.yoyo.simple.secondary.button,
+.yoyo.simple.positive.buttons .button,
+.yoyo.simple.positive.button,
+.yoyo.simple.negative.buttons .button,
+.yoyo.simple.negative.button,
+.yoyo.simple.white.buttons .button,
+.yoyo.simple.white.button {
+  background: transparent;
+  color: #C8CBCE;
+}
+.yoyo.simple.buttons .button,
+.yoyo.simple.button,
+.yoyo.simple.primary.buttons .button,
+.yoyo.simple.primary.button,
+.yoyo.simple.secondary.buttons .button,
+.yoyo.simple.secondary.button,
+.yoyo.simple.positive.buttons .button,
+.yoyo.simple.positive.button,
+.yoyo.simple.negative.buttons .button,
+.yoyo.simple.negative.button,
+.yoyo.simple.white.buttons .button,
+.yoyo.simple.white.button {
+  box-shadow: none;
+}
+.yoyo.basic.button:hover,
+.yoyo.basic.button.active,
+.yoyo.basic.button:active {
+  color: #fff;
+  background: #1e2022;
+  border-color: #1e2022;
+}
+/* == primary == */
+.yoyo.primary.buttons .button,
+.yoyo.primary.button {
+  background-color: #ffedeb;
+  color: #eb1515;
+  border-color: #ffedeb;
+}
+.yoyo.primary.buttons .button:hover,
+.yoyo.primary.buttons .button:active,
+.yoyo.primary.buttons .button:focus,
+.yoyo.primary.button:hover,
+.yoyo.primary.button:active,
+.yoyo.primary.button:focus {
+  color: #fff;
+  background: #eb1515;
+  box-shadow: 0 4px 17px rgb(255 55 55 / 35%);
+  border-color: #eb1515;
+}
+.yoyo.primary.buttons .button:active,
+.yoyo.primary.buttons .button.active,
+.yoyo.primary.button:active,
+.yoyo.primary.button.active {
+  box-shadow: 0 0 0 0 transparent;
+}
+.yoyo.simple.primary.buttons .button,
+.yoyo.simple.primary.button {
+  color: #377dff;
+}
+.yoyo.basic.primary.buttons .button,
+.yoyo.basic.primary.button {
+  border-color: #377dff;
+  color: #377dff;
+}
+.yoyo.basic.primary.button:hover,
+.yoyo.basic.primary.button.active,
+.yoyo.basic.primary.button:active {
+  color: #fff;
+}
+/* == secondary == */
+.yoyo.secondary.buttons .button,
+.yoyo.secondary.button {
+  color: #77838f;
+  background-color: #1f1f1f !important;
+  border-color: #1f1f1f !important;
+}
+.yoyo.secondary.buttons .button:hover,
+.yoyo.secondary.buttons .button:active,
+.yoyo.secondary.buttons .button:focus,
+.yoyo.secondary.button:hover,
+.yoyo.secondary.button:active,
+.yoyo.secondary.button:focus {
+  color: #fff;
+  background: #1f1f1f !important;
+  border-color: #1f1f1f !important;
+  box-shadow: 0 4px 17px #1f1f1f !important;
+}
+.yoyo.secondary.buttons .button:active,
+.yoyo.secondary.buttons .button.active,
+.yoyo.secondary.button:active,
+.yoyo.secondary.button.active {
+  box-shadow: 0 0 0 0 transparent;
+}
+.yoyo.simple.secondary.buttons .button,
+.yoyo.simple.secondary.button {
+  color: #77838f;
+}
+.yoyo.basic.secondary.buttons .button,
+.yoyo.basic.secondary.button {
+  border-color: #77838f;
+  color: #77838f;
+}
+.yoyo.basic.secondary.button:hover,
+.yoyo.basic.secondary.button.active,
+.yoyo.basic.secondary.button:active {
+  color: #fff;
+}
+/* == positive == */
+.yoyo.positive.buttons .button,
+.yoyo.positive.button {
+  color: #00c9a7;
+  background-color: #E5F9F6;
+  border-color: #E5F9F6;
+}
+.yoyo.positive.buttons .button:hover,
+.yoyo.positive.buttons .button:active,
+.yoyo.positive.buttons .button:focus,
+.yoyo.positive.button:hover,
+.yoyo.positive.button:active,
+.yoyo.positive.button:focus {
+  color: #fff;
+  background: #00c9a7;
+  border-color: #00c9a7;
+  box-shadow: 0 4px 17px rgba(0, 201, 167, 0.35);
+}
+.yoyo.positive.buttons .button:active,
+.yoyo.positive.buttons .button.active,
+.yoyo.positive.button:active,
+.yoyo.positive.button.active {
+  box-shadow: 0 0 0 0 transparent;
+}
+.yoyo.simple.positive.buttons .button,
+.yoyo.simple.positive.button {
+  color: #00c9a7;
+}
+.yoyo.basic.positive.buttons .button,
+.yoyo.basic.positive.button {
+  border-color: #00c9a7;
+  color: #00c9a7;
+}
+.yoyo.basic.positive.button:hover,
+.yoyo.basic.positive.button.active,
+.yoyo.basic.positive.button:active {
+  color: #fff;
+}
+/* == negative == */
+.yoyo.negative.buttons .button,
+.yoyo.negative.button {
+  color: #de4437;
+  border-color: #FCECEB;
+  background-color: #FCECEB;
+}
+.yoyo.negative.buttons .button:hover,
+.yoyo.negative.buttons .button:active,
+.yoyo.negative.buttons .button:focus,
+.yoyo.negative.button:hover,
+.yoyo.negative.button:active,
+.yoyo.negative.button:focus {
+  color: #fff;
+  background: #de4437;
+  border-color: #de4437;
+  box-shadow: 0 4px 17px rgba(222, 68, 55, 0.35);
+}
+.yoyo.negative.buttons .button:active,
+.yoyo.negative.buttons .button.active,
+.yoyo.negative.button:active,
+.yoyo.negative.button.active {
+  box-shadow: 0 0 0 0 transparent;
+}
+.yoyo.simple.negative.buttons .button,
+.yoyo.simple.negative.button {
+  color: #de4437;
+}
+.yoyo.basic.negative.buttons .button,
+.yoyo.basic.negative.button {
+  border-color: #de4437;
+  color: #de4437;
+}
+.yoyo.basic.negative.button:hover,
+.yoyo.basic.negative.button.active,
+.yoyo.basic.negative.button:active {
+  color: #fff;
+}
+/* == white == */
+.yoyo.white.buttons .button,
+.yoyo.white.button {
+  background-color: #FFF;
+  color: #377dff;
+  border-color: #fff;
+}
+.yoyo.white.buttons .button:hover,
+.yoyo.white.buttons .button:active,
+.yoyo.white.buttons .button:focus,
+.yoyo.white.button:hover,
+.yoyo.white.button:active,
+.yoyo.white.button:focus {
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+}
+.yoyo.white.buttons .button:active,
+.yoyo.white.buttons .button.active,
+.yoyo.white.button:active,
+.yoyo.white.button.active {
+  box-shadow: 0 0 0 0 transparent;
+}
+.yoyo.basic.white.buttons .button,
+.yoyo.basic.white.button {
+  border-color: #fff;
+  color: #fff;
+}
+.yoyo.basic.white.button:hover,
+.yoyo.basic.white.button.active,
+.yoyo.basic.white.button:active {
+  color: #377dff;
+}
+/* == transparent == */
+.yoyo.transparent.buttons .button,
+.yoyo.transparent.button {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  border-color: transparent
+}
+.yoyo.transparent.buttons .button:hover,
+.yoyo.transparent.buttons .button:active,
+.yoyo.transparent.buttons .button:focus,
+.yoyo.transparent.button:active,
+.yoyo.transparent.button:focus {
+  background: rgba(255,255,255,0.4);
+}
+/* == simple == */
+.yoyo.simple.buttons .button,
+.yoyo.simple.button {
+  background-color: transparent;
+  border-color: transparent;
+}
+.yoyo.simple.buttons.active .button,
+.yoyo.simple.button.active {
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.yoyo.simple.buttons .button:hover,
+.yoyo.simple.buttons .button:active,
+.yoyo.simple.buttons .button:focus,
+.yoyo.simple.button:hover,
+.yoyo.simple.button:active,
+.yoyo.simple.button:focus {
+  color: #1e2022;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none
+}
+/* == icon == */
+.yoyo.icon.button {
+  margin: 0;
+  line-height: 1em;
+  padding: 1em;
+  font-size: 1em;
+}
+.yoyo.icon.button .icon {
+  width: 1em;
+}
+.yoyo.button:not(.icon) .icon {
+  line-height: 1em;
+  margin-right: 0.75em;
+}
+.yoyo.right.button:not(.icon) .icon {
+  margin-right: 0;
+  margin-left: 0.75em;
+}
+/* == labeled Icon == */
+.yoyo.labeled.icon.buttons .button,
+.yoyo.labeled.icon.button {
+  position: relative;
+  padding: 0.75em 1.5em 0.75em 4em;
+}
+.yoyo.labeled.icon.buttons > .button > .icon,
+.yoyo.labeled.icon.button > .icon {
+  position: absolute;
+  height: 100%;
+  line-height: 1;
+  border-radius: 0px;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  text-align: center;
+  margin: 0em;
+  width: 2.50em;
+  background-color: rgba(0,0,0,0.05);
+}
+/* Left Labeled */
+.yoyo.labeled.icon.buttons > .button > .icon,
+.yoyo.labeled.icon.button > .icon {
+  top: 0em;
+  left: 0em;
+}
+/* Right Labeled */
+.yoyo[class*="right labeled"].icon.button {
+  padding-right: 4.0em;
+  padding-left: 1.5em;
+}
+.yoyo[class*="right labeled"].icon.button > .icon {
+  left: auto;
+  right: 0em;
+  border-radius: 0px;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  box-shadow: 1px 0px 0px 0px transparent inset;
+}
+.yoyo.labeled.icon.buttons > .button > .icon:before,
+.yoyo.labeled.icon.button > .icon:before,
+.yoyo.labeled.icon.buttons > .button > .icon:after,
+.yoyo.labeled.icon.button > .icon:after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.yoyo.labeled.icon.buttons .button > .icon {
+  border-radius: 0em;
+}
+.yoyo.labeled.icon.buttons .button:first-child > .icon {
+  border-top-left-radius: .250rem;
+  border-bottom-left-radius: .250rem;
+}
+.yoyo.labeled.icon.buttons .button:last-child > .icon {
+  border-top-right-radius: .250rem;
+  border-bottom-right-radius: .250rem;
+}
+.yoyo.vertical.labeled.icon.buttons .button:first-child > .icon {
+  border-radius: 0em;
+  border-top-left-radius: .250rem;
+}
+.yoyo.vertical.labeled.icon.buttons .button:last-child > .icon {
+  border-radius: 0em;
+  border-bottom-left-radius: .250rem;
+}
+/* == Groups == */
+.yoyo.buttons {
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 0em;
+  vertical-align: middle;
+  margin: 0em 0.25em 0em 0em;
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+}
+.yoyo.buttons .button,
+.yoyo.primary.buttons .button,
+.yoyo.secondary.buttons .button,
+.yoyo.positive.buttons .button,
+.yoyo.negative.buttons .button,
+.yoyo.white.buttons .button {
+  flex: 1 0 auto;
+  margin: 0em;
+  border-radius: 0em;
+  box-shadow: none;
+}
+.yoyo.buttons .button:first-child,
+.yoyo.buttons .button:first-child {
+  border-top-left-radius: .250rem;
+  border-bottom-left-radius: .250rem;
+}
+.yoyo.buttons .button:last-child {
+  border-top-right-radius: .250rem;
+  border-bottom-right-radius: .250rem;
+}
+.yoyo.rounded.buttons .button:first-child {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.yoyo.rounded.buttons .button:last-child {
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.yoyo.buttons .button:hover,
+.yoyo.buttons .button:active,
+.yoyo.buttons .button:focus {
+  box-shadow: 0px 14px 26px -12px rgba(153, 153, 153, 0.42), 0px 4px 23px 0px rgba(0, 0, 0, 0.12), 0px 8px 10px -5px rgba(153, 153, 153, 0.2);
+}
+.yoyo.buttons .button:active,
+.yoyo.buttons .button.active {
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.1) inset;
+  background-image: none;
+  outline: 0px none;
+}
+/* == Loading == */
+.yoyo.loading.loading.loading.loading.loading.loading.button {
+  position: relative;
+  cursor: default;
+  color: transparent !important;
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0s linear, opacity 0.1s ease;
+}
+.yoyo.loading.button:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  width: 1.25em;
+  height: 1.25em;
+  border-radius: 500rem;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 4px solid rgba(0, 0, 0, 0.15);
+}
+.yoyo.loading.small.button:before {
+  width: 1em;
+  height: 1em;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+}
+.yoyo.loading.button:after {
+  position: absolute;
+  content: '';
+  top: calc(50% - .875em);
+  left: calc(50% - .875em);
+  width: 1.25em;
+  height: 1.25em;
+  -webkit-animation: button-spin 0.6s linear;
+  animation: button-spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #ffffff transparent transparent;
+  border-style: solid;
+  border-width: 4px;
+  box-shadow: 0px 0px 0px 1px transparent;
+}
+.yoyo.loading.small.button:after {
+  top: calc(50% - .625em);
+  left: calc(50% - .625em);
+  width: 1em;
+  height: 1em;
+  border-width: 2px;
+  box-shadow: 0px 0px 0px 1px transparent;
+}
+.yoyo.labeled.icon.loading.button .icon {
+  background-color: transparent;
+  box-shadow: none;
+}
+@-webkit-keyframes button-spin {
+ from {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@keyframes button-spin {
+ from {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+.yoyo.basic.loading.button:before {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.yoyo.basic.loading.button:after {
+  border-top-color: #767676;
+}
+/* == Disabled == */
+.yoyo.buttons .disabled.button,
+.yoyo.disabled.button,
+.yoyo.button:disabled,
+.yoyo.disabled.button:hover,
+.yoyo.disabled.active.button {
+  cursor: default;
+  opacity: 0.45;
+  box-shadow: none;
+  pointer-events: none;
+}
+/* == Disabled == */
+.yoyo.separated.buttons,
+.yoyo.separated.button {
+  margin: 0 0.5em
+}
+.yoyo.basic.buttons .yoyo.disabled.button {
+  border-color: rgba(34, 36, 38, 0.5);
+}
+/* == Spaced == */
+.yoyo.spaced.button {
+  margin-right: .5rem;
+}
+/* == fluid == */
+.yoyo.fluid.button,
+.yoyo.fluid.buttons {
+  display: flex;
+  margin: 0
+}
+button.yoyo.fluid.button {
+  /*padding + border*/
+  width: calc(100% - 3.75rem - 2px);
+}
+/* == compact == */
+.yoyo.compact.buttons,
+.yoyo.compact.button {
+  padding: 0.750em 1em;
+}
+/* == rounded == */
+.yoyo.rounded.buttons,
+.yoyo.rounded.button {
+  border-radius: 2rem;
+}
+/* == circular == */
+.yoyo.circular.button {
+  border-radius: 100rem;
+  line-height: 1;
+}
+/* == Attached == */ 
+.yoyo.attached.buttons,
+.yoyo.attached.button {
+  position: absolute;
+  z-index: 2
+}
+.yoyo.attached.top.buttons,
+.yoyo.attached.top.button {
+  top: 0
+}
+.yoyo.attached.bottom.buttons,
+.yoyo.attached.bottom.button {
+  bottom: 0
+}
+.yoyo.attached.left.buttons,
+.yoyo.attached.left.button {
+  left: 0
+}
+.yoyo.attached.right.buttons,
+.yoyo.attached.right.button {
+  right: 0
+}
+.yoyo.attached.middle.buttons,
+.yoyo.attached.middle.button {
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.yoyo.attached.spaced.top.buttons,
+.yoyo.attached.spaced.top.button {
+  top: 1em;
+}
+.yoyo.attached.spaced.right.buttons,
+.yoyo.attached.spaced.right.button {
+  right: 1em
+}
+.yoyo.attached.spaced.left.buttons,
+.yoyo.attached.spaced.left.button {
+  left: 1em
+}
+.yoyo.passive.button {
+  cursor: default;
+  pointer-events: none;
+}
+.yoyo.button > .counter {
+  background-color: inherit;
+  border-radius: 2em;
+  position: absolute;
+  top: -.5em;
+  left: -.5em;
+}
+/* == Sizes == */
+.yoyo.wide.button {
+  padding: 1rem 2.5rem;
+}
+.yoyo.very.wide.button {
+  padding: 1rem 4rem;
+}
+.yoyo.mini.buttons .button,
+.yoyo.mini.button {
+  font-size: 0.750rem;
+  padding: 0.750em 1em;
+  font-weight: 400;
+}
+.yoyo.small.buttons .button,
+.yoyo.small.button {
+  font-size: .875rem;
+  padding: .813rem 1.250rem;
+  font-weight: 500;
+}
+.yoyo.small.circular.button,
+.yoyo.small.icon.button {
+  padding: 0.50rem;
+}
+.yoyo.buttons .button,
+.yoyo.button {
+  font-size: 1rem;
+}
+.yoyo.big.buttons .button,
+.yoyo.big.button {
+  font-size: 1.25rem;
+  padding: 1em 2em;
+}
+.yoyo.big.circular.button {
+  padding: 1.25rem;
+}
+.yoyo.huge.buttons .button,
+.yoyo.huge.button {
+  font-size: 1.5rem;
+  padding: 1.25em 2.50em;
+}
+.yoyo.huge.circular.button {
+  padding: 1.5rem;
+}
+.yoyo.massive.buttons .button,
+.yoyo.massive.button {
+  font-size: 1.5rem;
+  padding: 1.5em 3em;
+}
+.yoyo.massive.circular.button {
+  padding: 2.5rem;
+}
+.yoyo.relaxed.button {
+  padding: 1rem 2.5rem;
+}
+.yoyo.very.relaxed.button {
+  padding: 1rem 3.5rem;
+}
+
+/* Tablet */
+@media screen and (min-width:40.625em) and (max-width:64em) {
+}
+
+/* Mobile */
+@media screen and (max-width:48.063em) {
+.yoyo.buttons.stacked {
+  flex-direction: column;
+}
+}
+
+/* Phone */
+@media screen and (max-width:30em) {
+.yoyo.buttons.stacked {
+  flex-direction: column;
+}
+}

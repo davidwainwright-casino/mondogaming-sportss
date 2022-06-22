@@ -1,0 +1,440 @@
+/* == Modal == */
+.yoyo.modal {
+  display: none;
+  position: fixed;
+  z-index: 1001;
+  top: 50%;
+  left: 50%;
+  text-align: left;
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2), 1px 3px 15px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform-origin: 50% 25%;
+  transform-origin: 50% 25%;
+  border-radius: 0.28571429rem;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  will-change: top, left, margin, transform, opacity;
+}
+.yoyo.modal > :first-child:not(.icon),
+.yoyo.modal > .icon:first-child + * {
+  border-top-left-radius: 0.28571429rem;
+  border-top-right-radius: 0.28571429rem;
+}
+.yoyo.modal > :last-child {
+  border-bottom-left-radius: 0.28571429rem;
+  border-bottom-right-radius: 0.28571429rem;
+}
+/* == Content == */
+.yoyo.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  top: -2.5rem;
+  right: -2.5rem;
+  z-index: 1;
+  opacity: 0.8;
+  font-size: 1.25em;
+  color: #FFFFFF;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0.625rem 0rem 0rem 0rem;
+}
+.yoyo.modal > .close:hover {
+  opacity: 1;
+}
+.yoyo.modal > .header {
+  display: block;
+  background: #FFFFFF;
+  margin: 0em;
+  padding: 1.25rem 1.5rem;
+  box-shadow: none;
+  color: rgba(0, 0, 0, 0.85);
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+}
+.yoyo.modal > .header:not(.yoyo) {
+  font-size: 1.42857143rem;
+  line-height: 1.2857em;
+  font-weight: bold;
+}
+.yoyo.modal > .content {
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  line-height: 1.4;
+  padding: 1.5rem;
+  background: #FFFFFF;
+}
+.yoyo.modal > .image.content {
+  display: flex;
+  flex-direction: row;
+}
+/* Image */
+.yoyo.modal > .content > .image {
+  display: block;
+  flex: 0 1 auto;
+  width: auto;
+  -ms-grid-row-align: top;
+  align-self: top;
+}
+.yoyo.modal > [class*="top aligned"] {
+  -ms-grid-row-align: top;
+  align-self: top;
+}
+.yoyo.modal > [class*="middle aligned"] {
+  -ms-grid-row-align: middle;
+  align-self: middle;
+}
+.yoyo.modal > [class*="stretched"] {
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+}
+/* Description */
+.yoyo.modal > .content > .description {
+  display: block;
+  flex: 1 0 auto;
+  min-width: 0px;
+  -ms-grid-row-align: top;
+  align-self: top;
+}
+.yoyo.modal > .content > .icon + .description,
+.yoyo.modal > .content > .image + .description {
+  flex: 0 1 auto;
+  min-width: '';
+  width: auto;
+  padding-left: 2em;
+}
+/*rtl:ignore*/
+.yoyo.modal > .content > .image > i.icon {
+  margin: 0em;
+  opacity: 1;
+  width: auto;
+  line-height: 1;
+  font-size: 8rem;
+}
+.yoyo.modal > .actions {
+  background: #F9FAFB;
+  padding: 1rem 1rem;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  text-align: right;
+}
+.yoyo.modal .actions > .button {
+  margin-left: 0.75em;
+}
+
+/* Modal Width */
+@media only screen and (max-width: 767px) {
+.yoyo.modal {
+  width: 95%;
+  margin: 0em 0em 0em -47.5%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.yoyo.modal {
+  width: 88%;
+  margin: 0em 0em 0em -44%;
+}
+}
+
+@media only screen and (min-width: 992px) {
+.yoyo.modal {
+  width: 850px;
+  margin: 0em 0em 0em -425px;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.yoyo.modal {
+  width: 900px;
+  margin: 0em 0em 0em -450px;
+}
+}
+
+@media only screen and (min-width: 1920px) {
+.yoyo.modal {
+  width: 950px;
+  margin: 0em 0em 0em -475px;
+}
+}
+
+/* Tablet and Mobile */
+@media only screen and (max-width: 991px) {
+.yoyo.modal > .header {
+  padding-right: 2.25rem;
+}
+.yoyo.modal > .close {
+  top: 1.0535rem;
+  right: 1rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+.yoyo.modal > .header {
+  padding: 0.75rem 1rem !important;
+  padding-right: 2.25rem !important;
+}
+.yoyo.modal > .content {
+  display: block;
+  padding: 1rem !important;
+}
+.yoyo.modal > .close {
+  top: 0.5rem !important;
+  right: 0.5rem !important;
+}
+/*rtl:ignore*/
+.yoyo.modal .image.content {
+  flex-direction: column;
+}
+.yoyo.modal .content > .image {
+  display: block;
+  max-width: 100%;
+  margin: 0em auto !important;
+  text-align: center;
+  padding: 0rem 0rem 1rem !important;
+}
+.yoyo.modal > .content > .image > i.icon {
+  font-size: 5rem;
+  text-align: center;
+}
+/*rtl:ignore*/
+.yoyo.modal .content > .description {
+  display: block;
+  width: 100% !important;
+  margin: 0em !important;
+  padding: 1rem 0rem !important;
+  box-shadow: none;
+}
+/* Let Buttons Stack */
+.yoyo.modal > .actions {
+  padding: 1rem 1rem 0rem !important;
+}
+.yoyo.modal .actions > .buttons,
+ .yoyo.modal .actions > .button {
+  margin-bottom: 1rem;
+}
+}
+.yoyo.inverted.dimmer > .yoyo.modal {
+  box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.2);
+}
+/* == Types == */
+.yoyo.basic.modal {
+  background-color: transparent;
+  border: none;
+  border-radius: 0em;
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+.yoyo.basic.modal > .header,
+.yoyo.basic.modal > .content,
+.yoyo.basic.modal > .actions {
+  background-color: transparent;
+}
+.yoyo.basic.modal > .header {
+  color: #FFFFFF;
+}
+.yoyo.basic.modal > .close {
+  top: 1rem;
+  right: 1.5rem;
+}
+.yoyo.inverted.dimmer > .basic.modal {
+  color: rgba(0, 0, 0, 0.87);
+}
+.yoyo.inverted.dimmer > .yoyo.basic.modal > .header {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* Tablet and Mobile */
+@media only screen and (max-width: 991px) {
+.yoyo.basic.modal > .close {
+  color: #FFFFFF;
+}
+}
+.yoyo.active.modal {
+  display: block;
+}
+.scrolling.dimmable.dimmed {
+  overflow: hidden;
+}
+.scrolling.dimmable.dimmed > .dimmer {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.scrolling.dimmable > .dimmer {
+  position: fixed;
+}
+.modals.dimmer .yoyo.scrolling.modal {
+  position: static !important;
+  margin: 3.5rem auto !important;
+}
+.scrolling.undetached.dimmable.dimmed {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.scrolling.undetached.dimmable.dimmed > .dimmer {
+  overflow: hidden;
+}
+.scrolling.undetached.dimmable .yoyo.scrolling.modal {
+  position: absolute;
+  left: 50%;
+  margin-top: 3.5rem !important;
+}
+.undetached.dimmable.dimmed > .pusher {
+  z-index: auto;
+}
+
+@media only screen and (max-width: 991px) {
+.modals.dimmer .yoyo.scrolling.modal {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+}
+.yoyo.fullscreen.modal {
+  width: 95% !important;
+  left: 2.5% !important;
+  margin: 1em auto;
+}
+.yoyo.fullscreen.scrolling.modal {
+  left: 0em !important;
+}
+.yoyo.fullscreen.modal > .header {
+  padding-right: 2.25rem;
+}
+.yoyo.fullscreen.modal > .close {
+  top: 1.0535rem;
+  right: 1rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+/* == Size == */
+.yoyo.modal {
+  font-size: 1rem;
+}
+.yoyo.small.modal > .header:not(.yoyo) {
+  font-size: 1.3em;
+}
+
+@media only screen and (max-width: 767px) {
+.yoyo.tiny.modal,
+.yoyo.mini.modal {
+  width: 95%;
+  margin: 0em 0em 0em -47.5%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.yoyo.tiny.modal,
+.yoyo.mini.modal {
+  width: 70.4%;
+  margin: 0em 0em 0em -35.2%;
+}
+}
+
+@media only screen and (min-width: 992px) {
+.yoyo.tiny.modal {
+  width: 580px;
+  margin: 0em 0em 0em -240px;
+}
+.yoyo.tiny.modal {
+  width: 420px;
+  margin: 0em 0em 0em -210px;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.yoyo.tiny.modal {
+  width: 620px;
+  margin: 0em 0em 0em -310px;
+}
+.yoyo.mini.modal {
+  width: 480px;
+  margin: 0em 0em 0em -240px;
+}
+}
+
+@media only screen and (min-width: 1920px) {
+.yoyo.tiny.modal {
+  width: 560px;
+  margin: 0em 0em 0em -280px;
+}
+.yoyo.mini.modal {
+  width: 320px;
+  margin: 0em 0em 0em -160px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.yoyo.small.modal,
+.yoyo.tiny.modal {
+  width: 95%;
+  margin: 0em 0em 0em -47.5%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.yoyo.small.modal {
+  width: 70.4%;
+  margin: 0em 0em 0em -35.2%;
+}
+}
+
+@media only screen and (min-width: 992px) {
+.yoyo.small.modal {
+  width: 680px;
+  margin: 0em 0em 0em -340px;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.yoyo.small.modal {
+  width: 720px;
+  margin: 0em 0em 0em -360px;
+}
+}
+
+@media only screen and (min-width: 1920px) {
+.yoyo.small.modal {
+  width: 760px;
+  margin: 0em 0em 0em -380px;
+}
+}
+.yoyo.large.modal > .header {
+  font-size: 1.6em;
+}
+
+@media only screen and (max-width: 767px) {
+.yoyo.large.modal {
+  width: 95%;
+  margin: 0em 0em 0em -47.5%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.yoyo.large.modal {
+  width: 88%;
+  margin: 0em 0em 0em -44%;
+}
+}
+
+@media only screen and (min-width: 992px) {
+.yoyo.large.modal {
+  width: 1020px;
+  margin: 0em 0em 0em -510px;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.yoyo.large.modal {
+  width: 1080px;
+  margin: 0em 0em 0em -540px;
+}
+}
+
+@media only screen and (min-width: 1920px) {
+.yoyo.large.modal {
+  width: 1140px;
+  margin: 0em 0em 0em -570px;
+}
+}

@@ -1,0 +1,152 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  overflow: hidden;
+  background-image: url(../view/images/transbg.png);
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: initial;
+  flex-direction: initial;
+  display: block;
+  height: calc(100% - 4.65rem);
+}
+#builderFrame .ucontent:not(.loading)::before,
+#builderFrame .ucontent:not(.loading)::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  top: 0;
+  left: 50%;
+  margin-left: -640px;
+  border-left: 1px dashed rgba(0,0,0,.25);
+  z-index: 20;
+}
+#builderFrame .ucontent:not(.loading)::after {
+  right: 50%;
+  left: auto;
+  margin-left: 0;
+  margin-right: -640px;
+  border-left: 0;
+  border-right: 1px dashed rgba(0,0,0,.25);
+}
+#builderFrame .ucontent {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+#builderFrame .ws-layer {
+  position: relative;
+  cursor: pointer
+}
+#builderFrame .ws-layer.active {
+  outline: 2px dashed rgba(0,0,0,.25);
+  -webkit-transition: none;
+  transition: none;
+  cursor: auto
+}
+#builderFrame .ws-layer.editing {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#builderFrame .ws-layer.editing::after {
+  content: "";
+  position: absolute;
+  background: rgba(0,0,0,0);
+  opacity: 0.1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+#builderFrame [data-mode="readonly"] {
+  cursor: not-allowed;
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+#builderFrame [data-mode="readonly"]::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+#builderFrame .columns:empty,
+#builderFrame .columns.is_empty {
+  height: 3rem;
+  min-width: 3rem;
+  position: relative;
+}
+#builderFrame .columns:empty::after,
+#builderFrame .columns.is_empty::after {
+  font-family: 'WojoIcons';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 3rem;
+  height: 100%;
+  content: "\e953";
+  font-size: 2rem;
+  text-align: center;
+  outline: 1px dashed rgba(43,135,218,0.80);
+  cursor: pointer;
+  color: rgba(0,0,0,0.2);
+}
+#builderFrame .row {
+  position: relative;
+}
+#builderFrame .row a.grid-insert {
+  position: absolute;
+  z-index: 101;
+  left: 50%;
+  bottom: -1em;
+  margin: 0em;
+  padding: .5rem;
+  line-height: 0;
+  background: #1E88E5;
+  border-radius: 2em;
+  color: #fff;
+  text-align: center;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  display: inline-block;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+}
+#builderFrame .row:hover a.grid-insert {
+  visibility: visible;
+  opacity: 1;
+}
+#builderFrame .row:hover a.grid-insert:hover {
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+#builderFrame .row:hover a.grid-insert.hide {
+  visibility: hidden;
+  pacity: 0;
+}

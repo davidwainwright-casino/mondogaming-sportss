@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_PL_ACTIVE">Make poll active</phrase>
+  <phrase data="_PLG_PL_ADD">Add Poll</phrase>
+  <phrase data="_PLG_PL_ADD_Q">Add Poll Option</phrase>
+  <phrase data="_PLG_PL_ADD1">Add New Poll</phrase>
+  <phrase data="_PLG_PL_ADDED">Poll [NAME] Question added successfully!</phrase>
+  <phrase data="_PLG_PL_DEL_OK">Poll [NAME] deleted successfully.</phrase>
+  <phrase data="_PLG_PL_SUB1">Here you can update your poll question.</phrase>
+  <phrase data="_PLG_PL_SUB2">Here you can add new poll.</phrase>
+  <phrase data="_PLG_PL_SUB3">Here you can configure your poll plugin.</phrase>
+  <phrase data="_PLG_PL_SUB4">New Poll</phrase>
+  <phrase data="_PLG_PL_NOPOLL">You don't have any polls yet. Please add.</phrase>
+  <phrase data="_PLG_PL_NOW">Vote Now</phrase>
+  <phrase data="_PLG_PL_OPTIONS">Poll Options</phrase>
+  <phrase data="_PLG_PL_POLL">Poll</phrase>
+  <phrase data="_PLG_PL_QUESTION">Poll Question</phrase>
+  <phrase data="_PLG_PL_RESULT">View Result</phrase>
+  <phrase data="_PLG_PL_THANKS">Thanks for voting</phrase>
+  <phrase data="_PLG_PL_TITLE1">Edit Poll Question</phrase>
+  <phrase data="_PLG_PL_TITLE2">Add New Poll</phrase>
+  <phrase data="_PLG_PL_TITLE3">Manage CMS Poll Plugin</phrase>
+  <phrase data="_PLG_PL_TOTAL">Total votes:</phrase>
+  <phrase data="_PLG_PL_UPDATE">Update Poll</phrase>
+  <phrase data="_PLG_PL_UPDATED">Poll [NAME] Question updated successfully!</phrase>
+  <phrase data="_PLG_PL_VIEW">View</phrase>
+  <phrase data="_PLG_PL_VOTE">Vote</phrase>
+  <phrase data="_PLG_PL_VOTES">votes</phrase>
+</language>

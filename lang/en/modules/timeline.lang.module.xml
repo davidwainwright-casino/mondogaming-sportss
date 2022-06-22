@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_TML_ADD">Add Timeline</phrase>
+  <phrase data="_MOD_TML_ADDED_OK">Timeline [NAME] added successfully!</phrase>
+  <phrase data="_MOD_TML_DEL_OK">Timeline [NAME] deleted successfully!</phrase>
+  <phrase data="_MOD_TML_DELI_OK">Item [NAME] deleted successfully!</phrase>
+  <phrase data="_MOD_TML_IHEIGHT">Iframe Height</phrase>
+  <phrase data="_MOD_TML_ITMADDED_OK">Item [NAME] added successfully!</phrase>
+  <phrase data="_MOD_TML_ITMUPDATE_OK">Item [NAME] updated successfully!</phrase>
+  <phrase data="_MOD_TML_IURL">Iframe Url</phrase>
+  <phrase data="_MOD_TML_LMODE">Layout Type</phrase>
+  <phrase data="_MOD_TML_LSELTIME">Select Timeline</phrase>
+  <phrase data="_MOD_TML_NEW">New Timeline</phrase>
+  <phrase data="_MOD_TML_NOITM">You don't have any items yet...</phrase>
+  <phrase data="_MOD_TML_NOTML">You don't have any timelines yet...</phrase>
+  <phrase data="_MOD_TML_RMORE">Read More Url</phrase>
+  <phrase data="_MOD_TML_SUB">Edit Timeline</phrase>
+  <phrase data="_MOD_TML_SUB10">Timeline Items</phrase>
+  <phrase data="_MOD_TML_SUB11">New Item</phrase>
+  <phrase data="_MOD_TML_SUB12">Edit Item</phrase>
+  <phrase data="_MOD_TML_SUB13">Update Item</phrase>
+  <phrase data="_MOD_TML_SUB14">Item Type</phrase>
+  <phrase data="_MOD_TML_SUB15">Upload at least one image</phrase>
+  <phrase data="_MOD_TML_SUB16">Add Images</phrase>
+  <phrase data="_MOD_TML_SUB17">Add Item</phrase>
+  <phrase data="_MOD_TML_SUB18">Read More</phrase>
+  <phrase data="_MOD_TML_SUB19">Load More</phrase>
+  <phrase data="_MOD_TML_SUB20">Facebook Page</phrase>
+  <phrase data="_MOD_TML_SUB2">Update Timeline</phrase>
+  <phrase data="_MOD_TML_SUB3">Total Items</phrase>
+  <phrase data="_MOD_TML_SUB4">Items Displayed</phrase>
+  <phrase data="_MOD_TML_SUB5">Show More</phrase>
+  <phrase data="_MOD_TML_SUB6">Facebook App ID</phrase>
+  <phrase data="_MOD_TML_SUB7">Facebook Access Token</phrase>
+  <phrase data="_MOD_TML_SUB8">RSS Feed Url</phrase>
+  <phrase data="_MOD_TML_SUB9">Timeline Type</phrase>
+  <phrase data="_MOD_TML_TITLE">Manage CMS Timeline</phrase>
+  <phrase data="_MOD_TML_TYPE_B">Blog Type</phrase>
+  <phrase data="_MOD_TML_TYPE_G">Gallery Type</phrase>
+  <phrase data="_MOD_TML_TYPE_I">Iframe Type</phrase>
+  <phrase data="_MOD_TML_UPDATE_OK">Timeline [NAME] updated successfully!</phrase>
+</language>

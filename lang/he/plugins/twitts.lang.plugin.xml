@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+  <phrase data="_PLG_TW_TITLE">Manage CMS Latest Twitts Plugin</phrase>
+  <phrase data="_PLG_TW_KEY">Consumer Key</phrase>
+  <phrase data="_PLG_TW_SECRET">Consumer Secret</phrase>
+  <phrase data="_PLG_TW_TOKEN">Access Token</phrase>
+  <phrase data="_PLG_TW_TSECRET">Access Token Secret</phrase>
+  <phrase data="_PLG_TW_USER">Your Username</phrase>
+  <phrase data="_PLG_TW_SHOW_IMG">Show Avatar</phrase>
+  <phrase data="_PLG_TW_COUNT">Items to Show</phrase>
+  <phrase data="_PLG_TW_TRANS">Transition Speed</phrase>
+  <phrase data="_PLG_TW_TRANS_T">Transition Timeout</phrase>
+  <phrase data="_PLG_TW_UPDATED">Twitter settings updated successfully!</phrase>
+</language>

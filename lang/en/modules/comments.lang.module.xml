@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_CM_AA">Auto Approve</phrase>
+  <phrase data="_MOD_CM_CAPTCHA">Show Captcha</phrase>
+  <phrase data="_MOD_CM_CHAR">Character Limit</phrase>
+  <phrase data="_MOD_CM_CUPDATED">Comments settings updated successfully!</phrase>
+  <phrase data="_MOD_CM_DATE">Date Format</phrase>
+  <phrase data="_MOD_CM_DEL_OK">Comment [NAME] deleted successfully!</phrase>
+  <phrase data="_MOD_CM_E_NOT_V">Your email address will not be published.</phrase>
+  <phrase data="_MOD_CM_MSGOK1">Thank you! Your comment have been submitted.</phrase>
+  <phrase data="_MOD_CM_MSGOK2">Thank you! Your comment have been submitted, and pending verification.</phrase>
+  <phrase data="_MOD_CM_NOTIFY">Notifications</phrase>
+  <phrase data="_MOD_CM_PERPAGE">Comments Per Page</phrase>
+  <phrase data="_MOD_CM_RATING">Enable Rating</phrase>
+  <phrase data="_MOD_CM_REG_ONLY">Public Access</phrase>
+  <phrase data="_MOD_CM_REPLAY">Reply</phrase>
+  <phrase data="_MOD_CM_SORTING">Comments Sorting</phrase>
+  <phrase data="_MOD_CM_SORTING_B">--- Most Recent / Bottom ---</phrase>
+  <phrase data="_MOD_CM_SORTING_T">--- Most Recent / Top ---</phrase>
+  <phrase data="_MOD_CM_SUB">No comments yet...</phrase>
+  <phrase data="_MOD_CM_SUB1">Sorry only registered and logged in users can post comments. Please sign in or register.</phrase>
+  <phrase data="_MOD_CM_SUB2">Leave your comment</phrase>
+  <phrase data="_MOD_CM_SUB3">No pending comments...</phrase>
+  <phrase data="_MOD_CM_SUB4">Approve</phrase>
+  <phrase data="_MOD_CM_TITLE1">Comments Configuration</phrase>
+  <phrase data="_MOD_CM_TITLE2">Pending Comments</phrase>
+  <phrase data="_MOD_CM_TSINCE">Use Time Since</phrase>
+  <phrase data="_MOD_CM_UNAME_R">Name Required</phrase>
+  <phrase data="_MOD_CM_WORDS">Blacklisted Words</phrase>
+</language>

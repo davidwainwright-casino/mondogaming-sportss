@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_CRL_TITLE">Manage CMS Carousel Player Plugin</phrase>
+  <phrase data="_PLG_CRL_TITLE1">Add Player</phrase>
+  <phrase data="_PLG_CRL_TITLE2">Edit Player</phrase>
+  <phrase data="_PLG_CRL_SUB1">Here you can configure your carousel player plugin.</phrase>
+  <phrase data="_PLG_CRL_SUB2">Add New Player</phrase>
+  <phrase data="_PLG_CRL_SUB7">Autoplay</phrase>
+  <phrase data="_PLG_CRL_SUB8">Item Margin</phrase>
+  <phrase data="_PLG_CRL_SUB9">Centered</phrase>
+  <phrase data="_PLG_CRL_SUB10">Pause on Hover</phrase>
+  <phrase data="_PLG_CRL_SUB11">Show Dots</phrase>
+  <phrase data="_PLG_CRL_SUB12">Show Arrows</phrase>
+  <phrase data="_PLG_CRL_SUB13">Infinite Loop</phrase>
+  <phrase data="_PLG_CRL_SUB14">Responsive Items</phrase>
+  <phrase data="_PLG_CRL_NEW">New Player</phrase>
+  <phrase data="_PLG_CRL_NOPLAY">You dont have any player plugins yet...</phrase>
+  <phrase data="_PLG_CRL_UPDATE_OK">Player [NAME] updated successfully!</phrase>
+  <phrase data="_PLG_CRL_ADDED_OK">Player [NAME] added successfully!</phrase>
+  <phrase data="_PLG_CRL_DEL_OK">Player [NAME] deleted successfully!</phrase>
+</language>

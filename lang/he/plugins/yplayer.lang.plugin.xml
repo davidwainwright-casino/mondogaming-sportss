@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_YPL_TITLE">Manage CMS Youtube Player Plugin</phrase>
+  <phrase data="_PLG_YPL_TITLE1">Add Player</phrase>
+  <phrase data="_PLG_YPL_TITLE2">Edit Player</phrase>
+  <phrase data="_PLG_YPL_SUB1">Here you can configure your youtube player plugin.</phrase>
+  <phrase data="_PLG_YPL_SUB2">Add New Player</phrase>
+  <phrase data="_PLG_YPL_SUB3">Playlist</phrase>
+  <phrase data="_PLG_YPL_SUB4">Channel</phrase>
+  <phrase data="_PLG_YPL_SUB5">User</phrase>
+  <phrase data="_PLG_YPL_SUB6">Videos</phrase>
+  <phrase data="_PLG_YPL_SUB6_I">Multiple id's separated by coma</phrase>
+  <phrase data="_PLG_YPL_SUB7">Pagination</phrase>
+  <phrase data="_PLG_YPL_SUB8">Max Results</phrase>
+  <phrase data="_PLG_YPL_SUB9">Play Next</phrase>
+  <phrase data="_PLG_YPL_SUB10">Show Playlist</phrase>
+  <phrase data="_PLG_YPL_SUB11">Playlist Layout</phrase>
+  <phrase data="_PLG_YPL_SUB12">Show Chanel in Laylist</phrase>
+  <phrase data="_PLG_YPL_SUB13">Show Chanel in Title</phrase>
+  <phrase data="_PLG_YPL_SUB16">Autoplay</phrase>
+  <phrase data="_PLG_YPL_SUB17">Share Icons</phrase>
+  <phrase data="_PLG_YPL_SUB18">Force HD</phrase>
+  <phrase data="_PLG_YPL_SUB19">Player Colors</phrase>
+  <phrase data="_PLG_YPL_SUB20">Player Mode</phrase>
+  <phrase data="_PLG_YPL_SUB21">Video ID</phrase>
+  <phrase data="_PLG_YPL_SUB14">Now Playing</phrase>
+  <phrase data="_PLG_YPL_SUB15">Load More</phrase>
+  <phrase data="_PLG_YPL_NEW">New Player</phrase>
+  <phrase data="_PLG_YPL_NOPLAY">You dont have any player plugins yet...</phrase>
+  <phrase data="_PLG_YPL_UPDATE_OK">Player [NAME] updated successfully!</phrase>
+  <phrase data="_PLG_YPL_ADDED_OK">Player [NAME] added successfully!</phrase>
+  <phrase data="_PLG_YPL_DEL_OK">Player [NAME] deleted successfully!</phrase>
+</language>

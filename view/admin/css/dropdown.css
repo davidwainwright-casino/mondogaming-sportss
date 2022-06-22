@@ -1,0 +1,199 @@
+.yoyo.dropdown.menu {
+  position: absolute;
+  z-index: 500;
+  top: -5000px;
+  left: -5000px;
+  opacity: 0;
+  visibility:hidden;
+  -webkit-transform: translate(0, 0) scale(.85);
+  transform: translate(0, 0)scale(.85);
+  transition: transform 0.1s ease-out, opacity 0.1s ease-out;
+  pointer-events: none;
+  border-radius: .188rem;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0,0,0,0.2);
+  padding:.5em;
+}
+.yoyo.dropdown.menu.active {
+  opacity: 1;
+  visibility:visible;
+  -webkit-transform: translate(0, 0) scale(1);
+  transform: translate(0, 0) scale(1);
+  pointer-events: auto;
+}
+.yoyo.dropdown.menu.fixed {
+  position: fixed;
+}
+.yoyo.dropdown.menu .pointer {
+  height: 16px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  transform: translate(0px, -16px);
+}
+.yoyo.dropdown.menu .pointer:after,
+.yoyo.dropdown.menu.top-left .pointer:after,
+.yoyo.dropdown.menu.top-center .pointer:after,
+.yoyo.dropdown.menu.top-right .pointer:after {
+  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+  left: 50%;
+  top: 12px;
+  background: #fff;
+  content: "";
+  height: 12px;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 12px;
+  margin-left: -8px;
+}
+.yoyo.dropdown.menu.top-left .pointer:after {
+  left: 0;
+  margin-left: 1em;
+}
+.yoyo.dropdown.menu.top-right .pointer:after {
+  left: auto;
+  right: 0;
+  margin-left: auto;
+  margin-right: 1em;
+}
+.yoyo.dropdown.menu.top-left,
+.yoyo.dropdown.menu.top-center,
+.yoyo.dropdown.menu.top-right {
+  margin-top: 0.5em;
+}
+.yoyo.dropdown.pointing.top-left,
+.yoyo.dropdown.pointing.top-center,
+.yoyo.dropdown.pointing.top-right {
+  margin-top: 1em;
+}
+.yoyo.dropdown.menu > .item > .icon,
+.yoyo.dropdown.menu > .item > .label,
+.yoyo.dropdown.menu > .item > .flag,
+.yoyo.dropdown.menu > .item > .image,
+.yoyo.dropdown.menu > .item > span,
+.yoyo.dropdown.menu > .item > img {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  min-width: 0;
+}
+.yoyo.dropdown.menu > .item > .icon,
+.yoyo.dropdown.menu > .item > .label,
+.yoyo.dropdown.menu > .item > .flag,
+.yoyo.dropdown.menu > .item > .image,
+.yoyo.dropdown.menu > .item > img {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.yoyo.dropdown.menu.nowrap {
+  white-space: nowrap;
+}
+.yoyo.dropdown.menu a.item {
+  position: relative;
+  cursor: pointer;
+  padding: 0.750rem 1.25rem;
+  line-height: 1em;
+  border-radius:.188em;
+  font-size: 1em;
+  color: #4C5B67;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-touch-callout: none;
+  text-align: left;
+  white-space: nowrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.yoyo.dropdown.menu a.item:hover {
+  background: #ed7020;
+  color: rgba(255, 255, 255, 0.95);
+}
+/*
+.yoyo.dropdown.menu a.item:first-of-type,
+.yoyo.dropdown.menu a.item:first-of-type:hover {
+  border-radius: 0.188rem 0.188rem 0px 0px;
+}
+.yoyo.dropdown.menu a.item:last-of-type,
+.yoyo.dropdown.menu a.item:last-of-type:hover {
+  border-radius: 0em 0em 0.188rem 0.188rem;
+}*/
+.yoyo.dropdown.menu a.item.selected {
+  background-color: #ed7020;
+  color: #fff;
+}
+.yoyo.dropdown.menu .divider {
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  height: 0em;
+  margin: 0.5em 0em;
+}
+.yoyo.dropdown.menu .basic.divider {
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  height: 0;
+  margin: 0;
+}
+.yoyo.dropdown.menu > .header {
+  padding: 0.50rem 1.25rem;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+}
+.yoyo.dropdown.menu > .scrolling {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 300px;
+  padding:.5em 1em .5em .5em;
+}
+.yoyo.dropdown.menu.fluid  {
+  width:calc(100% - 2.5rem);
+}
+[data-dropdown] {
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+[data-dropdown] > .text {
+  padding-right:.5em;
+}
+.yoyo.dropdown.menu a.item.disabled {
+  pointer-events: none;
+  opacity:.75;
+}
+/* == Sizes == */
+.yoyo.dropdown.menu.small a.item {
+  padding: 0.50rem 1rem;
+}
+.yoyo.dropdown.menu.mini {
+  font-size: 0.750rem;
+}
+.yoyo.dropdown.menu.tiny {
+  font-size: 0.813rem;
+}
+.yoyo.dropdown.menu.small {
+  font-size: 0.875rem;
+}
+.yoyo.dropdown.menu {
+  font-size: 1rem;
+}
+.yoyo.dropdown.menu.large {
+  font-size: 1.125rem;
+}
+.yoyo.dropdown.menu.big {
+  font-size: 1.250rem;
+}
+.yoyo.dropdown.menu.huge {
+  font-size: 1.375rem;
+}
+.yoyo.dropdown.menu.massive {
+  font-size: 1.625rem;
+}

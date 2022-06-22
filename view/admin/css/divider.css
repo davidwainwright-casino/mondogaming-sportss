@@ -1,0 +1,103 @@
+/* == Divider == */
+.yoyo.divider {
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  line-height: 1;
+  height: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+/* == Variations == */
+.yoyo.basic.divider {
+  margin: 0;
+  border:0;
+  border-bottom: 1px solid #DDDDDD;
+}
+.yoyo.double.divider {
+  border-top: 2px solid rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+.yoyo.tripple.divider {
+  border-top: 3px solid rgba(0,0,0,0.1);
+  border-bottom: 3px solid rgba(255,255,255,0.8);
+}
+.yoyo.quintuple.divider {
+  border-top: 5px solid rgba(0,0,0,0.1);
+  border-bottom: 5px solid rgba(255,255,255,0.8);
+}
+.yoyo.fitted.divider {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+.yoyo.clearing.divider {
+  clear: both
+}
+.yoyo.section.divider {
+  margin-top: 2rem;
+  margin-bottom: 2rem
+}
+.yoyo.small.divider {
+  margin: .5rem 0;
+  height:0
+}
+.yoyo.space.divider {
+  margin: 0;
+  border: 0!important;
+  height: 1em;
+  border-color: transparent;
+}
+.yoyo.big.space.divider {
+  height: 2em;
+}
+.yoyo.large.space.divider {
+  height: 3em;
+}
+.yoyo.huge.space.divider {
+  height: 4em;
+}
+.yoyo.basic.space.divider {
+  margin: 0;
+  border: 0!important;
+  height: 0;
+  border-color: transparent;
+}
+.yoyo.split.divider {
+  height: 5px;
+  background-color: #DFE2E7;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #D6D8DD;
+  border-radius: .250em;
+  box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.05);
+}
+.yoyo.attached.divider {
+  margin-bottom: 0;
+  margin-top: 0
+}
+.yoyo.top.attached.divider {
+  margin-top: 0
+}
+.yoyo.bottom.attached.divider {
+  margin-bottom: 0
+}
+.yoyo.separator {
+  height: 1em;
+  width: 1px;
+  background: rgba(0,0,0,0.1);
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 1em;
+}
+.yoyo.basic.separator {
+  width: 0;
+  margin: 0 .5em;
+}

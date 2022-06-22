@@ -1,0 +1,554 @@
+/* == Table == */
+.yoyo.table {
+  width: 100%;
+  background: #FFFFFF;
+  margin: 0em;
+  border: 1px solid #dddddd;
+  box-shadow: none;
+  border-radius: 0;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 0px;
+  color: #878F99;
+}
+.yoyo.table:first-child {
+  margin-top: 0em;
+}
+.yoyo.table:last-child {
+  margin-bottom: 0em;
+}
+.yoyo.table th,
+.yoyo.table td {
+  -webkit-transition: background 0.1s ease, color 0.1s ease;
+  transition: background 0.1s ease, color 0.1s ease;
+}
+.yoyo.table thead {
+  box-shadow: none;
+}
+.yoyo.table thead th {
+  cursor: auto;
+  background: #F9FAFB;
+  text-align: inherit;
+  color: #424242;
+  padding: 1em 0.875em;
+  vertical-align: inherit;
+  font-size: .938rem;
+  font-weight: 700;
+  text-transform: none;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+  border-left: none;
+}
+.yoyo.table thead tr > th:first-child {
+  border-left: none;
+}
+.yoyo.table thead tr:first-child > th:first-child {
+  border-radius: 0.188rem 0em 0em 0em;
+}
+.yoyo.table thead tr:first-child > th:last-child {
+  border-radius: 0em 0.188rem 0em 0em;
+}
+.yoyo.table thead tr:first-child > th:only-child {
+  border-radius: 0.188rem 0.188rem 0em 0em;
+}
+.yoyo.table tfoot {
+  box-shadow: none;
+}
+.yoyo.table tfoot th {
+  cursor: auto;
+  border-top: 1px solid #dddddd;
+  background: #F9FAFB;
+  text-align: inherit;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 0.875em 0.875em;
+  vertical-align: middle;
+  font-style: normal;
+  font-size: .813rem;
+  font-weight: 700;
+  text-transform: none;
+}
+.yoyo.table tfoot tr > th:first-child {
+  border-left: none;
+}
+.yoyo.table tfoot tr:first-child > th:first-child {
+  border-radius: 0em 0em 0em 0.188rem;
+}
+.yoyo.table tfoot tr:first-child > th:last-child {
+  border-radius: 0em 0em 0.188rem 0em;
+}
+.yoyo.table tfoot tr:first-child > th:only-child {
+  border-radius: 0em 0em 0.188rem 0.188rem;
+}
+.yoyo.table tr td {
+  border-top: 3px solid rgba(34, 36, 38, 0.1);
+}
+.yoyo.table tr:first-child td {
+  border-top: none;
+}
+.yoyo.table td {
+  padding: 0.875em 0.875em;
+  text-align: inherit;
+}
+.yoyo.table > .icon {
+  vertical-align: baseline;
+}
+.yoyo.table > .icon:only-child {
+  margin: 0em;
+}
+.yoyo.table.segment {
+  padding: 0em;
+}
+.yoyo.table.segment:after {
+  display: none;
+}
+.yoyo.table.segment.stacked:after {
+  display: block;
+}
+/* == Image == */
+.yoyo.table th .image,
+.yoyo.table th .image img,
+.yoyo.table td .image,
+.yoyo.table td .image img {
+  max-width: none;
+}
+/* == Types == */
+.yoyo.basic.table.dashed tr td {
+  border-top: 2px dashed rgba(34, 36, 38, 0.1);
+}
+.yoyo.basic.table.dashed {
+  border-bottom: 2px dashed rgba(34, 36, 38, 0.1);
+  border-radius: 0
+}
+.yoyo.structured.table {
+  border-collapse: collapse;
+}
+.yoyo.structured.table thead th {
+  border-left: none;
+  border-right: none;
+}
+.yoyo.structured.sorting.table thead th {
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+.yoyo.structured.basic.table th {
+  border-left: none;
+  border-right: none;
+}
+.yoyo.structured.celled.table tr th,
+.yoyo.structured.celled.table tr td {
+  border-left: 1px solid rgba(34, 36, 38, 0.1);
+  border-right: 1px solid rgba(34, 36, 38, 0.1);
+}
+/* == Definition == */
+.yoyo.definition.table {
+  border: 0
+}
+.yoyo.definition.table thead th {
+  background: #fff;
+}
+.yoyo.definition.table thead:not(.full-width) th:first-child {
+  pointer-events: none;
+  background: transparent;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.4);
+}
+.yoyo.definition.table tfoot:not(.full-width) th:first-child {
+  pointer-events: none;
+  background: transparent;
+  font-weight: rgba(0, 0, 0, 0.4);
+  color: normal;
+  box-shadow: 1px 1px 0px 1px #FFFFFF;
+}
+.yoyo.celled.definition.table thead:not(.full-width) th:first-child {
+  box-shadow: 0px -1px 0px 1px #FFFFFF;
+}
+.yoyo.celled.definition.table tfoot:not(.full-width) th:first-child {
+  box-shadow: 0px 1px 0px 1px #FFFFFF;
+}
+.yoyo.definition.table tr td:first-child {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.95);
+  font-size: 0.750rem;
+  text-align: center;
+}
+.yoyo.definition.table thead:not(.full-width) th:nth-child(2) {
+  border-left: 1px solid #dddddd;
+}
+.yoyo.definition.table tfoot:not(.full-width) th:nth-child(2) {
+  border-left: 1px solid #dddddd;
+}
+.yoyo.definition.table td:nth-child(2) {
+  border-left: 1px solid #dddddd;
+}
+/* == Collapsing == */
+.yoyo.table th.collapsing,
+.yoyo.table td.collapsing {
+  width: 1px;
+  white-space: nowrap;
+}
+/* == Fixed == */
+.yoyo.fixed.table {
+  table-layout: fixed;
+}
+.yoyo.fixed.table th,
+.yoyo.fixed.table td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* == Striped == */
+.yoyo.striped.table > tr:nth-child(2n),
+.yoyo.striped.table tbody tr:nth-child(2n) {
+  background-color: #F5F5F5;
+}
+.yoyo.rounded.table {
+  border-radius: 0.188rem;
+}
+/* == Grid Based == */
+.yoyo.one.cols.table td {
+  width: 100%;
+}
+.yoyo.two.cols.table td {
+  width: 50%;
+}
+.yoyo.three.cols.table td {
+  width: calc(100% /3);
+}
+.yoyo.four.cols.table td {
+  width: 25%;
+}
+.yoyo.five.cols.table td {
+  width: 20%;
+}
+.yoyo.six.cols.table td {
+  width: calc(100% /5);
+}
+.yoyo.seven.cols.table td {
+  width: calc(100% /7);
+}
+.yoyo.eight.cols.table td {
+  width: 12.5%;
+}
+.yoyo.nine.cols.table td {
+  width: calc(100% /9);
+}
+.yoyo.ten.cols.table td {
+  width: 10%;
+}
+.yoyo.eleven.cols.table td {
+  width: calc(100% /11);
+}
+.yoyo.twelve.cols.table td {
+  width: calc(100% /12);
+}
+.yoyo.thirteen.cols.table td {
+  width: calc(100% /13);
+}
+.yoyo.fourteen.cols.table td {
+  width: calc(100% /14);
+}
+.yoyo.fifteen.cols.table td {
+  width: calc(100% /15);
+}
+.yoyo.sixteen.cols.table td {
+  width: 6.25%;
+}
+/* cols Width */
+.yoyo.table th.one.wide,
+.yoyo.table td.one.wide {
+  width: 6.25%;
+}
+.yoyo.table th.two.wide,
+.yoyo.table td.two.wide {
+  width: 12.5%;
+}
+.yoyo.table th.three.wide,
+.yoyo.table td.three.wide {
+  width: 18.75%;
+}
+.yoyo.table th.four.wide,
+.yoyo.table td.four.wide {
+  width: 25%;
+}
+.yoyo.table th.five.wide,
+.yoyo.table td.five.wide {
+  width: 31.25%;
+}
+.yoyo.table th.six.wide,
+.yoyo.table td.six.wide {
+  width: 37.5%;
+}
+.yoyo.table th.seven.wide,
+.yoyo.table td.seven.wide {
+  width: 43.75%;
+}
+.yoyo.table th.eight.wide,
+.yoyo.table td.eight.wide {
+  width: 50%;
+}
+.yoyo.table th.nine.wide,
+.yoyo.table td.nine.wide {
+  width: 56.25%;
+}
+.yoyo.table th.ten.wide,
+.yoyo.table td.ten.wide {
+  width: 62.5%;
+}
+.yoyo.table th.eleven.wide,
+.yoyo.table td.eleven.wide {
+  width: 68.75%;
+}
+.yoyo.table th.twelve.wide,
+.yoyo.table td.twelve.wide {
+  width: 75%;
+}
+.yoyo.table th.thirteen.wide,
+.yoyo.table td.thirteen.wide {
+  width: 81.25%;
+}
+.yoyo.table th.fourteen.wide,
+.yoyo.table td.fourteen.wide {
+  width: 87.5%;
+}
+.yoyo.table th.fifteen.wide,
+.yoyo.table td.fifteen.wide {
+  width: 93.75%;
+}
+.yoyo.table th.sixteen.wide,
+.yoyo.table td.sixteen.wide {
+  width: 100%;
+}
+/* == Text Alignment == */
+.yoyo.table[class*="left aligned"],
+.yoyo.table [class*="left aligned"] {
+  text-align: left;
+}
+.yoyo.table[class*="center aligned"],
+.yoyo.table [class*="center aligned"] {
+  text-align: center;
+}
+.yoyo.table[class*="right aligned"],
+.yoyo.table [class*="right aligned"] {
+  text-align: right;
+}
+.yoyo.table[class*="top aligned"],
+.yoyo.table [class*="top aligned"] {
+  vertical-align: top;
+}
+.yoyo.table[class*="middle aligned"],
+.yoyo.table [class*="middle aligned"] {
+  vertical-align: middle;
+}
+.yoyo.table[class*="bottom aligned"],
+.yoyo.table [class*="bottom aligned"] {
+  vertical-align: bottom;
+}
+/* == Sortable == */
+.yoyo.sorting.table thead th {
+  cursor: pointer;
+  white-space: nowrap;
+  color: rgba(51, 51, 51, 1);
+}
+.yoyo.sorting.table thead th:first-child {
+  border-left: none;
+}
+.yoyo.sorting.table thead th.sorted,
+.yoyo.sorting.table thead th.sorted:hover {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.yoyo.sorting.table thead th:not(.disabled):after {
+  display: inline-block;
+  width: 1em;
+  opacity: 0.2;
+  margin: 0 0 0 .5em;
+  font-family: "YoyoIcons";
+  content: '\ea55';
+  font-style: normal;
+  font-weight: 400;
+  font-size: .875rem;
+  text-decoration: inherit;
+}
+.yoyo.sorting.table thead th.asc:after {
+  content: '\ea56';
+}
+.yoyo.sorting.table thead th.desc:after {
+  content: '\ea52';
+}
+.yoyo.sorting.table th.disabled:after {
+  content: '';
+}
+.yoyo.sorting.table th.disabled:hover {
+  cursor: auto;
+  color: rgba(0, 0, 0, 0.95);
+}
+.yoyo.sorting.table thead th:hover {
+  color: #8e24aa;
+}
+.yoyo.sorting.table thead th.sorted {
+  background-color: #F5F5F5;
+  color: rgba(0, 0, 0, 0.95);
+}
+.yoyo.sorting.table thead th.sorted:after {
+  display: inline-block;
+}
+.yoyo.sorting.table thead th.sorted:hover {
+  background-color: #F5F5F5;
+  color: rgba(0, 0, 0, 0.95);
+}
+.yoyo.table i.icon.handle {
+  cursor: pointer;
+}
+.yoyo.table tr.sorting-row {
+  background-color: #f9fafb;
+  box-shadow: inset 0 0 0 1px #5E35B1;
+}
+.yoyo.collapsing.table {
+  width: auto;
+}
+/* == Basic == */
+.yoyo.basic.table {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.yoyo.basic.table thead,
+.yoyo.basic.table tfoot {
+  box-shadow: none;
+}
+.yoyo.basic.table th {
+  font-size: 1.0625em;
+  background: transparent;
+  border-left: none;
+  padding: 0.5em 0.875em;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(34, 36, 38, 0);
+}
+.yoyo.basic.table tr td {
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  font-size:0.875em;
+  font-weight: 300;
+}
+.yoyo.basic.table td {
+  background: transparent;
+}
+.yoyo.basic.table thead tr:first-child > th:last-child,
+.yoyo.table thead tr:first-child > th:first-child {
+  border-radius: 0;
+}
+.yoyo.basic.striped.table tbody tr:nth-child(2n) {
+  background-color: #F9F9F9;
+}
+/* Very Basic */
+.yoyo[class*="very basic"].table {
+  border: none;
+}
+.yoyo[class*="very basic"].table:not(.sorting):not(.striped) th,
+.yoyo[class*="very basic"].table:not(.sorting):not(.striped) td {
+  padding: '';
+}
+.yoyo[class*="very basic"].table:not(.sorting):not(.striped) th:first-child,
+.yoyo[class*="very basic"].table:not(.sorting):not(.striped) td:first-child {
+  padding-left: 0em;
+}
+.yoyo[class*="very basic"].table:not(.sorting):not(.striped) th:last-child,
+.yoyo[class*="very basic"].table:not(.sorting):not(.striped) td:last-child {
+  padding-right: 0em;
+}
+.yoyo[class*="very basic"].table:not(.sorting):not(.striped) thead tr:first-child th {
+  padding-top: 0em;
+}
+.yoyo.very.basic.table tr td {
+  border-top: 0 solid rgba(34, 36, 38, 0.1);
+}
+/* == Celled == */
+.yoyo.celled.table tr th,
+.yoyo.celled.table tr td {
+  border-left: 1px solid rgba(34, 36, 38, 0.1);
+}
+.yoyo.celled.table tr td {
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+}
+.yoyo.celled.table tr th:first-child,
+.yoyo.celled.table tr td:first-child {
+  border-left: none;
+}
+/* == Padded == */
+.yoyo.relaxed.table th {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.yoyo.relaxed.table th,
+.yoyo.relaxed.table td {
+  padding: 1em 1em;
+}
+.yoyo[class*="very relaxed"].table th {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.yoyo[class*="very relaxed"].table td {
+  padding: 1.5em 1.5em;
+}
+/* == Compact == */
+.yoyo.compact.table th {
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+.yoyo.compact.table td {
+  padding: 0.5em 0.7em;
+}
+.yoyo[class*="very compact"].table th {
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+.yoyo[class*="very compact"].table td {
+  padding: 0.4em 0.6em;
+}
+.yoyo.compact.fitted.table td {
+  padding: 0.2em 0.4em;
+}
+/* == Text Alignment == */
+.yoyo.table[class*="left aligned"],
+.yoyo.table [class*="left aligned"] {
+  text-align: left;
+}
+.yoyo.table[class*="center aligned"],
+.yoyo.table [class*="center aligned"] {
+  text-align: center;
+}
+.yoyo.table[class*="right aligned"],
+.yoyo.table [class*="right aligned"] {
+  text-align: right;
+}
+.yoyo.table[class*="top aligned"],
+.yoyo.table [class*="top aligned"] {
+  vertical-align: top;
+}
+.yoyo.table[class*="middle aligned"],
+.yoyo.table [class*="middle aligned"] {
+  vertical-align: middle;
+}
+.yoyo.table[class*="bottom aligned"],
+.yoyo.table [class*="bottom aligned"] {
+  vertical-align: bottom;
+}
+/* == Sizes == */
+.yoyo.small.table {
+  font-size: 0.9em;
+}
+.yoyo.table {
+  font-size: 1em;
+}
+.yoyo.large.table {
+  font-size: 1.1em;
+}
+
+@media screen and (max-width:48.063em) {
+.yoyo.responsive.table {
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: block;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+}

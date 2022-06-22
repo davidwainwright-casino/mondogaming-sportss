@@ -1,0 +1,688 @@
+.ytplayer {
+  position: relative;
+  overflow: hidden
+}
+.ytplayer,
+.ytplayer * {
+  -moz-box-sizing: content-box!important;
+  -webkit-box-sizing: content-box!important;
+  box-sizing: content-box!important
+}
+.ytplayer:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.ytplayer .wojo-container {
+  float: left;
+  width: 600px;
+  position: relative;
+  height: 300px;
+  overflow: hidden
+}
+.ytplayer .wojo-container.loading:before {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left: 0%;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  border-radius: 0.28571429rem;
+  z-index: 1;
+}
+.ytplayer .wojo-container.loading:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  margin: -1.5em 0em 0em -1.5em;
+  width: 3em;
+  height: 3em;
+  -webkit-animation: segment-spin 0.6s linear;
+  animation: segment-spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #767676 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 0.2em;
+  box-shadow: 0px 0px 0px 1px transparent;
+  visibility: visible;
+  z-index: 2;
+}
+.ytplayer .wojo-playlist {
+  float: left;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  position: relative
+}
+.ytplayer .wojo-container .wojo-autoposter {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer
+}
+.ytplayer .wojo-container .wojo-autoposter .wojo-autoposter-icon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: 'WojoIcons';
+}
+.ytplayer .wojo-container .wojo-autoposter .wojo-autoposter-icon:after {
+  background: #C0392B;
+  font-size: 4rem;
+  line-height: 5rem;
+  content: "\ea0b";
+  position: absolute;
+  padding: 0 1rem;
+  border-radius: .5rem;
+  opacity: .85;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ytplayer .wojo-container .wojo-autoposter:hover .wojo-autoposter-icon:after {
+  content: "\ea0b";
+  background: #222;
+  position: absolute;
+}
+.ytplayer a.wojo-big-play {
+  display: block;
+  display: none;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background: rgba(0,0,0,.5)!important;
+  border-radius: 30px;
+  text-decoration: none!important;
+  border: none!important;
+  padding: 0!important;
+  margin: 0!important;
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px!important;
+  text-align: center!important;
+  outline: 0
+}
+.ytplayer a.wojo-big-replay {
+  display: block;
+  display: none;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background: rgba(0,0,0,.5)!important;
+  border-radius: 30px;
+  text-decoration: none!important;
+  border: none!important;
+  padding: 0!important;
+  margin: 0!important;
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px!important;
+  text-align: center!important
+}
+.ytplayer .wojo-title {
+  height: 70px;
+  z-index: 999;
+  background: linear-gradient(to bottom, rgba(0,0,0,.5) 0, rgba(0,0,0,0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0
+}
+.ytplayer .wojo-title .wojo-title-wrapper {
+  padding: 20px 20px 0;
+  font-size: 18px;
+  height: 24px;
+  line-height: 18px;
+  color: #fff;
+  font-weight: 700;
+  z-index: 9999;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden
+}
+.ytplayer .wojo-title a.wojo-subtitle {
+  display: inline-block;
+  height: 18px;
+  padding: 0 10px 0 0!important;
+  margin: 0 10px 0 0!important;
+  border-right: 2px solid #fff;
+  line-height: 18px;
+  font-size: 18px;
+  color: #dff76d;
+  z-index: 9999;
+  text-decoration: none!important;
+  font-weight: 700!important;
+  background: 0 0!important;
+  box-shadow: none!important;
+  font-style: normal!important
+}
+.ytplayer .wojo-title a.wojo-subtitle:hover {
+  text-decoration: underline!important
+}
+.ytplayer .wojo-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 18px;
+  padding: 5px 10px;
+  margin-left: -20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(0,0,0,.5);
+  z-index: 999;
+  text-transform: uppercase;
+  border-radius: 100px;
+  display: none
+}
+.ytplayer .wojo-social {
+  position: absolute;
+  z-index: 999;
+  right: 10px;
+  right: -180px;
+  bottom: 60px
+}
+.ytplayer .wojo-social a.wojo-social-button {
+  text-decoration: none!important;
+  border: none!important;
+  padding: 0!important;
+  margin: 0 0 0 1px!important;
+  width: 40px;
+  height: 40px;
+  float: right;
+  z-index: 999;
+  display: block;
+  font-size: 14px!important;
+  color: #fff!important;
+  line-height: 40px!important;
+  text-align: center!important
+}
+.ytplayer .wojo-social a.wojo-social-facebook {
+  background: #3b5998
+}
+.ytplayer .wojo-social a.wojo-social-twitter {
+  background: #55acee
+}
+.ytplayer .wojo-social a.wojo-social-google {
+  background: #C0392B
+}
+.ytplayer .wojo-social a.wojo-social-link {
+  background: url(../images/share_link.png) top left no-repeat
+}
+.ytplayer a.wojo-youtube-logo {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  display: block;
+  border: none!important;
+  padding: none!important;
+  margin: none!important;
+  outline: 0;
+  z-index: 999;
+  bottom: 50px;
+  right: 0;
+  background: url(../images/youtube-logo-light.png) top left no-repeat;
+  background-size: 100%;
+  opacity: .5;
+  cursor: pointer
+}
+.ytplayer a.wojo-youtube-logo:hover {
+  opacity: 1
+}
+.ytplayer .wojo-controls {
+  background: #e6bc57;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  z-index: 999;
+  bottom: -50px;
+  left: 0
+}
+.ytplayer .wojo-controls .wojo-controls-wrapper {
+  height: 30px;
+  padding: 10px
+}
+.ytplayer .wojo-controls:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.ytplayer a.wojo-play {
+  display: block;
+  float: left;
+  width: 12px;
+  height: 14px;
+  background: 0 0;
+  opacity: 1;
+  text-decoration: none!important;
+  border: none!important;
+  padding: 8px 9px!important;
+  margin: 0!important;
+  color: #fff!important;
+  font-size: 14px;
+  line-height: 14px!important;
+  text-align: center!important;
+  outline: 0
+}
+.ytplayer .wojo-time {
+  float: left;
+  width: 40px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 12px;
+  padding: 9px
+}
+.ytplayer .wojo-time.wojo-full-time {
+  width: 80px
+}
+.ytplayer .wojo-bar {
+  float: left;
+  position: relative;
+  width: 100px;
+  height: 10px;
+  margin: 10px 9px;
+  background: rgba(255,255,255,.5);
+  cursor: pointer
+}
+.ytplayer .wojo-bar .wojo-bar-buffer {
+  position: absolute;
+  height: 10px;
+  background: rgba(255,255,255,.5);
+  width: 0
+}
+.ytplayer .wojo-bar .wojo-bar-time {
+  position: absolute;
+  height: 10px;
+  background: rgba(255,255,255,1);
+  width: 0
+}
+.ytplayer .wojo-volume {
+  float: left;
+  height: 30px;
+  width: 110px
+}
+.ytplayer .wojo-volume:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.ytplayer .wojo-volume a.wojo-volume-icon {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 14px;
+  background: 0 0;
+  opacity: 1;
+  text-decoration: none!important;
+  border: none!important;
+  padding: 8px 4px 8px 14px!important;
+  margin: 0!important;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px!important;
+  text-align: left!important
+}
+.ytplayer .wojo-volume a.wojo-volume-icon.wojo-volume-icon-off {
+  background: url(../images/volume-off.png) center center no-repeat
+}
+.ytplayer .wojo-volume .wojo-volume-bar {
+  float: left;
+  position: relative;
+  width: 55px;
+  height: 10px;
+  margin: 10px 12px 10px 9px;
+  background: rgba(255,255,255,.5);
+  cursor: pointer
+}
+.ytplayer .wojo-volume .wojo-volume-bar .wojo-volume-amount {
+  position: absolute;
+  height: 10px;
+  background: #fff;
+  width: 75%
+}
+.ytplayer a.wojo-backward,
+.ytplayer a.wojo-forward,
+.ytplayer a.wojo-fullscreen,
+.ytplayer a.wojo-playlist-toggle,
+.ytplayer a.wojo-share,
+.ytplayer a.wojo-youtube {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  background: 0 0;
+  opacity: 1;
+  text-decoration: none!important;
+  border: none!important;
+  padding: 8px!important;
+  margin: 0!important;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px!important;
+  text-align: left!important;
+  outline: 0
+}
+.ytplayer .wojo-playlist .ps-scrollbar-y-rail {
+  opacity: 0;
+  -webkit-transition: opacity .2s;
+  -moz-transition: opacity .2s;
+  -o-transition: opacity .2s;
+  -ms-transition: opacity .2s;
+  transition: opacity .2s
+}
+.ytplayer .wojo-playlist:hover .ps-scrollbar-y-rail {
+  opacity: 1
+}
+.ytplayer.wojo-mobile .wojo-playlist .ps-scrollbar-y-rail {
+  opacity: 1!important
+}
+.ytplayer.wojo-touch .wojo-playlist .ps-scrollbar-y-rail {
+  opacity: 1
+}
+.ytplayer .wojo-playlist .wojo-playlist-video {
+  display: block;
+  height: 112px;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer
+}
+.ytplayer .wojo-playlist .wojo-playlist-video img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -ms-transition: all .2s;
+  transition: all .2s
+}
+.ytplayer .wojo-playlist .wojo-playlist-video .wojo-playlist-overlay {
+  position: absolute;
+  left: 0;
+  background: rgba(0,0,0,.75);
+  width: 100%;
+  height: 112px;
+  -webkit-transition: top .2s, opacity .2s;
+  -moz-transition: top .2s, opacity .2s;
+  -o-transition: top .2s, opacity .2s;
+  -ms-transition: top .2s, opacity .2s;
+  transition: top .2s, opacity .2s;
+  z-index: 2;
+  opacity: 0;
+  top: -20px
+}
+.ytplayer .wojo-playlist.wojo-playlist-simple .wojo-playlist-video .wojo-playlist-overlay {
+  display: none
+}
+.ytplayer .wojo-playlist .wojo-playlist-video:after {
+  height: 100%;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, rgba(0,0,0,.5) 0, rgba(0,0,0,0) 100%);
+  content: '';
+  z-index: 1
+}
+.ytplayer .wojo-playlist .wojo-playlist-video[data-playing="0"]:hover .wojo-playlist-overlay {
+  top: 0;
+  opacity: 1
+}
+.ytplayer .wojo-playlist .wojo-playlist-video[data-playing="0"]:hover img {
+  transform: scale(1.2)
+}
+.ytplayer.wojo-mobile .wojo-playlist .wojo-playlist-video[data-playing="0"] .wojo-playlist-overlay {
+  top: -112px!important;
+  display: none!important
+}
+.ytplayer .wojo-playlist .wojo-playlist-video .wojo-playlist-title {
+  padding: 15px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  font-weight: 700;
+  color: #fff;
+  line-height: 16px;
+  font-size: 12px
+}
+.ytplayer .wojo-playlist .wojo-playlist-video .wojo-playlist-channel {
+  padding: 15px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  font-weight: 700;
+  color: #dff76d;
+  line-height: 12px;
+  font-size: 12px
+}
+.ytplayer .wojo-playlist .wojo-playlist-video .wojo-playlist-current {
+  position: absolute;
+  width: 180px;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  font-weight: 700;
+  color: #fff;
+  line-height: 12px;
+  font-size: 12px;
+  background: rgba(0,0,0,.75);
+  padding: 10px;
+  display: none;
+  z-index: 2
+}
+.ytplayer .wojo-playlist.wojo-playlist-simple .wojo-playlist-video .wojo-playlist-current span {
+  display: none
+}
+.ytplayer .wojo-playlist .wojo-playlist-video[data-playing="1"] .wojo-playlist-current {
+  display: block
+}
+.ytplayer .wojo-playlist .wojo-playlist-video .wojo-playlist-current i {
+  margin-right: 5px
+}
+.ytplayer .wojo-hp {
+  clear: both;
+  height: 90px;
+  background: #333;
+  overflow: hidden;
+  width: 100%
+}
+.ytplayer .wojo-hp-videos {
+  width: 50px
+}
+.ytplayer .ps-scrollbar-x-rail {
+  left: 0!important
+}
+.ytplayer .wojo-hp-videos:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.ytplayer .wojo-hp .wojo-hp-next-page {
+  font-weight: 700;
+  color: #fff;
+  font-size: 12px;
+  background: #000;
+  padding: 0;
+  line-height: 90px;
+  text-align: center;
+  display: inline-block;
+  height: 90px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer
+}
+.ytplayer.wojo-ios .wojo-hp .wojo-hp-next-page {
+  top: -41px
+}
+.ytplayer .wojo-hp .wojo-hp-video {
+  display: inline-block;
+  height: 90px;
+  width: 160px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer
+}
+.ytplayer .wojo-hp .wojo-hp-video img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .2s
+}
+.ytplayer .wojo-hp .wojo-hp-video .wojo-hp-overlay {
+  position: absolute;
+  left: 0;
+  background: rgba(0,0,0,.75);
+  width: 100%;
+  height: 90px;
+  transition: top .2s, opacity .2s;
+  z-index: 2;
+  opacity: 0;
+  top: -20px
+}
+.ytplayer .wojo-hp.wojo-hp-simple .wojo-hp-video .wojo-hp-overlay {
+  display: none
+}
+.ytplayer .wojo-hp .wojo-hp-video:after {
+  height: 100%;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, rgba(0,0,0,.5) 0, rgba(0,0,0,0) 100%);
+  content: '';
+  z-index: 1
+}
+.ytplayer .wojo-hp .wojo-hp-video[data-playing="0"]:hover .wojo-hp-overlay {
+  top: 0;
+  opacity: 1
+}
+.ytplayer .wojo-hp .wojo-hp-video[data-playing="0"]:hover img {
+  transform: scale(1.2)
+}
+.ytplayer.wojo-mobile .wojo-hp .wojo-hp-video[data-playing="0"] .wojo-hp-overlay {
+  top: -90px!important;
+  display: none!important
+}
+.ytplayer .wojo-hp .wojo-hp-video .wojo-hp-title {
+  padding: 15px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  font-weight: 700;
+  color: #fff;
+  line-height: 16px;
+  font-size: 12px;
+  overflow: hidden;
+  max-height: 35px
+}
+.ytplayer .wojo-hp .wojo-hp-video .wojo-hp-channel {
+  padding: 15px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  font-weight: 700;
+  color: #dff76d;
+  line-height: 12px;
+  font-size: 12px
+}
+.ytplayer .wojo-hp .wojo-hp-video .wojo-hp-current {
+  position: absolute;
+  width: 140px;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  font-weight: 700;
+  color: #fff;
+  line-height: 12px;
+  font-size: 12px;
+  background: rgba(0,0,0,.75);
+  padding: 10px;
+  display: none;
+  z-index: 2
+}
+.ytplayer .wojo-hp.wojo-hp-simple .wojo-hp-video .wojo-hp-current span {
+  display: none
+}
+.ytplayer .wojo-hp .wojo-hp-video[data-playing="1"] .wojo-hp-current {
+  display: block
+}
+.ytplayer .wojo-hp .wojo-hp-video .wojo-hp-current i {
+  margin-right: 5px
+}
+.ytplayer .wojo-next-page {
+  right: 0;
+  bottom: 0;
+  font-weight: 700;
+  color: #fff;
+  line-height: 18px;
+  height: 18px;
+  font-size: 12px;
+  background: #000;
+  padding: 16px 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  display: none
+}
+.ytplayer .wojo-next-page i {
+  margin-right: 5px
+}
+.ytplayer .wojo-error {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  background: rgba(229,45,39,1);
+  text-align: center;
+  padding: 10px 2px;
+  font-size: 12px;
+  line-height: 16px;
+  display: none
+}
+.ytplayer .wojo-error i {
+  margin-right: 5px
+}
+.scrolltrackx {
+  width: 100%;
+  height: 6px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  -webkit-transition: background 250ms linear;
+  transition: background 250ms linear;
+}
+.scrollhandlex {
+  height: 6px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  -webkit-transition: width 250ms;
+  transition: width 250ms;
+}

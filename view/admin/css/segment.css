@@ -1,0 +1,261 @@
+/* == Segment == */
+.yoyo.segment,
+.yoyo.card {
+  position: relative;
+  background: #ffffff;
+  margin: 2rem 0em;
+  padding: 2em;
+  border-radius: .250rem;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+.yoyo.top.attached.segment,
+.yoyo.top.attached.card {
+  margin-top: 0px;
+  margin-bottom: 2em;
+}
+.yoyo.bottom.attached.segment,
+.yoyo.bottom.attached.card {
+  margin-bottom: 0px;
+  margin-top: 2em;
+}
+.yoyo.attached.segment,
+.yoyo.attached.card {
+  margin: 0 0;
+}
+.yoyo.card {
+  padding: 0;
+}
+.yoyo.card > .header,
+.yoyo.card > .header.banner {
+  border-radius: .250rem;
+  top: -1em;
+  padding: 1em;
+  position: relative;
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(233,30,99,.4);
+  background: linear-gradient(60deg, #ec407a, #d81b60);
+  margin: 0 1em;
+}
+.yoyo.card > .header.banner {
+  margin: 0;
+  width: calc(100% + 2rem);
+  left: 1em;
+}
+.yoyo.card > .content {
+  padding: 2em;
+}
+.yoyo.card > .content.small {
+  padding: 1em;
+}
+.yoyo.card .description {
+  padding: 1em;
+}
+.yoyo.card > .image.avatar {
+  margin: auto 0;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -50px;
+  left: 50%;
+  background: #fff;
+  display: inline-flex;
+  transform: translate(-50%);
+  box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+.yoyo.card > .image.photo {
+  position: relative;
+  margin: 2em;
+  z-index: 1;
+  top: -1em;
+  border-radius: 0.250em;
+  box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+.yoyo.card > .image.photo img {
+  border-radius: 0.250em;
+}
+.yoyo.card > .footer {
+  padding: 2em;
+}
+.yoyo.card > .secondary.header,
+.yoyo.secondary.card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(103,58,183, 0.4);
+  background: transparent linear-gradient(60deg, #7E57C2, #5E35B1) repeat scroll 0% 0%;
+}
+.yoyo.card > .positive.header,
+.yoyo.positive.card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(67,160,71, 0.4);
+  background: transparent linear-gradient(60deg, #66BB6A, #43A047) repeat scroll 0% 0%;
+}
+.yoyo.card > .negative.header,
+.yoyo.negative.card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(229,57,53, 0.4);
+  background: transparent linear-gradient(60deg, #EF5350, #E53935) repeat scroll 0% 0%;
+}
+.yoyo.card > .white.header {
+  background: linear-gradient(60deg, #fff, #fff);
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,0,0,.2);
+}
+.yoyo.card > .grey.header,
+.yoyo.grey.card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(84,110,122, 0.4);
+  background: transparent linear-gradient(60deg, #78909C, #546E7A) repeat scroll 0% 0%;
+}
+.yoyo.card > .pink.header,
+.yoyo.pink.card {
+  background: transparent linear-gradient(60deg, #EC407A, #D81B60) repeat scroll 0% 0%;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(233, 30, 99, 0.4);
+}
+.yoyo.card > .indigo.header,
+.yoyo.indigo.card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(57,73,171, 0.4);
+  background: transparent linear-gradient(60deg, #5C6BC0, #3949AB) repeat scroll 0% 0%;
+}
+.yoyo.card > .blue.header,
+.yoyo.blue.card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(30,136,229, 0.4);
+  background: transparent linear-gradient(60deg, #42A5F5, #1E88E5) repeat scroll 0% 0%;
+}
+.yoyo.card > .blue.teal,
+.yoyo.teal.card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(30,136,229, 0.4);
+  background: transparent linear-gradient(60deg, #26A69A, #00897B) repeat scroll 0% 0%;
+}
+.yoyo.card > .cyan.header,
+.yoyo.cyan.card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(30,136,229, 0.4);
+  background: transparent linear-gradient(60deg, #26C6DA, #00ACC1) repeat scroll 0% 0%;
+}
+.yoyo.card > .amber.header,
+.yoyo.amber.card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(30,136,229, 0.4);
+  background: transparent linear-gradient(60deg, #FFCA28, #FFB300) repeat scroll 0% 0%;
+}
+.yoyo.card > .orange.header,
+.yoyo.orange.card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(30,136,229, 0.4);
+  background: transparent linear-gradient(60deg, #FFA726, #FB8C00) repeat scroll 0% 0%;
+}
+.yoyo.basic.segment {
+  box-shadow: 0 0 0 1px rgba(0,0,0,.14);
+}
+.yoyo.simple.card,
+.yoyo.simple.segment {
+  box-shadow: none;
+}
+.yoyo.passive.card,
+.yoyo.passive.segment {
+  box-shadow: none;
+  padding: 0
+}
+.yoyo.segment.active,
+.yoyo.card.active {
+  box-shadow: inset 0 0 0 2px #E91E63;
+}
+/* == Movable == */
+.yoyo.segment.movable,
+.yoyo.card.movable {
+  cursor: move;
+  point-events: none;
+  -webkit-transition: all 0s linear;
+  transition: all 0s linear;
+  border-radius: 0.250;
+  border: 3px dashed rgba(233,30,99,.4);
+}
+.yoyo.segment.movable::before,
+.yoyo.card.movable::before {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left: 0%;
+  background: rgba(255, 255, 255, 0.85);
+  width: 100%;
+  height: 100%;
+  border-radius: 0.250;
+  z-index: 100;
+}
+.yoyo.movable.segment::after,
+.yoyo.movable.card::after {
+  font-family: 'YoyoIcons';
+  position: absolute;
+  content: '\ea1a';
+  font-size: 1rem;
+  top: 10%;
+  left: 80%;
+  z-index: 101;
+}
+/* == Loading == */
+.yoyo.loading.segment,
+.yoyo.loading.card,
+.yoyo.loader {
+  position: relative;
+  cursor: default;
+  point-events: none;
+  text-shadow: none !important;
+  color: transparent !important;
+  -webkit-transition: all 0s linear;
+  transition: all 0s linear;
+}
+.yoyo.loading.segment::before,
+.yoyo.loading.card::before,
+.yoyo.loader::before {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left: 0%;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  border-radius: 0.250;
+  z-index: 100;
+}
+.yoyo.loading.segment::after,
+.yoyo.loading.card::after,
+.yoyo.loader::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  margin: -1.5em 0em 0em -1.5em;
+  width: 3em;
+  height: 3em;
+  -webkit-animation: segment-spin 0.6s linear;
+  animation: segment-spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #767676 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 0.2em;
+  box-shadow: 0px 0px 0px 1px transparent;
+  visibility: visible;
+  z-index: 101;
+}
+.yoyo.small.loading.segment:after,
+.yoyo.small.loading.card:after,
+.yoyo.small.loader:after {
+  margin: -1em 0em 0em -1em;
+  width: 2em;
+  height: 2em;
+}
+@-webkit-keyframes segment-spin {
+ from {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@keyframes segment-spin {
+ from {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}

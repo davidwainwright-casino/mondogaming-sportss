@@ -1,0 +1,1588 @@
+{
+   "iconset":[
+    {
+        "code": "agenda",
+        "name": "Agenda"
+    },
+    {
+        "code": "aid kit",
+        "name": "Aid Kit"
+    },
+    {
+        "code": "anchor",
+        "name": "Anchor"
+    },
+    {
+        "code": "angle double down",
+        "name": "Angle Double Down"
+    },
+    {
+        "code": "angle double left",
+        "name": "Angle Double Left"
+    },
+    {
+        "code": "angle double right",
+        "name": "Angle Double Right"
+    },
+    {
+        "code": "angle double up",
+        "name": "Angle Double Up"
+    },
+    {
+        "code": "angle down",
+        "name": "Angle Down"
+    },
+    {
+        "code": "angle left",
+        "name": "Angle Left"
+    },
+    {
+        "code": "angle right",
+        "name": "Angle Right"
+    },
+    {
+        "code": "angle up",
+        "name": "Angle Up"
+    },
+    {
+        "code": "antena",
+        "name": "Antena"
+    },
+    {
+        "code": "app",
+        "name": "App"
+    },
+    {
+        "code": "app add",
+        "name": "App Add"
+    },
+    {
+        "code": "app remove",
+        "name": "App Remove"
+    },
+    {
+        "code": "apps",
+        "name": "Apps"
+    },
+    {
+        "code": "apps alt",
+        "name": "Apps Alt"
+    },
+    {
+        "code": "arrow backward",
+        "name": "Arrow Backward"
+    },
+    {
+        "code": "arrow forward",
+        "name": "Arrow Forward"
+    },
+    {
+        "code": "arrows",
+        "name": "Arrows"
+    },
+    {
+        "code": "arrows horizontal",
+        "name": "Arrows Horizontal"
+    },
+    {
+        "code": "arrows vertical",
+        "name": "Arrows Vertical"
+    },
+    {
+        "code": "asterisk",
+        "name": "Asterisk"
+    },
+    {
+        "code": "backward",
+        "name": "Backward"
+    },
+    {
+        "code": "badge",
+        "name": "Badge"
+    },
+    {
+        "code": "ban",
+        "name": "Ban"
+    },
+    {
+        "code": "bar chart",
+        "name": "Bar Chart"
+    },
+    {
+        "code": "bar chart alt",
+        "name": "Bar Chart Alt"
+    },
+    {
+        "code": "basket",
+        "name": "Basket"
+    },
+    {
+        "code": "basketball",
+        "name": "Basketball"
+    },
+    {
+        "code": "batery empty",
+        "name": "batery Empty"
+    },
+    {
+        "code": "batery full",
+        "name": "batery Full"
+    },
+    {
+        "code": "batery20",
+        "name": "Batery 20"
+    },
+    {
+        "code": "batery50",
+        "name": "Batery 50"
+    },
+    {
+        "code": "bell",
+        "name": "Bell"
+    },
+    {
+        "code": "binoculars",
+        "name": "Binoculars"
+    },
+    {
+        "code": "blackboard",
+        "name": "Blackboard"
+    },
+    {
+        "code": "bluetooth",
+        "name": "Bluetooth"
+    },
+    {
+        "code": "bluetooth connected",
+        "name": "Bluetooth Connected"
+    },
+    {
+        "code": "bolt",
+        "name": "Bolt"
+    },
+    {
+        "code": "book",
+        "name": "Book"
+    },
+    {
+        "code": "bookmark",
+        "name": "Bookmark"
+    },
+    {
+        "code": "briefcase",
+        "name": "Briefcase"
+    },
+    {
+        "code": "briefcase alt",
+        "name": "Briefcase Alt"
+    },
+    {
+        "code": "brightness",
+        "name": "Brightness"
+    },
+    {
+        "code": "brightness alt",
+        "name": "Brightness Alt"
+    },
+    {
+        "code": "brush",
+        "name": "Brush"
+    },
+    {
+        "code": "bubble",
+        "name": "Bubble"
+    },
+    {
+        "code": "building",
+        "name": "Building"
+    },
+    {
+        "code": "burger",
+        "name": "Burger"
+    },
+    {
+        "code": "bus",
+        "name": "Bus"
+    },
+    {
+        "code": "cake",
+        "name": "Cake"
+    },
+    {
+        "code": "calculator",
+        "name": "Calculator"
+    },
+    {
+        "code": "calendar",
+        "name": "Calendar"
+    },
+    {
+        "code": "calendar add",
+        "name": "Calendar Add"
+    },
+    {
+        "code": "calendar alt",
+        "name": "Calendar Alt"
+    },
+    {
+        "code": "calendar remove",
+        "name": "Calendar Remove"
+    },
+    {
+        "code": "camera",
+        "name": "Camera"
+    },
+    {
+        "code": "camera alt",
+        "name": "Camera Retro"
+    },
+    {
+        "code": "car",
+        "name": "Car"
+    },
+    {
+        "code": "cd",
+        "name": "Cd"
+    },
+    {
+        "code": "certificate",
+        "name": "Certificate"
+    },
+    {
+        "code": "check",
+        "name": "Check"
+    },
+    {
+        "code": "check all",
+        "name": "Check All"
+    },
+    {
+        "code": "checkbox",
+        "name": "Checkbox"
+    },
+    {
+        "code": "checkbox checked",
+        "name": "Checkbox Checked"
+    },
+    {
+        "code": "checkbox checked alt",
+        "name": "Checkbox Checked Alt"
+    },
+    {
+        "code": "chevron down",
+        "name": "Chevron Down"
+    },
+    {
+        "code": "chevron left",
+        "name": "Chevron Left"
+    },
+    {
+        "code": "chevron right",
+        "name": "Chevron Right"
+    },
+    {
+        "code": "chevron up",
+        "name": "Chevron Up"
+    },
+    {
+        "code": "circle check",
+        "name": "Circle Check"
+    },
+    {
+        "code": "circle chevron down",
+        "name": "Circle Chevron Down"
+    },
+    {
+        "code": "circle chevron left",
+        "name": "Circle Chevron Left"
+    },
+    {
+        "code": "circle chevron right",
+        "name": "Circle Chevron Right"
+    },
+    {
+        "code": "circle chevron up",
+        "name": "Circle Chevron Up"
+    },
+    {
+        "code": "circle delete",
+        "name": "Circle Delete"
+    },
+    {
+        "code": "circle minus",
+        "name": "Circle Minus"
+    },
+    {
+        "code": "circle plus",
+        "name": "Circle Plus"
+    },
+    {
+        "code": "clipboard",
+        "name": "Clipboard"
+    },
+    {
+        "code": "clipboard alt",
+        "name": "Clipboard Alt"
+    },
+    {
+        "code": "clock",
+        "name": "Clock"
+    },
+    {
+        "code": "close",
+        "name": "Close"
+    },
+    {
+        "code": "cloud download",
+        "name": "Cloud Download"
+    },
+    {
+        "code": "cloud upload",
+        "name": "Cloud Upload"
+    },
+    {
+        "code": "code",
+        "name": "Code"
+    },
+    {
+        "code": "code alt",
+        "name": "Code Alt"
+    },
+    {
+        "code": "cogs",
+        "name": "Cogs"
+    },
+    {
+        "code": "comment",
+        "name": "Comment"
+    },
+    {
+        "code": "compass",
+        "name": "Compass"
+    },
+    {
+        "code": "compress",
+        "name": "Compress"
+    },
+    {
+        "code": "contrast",
+        "name": "Contrast"
+    },
+    {
+        "code": "copy",
+        "name": "Copy"
+    },
+    {
+        "code": "crayon",
+        "name": "Crayon"
+    },
+    {
+        "code": "credit card",
+        "name": "Credit Card"
+    },
+    {
+        "code": "crop",
+        "name": "Crop"
+    },
+    {
+        "code": "css",
+        "name": "Css"
+    },
+    {
+        "code": "cup",
+        "name": "Cup"
+    },
+    {
+        "code": "cut",
+        "name": "Cut"
+    },
+    {
+        "code": "dashboard",
+        "name": "Dashboard"
+    },
+    {
+        "code": "database",
+        "name": "Database"
+    },
+    {
+        "code": "database alt",
+        "name": "Database Alt"
+    },
+    {
+        "code": "date",
+        "name": "Date"
+    },
+    {
+        "code": "delete",
+        "name": "Delete"
+    },
+    {
+        "code": "desktop",
+        "name": "Desktop"
+    },
+    {
+        "code": "dice",
+        "name": "Dice"
+    },
+    {
+        "code": "directions",
+        "name": "Directions"
+    },
+    {
+        "code": "download",
+        "name": "Download"
+    },
+    {
+        "code": "download alt",
+        "name": "Download Alt"
+    },
+    {
+        "code": "drop",
+        "name": "Drop"
+    },
+    {
+        "code": "dropbox",
+        "name": "Dropbox"
+    },
+    {
+        "code": "dropper",
+        "name": "Dropper"
+    },
+    {
+        "code": "earth",
+        "name": "Earth"
+    },
+    {
+        "code": "ellipsis horizontal",
+        "name": "Ellipsis Horizontal"
+    },
+    {
+        "code": "ellipsis horizontal alt",
+        "name": "Ellipsis Horizontal Alt"
+    },
+    {
+        "code": "ellipsis vertical",
+        "name": "Ellipsis Vertical"
+    },
+    {
+        "code": "ellipsis vertical alt",
+        "name": "Ellipsis Vertical Alt"
+    },
+    {
+        "code": "email",
+        "name": "Email"
+    },
+    {
+        "code": "email alt",
+        "name": "Email Alt"
+    },
+    {
+        "code": "eraser",
+        "name": "Eraser"
+    },
+    {
+        "code": "expand",
+        "name": "Expand"
+    },
+    {
+        "code": "eye",
+        "name": "Eye"
+    },
+    {
+        "code": "eye blocked",
+        "name": "Eye Blocked"
+    },
+    {
+        "code": "eye glasses",
+        "name": "Eye Glasses"
+    },
+    {
+        "code": "facebook",
+        "name": "Facebook"
+    },
+    {
+        "code": "facebook alt",
+        "name": "Facebook Alt"
+    },
+    {
+        "code": "faq",
+        "name": "FAQ"
+    },
+    {
+        "code": "feather",
+        "name": "Feather"
+    },
+    {
+        "code": "female",
+        "name": "Female"
+    },
+    {
+        "code": "female gender",
+        "name": "Female Gender"
+    },
+    {
+        "code": "file",
+        "name": "File"
+    },
+    {
+        "code": "file add",
+        "name": "File Add"
+    },
+    {
+        "code": "file remove",
+        "name": "File Remove"
+    },
+    {
+        "code": "files",
+        "name": "Files"
+    },
+    {
+        "code": "files add",
+        "name": "Files Add"
+    },
+    {
+        "code": "files remove",
+        "name": "Files Remove"
+    },
+    {
+        "code": "filter",
+        "name": "Filter"
+    },
+    {
+        "code": "find",
+        "name": "Find"
+    },
+    {
+        "code": "fire",
+        "name": "Fire"
+    },
+    {
+        "code": "flag",
+        "name": "Flag"
+    },
+    {
+        "code": "floppy",
+        "name": "Floppy"
+    },
+    {
+        "code": "flow tree",
+        "name": "Flow Tree"
+    },
+    {
+        "code": "folder",
+        "name": "Folder"
+    },
+    {
+        "code": "folder add",
+        "name": "Folder Add"
+    },
+    {
+        "code": "folder open",
+        "name": "Folder Open"
+    },
+    {
+        "code": "folder remove",
+        "name": "Folder Remove"
+    },
+    {
+        "code": "food dome",
+        "name": "Food Dome"
+    },
+    {
+        "code": "football",
+        "name": "Football"
+    },
+    {
+        "code": "forward",
+        "name": "Forward"
+    },
+    {
+        "code": "gamepad",
+        "name": "Gamepad"
+    },
+    {
+        "code": "ghost",
+        "name": "Ghost"
+    },
+    {
+        "code": "gift",
+        "name": "Gift"
+    },
+    {
+        "code": "github",
+        "name": "Github"
+    },
+    {
+        "code": "globe",
+        "name": "Globe"
+    },
+    {
+        "code": "google",
+        "name": "Google"
+    },
+    {
+        "code": "google drive",
+        "name": "Google Drive"
+    },
+    {
+        "code": "google plus",
+        "name": "Google Plus"
+    },
+    {
+        "code": "gps",
+        "name": "Gps"
+    },
+    {
+        "code": "grid",
+        "name": "Grid"
+    },
+    {
+        "code": "grid align bottom left",
+        "name": "Grid Bottom Left"
+    },
+    {
+        "code": "grid align bottom right",
+        "name": "Grid Bottom Right"
+    },
+    {
+        "code": "grid align center bottom",
+        "name": "Grid Center Bottom"
+    },
+    {
+        "code": "grid align center left",
+        "name": "Grid Center Left"
+    },
+    {
+        "code": "grid align center middle",
+        "name": "Grid Center Middle"
+    },
+    {
+        "code": "grid align center right",
+        "name": "Grid Center Right"
+    },
+    {
+        "code": "grid align center top",
+        "name": "Grid Center Top"
+    },
+    {
+        "code": "grid align top left",
+        "name": "Grid Top Left"
+    },
+    {
+        "code": "grid align top right",
+        "name": "Grid Top Right"
+    },
+    {
+        "code": "hdd",
+        "name": "Hdd"
+    },
+    {
+        "code": "headphones",
+        "name": "Headphones"
+    },
+    {
+        "code": "heart",
+        "name": "Heart"
+    },
+    {
+        "code": "heart alt",
+        "name": "Heart Alt"
+    },
+    {
+        "code": "help",
+        "name": "Help"
+    },
+    {
+        "code": "history",
+        "name": "History"
+    },
+    {
+        "code": "home",
+        "name": "Home"
+    },
+    {
+        "code": "hourglass",
+        "name": "Hourglass"
+    },
+    {
+        "code": "html5",
+        "name": "Html5"
+    },
+    {
+        "code": "icecream",
+        "name": "Ice Cream"
+    },
+    {
+        "code": "id",
+        "name": "Id"
+    },
+    {
+        "code": "inbox",
+        "name": "Inbox"
+    },
+    {
+        "code": "indent",
+        "name": "Indent"
+    },
+    {
+        "code": "info sign",
+        "name": "Info Sign"
+    },
+    {
+        "code": "instagram",
+        "name": "Instagram"
+    },
+    {
+        "code": "invoice",
+        "name": "Invoice"
+    },
+    {
+        "code": "ip",
+        "name": "Ip"
+    },
+    {
+        "code": "key",
+        "name": "Key"
+    },
+    {
+        "code": "laptop",
+        "name": "Laptop"
+    },
+    {
+        "code": "layer",
+        "name": "Layer"
+    },
+    {
+        "code": "layer alt",
+        "name": "Layer Alt"
+    },
+    {
+        "code": "leaf",
+        "name": "Leaf"
+    },
+    {
+        "code": "line chart",
+        "name": "Line Chart"
+    },
+    {
+        "code": "lock",
+        "name": "Lock"
+    },
+    {
+        "code": "long arrow down",
+        "name": "Long Arrow Down"
+    },
+    {
+        "code": "long arrow down left",
+        "name": "Long Arrow Down Left"
+    },
+    {
+        "code": "long arrow down right",
+        "name": "Long Arrow Down Right"
+    },
+    {
+        "code": "long arrow left",
+        "name": "Long Arrow Left"
+    },
+    {
+        "code": "long arrow right",
+        "name": "Long Arrow Right"
+    },
+    {
+        "code": "long arrow up",
+        "name": "Long Arrow Up"
+    },
+    {
+        "code": "long arrow up left",
+        "name": "Long Arrow Up Left"
+    },
+    {
+        "code": "long arrow up right",
+        "name": "Long Arrow Up Right"
+    },
+    {
+        "code": "magnet",
+        "name": "Magnet"
+    },
+    {
+        "code": "male",
+        "name": "Male"
+    },
+    {
+        "code": "male gender",
+        "name": "Male Gender"
+    },
+    {
+        "code": "map",
+        "name": "Map"
+    },
+    {
+        "code": "maple leaf",
+        "name": "Maple Leaf"
+    },
+    {
+        "code": "marker",
+        "name": "Marker"
+    },
+    {
+        "code": "mask",
+        "name": "Mask"
+    },
+    {
+        "code": "marker alt",
+        "name": "Marker Alt"
+    },
+    {
+        "code": "medal",
+        "name": "Medal"
+    },
+    {
+        "code": "membership",
+        "name": "Membership"
+    },
+    {
+        "code": "microphone",
+        "name": "Microphone"
+    },
+    {
+        "code": "minus",
+        "name": "Minus"
+    },
+    {
+        "code": "minus alt",
+        "name": "Minus Alt"
+    },
+    {
+        "code": "money",
+        "name": "Money"
+    },
+    {
+        "code": "mouse",
+        "name": "Mouse"
+    },
+    {
+        "code": "move",
+        "name": "Move"
+    },
+    {
+        "code": "move horizontal",
+        "name": "Move Horizontal"
+    },
+    {
+        "code": "move vertical",
+        "name": "Move Vertical"
+    },
+    {
+        "code": "movie",
+        "name": "Movie"
+    },
+    {
+        "code": "mug",
+        "name": "Mug"
+    },
+    {
+        "code": "musical note",
+        "name": "Musical Note"
+    },
+    {
+        "code": "musical note playlist",
+        "name": "Musical Note Playlist"
+    },
+    {
+        "code": "musical notes",
+        "name": "Musical Notes"
+    },
+    {
+        "code": "mute",
+        "name": "Mute"
+    },
+    {
+        "code": "note",
+        "name": "Note"
+    },
+    {
+        "code": "note alt",
+        "name": "Note Alt"
+    },
+    {
+        "code": "ordered list",
+        "name": "Ordered List"
+    },
+    {
+        "code": "outbox",
+        "name": "Outbox"
+    },
+    {
+        "code": "outdent",
+        "name": "Outdent"
+    },
+    {
+        "code": "paint roller",
+        "name": "Paint Roller"
+    },
+    {
+        "code": "pan",
+        "name": "Pan"
+    },
+    {
+        "code": "paper clip",
+        "name": "Paper Clip"
+    },
+    {
+        "code": "paper plane",
+        "name": "Paper Plane"
+    },
+    {
+        "code": "pause",
+        "name": "Pause"
+    },
+    {
+        "code": "pen",
+        "name": "Pen"
+    },
+    {
+        "code": "pen alt",
+        "name": "Pen Alt"
+    },
+    {
+        "code": "pencil",
+        "name": "Pencil"
+    },
+    {
+        "code": "phone",
+        "name": "Phone"
+    },
+    {
+        "code": "phone call",
+        "name": "Phone Call"
+    },
+    {
+        "code": "photo",
+        "name": "Photo"
+    },
+    {
+        "code": "photo alt",
+        "name": "Photo Alt"
+    },
+    {
+        "code": "photos",
+        "name": "Photos"
+    },
+    {
+        "code": "pie chart",
+        "name": "Pie Chart"
+    },
+    {
+        "code": "pill",
+        "name": "Pill"
+    },
+    {
+        "code": "pin",
+        "name": "Pin"
+    },
+    {
+        "code": "pinterest",
+        "name": "Pinterest"
+    },
+    {
+        "code": "plane",
+        "name": "Plane"
+    },
+    {
+        "code": "play",
+        "name": "Play"
+    },
+    {
+        "code": "plus",
+        "name": "Plus"
+    },
+    {
+        "code": "plus alt",
+        "name": "Plus Alt"
+    },
+    {
+        "code": "postcard",
+        "name": "Postcard"
+    },
+    {
+        "code": "power",
+        "name": "Power"
+    },
+    {
+        "code": "printer",
+        "name": "Printer"
+    },
+    {
+        "code": "puzzle",
+        "name": "Puzzle"
+    },
+    {
+        "code": "qr",
+        "name": "Qr"
+    },
+    {
+        "code": "question sign",
+        "name": "Question Sign"
+    },
+    {
+        "code": "quote",
+        "name": "Quote"
+    },
+    {
+        "code": "radio",
+        "name": "Radio"
+    },
+    {
+        "code": "radio checked",
+        "name": "Radio Checked"
+    },
+    {
+        "code": "record",
+        "name": "Record"
+    },
+    {
+        "code": "resize",
+        "name": "Resize"
+    },
+    {
+        "code": "redo",
+        "name": "Redo"
+    },
+    {
+        "code": "refresh",
+        "name": "Refresh"
+    },
+    {
+        "code": "reorder",
+        "name": "Reorder"
+    },
+    {
+        "code": "repeat",
+        "name": "Repeat"
+    },
+    {
+        "code": "resize",
+        "name": "Resize"
+    },
+    {
+        "code": "round chart",
+        "name": "Round Chart"
+    },
+    {
+        "code": "rss",
+        "name": "Rss"
+    },
+    {
+        "code": "sailboat",
+        "name": "Sailboat"
+    },
+    {
+        "code": "select",
+        "name": "Select"
+    },
+    {
+        "code": "select all",
+        "name": "Select All"
+    },
+    {
+        "code": "server",
+        "name": "Server"
+    },
+    {
+        "code": "server alt",
+        "name": "Server Alt"
+    },
+    {
+        "code": "setting",
+        "name": "Setting"
+    },
+    {
+        "code": "settings alt",
+        "name": "Setting Alt"
+    },
+    {
+        "code": "share",
+        "name": "Share"
+    },
+    {
+        "code": "shield",
+        "name": "Shield"
+    },
+    {
+        "code": "shield alt",
+        "name": "Shield Alt"
+    },
+    {
+        "code": "shirt",
+        "name": "Shirt"
+    },
+    {
+        "code": "shuffle",
+        "name": "Shuffle"
+    },
+    {
+        "code": "sliders horizontal",
+        "name": "Sliders Horizontal"
+    },
+    {
+        "code": "sliders vertical",
+        "name": "Sliders Vertical"
+    },
+    {
+        "code": "smartphone",
+        "name": "Smartphone"
+    },
+    {
+        "code": "smile",
+        "name": "Smile"
+    },
+    {
+        "code": "snowflake",
+        "name": "Snowflake"
+    },
+    {
+        "code": "sort ascending",
+        "name": "Sort Ascending"
+    },
+    {
+        "code": "sort descending",
+        "name": "Sort Descending"
+    },
+    {
+        "code": "soundcloud",
+        "name": "Soundcloud"
+    },
+    {
+        "code": "speaker",
+        "name": "Speaker"
+    },
+    {
+        "code": "spin full",
+        "name": "Spinner Full"
+    },
+    {
+        "code": "spin circles",
+        "name": "Spinner Circles"
+    },
+    {
+        "code": "star",
+        "name": "Star"
+    },
+    {
+        "code": "star full",
+        "name": "Star Full"
+    },
+    {
+        "code": "star half",
+        "name": "Star Half"
+    },
+    {
+        "code": "step backward",
+        "name": "Step Backward"
+    },
+    {
+        "code": "step forward",
+        "name": "Step Forward"
+    },
+    {
+        "code": "stop",
+        "name": "Stop"
+    },
+    {
+        "code": "stop watch",
+        "name": "Stop Watch"
+    },
+    {
+        "code": "storage",
+        "name": "Storage"
+    },
+    {
+        "code": "storage alt",
+        "name": "Storage Alt"
+    },
+    {
+        "code": "sunset",
+        "name": "Sunset"
+    },
+    {
+        "code": "switch",
+        "name": "Switch"
+    },
+    {
+        "code": "tab",
+        "name": "Tab"
+    },
+    {
+        "code": "tablet",
+        "name": "Tablet"
+    },
+    {
+        "code": "tag",
+        "name": "Tag"
+    },
+    {
+        "code": "tag delete",
+        "name": "Tag Delete"
+    },
+    {
+        "code": "tags",
+        "name": "Tags"
+    },
+    {
+        "code": "target",
+        "name": "Target"
+    },
+    {
+        "code": "tennis ball",
+        "name": "Tennis Ball"
+    },
+    {
+        "code": "thumbs down",
+        "name": "Thumbs Down"
+    },
+    {
+        "code": "thumbs up",
+        "name": "Thumbs Up"
+    },
+    {
+        "code": "tie",
+        "name": "Tie"
+    },
+    {
+        "code": "timeline",
+        "name": "Timeline"
+    },
+    {
+        "code": "toggle off",
+        "name": "Toggle Off"
+    },
+    {
+        "code": "toggle off alt",
+        "name": "Toggle Off Alt"
+    },
+    {
+        "code": "toggle on",
+        "name": "Toggle On"
+    },
+    {
+        "code": "toggle on alt",
+        "name": "Toggle On Alt"
+    },
+    {
+        "code": "trailer",
+        "name": "Trailer"
+    },
+    {
+        "code": "train",
+        "name": "Train"
+    },
+    {
+        "code": "trash",
+        "name": "Trash"
+    },
+    {
+        "code": "trash alt",
+        "name": "Trash Alt"
+    },
+    {
+        "code": "triangle down",
+        "name": "Triangle Down"
+    },
+    {
+        "code": "triangle left",
+        "name": "Triangle Left"
+    },
+    {
+        "code": "triangle right",
+        "name": "Triangle Right"
+    },
+    {
+        "code": "triangle up",
+        "name": "Triangle Up"
+    },
+    {
+        "code": "triangle unfold more",
+        "name": "Triangle Unfold More"
+    },
+    {
+        "code": "trophy",
+        "name": "Trophy"
+    },
+    {
+        "code": "tumblr",
+        "name": "Tumblr"
+    },
+    {
+        "code": "twitter",
+        "name": "Twitter"
+    },
+    {
+        "code": "umbrella",
+        "name": "Umbrella"
+    },
+    {
+        "code": "underline",
+        "name": "Underline"
+    },
+    {
+        "code": "undo",
+        "name": "Undo"
+    },
+    {
+        "code": "unfold in",
+        "name": "Unfold In"
+    },
+    {
+        "code": "unfold less",
+        "name": "Unfold Less"
+    },
+    {
+        "code": "unfold more",
+        "name": "Unfold More"
+    },
+    {
+        "code": "unfold out",
+        "name": "Unfold Out"
+    },
+    {
+        "code": "unlink",
+        "name": "Unlink"
+    },
+    {
+        "code": "unlock",
+        "name": "Unlock"
+    },
+    {
+        "code": "unordered list",
+        "name": "Unordered List"
+    },
+    {
+        "code": "upload",
+        "name": "Upload"
+    },
+    {
+        "code": "upload alt",
+        "name": "Upload Alt"
+    },
+    {
+        "code": "url",
+        "name": "Url"
+    },
+    {
+        "code": "url alt",
+        "name": "Url Alt"
+    },
+    {
+        "code": "usb stick",
+        "name": "Usb Stick"
+    },
+    {
+        "code": "user",
+        "name": "User"
+    },
+    {
+        "code": "user add",
+        "name": "User Add"
+    },
+    {
+        "code": "user alt",
+        "name": "User Alt"
+    },
+    {
+        "code": "user profile",
+        "name": "User Profile"
+    },
+    {
+        "code": "user remove",
+        "name": "User Remove"
+    },
+    {
+        "code": "users",
+        "name": "Users"
+    },
+    {
+        "code": "view agenda",
+        "name": "View Agenda"
+    },
+    {
+        "code": "view day",
+        "name": "View Day"
+    },
+    {
+        "code": "view grid",
+        "name": "View Grid"
+    },
+    {
+        "code": "view list",
+        "name": "View List"
+    },
+    {
+        "code": "view week",
+        "name": "View Week"
+    },
+    {
+        "code": "vimeo",
+        "name": "Vimeo"
+    },
+    {
+        "code": "voicemail",
+        "name": "Voicemail"
+    },
+    {
+        "code": "volume",
+        "name": "Volume"
+    },
+    {
+        "code": "wallet",
+        "name": "Wallet"
+    },
+    {
+        "code": "wallpaper",
+        "name": "Wallpaper"
+    },
+    {
+        "code": "wand",
+        "name": "Wand"
+    },
+    {
+        "code": "warning sign",
+        "name": "Warning Sign"
+    },
+    {
+        "code": "water",
+        "name": "Water"
+    },
+    {
+        "code": "weather cloud",
+        "name": "Weather Cloud"
+    },
+    {
+        "code": "widgets",
+        "name": "Widgets"
+    },
+    {
+        "code": "wifi full",
+        "name": "Wifi Full"
+    },
+    {
+        "code": "wifi low",
+        "name": "Wifi Low"
+    },
+    {
+        "code": "windows",
+        "name": "Windows"
+    },
+    {
+        "code": "yoyologo",
+        "name": "Yoyologo"
+    },
+    {
+        "code": "yoyologo alt",
+        "name": "Yoyologo Alt"
+    },
+    {
+        "code": "wysiwyg align center",
+        "name": "Align Center"
+    },
+    {
+        "code": "wysiwyg align justify",
+        "name": "Align Justify"
+    },
+    {
+        "code": "wysiwyg align left",
+        "name": "Align Left"
+    },
+    {
+        "code": "wysiwyg align right",
+        "name": "Align Right"
+    },
+    {
+        "code": "wysiwyg bold",
+        "name": "Wysiwyg Bold"
+    },
+    {
+        "code": "wysiwyg border dashed",
+        "name": "Wysiwyg Border Dashed"
+    },
+    {
+        "code": "wysiwyg border dotted",
+        "name": "Wysiwyg Border Dotted"
+    },
+    {
+        "code": "wysiwyg border double",
+        "name": "Wysiwyg Border Double"
+    },
+    {
+        "code": "wysiwyg border inset",
+        "name": "Wysiwyg Border Inset"
+    },
+    {
+        "code": "wysiwyg border outset",
+        "name": "Wysiwyg Border Outset"
+    },
+    {
+        "code": "wysiwyg border solid",
+        "name": "Wysiwyg Border Solid"
+    },
+    {
+        "code": "wysiwyg color",
+        "name": "Wysiwyg Color"
+    },
+    {
+        "code": "wysiwyg font",
+        "name": "Wysiwyg Font"
+    },
+    {
+        "code": "wysiwyg gradient",
+        "name": "Wysiwyg Gradient"
+    },
+    {
+        "code": "wysiwyg italic",
+        "name": "IWysiwyg talic"
+    },
+    {
+        "code": "wysiwyg picture",
+        "name": "Wysiwyg Picture"
+    },
+    {
+        "code": "wysiwyg paragraph",
+        "name": "Wysiwyg Paragraph"
+    },
+    {
+        "code": "wysiwyg remove format",
+        "name": "Wysiwyg Remove Format"
+    },
+    {
+        "code": "wysiwyg size",
+        "name": "Wysiwyg Size"
+    },
+    {
+        "code": "wysiwyg strikethrough",
+        "name": "Wysiwyg Strikethrough"
+    },
+    {
+        "code": "wysiwyg subscript",
+        "name": "Wysiwyg Subscript"
+    },
+    {
+        "code": "wysiwyg superscript",
+        "name": "Wysiwyg Superscript"
+    },
+    {
+        "code": "wysiwyg table",
+        "name": "Wysiwyg Table"
+    },
+    {
+        "code": "wysiwyg type",
+        "name": "Wysiwyg Type"
+    },
+    {
+        "code": "wysiwyg underline",
+        "name": "Wysiwyg Underline"
+    },
+    {
+        "code": "youtube",
+        "name": "Youtube"
+    }
+   ]
+}

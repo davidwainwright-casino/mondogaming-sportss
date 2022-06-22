@@ -1,0 +1,209 @@
+/* == Images == */
+.yoyo.image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+img.yoyo.image {
+  background: none;
+}
+.yoyo.image .caption {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: .8em;
+  text-align: center;
+  box-shadow: inset 0 1px 0 0 #fff;
+  position: relative;
+}
+.yoyo.image img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: top;
+  border: 0
+}
+/* == State == */
+.yoyo.disabled.image {
+  cursor: default;
+  opacity: 0.3;
+}
+/* == Variations == */
+.yoyo.basic.image {
+  box-shadow: none;
+}
+.yoyo.rounded.images .image,
+.yoyo.rounded.images img,
+.yoyo.rounded.image img,
+.yoyo.rounded.image {
+  border-radius: 0.250em;
+}
+.yoyo.rounded.left.images .image,
+.yoyo.rounded.left.images img,
+.yoyo.rounded.left.image img,
+.yoyo.rounded.left.image {
+  border-radius: 0.250em 0 0 0.250em;
+}
+.yoyo.rounded.right.images .image,
+.yoyo.rounded.right.images img,
+.yoyo.rounded.right.image img,
+.yoyo.rounded.right.image {
+  border-radius: 0 0.250em 0.250em 0;
+}
+.yoyo.circular.images .image,
+.yoyo.circular.images img,
+.yoyo.circular.image img,
+.yoyo.circular.image {
+  border-radius: 500rem;
+}
+.yoyo.avatar.images .image,
+.yoyo.avatar.images img,
+.yoyo.avatar.image img,
+.yoyo.avatar.image {
+  margin-right: 0.5em;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 500rem;
+  box-shadow: 0 0 0 2px #fff;
+}
+.yoyo.avatar.small.images .image,
+.yoyo.avatar.small.images img,
+.yoyo.avatar.small.image img,
+.yoyo.avatar.small.image {
+  margin-right: 1em;
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 500rem;
+}
+.yoyo.category.images .image,
+.yoyo.category.images img,
+.yoyo.category.image img,
+.yoyo.category.image {
+  margin-right: 0.5em;
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 500rem;
+}
+.yoyo.floated.image,
+.yoyo.floated.images {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.yoyo.right.floated.images,
+.yoyo.right.floated.image {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+.yoyo.inverted.image {
+  background-color:transparent;
+  box-shadow: 0px 0px 0 1px #fff;
+}
+.yoyo.circular.primary.image img,
+.yoyo.circular.primary.image {
+  box-shadow:none;
+}
+.yoyo.circular.primary.image {
+  border: 2px solid #DADDDE;
+  padding: 1px;
+  background-color: #fff;
+}
+.yoyo.centered.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yoyo.centered.image img {
+   flex: 0 0 auto;
+}
+.yoyo.image .header{
+  padding: .5em;
+  background-color: #F6F7F8;
+  font-size: .875em;
+}
+.yoyo.wide.image,
+.yoyo.wide.images {
+  height:250px;
+}
+.yoyo.thumb img,
+.yoyo.thumb .holder {
+  height:120px;width:200px;
+  position:relative;
+  z-index:1;
+}
+.yoyo.thumb{
+  border: 1px solid #DDDDDD;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+.yoyo.thumb .actions {
+  position:absolute;
+  z-index:2;
+  right:.875em;
+  top:.875em;
+}
+/* == Size == */
+.yoyo.mime.image {
+  width: 24px;
+}
+.yoyo.tiny.images .image,
+.yoyo.tiny.images img,
+.yoyo.tiny.image {
+  width: 20px;
+  font-size: 0.7rem;
+}
+.yoyo.upload.image {
+  height: 42px;
+  width: 42px;
+}
+.yoyo.mini.images .image,
+.yoyo.mini.images img,
+.yoyo.mini.image {
+  width: 45px;
+  font-size: 0.8rem;
+}
+.yoyo.small.images .image,
+.yoyo.small.images img,
+.yoyo.small.image {
+  width: 60px;
+  font-size: 0.9rem;
+}
+.yoyo.normal.images .image,
+.yoyo.normal.images img,
+.yoyo.normal.image {
+  width: 128px;
+  font-size: 0.9rem;
+}
+.yoyo.medium.images .image,
+.yoyo.medium.images img,
+.yoyo.medium.image {
+  width: 200px;
+  font-size: 1rem;
+}
+.yoyo.large.images .image,
+.yoyo.large.images img,
+.yoyo.large.image {
+  width: 350px;
+  font-size: 1.1rem;
+}
+.yoyo.huge.images .image,
+.yoyo.huge.images img,
+.yoyo.huge.image {
+  width: 600px;
+  font-size: 1.2rem;
+}
+/* == Groups == */
+.yoyo.images {
+  font-size: 0em;
+  margin: 0em -0.25rem 0rem;
+}
+.yoyo.images .image,
+.yoyo.images img {
+  display: inline-block;
+  margin: 0em 0.25em 0.5em;
+}

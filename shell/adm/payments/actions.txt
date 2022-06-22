@@ -1,0 +1,37 @@
+<?php include('../../db.php');
+/*
+//for deposits
+if(isset($_POST['method']) && $_POST['method'] == 'deposits_data'){
+$ccs = mysqli_fetch_array(mysqli_query($conn, "SELECT COUNT(CASE WHEN FROM_UNIXTIME(date,'%Y-%m-%d') = CURDATE() THEN 1 END) AS today, SUM(CASE WHEN FROM_UNIXTIME(date,'%Y-%m-%d') = CURDATE() THEN amount END) AS todayearn, COUNT(CASE WHEN FROM_UNIXTIME(date,'%Y-%m-%d') = CURDATE() - INTERVAL 1 DAY THEN 1 END) AS yesterday, SUM(CASE WHEN FROM_UNIXTIME(date,'%Y-%m-%d') = CURDATE() - INTERVAL 1 DAY THEN amount END) AS yesterdayearn, COUNT(CASE WHEN FROM_UNIXTIME(date) > (NOW() - INTERVAL 7 DAY) THEN 1 END) AS week, SUM(CASE WHEN FROM_UNIXTIME(date) > (NOW() - INTERVAL 7 DAY) THEN amount END) AS weekearn, COUNT(CASE WHEN FROM_UNIXTIME(date) > (NOW() - INTERVAL 30 DAY) THEN 1 END) AS month, SUM(CASE WHEN FROM_UNIXTIME(date) > (NOW() - INTERVAL 30 DAY) THEN amount END) AS monthearn, COUNT(id) AS total, sum(amount) AS amountearn, COUNT(CASE WHEN status = 'Pending' THEN 1 END) AS pend, SUM(CASE WHEN status = 'Pending' THEN amount END) AS pendearn FROM sh_sf_deposits"));
+	
+?>
+Today: <input type="text" class="ttcount" value="<?php echo round($ccs['todayearn'],2);?>/<?php echo $ccs['today'];?>" disabled>
+Yesterday: <input type="text" class="ttcount" value="<?php echo round($ccs['yesterdayearn'],2);?>/<?php echo $ccs['yesterday'];?>" disabled>
+This week: <input type="text" class="ttcount" value="<?php echo round($ccs['weekearn'],2);?>/<?php echo $ccs['week'];?>" disabled>
+This Month: <input type="text" class="ttcount" value="<?php echo round($ccs['monthearn'],2);?>/<?php echo $ccs['month'];?>" disabled>
+Total: <input type="text" class="ttcount" value="<?php echo round($ccs['amountearn'],2);?>/<?php echo $ccs['total'];?>" disabled>
+Pending: <input type="text" class="ttcount" value="<?php echo round($ccs['pendearn'],2);?>/<?php echo $ccs['pend'];?>" disabled>
+
+<?php } else if(isset($_POST['method']) && $_POST['method'] == 'agents_data'){
+$ccs = mysqli_fetch_array(mysqli_query($conn, "SELECT COUNT(CASE WHEN created >= CURDATE() THEN 1 END) AS today, COUNT(CASE WHEN created >= CURDATE() - INTERVAL 1 DAY THEN 1 END) AS yesterday, COUNT(CASE WHEN created >= CURDATE() - INTERVAL 7 DAY THEN 1 END) AS week, COUNT(CASE WHEN created >= CURDATE() - INTERVAL 30 DAY THEN 1 END) AS month, COUNT(id) AS total, COUNT(CASE WHEN active = 'y' THEN 1 END) AS active FROM users WHERE type = 'agent'"));
+	
+?>
+Today: <input type="text" class="ttcount" value="<?php echo $ccs['today'];?>">
+Yesterday: <input type="text" class="ttcount" value="<?php echo $ccs['yesterday'];?>">
+This week: <input type="text" class="ttcount" value="<?php echo $ccs['week'];?>">
+This Month: <input type="text" class="ttcount" value="<?php echo $ccs['month'];?>">
+Total: <input type="text" class="ttcount" value="<?php echo $ccs['total'];?>">
+Active: <input type="text" class="ttcount" value="<?php echo $ccs['active'];?>">
+
+<?php } else if(isset($_POST['method']) && $_POST['method'] == 'super_data'){
+$ccs = mysqli_fetch_array(mysqli_query($conn, "SELECT COUNT(CASE WHEN created >= CURDATE() THEN 1 END) AS today, COUNT(CASE WHEN created >= CURDATE() - INTERVAL 1 DAY THEN 1 END) AS yesterday, COUNT(CASE WHEN created >= CURDATE() - INTERVAL 7 DAY THEN 1 END) AS week, COUNT(CASE WHEN created >= CURDATE() - INTERVAL 30 DAY THEN 1 END) AS month, COUNT(id) AS total, COUNT(CASE WHEN active = 'y' THEN 1 END) AS active FROM users WHERE type = 'Sagent'"));
+	
+?>
+Today: <input type="text" class="ttcount" value="<?php echo $ccs['today'];?>">
+Yesterday: <input type="text" class="ttcount" value="<?php echo $ccs['yesterday'];?>">
+This week: <input type="text" class="ttcount" value="<?php echo $ccs['week'];?>">
+This Month: <input type="text" class="ttcount" value="<?php echo $ccs['month'];?>">
+Total: <input type="text" class="ttcount" value="<?php echo $ccs['total'];?>">
+Active: <input type="text" class="ttcount" value="<?php echo $ccs['active'];?>">
+
+<?php } ?>

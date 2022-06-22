@@ -1,0 +1,29 @@
+Options -MultiViews
+RewriteEngine On
+
+Options -Indexes
+
+RewriteBase /
+
+#Remove extra trailing slashes
+RewriteCond %{REQUEST_URI} ^(.*)/{2,}(.*)$
+RewriteRule . %1/%2 [R=301,L]
+
+#Add missing trailing slash
+RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+
+<ifModule mod_deflate.c>
+	<filesmatch "\.(js|css|html|jpg|png|gif|eot|woff|ttf|svg)$">
+		SetOutputFilter DEFLATE
+	</filesmatch>
+</ifModule>
+
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak|cache|tpl)$">
+	Order Allow,Deny
+	Deny from all
+</FilesMatch>

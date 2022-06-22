@@ -1,0 +1,23 @@
+.card.trans {
+  background-image: url(../images/transbg.png);
+  background-repeat: repeat;
+}
+.card.photo {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.read-only {
+  position: relative;
+  z-index: 2;
+}
+.read-only::after {
+  position: absolute;
+  z-index: 5;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0);
+}

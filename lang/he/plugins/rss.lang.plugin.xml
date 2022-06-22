@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_RSS_TITLE">Manage CMS RSS Parser Plugin</phrase>
+  <phrase data="_PLG_RSS_TITLE1">Add Rss</phrase>
+  <phrase data="_PLG_RSS_TITLE2">Edit Rss</phrase>
+  <phrase data="_PLG_RSS_SUB1">Here you can configure your rss plugin.</phrase>
+  <phrase data="_PLG_RSS_SUB2">Add New Rss Feed</phrase>
+  <phrase data="_PLG_RSS_NEW">New Rss</phrase>
+  <phrase data="_PLG_RSS_NORSS">You dont have any rss plugins yet...</phrase>
+  <phrase data="_PLG_RSS_URL">Url To Parse</phrase>
+  <phrase data="_PLG_RSS_SHOW_DESC">Show Description</phrase>
+  <phrase data="_PLG_RSS_BODYTRIM">Trim Description Lenght</phrase>
+  <phrase data="_PLG_RSS_POST_DATE">Posted on</phrase>
+  <phrase data="_PLG_RSS_SHOW_DATE">Show Date</phrase>
+  <phrase data="_PLG_RSS_ITEMS">Total Items</phrase>
+  <phrase data="_PLG_RSS_UPDATE_OK">Rss [NAME] updated successfully!</phrase>
+  <phrase data="_PLG_RSS_ADDED_OK">Rss [NAME] added successfully!</phrase>
+  <phrase data="_PLG_RSS_DEL_OK">Rss [NAME] deleted successfully!</phrase>
+  <phrase data="_PLG_RSS_HELP">Rss Help</phrase>
+</language>

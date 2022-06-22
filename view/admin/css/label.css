@@ -1,0 +1,288 @@
+/* == Label == */
+.yoyo.label {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1em;
+  vertical-align: baseline;
+  background-color: #999999;
+  padding: 0.5em 0.750em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 0.188rem;
+  white-space: nowrap;
+  position: relative;
+  -webkit-transition: background 0.1s ease;
+  transition: background 0.1s ease;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+}
+.yoyo.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(34, 36, 38, 0.15);
+  color: #999;
+}
+/* == Colors == */
+.yoyo.primary.label {
+  background-color: #EC407A;
+}
+.yoyo.primary.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(233,30,99,0.50);
+  color: #EC407A;
+}
+.yoyo.secondary.label,
+.yoyo.pink.label {
+  background-color: #7E57C2;
+}
+.yoyo.secondary.basic.label,
+.yoyo.pink.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(156,39,176,0.50);
+  color: #7E57C2;
+}
+.yoyo.positive.label,
+.yoyo.green.label {
+  background-color: #66BB6A;
+}
+.yoyo.positive.basic.label,
+.yoyo.green.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(76,175,80,0.50);
+  color: #66BB6A;
+}
+.yoyo.negative.label,
+.yoyo.red.label {
+  background-color: #EF5350;
+}
+.yoyo.negative.basic.label,
+.yoyo.red.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(244,67,54,0.47);
+  color: #EF5350;
+}
+.yoyo.info.label,
+.yoyo.blue.label {
+  background-color: #26c6da;
+}
+.yoyo.info.basic.label,
+.yoyo.blue.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(38,198,218,0.47);
+  color: #26c6da;
+}
+.yoyo.alert.label {
+  background-color: #ffa726;
+}
+.yoyo.alert.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(255,167,38,0.47);
+  color: #ffa726;
+}
+.yoyo.purple.label {
+  background-color: #AB47BC;
+}
+.yoyo.purple.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(171,71,188,0.47);
+  color: #AB47BC;
+}
+.yoyo.indigo.label {
+  background-color: #5C6BC0;
+}
+.yoyo.indigo.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(92,107,192,0.47);
+  color: #5C6BC0;
+}
+.yoyo.cyan.label {
+  background-color: #26C6DA;
+}
+.yoyo.cyan.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(38,198,218,0.47);
+  color: #26C6DA;
+}
+.yoyo.teal.label {
+  background-color: #26A69A;
+}
+.yoyo.teal.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(38,165,154,0.47);
+  color: #26A69A;
+}
+.yoyo.lime.label {
+  background-color: #D4E157;
+}
+.yoyo.lime.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(240,240,240,0.47);
+  color: #D4E157;
+}
+.yoyo.amber.label {
+  background-color: #FFCA28;
+}
+.yoyo.amber.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(255,202,40,0.47);
+  color: #FFCA28;
+}
+.yoyo.orange.label {
+  background-color: #FFA726;
+}
+.yoyo.orange.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(255,167,38,0.47);
+  color: #FFA726;
+}
+.yoyo.brown.label {
+  background-color: #8D6E63;
+}
+.yoyo.brown.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(141,110,99,0.47);
+  color: #8D6E63;
+}
+.yoyo.grey.label {
+  background-color: #78909C;
+}
+.yoyo.grey.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px rgba(120,144,156,0.47);
+  color: #78909C;
+}
+.yoyo.white.label {
+  background-color: #FFF;
+  color: #999;
+}
+.yoyo.white.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #FFF;
+  color: #FFF;
+}
+.yoyo.white.simple.label {
+  background-color: rgba(255,255,255,0.47);
+  box-shadow:none;
+  color: #FFF;
+}
+/* == rounded == */
+.yoyo.rounded.label {
+  border-radius: 2rem;
+  padding: 0.5em 1em;
+}
+/* == circular == */
+.yoyo.circular.label {
+  border-radius: 100rem;
+}
+/* == simple == */
+.yoyo.simple.label {
+  box-shadow:none;
+  background-color: transparent;
+  color: #999999;
+}
+/* == initials == */
+.yoyo.initials.circular.labels .label,
+.yoyo.initials.circular.label {
+  min-width: 2rem;
+  min-height: 2em;
+  width: 2em;
+  height: 2rem;
+  padding: 0;
+  line-height: 2rem;
+  font-size: .875rem;
+  vertical-align: baseline;
+  margin-right: .750em;
+  font-weight: 500;
+}
+.yoyo.initials.circular.label .icon {
+  margin: 0
+}
+/* == icon == */
+.yoyo.label .icon {
+  margin-right: 0.5em;
+}
+.yoyo.right.label .icon {
+  margin-left: 0.5em;
+}
+/* == counter == */
+.yoyo.label > .counter{
+  background-color: inherit;
+  border-radius: 2em;
+  position: absolute;
+  top: -.5em;
+  left: -.5em;
+}
+/* == empty == */
+.yoyo.empty.label {
+  min-width: 0em;
+  min-height: 0em;
+  overflow: hidden;
+  width: .875rem;
+  height: .875rem;
+  padding: 0;
+}
+/* == ring == */
+.yoyo.ring.label {
+  border-radius: 100%;
+  height: .875rem;
+  padding: 0;
+  vertical-align: middle;
+  width: .875rem;
+}
+.yoyo.ring.label::after {
+  background-color: #fff;
+  border-radius: 50%;
+  content: "";
+  height: 0.625rem;
+  left: 0.125rem;
+  position: absolute;
+  top: 0.125rem;
+  transform: scale(1);
+  transition: all 0.3s ease 0s;
+  width: 0.625rem;
+}
+/* == link == */
+.yoyo.link.label {
+  cursor:pointer;
+}
+/* == Sizes == */
+.yoyo.tiny.label {
+  font-size: 0.6875rem;
+}
+.yoyo.small.label {
+  font-size: 0.750rem;
+}
+.yoyo.label {
+  font-size: 0.813rem;
+}
+.yoyo.big.label {
+  font-size: 0.913rem;
+}
+.yoyo.large.label {
+  font-size: 1rem;
+}
+.yoyo.empty.big.label {
+  width: 1.25rem;
+  height: 1.25rem; 
+}
+.yoyo.gigantic.labels .label,
+.yoyo.gigantic.label {
+  font-size: 2.5rem;
+}
+.yoyo.circular.gigantic.labels .label,
+.yoyo.circular.gigantic.label {
+  min-width: 3em;
+  min-height: 3em;
+  line-height: 1em;
+  text-align: center;
+  border-radius: 500rem;
+}

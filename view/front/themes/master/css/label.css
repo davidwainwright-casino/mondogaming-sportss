@@ -1,0 +1,353 @@
+/* == Label == */
+.yoyo.label {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 1em;
+  vertical-align: baseline;
+  background-color: rgba(200,203,206,1.00);
+  padding: 0.5em 1.25em;
+  color: #fff;
+  text-transform: none;
+  font-weight: 600;
+  border-radius: 2rem;
+  white-space: nowrap;
+  position: relative;
+  transition: background 0.1s ease;
+}
+.yoyo.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #C8CBCE;
+  color: #999;
+}
+/* == Ribbon == */
+.yoyo.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2
+}
+.yoyo.ribbon::before,
+.yoyo.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #AFB3B8;
+}
+.yoyo.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 1em 0;
+  background-color: #C8CBCE;
+  box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+/* top left*/
+.yoyo.ribbon.top.left {
+  top: -10px;
+  left: -10px;
+}
+.yoyo.ribbon.top.left::before,
+.yoyo.ribbon.top.left::after {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.yoyo.ribbon.top.left::before {
+  top: 0;
+  right: 0;
+}
+.yoyo.ribbon.top.left::after {
+  bottom: 0;
+  left: 0;
+}
+.yoyo.ribbon.top.left span {
+  right: -20px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+
+.yoyo.ribbon.top.right {
+  top: -10px;
+  right: -10px;
+}
+.yoyo.ribbon.top-right::before,
+.yoyo.ribbon.top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.yoyo.ribbon.top.right::before {
+  top: 0;
+  left: 0;
+}
+.yoyo.ribbon.top.right::after {
+  bottom: 0;
+  right: 0;
+}
+.yoyo.ribbon.top.right span {
+  left: -20px;
+  top: 30px;
+  transform: rotate(45deg);
+}
+/* == Colors == */
+.yoyo.primary.label {
+  background-color: #ffedeb;
+  color: #377dff;
+}
+.yoyo.primary.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #377dff;
+  color: #377dff;
+}
+.yoyo.primary.ribbon span {
+  background-color: #377dff;
+  color: #ffedeb;
+}
+.yoyo.primary.ribbon::before,
+.yoyo.primary.ribbon::after {
+  border: 5px solid #1B6BFF;
+}
+.yoyo.secondary.label {
+  background-color: #F1F2F4;
+  color: #77838f;
+}
+.yoyo.secondary.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #F1F2F4;
+  color: #77838f;
+}
+.yoyo.secondary.ribbon span {
+  background-color: #77838f;
+  color: #F1F2F4;
+}
+.yoyo.secondary.ribbon::before,
+.yoyo.secondary.ribbon::after {
+  border: 5px solid #6C7883;
+}
+.yoyo.positive.label {
+  background-color: #E5F9F6;
+  color: #00c9a7;
+}
+.yoyo.positive.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #00c9a7;
+  color: #00c9a7;
+}
+.yoyo.positive.ribbon span {
+  background-color: #00c9a7;
+  color: #E5F9F6;
+}
+.yoyo.positive.ribbon::before,
+.yoyo.positive.ribbon::after {
+  border: 5px solid #00B395;
+}
+.yoyo.negative.label {
+  background-color: #FCECEB;
+  color: #de4437;
+}
+.yoyo.negative.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #FCECEB;
+  color: #de4437;
+}
+.yoyo.negative.ribbon span {
+  background-color: #de4437;
+  color: #FCECEB;
+}
+.yoyo.negative.ribbon::before,
+.yoyo.negative.ribbon::after {
+  border: 5px solid #CC2E21;
+}
+.yoyo.alert.label {
+  background-color: #FFF9E6;
+  color: #ffc107;
+}
+.yoyo.alert.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #FFF9E6;
+  color: #ffc107;
+}
+.yoyo.alert.ribbon span {
+  background-color: #ffc107;
+  color: #FFF9E6;
+}
+.yoyo.alert.ribbon::before,
+.yoyo.alert.ribbon::after {
+  border: 5px solid #EBB000;
+}
+.yoyo.white.label {
+  background-color: #FFF;
+  color: #999;
+}
+.yoyo.white.basic.label {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #FFF;
+  color: #FFF;
+}
+.yoyo.white.ribbon span {
+  background-color: #FFF;
+  color: #999;
+}
+.yoyo.white.ribbon::before,
+.yoyo.white.ribbon::after {
+  border: 5px solid #F5F5F5;
+}
+.yoyo.transparent.label {
+  background-color: rgba(255,255,255,0.1);
+}
+/* == rounded == */
+.yoyo.rounded.label {
+  border-radius: 2rem;
+  padding: 0.5em 1em;
+}
+/* == circular == */
+.yoyo.circular.label {
+  border-radius: 100rem;
+}
+/* == initials == */
+.yoyo.initials.circular.labels .label,
+.yoyo.initials.circular.label {
+  min-width: 2rem;
+  min-height: 2em;
+  width: 2em;
+  height: 2rem;
+  padding: 0;
+  line-height: 2rem;
+  font-size: .875rem;
+  vertical-align: baseline;
+  margin-right: .750em;
+  font-weight: 500;
+}
+.yoyo.initials.circular.label .icon {
+  margin: 0
+}
+/* == icon == */
+.yoyo.label .icon {
+  margin-right: 0.5em;
+}
+.yoyo.right.label .icon {
+  margin-left: 0.5em;
+}
+/* == counter == */
+.yoyo.label > .counter {
+  background-color: inherit;
+  border-radius: 2em;
+  position: absolute;
+  top: -.5em;
+  left: -.5em;
+}
+/* == empty == */
+.yoyo.empty.label {
+  min-width: 0em;
+  min-height: 0em;
+  overflow: hidden;
+  width: .875rem;
+  height: .875rem;
+  padding: 0;
+}
+/* == ring == */
+.yoyo.ring.label {
+  border-radius: 100%;
+  height: .875rem;
+  padding: 0;
+  vertical-align: middle;
+  width: .875rem;
+}
+.yoyo.ring.label::after {
+  background-color: #fff;
+  border-radius: 50%;
+  content: "";
+  height: 0.625rem;
+  left: 0.125rem;
+  position: absolute;
+  top: 0.125rem;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: all 0.3s ease 0s;
+  width: 0.625rem;
+}
+.yoyo.indicating.label {
+  position: absolute;
+  border: 2px solid #fff;
+  bottom: 4px;
+  left: 4px;
+  box-shadow: 0 3px 6px 0 rgba(140, 152, 164, 0.25);
+}
+.yoyo.fitted.label {
+  margin: 0!important;
+}
+/* == link == */
+.yoyo.link.label {
+  cursor: pointer;
+}
+/* == Sizes == */
+.yoyo.tiny.label {
+  font-size: 0.6875rem;
+}
+.yoyo.small.label {
+  font-size: 0.750rem;
+}
+.yoyo.label {
+  font-size: 0.813rem;
+}
+.yoyo.big.label {
+  font-size: 0.913rem;
+}
+.yoyo.large.label {
+  font-size: 1rem;
+}
+.yoyo.small.initials.circular.label {
+  min-width: 1.5rem;
+  min-height: 1.5em;
+  width: 1.5em;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.yoyo.large.initials.circular.label {
+  min-width: 3rem;
+  min-height: 3em;
+  width: 3em;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: inherit;
+}
+.yoyo.big.initials.circular.label {
+  min-width: 4rem;
+  min-height: 4em;
+  width: 4em;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: inherit;
+}
+.yoyo.empty.big.label {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.yoyo.gigantic.labels .label,
+.yoyo.gigantic.label {
+  font-size: 2.5rem;
+}
+.yoyo.gigantic.initials.circular.label {
+  min-width: 3rem;
+  min-height: 3em;
+  width: 3em;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.yoyo.circular.gigantic.labels .label,
+.yoyo.circular.gigantic.label {
+  min-width: 3em;
+  min-height: 3em;
+  line-height: 1em;
+  text-align: center;
+  border-radius: 500rem;
+}

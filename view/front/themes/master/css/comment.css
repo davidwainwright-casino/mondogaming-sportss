@@ -1,0 +1,158 @@
+/* == Comments == */
+.yoyo.comments {
+  margin: 1.5em 0em;
+  max-width:800px
+}
+.yoyo.comments .comment {
+  position: relative;
+  background-image: none;
+  margin: 1em 0em 0em;
+  padding: 1em 0em 0em;
+  border: none;
+  border-top: none;
+}
+.yoyo.comments .comment:first-child {
+  margin-top: 0em;
+  padding-top: 0em;
+}
+.yoyo.comments .comment .comments {
+  margin: 0em 0em 0.5em 0.5em;
+  padding: 1em 0em 1em 1em;
+}
+.yoyo.comments .comment .comments:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.yoyo.comments .comment .comments .comment {
+  border: none;
+  border-top: none;
+  background: none;
+}
+/* == Avatar == */
+.yoyo.comments .comment .avatar {
+  display: block;
+  width: 2.5em;
+  height: auto;
+  float: left;
+  margin: 0.2em 0em 0em;
+}
+.yoyo.comments .comment img.avatar,
+.yoyo.comments .comment .avatar img {
+  display: block;
+  margin: 0em auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+/* == Content == */
+.yoyo.comments .comment > .content {
+  display: block;
+}
+.yoyo.comments .comment > .avatar ~ .content {
+  margin-left: 3.5em;
+}
+.yoyo.comments .comment .author {
+  font-size: 1em;
+  font-weight: 500;
+}
+.yoyo.comments .comment a.author {
+  cursor: pointer;
+}
+.yoyo.comments .comment a.author:hover {
+  color: #1e70bf;
+}
+.yoyo.comments .comment .metadata {
+  display: inline-block;
+  margin-left: 0.5em;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.875em;
+  vertical-align:middle
+}
+.yoyo.comments .comment .metadata a.delete{
+  margin-left:1rem;
+  vertical-align:middle
+}
+.yoyo.comments .comment .metadata > * {
+  display: inline-block;
+  margin: 0em 0.5em 0em 0em;
+}
+.yoyo.comments .comment .metadata > :last-child {
+  margin-right: 0em;
+}
+.yoyo.comments .comment .text {
+  margin: 0.25em 0em 0.5em;
+  font-size: 1em;
+  word-wrap: break-word;
+  line-height: 1.3;
+  font-weight:300;
+  color:#77838f;
+}
+.yoyo.comments .comment .actions {
+  font-size: 0.750em;
+  margin-top:0
+}
+.yoyo.comments .comment .actions a {
+  cursor: pointer;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight:600;
+  font-size: 0.875rem;
+}
+.yoyo.comments .comment .actions a:last-child {
+  margin-right: 0em;
+}
+.yoyo.comments .comment .actions a.active,
+.yoyo.comments .comment .actions a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+.yoyo.collapsed.comments,
+.yoyo.comments .collapsed.comments,
+.yoyo.comments .collapsed.comment {
+  display: none;
+}
+/* == Variations == */
+.yoyo.threaded.comments .comment .comments {
+  margin: -1.5em 0 -1em 1.25em;
+  padding: 3em 0em 2em 2.25em;
+  box-shadow: -1px 0px 0px rgba(34, 36, 38, 0.15);
+}
+.yoyo.minimal.comments .comment .actions {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: auto;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.yoyo.minimal.comments .comment > .content:hover > .actions {
+  opacity: 1;
+}
+/* == Sizes == */
+.yoyo.mini.comments {
+  font-size: 0.78571429rem;
+}
+.yoyo.tiny.comments {
+  font-size: 0.85714286rem;
+}
+.yoyo.small.comments {
+  font-size: 0.9em;
+}
+.yoyo.comments {
+  font-size: 1em;
+}
+.yoyo.large.comments {
+  font-size: 1.1em;
+}
+.yoyo.big.comments {
+  font-size: 1.28571429rem;
+}
+.yoyo.huge.comments {
+  font-size: 1.2em;
+}
+.yoyo.massive.comments {
+  font-size: 1.71428571rem;
+}

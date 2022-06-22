@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <style>
+    .icon-4-1{fill:none;stroke:#bdc5d1}.icon-4-2{fill:none;stroke:#fff}
+  </style>
+  <path fill="none" stroke="#377dff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M27.8 37.1c0 1.5-1.3 2.8-2.8 2.8-1.5 0-2.8-1.2-2.8-2.8 0-1.5 1.3-2.8 2.8-2.8 1.6 0 2.8 1.2 2.8 2.8z"/>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M41 37.1c0 1.5-1.2 2.8-2.8 2.8-1.5 0-2.8-1.2-2.8-2.8 0-1.5 1.2-2.8 2.8-2.8 1.6 0 2.8 1.2 2.8 2.8zM54.2 37.1c0 1.5-1.3 2.8-2.8 2.8-1.5 0-2.8-1.2-2.8-2.8 0-1.5 1.3-2.8 2.8-2.8 1.6 0 2.8 1.2 2.8 2.8zM105.8 61.7c.8 1.4 1.4 2.9 1.9 4.5M76.8 48c9.7-1.8 19.3 1.7 25.4 8.6" class="icon-4-1" opacity=".5"/>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M72.2 41.2C74.6 23.3 62.6 6.4 44.6 3 26-.6 8 11.7 4.5 30.3c-1.8 9.6.6 19 5.8 26.4l-5 15.1 16.1-5.2c3.2 1.8 6.7 3.1 10.4 3.8 5.5 1 10.9.7 15.9-.8" class="icon-4-1" opacity=".5"/>
+  <path fill="#bdc5d1" d="M74.3 50.5c18.6-3.5 36.6 8.7 40.1 27.3 1.8 9.6-.6 19-5.8 26.4l5.1 15.1-16.1-5.2c-3.2 1.8-6.7 3.1-10.4 3.8-18.6 3.5-36.6-8.7-40.1-27.3-3.7-18.6 8.6-36.5 27.2-40.1z" opacity=".5"/>
+  <path fill="#377dff" d="M75.4 40.4c18.6-3.5 36.6 8.7 40.1 27.3 1.8 9.6-.6 19-5.8 26.4l5.1 15.1-16.1-5.2c-3.2 1.8-6.7 3.1-10.4 3.8-18.6 3.5-36.6-8.7-40.1-27.3-3.7-18.6 8.6-36.5 27.2-40.1z"/>
+  <circle cx="95" cy="74.5" r="2.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" class="icon-4-2" opacity=".5"/>
+  <circle cx="81.8" cy="74.5" r="2.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" class="icon-4-2" opacity=".5"/>
+  <circle cx="68.6" cy="74.5" r="2.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" class="icon-4-2"/>
+</svg>

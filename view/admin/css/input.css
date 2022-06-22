@@ -1,0 +1,304 @@
+/* == Inputs == */
+.yoyo.input {
+  position: relative;
+  font-weight: normal;
+  font-style: normal;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(0,0,0,0);
+}
+.yoyo.input::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 1px;
+  background: rgba(0,0,0,0.2);
+}
+.yoyo.input input,
+.yoyo.form .yoyo.input input,
+.yoyo.form .yoyo.input textarea {
+  margin: 0em;
+  outline: none;
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  min-width: 0;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.375em;
+  padding: 0.625em 0;
+  background: transparent;
+  border: 0px solid rgba(0,0,0,0);
+  color: #495057;
+  border-radius: 0;
+  -webkit-transition: box-shadow 0.1s ease, border-color 0.1s ease;
+  transition: box-shadow 0.1s ease, border-color 0.1s ease;
+  box-shadow: none;
+}
+.yoyo.input::after {
+  background: #fff;
+  bottom: -2px;
+  content: "";
+  height: 2px;
+  left: 0;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  transition: all 0.3s ease 0s;
+  width: 0;
+}
+/* == Placeholder == */
+.yoyo.input input::-webkit-input-placeholder {
+ color: rgba(0, 0, 0, 0.2);
+}
+.yoyo.input input::-moz-placeholder {
+ color: rgba(0, 0, 0, 0.2);
+}
+.yoyo.input input:-ms-input-placeholder {
+ color: rgba(0, 0, 0, 0.2);
+}
+/* == States == */
+.yoyo.disabled.input,
+.yoyo.input:not(.disabled) input[disabled] {
+  opacity: 0.45;
+}
+.yoyo.disabled.input input,
+.yoyo.input:not(.disabled) input[disabled] {
+  pointer-events: none;
+}
+.yoyo.input input:active,
+.yoyo.input.down input {
+  border-color: rgba(0, 0, 0, 0.3);
+  background: #FAFAFA;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: none;
+}
+.yoyo.loading.loading.input > i.icon:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 500rem;
+  transform: translate(-50%, -50%);
+  border: 4px solid rgba(0, 0, 0, 0.15);
+  margin: 0;
+}
+.yoyo.loading.loading.input > i.icon:after {
+  position: absolute;
+  content: '';
+  top: calc(50% - .750em);
+  left: calc(50% - .750em);
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0;
+  -webkit-animation: button-spin 0.6s linear;
+  animation: button-spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #767676 transparent transparent;
+  border-style: solid;
+  border-width: 4px;
+  box-shadow: 0px 0px 0px 1px transparent;
+}
+/* == Focus == */
+.yoyo.input.focus:after {
+  opacity: 1;
+  width: 100%;
+  background: #ed7020;
+}
+.yoyo.input.focus input,
+.yoyo.input input:focus {
+  background: #FFFFFF;
+  color: rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+}
+.yoyo.input.focus input::-webkit-input-placeholder, .yoyo.input input:focus::-webkit-input-placeholder {
+ color: rgba(0, 0, 0, 0.3);
+}
+.yoyo.input.focus input::-moz-placeholder, .yoyo.input input:focus::-moz-placeholder {
+ color: rgba(0, 0, 0, 0.3);
+}
+.yoyo.input.focus input:-ms-input-placeholder, .yoyo.input input:focus:-ms-input-placeholder {
+ color: rgba(0, 0, 0, 0.3);
+}
+.yoyo.input.transparent input:focus {
+  box-shadow: 0px 0em 0em 0em transparent inset;
+  border-color: transparent;
+  background-color: transparent;
+}
+/* == Variations == */
+.yoyo.simple.input:before {
+  background: rgba(0,0,0,0);
+}
+.yoyo.transparent.input input {
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 0px;
+}
+.yoyo.transparent.icon.input > i.icon {
+  width: 1.1em;
+}
+.yoyo.transparent.icon.input > input {
+  padding-left: 0em;
+  padding-right: 2em;
+}
+.yoyo.transparent.left.icon.input > input {
+  padding-left: 2em;
+  padding-right: 0em;
+}
+.yoyo.transparent.inverted.input {
+  color: #FFFFFF;
+}
+.yoyo.transparent.inverted.input input {
+  color: inherit;
+}
+.yoyo.transparent.inverted.input input::-webkit-input-placeholder {
+ color: rgba(255, 255, 255, 0.5);
+}
+.yoyo.transparent.inverted.input input::-moz-placeholder {
+ color: rgba(255, 255, 255, 0.5);
+}
+.yoyo.transparent.inverted.input input:-ms-input-placeholder {
+ color: rgba(255, 255, 255, 0.5);
+}
+/* == Icon == */
+.yoyo.icon.input:before,
+.yoyo.icon.input.focus:after {
+  left: 3em;
+  width: calc(100% - 3em);
+}
+.yoyo.right.icon.input:before,
+.yoyo.right.icon.input.focus:after {
+  left: 0;
+  right: 3em;
+}
+.yoyo.left.right.icon.input:before,
+.yoyo.left.right.icon.input.focus:after {
+  left: 3em;
+  width: calc(100% - 6em);
+  right: 3em;
+}
+.yoyo.icon.input > i.icon,
+.yoyo.icon.input > button,
+.yoyo.icon.input > .button {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.yoyo.icon.input > i.icon {
+  line-height: 1;
+  padding: 0 1em;
+}
+/* == Labeled == */
+.yoyo.labeled.input > .label {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.yoyo.labeled.input > .label:first-child {
+  margin-right: 1em;
+}
+.yoyo.labeled.input > .label:last-child {
+  margin-right: 1em;
+}
+/* == Action == */
+.yoyo.action.input > i.icon,
+.yoyo.action.input > button,
+.yoyo.action.input > .button {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  max-width: 100%;
+  white-space: nowrap;
+  margin: 0em 0em 0em 0em;
+}
+.yoyo.action.input:before,
+.yoyo.action.input.focus:after {
+  left: 3em;
+  width: calc(100% - 3em);
+}
+.yoyo.right.action.input:before,
+.yoyo.right.action.input.focus:after {
+  left: 0;
+  right: 3em;
+}
+/* == Tags == */
+.yoyo.input .tag.label {
+  margin-right: 2px;
+  background-color: #1E88E5;
+  display: inline;
+  padding: 0.5em .75em;
+  font-size: .750em;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: .188em;
+}
+.yoyo.input .tag [data-role="remove"] {
+  margin-left: .5em;
+  cursor: pointer;
+  
+}
+.yoyo.input .tag [data-role="remove"]::after {
+  content: "x";
+  padding: 0px 2px;
+  font-weight: 700;
+}
+/* == Fluid == */
+.yoyo.fluid.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.yoyo.fluid.input > input {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  min-width: 0;
+}
+/* == Size == */
+.yoyo.mini.input {
+  font-size: 0.750rem;
+}
+.yoyo.tiny.input {
+  font-size: 0.813rem;
+}
+.yoyo.small.input {
+  font-size: 0.875rem;
+}
+.yoyo.input {
+  font-size: 1rem;
+}
+.yoyo.large.input {
+  font-size: 1.125rem;
+}
+.yoyo.big.input {
+  font-size: 1.250rem;
+}
+.yoyo.huge.input {
+  font-size: 1.375rem;
+}
+.yoyo.massive.input {
+  font-size: 1.625rem;
+}

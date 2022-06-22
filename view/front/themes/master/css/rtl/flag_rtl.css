@@ -1,0 +1,1563 @@
+/* == flags == */
+span.flag.icon {
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  line-height:1;
+}
+span.flag.icon:before {
+  content: "\00a0";
+}
+span.flag.icon.squared {
+  width: 1rem;
+}
+.flag.icon.ad  {
+  background-image: url(../../../../../assets/flags/4x3/ad.svg);
+}
+.flag.icon.ad.squared {
+  background-image: url(../../../../../assets/flags/1x1/ad.svg);
+}
+.flag.icon.ae {
+  background-image: url(../../../../../assets/flags/4x3/ae.svg);
+}
+.flag.icon.ae.squared {
+  background-image: url(../../../../../assets/flags/1x1/ae.svg);
+}
+.flag.icon.af {
+  background-image: url(../../../../../assets/flags/4x3/af.svg);
+}
+.flag.icon.af.squared {
+  background-image: url(../../../../../assets/flags/1x1/af.svg);
+}
+.flag.icon.ag {
+  background-image: url(../../../../../assets/flags/4x3/ag.svg);
+}
+.flag.icon.ag.squared {
+  background-image: url(../../../../../assets/flags/1x1/ag.svg);
+}
+.flag.icon.ai {
+  background-image: url(../../../../../assets/flags/4x3/ai.svg);
+}
+.flag.icon.ai.squared {
+  background-image: url(../../../../../assets/flags/1x1/ai.svg);
+}
+.flag.icon.al {
+  background-image: url(../../../../../assets/flags/4x3/al.svg);
+}
+.flag.icon.al.squared {
+  background-image: url(../../../../../assets/flags/1x1/al.svg);
+}
+.flag.icon.am {
+  background-image: url(../../../../../assets/flags/4x3/am.svg);
+}
+.flag.icon.am.squared {
+  background-image: url(../../../../../assets/flags/1x1/am.svg);
+}
+.flag.icon.ao {
+  background-image: url(../../../../../assets/flags/4x3/ao.svg);
+}
+.flag.icon.ao.squared {
+  background-image: url(../../../../../assets/flags/1x1/ao.svg);
+}
+.flag.icon.aq {
+  background-image: url(../../../../../assets/flags/4x3/aq.svg);
+}
+.flag.icon.aq.squared {
+  background-image: url(../../../../../assets/flags/1x1/aq.svg);
+}
+.flag.icon.ar {
+  background-image: url(../../../../../assets/flags/4x3/ar.svg);
+}
+.flag.icon.ar.squared {
+  background-image: url(../../../../../assets/flags/1x1/ar.svg);
+}
+.flag.icon.as {
+  background-image: url(../../../../../assets/flags/4x3/as.svg);
+}
+.flag.icon.as.squared {
+  background-image: url(../../../../../assets/flags/1x1/as.svg);
+}
+.flag.icon.at {
+  background-image: url(../../../../../assets/flags/4x3/at.svg);
+}
+.flag.icon.at.squared {
+  background-image: url(../../../../../assets/flags/1x1/at.svg);
+}
+.flag.icon.au {
+  background-image: url(../../../../../assets/flags/4x3/au.svg);
+}
+.flag.icon.au.squared {
+  background-image: url(../../../../../assets/flags/1x1/au.svg);
+}
+.flag.icon.aw {
+  background-image: url(../../../../../assets/flags/4x3/aw.svg);
+}
+.flag.icon.aw.squared {
+  background-image: url(../../../../../assets/flags/1x1/aw.svg);
+}
+.flag.icon.ax {
+  background-image: url(../../../../../assets/flags/4x3/ax.svg);
+}
+.flag.icon.ax.squared {
+  background-image: url(../../../../../assets/flags/1x1/ax.svg);
+}
+.flag.icon.az {
+  background-image: url(../../../../../assets/flags/4x3/az.svg);
+}
+.flag.icon.az.squared {
+  background-image: url(../../../../../assets/flags/1x1/az.svg);
+}
+.flag.icon.ba {
+  background-image: url(../../../../../assets/flags/4x3/ba.svg);
+}
+.flag.icon.ba.squared {
+  background-image: url(../../../../../assets/flags/1x1/ba.svg);
+}
+.flag.icon.bb {
+  background-image: url(../../../../../assets/flags/4x3/bb.svg);
+}
+.flag.icon.bb.squared {
+  background-image: url(../../../../../assets/flags/1x1/bb.svg);
+}
+.flag.icon.bd {
+  background-image: url(../../../../../assets/flags/4x3/bd.svg);
+}
+.flag.icon.bd.squared {
+  background-image: url(../../../../../assets/flags/1x1/bd.svg);
+}
+.flag.icon.be {
+  background-image: url(../../../../../assets/flags/4x3/be.svg);
+}
+.flag.icon.be.squared {
+  background-image: url(../../../../../assets/flags/1x1/be.svg);
+}
+.flag.icon.bf {
+  background-image: url(../../../../../assets/flags/4x3/bf.svg);
+}
+.flag.icon.bf.squared {
+  background-image: url(../../../../../assets/flags/1x1/bf.svg);
+}
+.flag.icon.bg {
+  background-image: url(../../../../../assets/flags/4x3/bg.svg);
+}
+.flag.icon.bg.squared {
+  background-image: url(../../../../../assets/flags/1x1/bg.svg);
+}
+.flag.icon.bh {
+  background-image: url(../../../../../assets/flags/4x3/bh.svg);
+}
+.flag.icon.bh.squared {
+  background-image: url(../../../../../assets/flags/1x1/bh.svg);
+}
+.flag.icon.bi {
+  background-image: url(../../../../../assets/flags/4x3/bi.svg);
+}
+.flag.icon.bi.squared {
+  background-image: url(../../../../../assets/flags/1x1/bi.svg);
+}
+.flag.icon.bj {
+  background-image: url(../../../../../assets/flags/4x3/bj.svg);
+}
+.flag.icon.bj.squared {
+  background-image: url(../../../../../assets/flags/1x1/bj.svg);
+}
+.flag.icon.bl {
+  background-image: url(../../../../../assets/flags/4x3/bl.svg);
+}
+.flag.icon.bl.squared {
+  background-image: url(../../../../../assets/flags/1x1/bl.svg);
+}
+.flag.icon.bm {
+  background-image: url(../../../../../assets/flags/4x3/bm.svg);
+}
+.flag.icon.bm.squared {
+  background-image: url(../../../../../assets/flags/1x1/bm.svg);
+}
+.flag.icon.bn {
+  background-image: url(../../../../../assets/flags/4x3/bn.svg);
+}
+.flag.icon.bn.squared {
+  background-image: url(../../../../../assets/flags/1x1/bn.svg);
+}
+.flag.icon.bo {
+  background-image: url(../../../../../assets/flags/4x3/bo.svg);
+}
+.flag.icon.bo.squared {
+  background-image: url(../../../../../assets/flags/1x1/bo.svg);
+}
+.flag.icon.bq {
+  background-image: url(../../../../../assets/flags/4x3/bq.svg);
+}
+.flag.icon.bq.squared {
+  background-image: url(../../../../../assets/flags/1x1/bq.svg);
+}
+.flag.icon.br {
+  background-image: url(../../../../../assets/flags/4x3/br.svg);
+}
+.flag.icon.br.squared {
+  background-image: url(../../../../../assets/flags/1x1/br.svg);
+}
+.flag.icon.bs {
+  background-image: url(../../../../../assets/flags/4x3/bs.svg);
+}
+.flag.icon.bs.squared {
+  background-image: url(../../../../../assets/flags/1x1/bs.svg);
+}
+.flag.icon.bt {
+  background-image: url(../../../../../assets/flags/4x3/bt.svg);
+}
+.flag.icon.bt.squared {
+  background-image: url(../../../../../assets/flags/1x1/bt.svg);
+}
+.flag.icon.bv {
+  background-image: url(../../../../../assets/flags/4x3/bv.svg);
+}
+.flag.icon.bv.squared {
+  background-image: url(../../../../../assets/flags/1x1/bv.svg);
+}
+.flag.icon.bw {
+  background-image: url(../../../../../assets/flags/4x3/bw.svg);
+}
+.flag.icon.bw.squared {
+  background-image: url(../../../../../assets/flags/1x1/bw.svg);
+}
+.flag.icon.by {
+  background-image: url(../../../../../assets/flags/4x3/by.svg);
+}
+.flag.icon.by.squared {
+  background-image: url(../../../../../assets/flags/1x1/by.svg);
+}
+.flag.icon.bz {
+  background-image: url(../../../../../assets/flags/4x3/bz.svg);
+}
+.flag.icon.bz.squared {
+  background-image: url(../../../../../assets/flags/1x1/bz.svg);
+}
+.flag.icon.ca {
+  background-image: url(../../../../../assets/flags/4x3/ca.svg);
+}
+.flag.icon.ca.squared {
+  background-image: url(../../../../../assets/flags/1x1/ca.svg);
+}
+.flag.icon.cc {
+  background-image: url(../../../../../assets/flags/4x3/cc.svg);
+}
+.flag.icon.cc.squared {
+  background-image: url(../../../../../assets/flags/1x1/cc.svg);
+}
+.flag.icon.cd {
+  background-image: url(../../../../../assets/flags/4x3/cd.svg);
+}
+.flag.icon.cd.squared {
+  background-image: url(../../../../../assets/flags/1x1/cd.svg);
+}
+.flag.icon.cf {
+  background-image: url(../../../../../assets/flags/4x3/cf.svg);
+}
+.flag.icon.cf.squared {
+  background-image: url(../../../../../assets/flags/1x1/cf.svg);
+}
+.flag.icon.cg {
+  background-image: url(../../../../../assets/flags/4x3/cg.svg);
+}
+.flag.icon.cg.squared {
+  background-image: url(../../../../../assets/flags/1x1/cg.svg);
+}
+.flag.icon.ch {
+  background-image: url(../../../../../assets/flags/4x3/ch.svg);
+}
+.flag.icon.ch.squared {
+  background-image: url(../../../../../assets/flags/1x1/ch.svg);
+}
+.flag.icon.ci {
+  background-image: url(../../../../../assets/flags/4x3/ci.svg);
+}
+.flag.icon.ci.squared {
+  background-image: url(../../../../../assets/flags/1x1/ci.svg);
+}
+.flag.icon.ck {
+  background-image: url(../../../../../assets/flags/4x3/ck.svg);
+}
+.flag.icon.ck.squared {
+  background-image: url(../../../../../assets/flags/1x1/ck.svg);
+}
+.flag.icon.cl {
+  background-image: url(../../../../../assets/flags/4x3/cl.svg);
+}
+.flag.icon.cl.squared {
+  background-image: url(../../../../../assets/flags/1x1/cl.svg);
+}
+.flag.icon.cm {
+  background-image: url(../../../../../assets/flags/4x3/cm.svg);
+}
+.flag.icon.cm.squared {
+  background-image: url(../../../../../assets/flags/1x1/cm.svg);
+}
+.flag.icon.cn {
+  background-image: url(../../../../../assets/flags/4x3/cn.svg);
+}
+.flag.icon.cn.squared {
+  background-image: url(../../../../../assets/flags/1x1/cn.svg);
+}
+.flag.icon.co {
+  background-image: url(../../../../../assets/flags/4x3/co.svg);
+}
+.flag.icon.co.squared {
+  background-image: url(../../../../../assets/flags/1x1/co.svg);
+}
+.flag.icon.cr {
+  background-image: url(../../../../../assets/flags/4x3/cr.svg);
+}
+.flag.icon.cr.squared {
+  background-image: url(../../../../../assets/flags/1x1/cr.svg);
+}
+.flag.icon.cu {
+  background-image: url(../../../../../assets/flags/4x3/cu.svg);
+}
+.flag.icon.cu.squared {
+  background-image: url(../../../../../assets/flags/1x1/cu.svg);
+}
+.flag.icon.cv {
+  background-image: url(../../../../../assets/flags/4x3/cv.svg);
+}
+.flag.icon.cv.squared {
+  background-image: url(../../../../../assets/flags/1x1/cv.svg);
+}
+.flag.icon.cw {
+  background-image: url(../../../../../assets/flags/4x3/cw.svg);
+}
+.flag.icon.cw.squared {
+  background-image: url(../../../../../assets/flags/1x1/cw.svg);
+}
+.flag.icon.cx {
+  background-image: url(../../../../../assets/flags/4x3/cx.svg);
+}
+.flag.icon.cx.squared {
+  background-image: url(../../../../../assets/flags/1x1/cx.svg);
+}
+.flag.icon.cy {
+  background-image: url(../../../../../assets/flags/4x3/cy.svg);
+}
+.flag.icon.cy.squared {
+  background-image: url(../../../../../assets/flags/1x1/cy.svg);
+}
+.flag.icon.cz {
+  background-image: url(../../../../../assets/flags/4x3/cz.svg);
+}
+.flag.icon.cz.squared {
+  background-image: url(../../../../../assets/flags/1x1/cz.svg);
+}
+.flag.icon.de {
+  background-image: url(../../../../../assets/flags/4x3/de.svg);
+}
+.flag.icon.de.squared {
+  background-image: url(../../../../../assets/flags/1x1/de.svg);
+}
+.flag.icon.dj {
+  background-image: url(../../../../../assets/flags/4x3/dj.svg);
+}
+.flag.icon.dj.squared {
+  background-image: url(../../../../../assets/flags/1x1/dj.svg);
+}
+.flag.icon.dk {
+  background-image: url(../../../../../assets/flags/4x3/dk.svg);
+}
+.flag.icon.dk.squared {
+  background-image: url(../../../../../assets/flags/1x1/dk.svg);
+}
+.flag.icon.dm {
+  background-image: url(../../../../../assets/flags/4x3/dm.svg);
+}
+.flag.icon.dm.squared {
+  background-image: url(../../../../../assets/flags/1x1/dm.svg);
+}
+.flag.icon.do {
+  background-image: url(../../../../../assets/flags/4x3/do.svg);
+}
+.flag.icon.do.squared {
+  background-image: url(../../../../../assets/flags/1x1/do.svg);
+}
+.flag.icon.dz {
+  background-image: url(../../../../../assets/flags/4x3/dz.svg);
+}
+.flag.icon.dz.squared {
+  background-image: url(../../../../../assets/flags/1x1/dz.svg);
+}
+.flag.icon.ec {
+  background-image: url(../../../../../assets/flags/4x3/ec.svg);
+}
+.flag.icon.ec.squared {
+  background-image: url(../../../../../assets/flags/1x1/ec.svg);
+}
+.flag.icon.ee {
+  background-image: url(../../../../../assets/flags/4x3/ee.svg);
+}
+.flag.icon.ee.squared {
+  background-image: url(../../../../../assets/flags/1x1/ee.svg);
+}
+.flag.icon.eg {
+  background-image: url(../../../../../assets/flags/4x3/eg.svg);
+}
+.flag.icon.eg.squared {
+  background-image: url(../../../../../assets/flags/1x1/eg.svg);
+}
+.flag.icon.eh {
+  background-image: url(../../../../../assets/flags/4x3/eh.svg);
+}
+.flag.icon.eh.squared {
+  background-image: url(../../../../../assets/flags/1x1/eh.svg);
+}
+.flag.icon.er {
+  background-image: url(../../../../../assets/flags/4x3/er.svg);
+}
+.flag.icon.er.squared {
+  background-image: url(../../../../../assets/flags/1x1/er.svg);
+}
+.flag.icon.es {
+  background-image: url(../../../../../assets/flags/4x3/es.svg);
+}
+.flag.icon.es.squared {
+  background-image: url(../../../../../assets/flags/1x1/es.svg);
+}
+.flag.icon.et {
+  background-image: url(../../../../../assets/flags/4x3/et.svg);
+}
+.flag.icon.et.squared {
+  background-image: url(../../../../../assets/flags/1x1/et.svg);
+}
+.flag.icon.fi {
+  background-image: url(../../../../../assets/flags/4x3/fi.svg);
+}
+.flag.icon.fi.squared {
+  background-image: url(../../../../../assets/flags/1x1/fi.svg);
+}
+.flag.icon.fj {
+  background-image: url(../../../../../assets/flags/4x3/fj.svg);
+}
+.flag.icon.fj.squared {
+  background-image: url(../../../../../assets/flags/1x1/fj.svg);
+}
+.flag.icon.fk {
+  background-image: url(../../../../../assets/flags/4x3/fk.svg);
+}
+.flag.icon.fk.squared {
+  background-image: url(../../../../../assets/flags/1x1/fk.svg);
+}
+.flag.icon.fm {
+  background-image: url(../../../../../assets/flags/4x3/fm.svg);
+}
+.flag.icon.fm.squared {
+  background-image: url(../../../../../assets/flags/1x1/fm.svg);
+}
+.flag.icon.fo {
+  background-image: url(../../../../../assets/flags/4x3/fo.svg);
+}
+.flag.icon.fo.squared {
+  background-image: url(../../../../../assets/flags/1x1/fo.svg);
+}
+.flag.icon.fr {
+  background-image: url(../../../../../assets/flags/4x3/fr.svg);
+}
+.flag.icon.fr.squared {
+  background-image: url(../../../../../assets/flags/1x1/fr.svg);
+}
+.flag.icon.ga {
+  background-image: url(../../../../../assets/flags/4x3/ga.svg);
+}
+.flag.icon.ga.squared {
+  background-image: url(../../../../../assets/flags/1x1/ga.svg);
+}
+.flag.icon.gb,
+.flag.icon.en {
+  background-image: url(../../../../../assets/flags/4x3/gb.svg);
+}
+.flag.icon.gb.squared,
+.flag.icon.en.squared {
+  background-image: url(../../../../../assets/flags/1x1/gb.svg);
+}
+.flag.icon.gd {
+  background-image: url(../../../../../assets/flags/4x3/gd.svg);
+}
+.flag.icon.gd.squared {
+  background-image: url(../../../../../assets/flags/1x1/gd.svg);
+}
+.flag.icon.ge {
+  background-image: url(../../../../../assets/flags/4x3/ge.svg);
+}
+.flag.icon.ge.squared {
+  background-image: url(../../../../../assets/flags/1x1/ge.svg);
+}
+.flag.icon.gf {
+  background-image: url(../../../../../assets/flags/4x3/gf.svg);
+}
+.flag.icon.gf.squared {
+  background-image: url(../../../../../assets/flags/1x1/gf.svg);
+}
+.flag.icon.gg {
+  background-image: url(../../../../../assets/flags/4x3/gg.svg);
+}
+.flag.icon.gg.squared {
+  background-image: url(../../../../../assets/flags/1x1/gg.svg);
+}
+.flag.icon.gh {
+  background-image: url(../../../../../assets/flags/4x3/gh.svg);
+}
+.flag.icon.gh.squared {
+  background-image: url(../../../../../assets/flags/1x1/gh.svg);
+}
+.flag.icon.gi {
+  background-image: url(../../../../../assets/flags/4x3/gi.svg);
+}
+.flag.icon.gi.squared {
+  background-image: url(../../../../../assets/flags/1x1/gi.svg);
+}
+.flag.icon.gl {
+  background-image: url(../../../../../assets/flags/4x3/gl.svg);
+}
+.flag.icon.gl.squared {
+  background-image: url(../../../../../assets/flags/1x1/gl.svg);
+}
+.flag.icon.gm {
+  background-image: url(../../../../../assets/flags/4x3/gm.svg);
+}
+.flag.icon.gm.squared {
+  background-image: url(../../../../../assets/flags/1x1/gm.svg);
+}
+.flag.icon.gn {
+  background-image: url(../../../../../assets/flags/4x3/gn.svg);
+}
+.flag.icon.gn.squared {
+  background-image: url(../../../../../assets/flags/1x1/gn.svg);
+}
+.flag.icon.gp {
+  background-image: url(../../../../../assets/flags/4x3/gp.svg);
+}
+.flag.icon.gp.squared {
+  background-image: url(../../../../../assets/flags/1x1/gp.svg);
+}
+.flag.icon.gq {
+  background-image: url(../../../../../assets/flags/4x3/gq.svg);
+}
+.flag.icon.gq.squared {
+  background-image: url(../../../../../assets/flags/1x1/gq.svg);
+}
+.flag.icon.gr {
+  background-image: url(../../../../../assets/flags/4x3/gr.svg);
+}
+.flag.icon.gr.squared {
+  background-image: url(../../../../../assets/flags/1x1/gr.svg);
+}
+.flag.icon.gs {
+  background-image: url(../../../../../assets/flags/4x3/gs.svg);
+}
+.flag.icon.gs.squared {
+  background-image: url(../../../../../assets/flags/1x1/gs.svg);
+}
+.flag.icon.gt {
+  background-image: url(../../../../../assets/flags/4x3/gt.svg);
+}
+.flag.icon.gt.squared {
+  background-image: url(../../../../../assets/flags/1x1/gt.svg);
+}
+.flag.icon.gu {
+  background-image: url(../../../../../assets/flags/4x3/gu.svg);
+}
+.flag.icon.gu.squared {
+  background-image: url(../../../../../assets/flags/1x1/gu.svg);
+}
+.flag.icon.gw {
+  background-image: url(../../../../../assets/flags/4x3/gw.svg);
+}
+.flag.icon.gw.squared {
+  background-image: url(../../../../../assets/flags/1x1/gw.svg);
+}
+.flag.icon.gy {
+  background-image: url(../../../../../assets/flags/4x3/gy.svg);
+}
+.flag.icon.gy.squared {
+  background-image: url(../../../../../assets/flags/1x1/gy.svg);
+}
+.flag.icon.hk {
+  background-image: url(../../../../../assets/flags/4x3/hk.svg);
+}
+.flag.icon.hk.squared {
+  background-image: url(../../../../../assets/flags/1x1/hk.svg);
+}
+.flag.icon.hm {
+  background-image: url(../../../../../assets/flags/4x3/hm.svg);
+}
+.flag.icon.hm.squared {
+  background-image: url(../../../../../assets/flags/1x1/hm.svg);
+}
+.flag.icon.hn {
+  background-image: url(../../../../../assets/flags/4x3/hn.svg);
+}
+.flag.icon.hn.squared {
+  background-image: url(../../../../../assets/flags/1x1/hn.svg);
+}
+.flag.icon.hr {
+  background-image: url(../../../../../assets/flags/4x3/hr.svg);
+}
+.flag.icon.hr.squared {
+  background-image: url(../../../../../assets/flags/1x1/hr.svg);
+}
+.flag.icon.ht {
+  background-image: url(../../../../../assets/flags/4x3/ht.svg);
+}
+.flag.icon.ht.squared {
+  background-image: url(../../../../../assets/flags/1x1/ht.svg);
+}
+.flag.icon.hu {
+  background-image: url(../../../../../assets/flags/4x3/hu.svg);
+}
+.flag.icon.hu.squared {
+  background-image: url(../../../../../assets/flags/1x1/hu.svg);
+}
+.flag.icon.id {
+  background-image: url(../../../../../assets/flags/4x3/id.svg);
+}
+.flag.icon.id.squared {
+  background-image: url(../../../../../assets/flags/1x1/id.svg);
+}
+.flag.icon.ie {
+  background-image: url(../../../../../assets/flags/4x3/ie.svg);
+}
+.flag.icon.ie.squared {
+  background-image: url(../../../../../assets/flags/1x1/ie.svg);
+}
+.flag.icon.il {
+  background-image: url(../../../../../assets/flags/4x3/il.svg);
+}
+.flag.icon.il.squared {
+  background-image: url(../../../../../assets/flags/1x1/il.svg);
+}
+.flag.icon.im {
+  background-image: url(../../../../../assets/flags/4x3/im.svg);
+}
+.flag.icon.im.squared {
+  background-image: url(../../../../../assets/flags/1x1/im.svg);
+}
+.flag.icon.in {
+  background-image: url(../../../../../assets/flags/4x3/in.svg);
+}
+.flag.icon.in.squared {
+  background-image: url(../../../../../assets/flags/1x1/in.svg);
+}
+.flag.icon.io {
+  background-image: url(../../../../../assets/flags/4x3/io.svg);
+}
+.flag.icon.io.squared {
+  background-image: url(../../../../../assets/flags/1x1/io.svg);
+}
+.flag.icon.iq {
+  background-image: url(../../../../../assets/flags/4x3/iq.svg);
+}
+.flag.icon.iq.squared {
+  background-image: url(../../../../../assets/flags/1x1/iq.svg);
+}
+.flag.icon.ir {
+  background-image: url(../../../../../assets/flags/4x3/ir.svg);
+}
+.flag.icon.ir.squared {
+  background-image: url(../../../../../assets/flags/1x1/ir.svg);
+}
+.flag.icon.is {
+  background-image: url(../../../../../assets/flags/4x3/is.svg);
+}
+.flag.icon.is.squared {
+  background-image: url(../../../../../assets/flags/1x1/is.svg);
+}
+.flag.icon.it {
+  background-image: url(../../../../../assets/flags/4x3/it.svg);
+}
+.flag.icon.it.squared {
+  background-image: url(../../../../../assets/flags/1x1/it.svg);
+}
+.flag.icon.je {
+  background-image: url(../../../../../assets/flags/4x3/je.svg);
+}
+.flag.icon.je.squared {
+  background-image: url(../../../../../assets/flags/1x1/je.svg);
+}
+.flag.icon.jm {
+  background-image: url(../../../../../assets/flags/4x3/jm.svg);
+}
+.flag.icon.jm.squared {
+  background-image: url(../../../../../assets/flags/1x1/jm.svg);
+}
+.flag.icon.jo {
+  background-image: url(../../../../../assets/flags/4x3/jo.svg);
+}
+.flag.icon.jo.squared {
+  background-image: url(../../../../../assets/flags/1x1/jo.svg);
+}
+.flag.icon.jp {
+  background-image: url(../../../../../assets/flags/4x3/jp.svg);
+}
+.flag.icon.jp.squared {
+  background-image: url(../../../../../assets/flags/1x1/jp.svg);
+}
+.flag.icon.ke {
+  background-image: url(../../../../../assets/flags/4x3/ke.svg);
+}
+.flag.icon.ke.squared {
+  background-image: url(../../../../../assets/flags/1x1/ke.svg);
+}
+.flag.icon.kg {
+  background-image: url(../../../../../assets/flags/4x3/kg.svg);
+}
+.flag.icon.kg.squared {
+  background-image: url(../../../../../assets/flags/1x1/kg.svg);
+}
+.flag.icon.kh {
+  background-image: url(../../../../../assets/flags/4x3/kh.svg);
+}
+.flag.icon.kh.squared {
+  background-image: url(../../../../../assets/flags/1x1/kh.svg);
+}
+.flag.icon.ki {
+  background-image: url(../../../../../assets/flags/4x3/ki.svg);
+}
+.flag.icon.ki.squared {
+  background-image: url(../../../../../assets/flags/1x1/ki.svg);
+}
+.flag.icon.km {
+  background-image: url(../../../../../assets/flags/4x3/km.svg);
+}
+.flag.icon.km.squared {
+  background-image: url(../../../../../assets/flags/1x1/km.svg);
+}
+.flag.icon.kn {
+  background-image: url(../../../../../assets/flags/4x3/kn.svg);
+}
+.flag.icon.kn.squared {
+  background-image: url(../../../../../assets/flags/1x1/kn.svg);
+}
+.flag.icon.kp {
+  background-image: url(../../../../../assets/flags/4x3/kp.svg);
+}
+.flag.icon.kp.squared {
+  background-image: url(../../../../../assets/flags/1x1/kp.svg);
+}
+.flag.icon.kr {
+  background-image: url(../../../../../assets/flags/4x3/kr.svg);
+}
+.flag.icon.kr.squared {
+  background-image: url(../../../../../assets/flags/1x1/kr.svg);
+}
+.flag.icon.kw {
+  background-image: url(../../../../../assets/flags/4x3/kw.svg);
+}
+.flag.icon.kw.squared {
+  background-image: url(../../../../../assets/flags/1x1/kw.svg);
+}
+.flag.icon.ky {
+  background-image: url(../../../../../assets/flags/4x3/ky.svg);
+}
+.flag.icon.ky.squared {
+  background-image: url(../../../../../assets/flags/1x1/ky.svg);
+}
+.flag.icon.kz {
+  background-image: url(../../../../../assets/flags/4x3/kz.svg);
+}
+.flag.icon.kz.squared {
+  background-image: url(../../../../../assets/flags/1x1/kz.svg);
+}
+.flag.icon.la {
+  background-image: url(../../../../../assets/flags/4x3/la.svg);
+}
+.flag.icon.la.squared {
+  background-image: url(../../../../../assets/flags/1x1/la.svg);
+}
+.flag.icon.lb {
+  background-image: url(../../../../../assets/flags/4x3/lb.svg);
+}
+.flag.icon.lb.squared {
+  background-image: url(../../../../../assets/flags/1x1/lb.svg);
+}
+.flag.icon.lc {
+  background-image: url(../../../../../assets/flags/4x3/lc.svg);
+}
+.flag.icon.lc.squared {
+  background-image: url(../../../../../assets/flags/1x1/lc.svg);
+}
+.flag.icon.li {
+  background-image: url(../../../../../assets/flags/4x3/li.svg);
+}
+.flag.icon.li.squared {
+  background-image: url(../../../../../assets/flags/1x1/li.svg);
+}
+.flag.icon.lk {
+  background-image: url(../../../../../assets/flags/4x3/lk.svg);
+}
+.flag.icon.lk.squared {
+  background-image: url(../../../../../assets/flags/1x1/lk.svg);
+}
+.flag.icon.lr {
+  background-image: url(../../../../../assets/flags/4x3/lr.svg);
+}
+.flag.icon.lr.squared {
+  background-image: url(../../../../../assets/flags/1x1/lr.svg);
+}
+.flag.icon.ls {
+  background-image: url(../../../../../assets/flags/4x3/ls.svg);
+}
+.flag.icon.ls.squared {
+  background-image: url(../../../../../assets/flags/1x1/ls.svg);
+}
+.flag.icon.lt {
+  background-image: url(../../../../../assets/flags/4x3/lt.svg);
+}
+.flag.icon.lt.squared {
+  background-image: url(../../../../../assets/flags/1x1/lt.svg);
+}
+.flag.icon.lu {
+  background-image: url(../../../../../assets/flags/4x3/lu.svg);
+}
+.flag.icon.lu.squared {
+  background-image: url(../../../../../assets/flags/1x1/lu.svg);
+}
+.flag.icon.lv {
+  background-image: url(../../../../../assets/flags/4x3/lv.svg);
+}
+.flag.icon.lv.squared {
+  background-image: url(../../../../../assets/flags/1x1/lv.svg);
+}
+.flag.icon.ly {
+  background-image: url(../../../../../assets/flags/4x3/ly.svg);
+}
+.flag.icon.ly.squared {
+  background-image: url(../../../../../assets/flags/1x1/ly.svg);
+}
+.flag.icon.ma {
+  background-image: url(../../../../../assets/flags/4x3/ma.svg);
+}
+.flag.icon.ma.squared {
+  background-image: url(../../../../../assets/flags/1x1/ma.svg);
+}
+.flag.icon.mc {
+  background-image: url(../../../../../assets/flags/4x3/mc.svg);
+}
+.flag.icon.mc.squared {
+  background-image: url(../../../../../assets/flags/1x1/mc.svg);
+}
+.flag.icon.md {
+  background-image: url(../../../../../assets/flags/4x3/md.svg);
+}
+.flag.icon.md.squared {
+  background-image: url(../../../../../assets/flags/1x1/md.svg);
+}
+.flag.icon.me {
+  background-image: url(../../../../../assets/flags/4x3/me.svg);
+}
+.flag.icon.me.squared {
+  background-image: url(../../../../../assets/flags/1x1/me.svg);
+}
+.flag.icon.mf {
+  background-image: url(../../../../../assets/flags/4x3/mf.svg);
+}
+.flag.icon.mf.squared {
+  background-image: url(../../../../../assets/flags/1x1/mf.svg);
+}
+.flag.icon.mg {
+  background-image: url(../../../../../assets/flags/4x3/mg.svg);
+}
+.flag.icon.mg.squared {
+  background-image: url(../../../../../assets/flags/1x1/mg.svg);
+}
+.flag.icon.mh {
+  background-image: url(../../../../../assets/flags/4x3/mh.svg);
+}
+.flag.icon.mh.squared {
+  background-image: url(../../../../../assets/flags/1x1/mh.svg);
+}
+.flag.icon.mk {
+  background-image: url(../../../../../assets/flags/4x3/mk.svg);
+}
+.flag.icon.mk.squared {
+  background-image: url(../../../../../assets/flags/1x1/mk.svg);
+}
+.flag.icon.ml {
+  background-image: url(../../../../../assets/flags/4x3/ml.svg);
+}
+.flag.icon.ml.squared {
+  background-image: url(../../../../../assets/flags/1x1/ml.svg);
+}
+.flag.icon.mm {
+  background-image: url(../../../../../assets/flags/4x3/mm.svg);
+}
+.flag.icon.mm.squared {
+  background-image: url(../../../../../assets/flags/1x1/mm.svg);
+}
+.flag.icon.mn {
+  background-image: url(../../../../../assets/flags/4x3/mn.svg);
+}
+.flag.icon.mn.squared {
+  background-image: url(../../../../../assets/flags/1x1/mn.svg);
+}
+.flag.icon.mo {
+  background-image: url(../../../../../assets/flags/4x3/mo.svg);
+}
+.flag.icon.mo.squared {
+  background-image: url(../../../../../assets/flags/1x1/mo.svg);
+}
+.flag.icon.mp {
+  background-image: url(../../../../../assets/flags/4x3/mp.svg);
+}
+.flag.icon.mp.squared {
+  background-image: url(../../../../../assets/flags/1x1/mp.svg);
+}
+.flag.icon.mq {
+  background-image: url(../../../../../assets/flags/4x3/mq.svg);
+}
+.flag.icon.mq.squared {
+  background-image: url(../../../../../assets/flags/1x1/mq.svg);
+}
+.flag.icon.mr {
+  background-image: url(../../../../../assets/flags/4x3/mr.svg);
+}
+.flag.icon.mr.squared {
+  background-image: url(../../../../../assets/flags/1x1/mr.svg);
+}
+.flag.icon.ms {
+  background-image: url(../../../../../assets/flags/4x3/ms.svg);
+}
+.flag.icon.ms.squared {
+  background-image: url(../../../../../assets/flags/1x1/ms.svg);
+}
+.flag.icon.mt {
+  background-image: url(../../../../../assets/flags/4x3/mt.svg);
+}
+.flag.icon.mt.squared {
+  background-image: url(../../../../../assets/flags/1x1/mt.svg);
+}
+.flag.icon.mu {
+  background-image: url(../../../../../assets/flags/4x3/mu.svg);
+}
+.flag.icon.mu.squared {
+  background-image: url(../../../../../assets/flags/1x1/mu.svg);
+}
+.flag.icon.mv {
+  background-image: url(../../../../../assets/flags/4x3/mv.svg);
+}
+.flag.icon.mv.squared {
+  background-image: url(../../../../../assets/flags/1x1/mv.svg);
+}
+.flag.icon.mw {
+  background-image: url(../../../../../assets/flags/4x3/mw.svg);
+}
+.flag.icon.mw.squared {
+  background-image: url(../../../../../assets/flags/1x1/mw.svg);
+}
+.flag.icon.mx {
+  background-image: url(../../../../../assets/flags/4x3/mx.svg);
+}
+.flag.icon.mx.squared {
+  background-image: url(../../../../../assets/flags/1x1/mx.svg);
+}
+.flag.icon.my {
+  background-image: url(../../../../../assets/flags/4x3/my.svg);
+}
+.flag.icon.my.squared {
+  background-image: url(../../../../../assets/flags/1x1/my.svg);
+}
+.flag.icon.mz {
+  background-image: url(../../../../../assets/flags/4x3/mz.svg);
+}
+.flag.icon.mz.squared {
+  background-image: url(../../../../../assets/flags/1x1/mz.svg);
+}
+.flag.icon.na {
+  background-image: url(../../../../../assets/flags/4x3/na.svg);
+}
+.flag.icon.na.squared {
+  background-image: url(../../../../../assets/flags/1x1/na.svg);
+}
+.flag.icon.nc {
+  background-image: url(../../../../../assets/flags/4x3/nc.svg);
+}
+.flag.icon.nc.squared {
+  background-image: url(../../../../../assets/flags/1x1/nc.svg);
+}
+.flag.icon.ne {
+  background-image: url(../../../../../assets/flags/4x3/ne.svg);
+}
+.flag.icon.ne.squared {
+  background-image: url(../../../../../assets/flags/1x1/ne.svg);
+}
+.flag.icon.nf {
+  background-image: url(../../../../../assets/flags/4x3/nf.svg);
+}
+.flag.icon.nf.squared {
+  background-image: url(../../../../../assets/flags/1x1/nf.svg);
+}
+.flag.icon.ng {
+  background-image: url(../../../../../assets/flags/4x3/ng.svg);
+}
+.flag.icon.ng.squared {
+  background-image: url(../../../../../assets/flags/1x1/ng.svg);
+}
+.flag.icon.ni {
+  background-image: url(../../../../../assets/flags/4x3/ni.svg);
+}
+.flag.icon.ni.squared {
+  background-image: url(../../../../../assets/flags/1x1/ni.svg);
+}
+.flag.icon.nl {
+  background-image: url(../../../../../assets/flags/4x3/nl.svg);
+}
+.flag.icon.nl.squared {
+  background-image: url(../../../../../assets/flags/1x1/nl.svg);
+}
+.flag.icon.no {
+  background-image: url(../../../../../assets/flags/4x3/no.svg);
+}
+.flag.icon.no.squared {
+  background-image: url(../../../../../assets/flags/1x1/no.svg);
+}
+.flag.icon.np {
+  background-image: url(../../../../../assets/flags/4x3/np.svg);
+}
+.flag.icon.np.squared {
+  background-image: url(../../../../../assets/flags/1x1/np.svg);
+}
+.flag.icon.nr {
+  background-image: url(../../../../../assets/flags/4x3/nr.svg);
+}
+.flag.icon.nr.squared {
+  background-image: url(../../../../../assets/flags/1x1/nr.svg);
+}
+.flag.icon.nu {
+  background-image: url(../../../../../assets/flags/4x3/nu.svg);
+}
+.flag.icon.nu.squared {
+  background-image: url(../../../../../assets/flags/1x1/nu.svg);
+}
+.flag.icon.nz {
+  background-image: url(../../../../../assets/flags/4x3/nz.svg);
+}
+.flag.icon.nz.squared {
+  background-image: url(../../../../../assets/flags/1x1/nz.svg);
+}
+.flag.icon.om {
+  background-image: url(../../../../../assets/flags/4x3/om.svg);
+}
+.flag.icon.om.squared {
+  background-image: url(../../../../../assets/flags/1x1/om.svg);
+}
+.flag.icon.pa {
+  background-image: url(../../../../../assets/flags/4x3/pa.svg);
+}
+.flag.icon.pa.squared {
+  background-image: url(../../../../../assets/flags/1x1/pa.svg);
+}
+.flag.icon.pe {
+  background-image: url(../../../../../assets/flags/4x3/pe.svg);
+}
+.flag.icon.pe.squared {
+  background-image: url(../../../../../assets/flags/1x1/pe.svg);
+}
+.flag.icon.pf {
+  background-image: url(../../../../../assets/flags/4x3/pf.svg);
+}
+.flag.icon.pf.squared {
+  background-image: url(../../../../../assets/flags/1x1/pf.svg);
+}
+.flag.icon.pg {
+  background-image: url(../../../../../assets/flags/4x3/pg.svg);
+}
+.flag.icon.pg.squared {
+  background-image: url(../../../../../assets/flags/1x1/pg.svg);
+}
+.flag.icon.ph {
+  background-image: url(../../../../../assets/flags/4x3/ph.svg);
+}
+.flag.icon.ph.squared {
+  background-image: url(../../../../../assets/flags/1x1/ph.svg);
+}
+.flag.icon.pk {
+  background-image: url(../../../../../assets/flags/4x3/pk.svg);
+}
+.flag.icon.pk.squared {
+  background-image: url(../../../../../assets/flags/1x1/pk.svg);
+}
+.flag.icon.pl {
+  background-image: url(../../../../../assets/flags/4x3/pl.svg);
+}
+.flag.icon.pl.squared {
+  background-image: url(../../../../../assets/flags/1x1/pl.svg);
+}
+.flag.icon.pm {
+  background-image: url(../../../../../assets/flags/4x3/pm.svg);
+}
+.flag.icon.pm.squared {
+  background-image: url(../../../../../assets/flags/1x1/pm.svg);
+}
+.flag.icon.pn {
+  background-image: url(../../../../../assets/flags/4x3/pn.svg);
+}
+.flag.icon.pn.squared {
+  background-image: url(../../../../../assets/flags/1x1/pn.svg);
+}
+.flag.icon.pr {
+  background-image: url(../../../../../assets/flags/4x3/pr.svg);
+}
+.flag.icon.pr.squared {
+  background-image: url(../../../../../assets/flags/1x1/pr.svg);
+}
+.flag.icon.ps {
+  background-image: url(../../../../../assets/flags/4x3/ps.svg);
+}
+.flag.icon.ps.squared {
+  background-image: url(../../../../../assets/flags/1x1/ps.svg);
+}
+.flag.icon.pt {
+  background-image: url(../../../../../assets/flags/4x3/pt.svg);
+}
+.flag.icon.pt.squared {
+  background-image: url(../../../../../assets/flags/1x1/pt.svg);
+}
+.flag.icon.pw {
+  background-image: url(../../../../../assets/flags/4x3/pw.svg);
+}
+.flag.icon.pw.squared {
+  background-image: url(../../../../../assets/flags/1x1/pw.svg);
+}
+.flag.icon.py {
+  background-image: url(../../../../../assets/flags/4x3/py.svg);
+}
+.flag.icon.py.squared {
+  background-image: url(../../../../../assets/flags/1x1/py.svg);
+}
+.flag.icon.qa {
+  background-image: url(../../../../../assets/flags/4x3/qa.svg);
+}
+.flag.icon.qa.squared {
+  background-image: url(../../../../../assets/flags/1x1/qa.svg);
+}
+.flag.icon.re {
+  background-image: url(../../../../../assets/flags/4x3/re.svg);
+}
+.flag.icon.re.squared {
+  background-image: url(../../../../../assets/flags/1x1/re.svg);
+}
+.flag.icon.ro {
+  background-image: url(../../../../../assets/flags/4x3/ro.svg);
+}
+.flag.icon.ro.squared {
+  background-image: url(../../../../../assets/flags/1x1/ro.svg);
+}
+.flag.icon.rs {
+  background-image: url(../../../../../assets/flags/4x3/rs.svg);
+}
+.flag.icon.rs.squared {
+  background-image: url(../../../../../assets/flags/1x1/rs.svg);
+}
+.flag.icon.ru {
+  background-image: url(../../../../../assets/flags/4x3/ru.svg);
+}
+.flag.icon.ru.squared {
+  background-image: url(../../../../../assets/flags/1x1/ru.svg);
+}
+.flag.icon.rw {
+  background-image: url(../../../../../assets/flags/4x3/rw.svg);
+}
+.flag.icon.rw.squared {
+  background-image: url(../../../../../assets/flags/1x1/rw.svg);
+}
+.flag.icon.sa {
+  background-image: url(../../../../../assets/flags/4x3/sa.svg);
+}
+.flag.icon.sa.squared {
+  background-image: url(../../../../../assets/flags/1x1/sa.svg);
+}
+.flag.icon.sb {
+  background-image: url(../../../../../assets/flags/4x3/sb.svg);
+}
+.flag.icon.sb.squared {
+  background-image: url(../../../../../assets/flags/1x1/sb.svg);
+}
+.flag.icon.sc {
+  background-image: url(../../../../../assets/flags/4x3/sc.svg);
+}
+.flag.icon.sc.squared {
+  background-image: url(../../../../../assets/flags/1x1/sc.svg);
+}
+.flag.icon.sd {
+  background-image: url(../../../../../assets/flags/4x3/sd.svg);
+}
+.flag.icon.sd.squared {
+  background-image: url(../../../../../assets/flags/1x1/sd.svg);
+}
+.flag.icon.se {
+  background-image: url(../../../../../assets/flags/4x3/se.svg);
+}
+.flag.icon.se.squared {
+  background-image: url(../../../../../assets/flags/1x1/se.svg);
+}
+.flag.icon.sg {
+  background-image: url(../../../../../assets/flags/4x3/sg.svg);
+}
+.flag.icon.sg.squared {
+  background-image: url(../../../../../assets/flags/1x1/sg.svg);
+}
+.flag.icon.sh {
+  background-image: url(../../../../../assets/flags/4x3/sh.svg);
+}
+.flag.icon.sh.squared {
+  background-image: url(../../../../../assets/flags/1x1/sh.svg);
+}
+.flag.icon.si {
+  background-image: url(../../../../../assets/flags/4x3/si.svg);
+}
+.flag.icon.si.squared {
+  background-image: url(../../../../../assets/flags/1x1/si.svg);
+}
+.flag.icon.sj {
+  background-image: url(../../../../../assets/flags/4x3/sj.svg);
+}
+.flag.icon.sj.squared {
+  background-image: url(../../../../../assets/flags/1x1/sj.svg);
+}
+.flag.icon.sk {
+  background-image: url(../../../../../assets/flags/4x3/sk.svg);
+}
+.flag.icon.sk.squared {
+  background-image: url(../../../../../assets/flags/1x1/sk.svg);
+}
+.flag.icon.sl {
+  background-image: url(../../../../../assets/flags/4x3/sl.svg);
+}
+.flag.icon.sl.squared {
+  background-image: url(../../../../../assets/flags/1x1/sl.svg);
+}
+.flag.icon.sm {
+  background-image: url(../../../../../assets/flags/4x3/sm.svg);
+}
+.flag.icon.sm.squared {
+  background-image: url(../../../../../assets/flags/1x1/sm.svg);
+}
+.flag.icon.sn {
+  background-image: url(../../../../../assets/flags/4x3/sn.svg);
+}
+.flag.icon.sn.squared {
+  background-image: url(../../../../../assets/flags/1x1/sn.svg);
+}
+.flag.icon.so {
+  background-image: url(../../../../../assets/flags/4x3/so.svg);
+}
+.flag.icon.so.squared {
+  background-image: url(../../../../../assets/flags/1x1/so.svg);
+}
+.flag.icon.sr {
+  background-image: url(../../../../../assets/flags/4x3/sr.svg);
+}
+.flag.icon.sr.squared {
+  background-image: url(../../../../../assets/flags/1x1/sr.svg);
+}
+.flag.icon.ss {
+  background-image: url(../../../../../assets/flags/4x3/ss.svg);
+}
+.flag.icon.ss.squared {
+  background-image: url(../../../../../assets/flags/1x1/ss.svg);
+}
+.flag.icon.st {
+  background-image: url(../../../../../assets/flags/4x3/st.svg);
+}
+.flag.icon.st.squared {
+  background-image: url(../../../../../assets/flags/1x1/st.svg);
+}
+.flag.icon.sv {
+  background-image: url(../../../../../assets/flags/4x3/sv.svg);
+}
+.flag.icon.sv.squared {
+  background-image: url(../../../../../assets/flags/1x1/sv.svg);
+}
+.flag.icon.sx {
+  background-image: url(../../../../../assets/flags/4x3/sx.svg);
+}
+.flag.icon.sx.squared {
+  background-image: url(../../../../../assets/flags/1x1/sx.svg);
+}
+.flag.icon.sy {
+  background-image: url(../../../../../assets/flags/4x3/sy.svg);
+}
+.flag.icon.sy.squared {
+  background-image: url(../../../../../assets/flags/1x1/sy.svg);
+}
+.flag.icon.sz {
+  background-image: url(../../../../../assets/flags/4x3/sz.svg);
+}
+.flag.icon.sz.squared {
+  background-image: url(../../../../../assets/flags/1x1/sz.svg);
+}
+.flag.icon.tc {
+  background-image: url(../../../../../assets/flags/4x3/tc.svg);
+}
+.flag.icon.tc.squared {
+  background-image: url(../../../../../assets/flags/1x1/tc.svg);
+}
+.flag.icon.td {
+  background-image: url(../../../../../assets/flags/4x3/td.svg);
+}
+.flag.icon.td.squared {
+  background-image: url(../../../../../assets/flags/1x1/td.svg);
+}
+.flag.icon.tf {
+  background-image: url(../../../../../assets/flags/4x3/tf.svg);
+}
+.flag.icon.tf.squared {
+  background-image: url(../../../../../assets/flags/1x1/tf.svg);
+}
+.flag.icon.tg {
+  background-image: url(../../../../../assets/flags/4x3/tg.svg);
+}
+.flag.icon.tg.squared {
+  background-image: url(../../../../../assets/flags/1x1/tg.svg);
+}
+.flag.icon.th {
+  background-image: url(../../../../../assets/flags/4x3/th.svg);
+}
+.flag.icon.th.squared {
+  background-image: url(../../../../../assets/flags/1x1/th.svg);
+}
+.flag.icon.tj {
+  background-image: url(../../../../../assets/flags/4x3/tj.svg);
+}
+.flag.icon.tj.squared {
+  background-image: url(../../../../../assets/flags/1x1/tj.svg);
+}
+.flag.icon.tk {
+  background-image: url(../../../../../assets/flags/4x3/tk.svg);
+}
+.flag.icon.tk.squared {
+  background-image: url(../../../../../assets/flags/1x1/tk.svg);
+}
+.flag.icon.tl {
+  background-image: url(../../../../../assets/flags/4x3/tl.svg);
+}
+.flag.icon.tl.squared {
+  background-image: url(../../../../../assets/flags/1x1/tl.svg);
+}
+.flag.icon.tm {
+  background-image: url(../../../../../assets/flags/4x3/tm.svg);
+}
+.flag.icon.tm.squared {
+  background-image: url(../../../../../assets/flags/1x1/tm.svg);
+}
+.flag.icon.tn {
+  background-image: url(../../../../../assets/flags/4x3/tn.svg);
+}
+.flag.icon.tn.squared {
+  background-image: url(../../../../../assets/flags/1x1/tn.svg);
+}
+.flag.icon.to {
+  background-image: url(../../../../../assets/flags/4x3/to.svg);
+}
+.flag.icon.to.squared {
+  background-image: url(../../../../../assets/flags/1x1/to.svg);
+}
+.flag.icon.tr {
+  background-image: url(../../../../../assets/flags/4x3/tr.svg);
+}
+.flag.icon.tr.squared {
+  background-image: url(../../../../../assets/flags/1x1/tr.svg);
+}
+.flag.icon.tt {
+  background-image: url(../../../../../assets/flags/4x3/tt.svg);
+}
+.flag.icon.tt.squared {
+  background-image: url(../../../../../assets/flags/1x1/tt.svg);
+}
+.flag.icon.tv {
+  background-image: url(../../../../../assets/flags/4x3/tv.svg);
+}
+.flag.icon.tv.squared {
+  background-image: url(../../../../../assets/flags/1x1/tv.svg);
+}
+.flag.icon.tw {
+  background-image: url(../../../../../assets/flags/4x3/tw.svg);
+}
+.flag.icon.tw.squared {
+  background-image: url(../../../../../assets/flags/1x1/tw.svg);
+}
+.flag.icon.tz {
+  background-image: url(../../../../../assets/flags/4x3/tz.svg);
+}
+.flag.icon.tz.squared {
+  background-image: url(../../../../../assets/flags/1x1/tz.svg);
+}
+.flag.icon.ua {
+  background-image: url(../../../../../assets/flags/4x3/ua.svg);
+}
+.flag.icon.ua.squared {
+  background-image: url(../../../../../assets/flags/1x1/ua.svg);
+}
+.flag.icon.ug {
+  background-image: url(../../../../../assets/flags/4x3/ug.svg);
+}
+.flag.icon.ug.squared {
+  background-image: url(../../../../../assets/flags/1x1/ug.svg);
+}
+.flag.icon.um {
+  background-image: url(../../../../../assets/flags/4x3/um.svg);
+}
+.flag.icon.um.squared {
+  background-image: url(../../../../../assets/flags/1x1/um.svg);
+}
+.flag.icon.us {
+  background-image: url(../../../../../assets/flags/4x3/us.svg);
+}
+.flag.icon.us.squared {
+  background-image: url(../../../../../assets/flags/1x1/us.svg);
+}
+.flag.icon.uy {
+  background-image: url(../../../../../assets/flags/4x3/uy.svg);
+}
+.flag.icon.uy.squared {
+  background-image: url(../../../../../assets/flags/1x1/uy.svg);
+}
+.flag.icon.uz {
+  background-image: url(../../../../../assets/flags/4x3/uz.svg);
+}
+.flag.icon.uz.squared {
+  background-image: url(../../../../../assets/flags/1x1/uz.svg);
+}
+.flag.icon.va {
+  background-image: url(../../../../../assets/flags/4x3/va.svg);
+}
+.flag.icon.va.squared {
+  background-image: url(../../../../../assets/flags/1x1/va.svg);
+}
+.flag.icon.vc {
+  background-image: url(../../../../../assets/flags/4x3/vc.svg);
+}
+.flag.icon.vc.squared {
+  background-image: url(../../../../../assets/flags/1x1/vc.svg);
+}
+.flag.icon.ve {
+  background-image: url(../../../../../assets/flags/4x3/ve.svg);
+}
+.flag.icon.ve.squared {
+  background-image: url(../../../../../assets/flags/1x1/ve.svg);
+}
+.flag.icon.vg {
+  background-image: url(../../../../../assets/flags/4x3/vg.svg);
+}
+.flag.icon.vg.squared {
+  background-image: url(../../../../../assets/flags/1x1/vg.svg);
+}
+.flag.icon.vi {
+  background-image: url(../../../../../assets/flags/4x3/vi.svg);
+}
+.flag.icon.vi.squared {
+  background-image: url(../../../../../assets/flags/1x1/vi.svg);
+}
+.flag.icon.vn {
+  background-image: url(../../../../../assets/flags/4x3/vn.svg);
+}
+.flag.icon.vn.squared {
+  background-image: url(../../../../../assets/flags/1x1/vn.svg);
+}
+.flag.icon.vu {
+  background-image: url(../../../../../assets/flags/4x3/vu.svg);
+}
+.flag.icon.vu.squared {
+  background-image: url(../../../../../assets/flags/1x1/vu.svg);
+}
+.flag.icon.wf {
+  background-image: url(../../../../../assets/flags/4x3/wf.svg);
+}
+.flag.icon.wf.squared {
+  background-image: url(../../../../../assets/flags/1x1/wf.svg);
+}
+.flag.icon.ws {
+  background-image: url(../../../../../assets/flags/4x3/ws.svg);
+}
+.flag.icon.ws.squared {
+  background-image: url(../../../../../assets/flags/1x1/ws.svg);
+}
+.flag.icon.ye {
+  background-image: url(../../../../../assets/flags/4x3/ye.svg);
+}
+.flag.icon.ye.squared {
+  background-image: url(../../../../../assets/flags/1x1/ye.svg);
+}
+.flag.icon.yt {
+  background-image: url(../../../../../assets/flags/4x3/yt.svg);
+}
+.flag.icon.yt.squared {
+  background-image: url(../../../../../assets/flags/1x1/yt.svg);
+}
+.flag.icon.za {
+  background-image: url(../../../../../assets/flags/4x3/za.svg);
+}
+.flag.icon.za.squared {
+  background-image: url(../../../../../assets/flags/1x1/za.svg);
+}
+.flag.icon.zm {
+  background-image: url(../../../../../assets/flags/4x3/zm.svg);
+}
+.flag.icon.zm.squared {
+  background-image: url(../../../../../assets/flags/1x1/zm.svg);
+}
+.flag.icon.zw {
+  background-image: url(../../../../../assets/flags/4x3/zw.svg);
+}
+.flag.icon.zw.squared {
+  background-image: url(../../../../../assets/flags/1x1/zw.svg);
+}
+.flag.icon.eu {
+  background-image: url(../../../../../assets/flags/4x3/eu.svg);
+}
+.flag.icon.eu.squared {
+  background-image: url(../../../../../assets/flags/1x1/eu.svg);
+}
+.flag.icon.gb.eng {
+  background-image: url(../../../../../assets/flags/4x3/gb.eng.svg);
+}
+.flag.icon.gb.eng.squared {
+  background-image: url(../../../../../assets/flags/1x1/gb.eng.svg);
+}
+.flag.icon.gb.nir {
+  background-image: url(../../../../../assets/flags/4x3/gb.nir.svg);
+}
+.flag.icon.gb.nir.squared {
+  background-image: url(../../../../../assets/flags/1x1/gb.nir.svg);
+}
+.flag.icon.gb.sct {
+  background-image: url(../../../../../assets/flags/4x3/gb.sct.svg);
+}
+.flag.icon.gb.sct.squared {
+  background-image: url(../../../../../assets/flags/1x1/gb.sct.svg);
+}
+.flag.icon.gb.wls {
+  background-image: url(../../../../../assets/flags/4x3/gb.wls.svg);
+}
+.flag.icon.gb.wls.squared {
+  background-image: url(../../../../../assets/flags/1x1/gb.wls.svg);
+}
+.flag.icon.un {
+  background-image: url(../../../../../assets/flags/4x3/un.svg);
+}
+.flag.icon.un.squared {
+  background-image: url(../../../../../assets/flags/1x1/un.svg);
+}
+span.flag.icon.disabled {
+  opacity:.5
+}
+/* == Size == */
+span.flag.small.icon {
+  width:1rem;
+  height:1rem;
+}
+span.flag.icon {
+  width:1.5em;
+  height:1em;
+}
+span.flag.full.icon {
+  width:100%;
+  height:100%;
+}

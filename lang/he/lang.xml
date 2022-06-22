@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+    <!-- Global Phrases -->
+    <phrase section="Global" data="ABOUT">About</phrase>
+    <phrase section="Global" data="ACCESS">Access</phrase>
+    <phrase section="Global" data="ACTIONS">Actions</phrase>
+    <phrase section="Global" data="ACTIVE">Active</phrase>
+    <phrase section="Global" data="ACTIVATE">Activate</phrase>
+    <phrase section="Global" data="ADD">Add</phrase>
+    <phrase section="Global" data="AGREE">אני מסכים לתנאי השימוש ואני מעל גיל 18</phrase>
+    <phrase section="Global" data="ALERT">Alert</phrase>
+    <phrase section="Global" data="ALL">All</phrase>
+    <phrase section="Global" data="APPROVE">Approve</phrase>
+    <phrase section="Global" data="ARCHIVE">Archive</phrase>
+    <phrase section="Global" data="ASSETS">Assets</phrase>
+    <phrase section="Global" data="AVATAR">Avatar</phrase>
+    <phrase section="Global" data="BACK">back</phrase>
+    <phrase section="Global" data="BANNED">Banned</phrase>
+    <phrase section="Global" data="BGIMG">Background Image</phrase>
+    <phrase section="Global" data="BROWSE">Browse...</phrase>
+    <phrase section="Global" data="BY">by</phrase>
+    <phrase section="Global" data="CANCEL">Cancel</phrase>
+    <phrase section="Global" data="CAPTCHA">חזור על הספרות המוצגות</phrase>
+    <phrase section="Global" data="CATEGORY">Category</phrase>
+    <phrase section="Global" data="CATEGORIES">Categories</phrase>
+    <phrase section="Global" data="CATSLUG">Category Slug</phrase>
+    <phrase section="Global" data="CHARSET">A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</phrase>
+    <phrase section="Global" data="CHECKOUT">Checkout</phrase>
+    <phrase section="Global" data="CHOOSE">Choose a file...</phrase>
+    <phrase section="Global" data="CLEAR">Clear</phrase>
+    <phrase section="Global" data="CLOSE">Close</phrase>
+    <phrase section="Global" data="COLOR">Color</phrase>
+    <phrase section="Global" data="COMPLETED">Completed</phrase>
+    <phrase section="Global" data="CON_PAGE">Content Page</phrase>
+    <phrase section="Global" data="CONPASS">Confirm Password</phrase>
+    <phrase section="Global" data="CONTENT">Content</phrase>
+    <phrase section="Global" data="CONTENT_NOT_FOUND">No Content found under this page !.</phrase>
+    <phrase section="Global" data="CONTINUE">Continue</phrase>
+    <phrase section="Global" data="CONTINUE_R">Continue Reading</phrase>
+    <phrase section="Global" data="COPY">Copy</phrase>
+    <phrase section="Global" data="COMMENT">Comment</phrase>
+    <phrase section="Global" data="COMMENTS">Comments</phrase>
+    <phrase section="Global" data="COUNTRY_LIST">Country List</phrase>
+    <phrase section="Global" data="CREATED">Created</phrase>
+    <phrase section="Global" data="CUT">Cut</phrase>
+    <phrase section="Global" data="CURRENCY">Currency</phrase>
+    <phrase section="Global" data="DATE">Date</phrase>
+    <phrase section="Global" data="DEFAULT">Default</phrase>
+    <phrase section="Global" data="DELCONFIRM1">Are you sure you want to delete this record?</phrase>
+    <phrase section="Global" data="DELCONFIRM10">Restore [NAME]?</phrase>
+    <phrase section="Global" data="DELCONFIRM11">This action will restore item to it's original sate.</phrase>
+    <phrase section="Global" data="DELCONFIRM2">This action cannot be undone!!!</phrase>
+    <phrase section="Global" data="DELCONFIRM3">The item will remain in Trash for 30 days. To remove it permanently, go to Trash and empty it.</phrase>
+    <phrase section="Global" data="DELCONFIRM4">Move [NAME] to the archive?</phrase>
+    <phrase section="Global" data="DELCONFIRM5">This will keep the user in your CMS PRO, but prevent them from logging in.</phrase>
+    <phrase section="Global" data="DELCONFIRM6">Remove [NAME] from the archive?</phrase>
+    <phrase section="Global" data="DELCONFIRM7">This action will restore user to it's original sate.</phrase>
+    <phrase section="Global" data="DELCONFIRM8">This action will restore company to it's original sate.</phrase>
+    <phrase section="Global" data="DELETE">Delete</phrase>
+    <phrase section="Global" data="DELETE_REC">Delete Record</phrase>
+    <phrase section="Global" data="DELETED">deleted successfully!</phrase>
+    <phrase section="Global" data="DESCRIPTION">Description</phrase>
+    <phrase section="Global" data="DONE">Done</phrase>
+    <phrase section="Global" data="DOWNLOAD">Download</phrase>
+    <phrase section="Global" data="DOWNLOADS">Downloads</phrase>
+    <phrase section="Global" data="DUPLICATE">Duplicate</phrase>
+    <phrase section="Global" data="EDIT">Edit</phrase>
+    <phrase section="Global" data="EDITOR">Editor</phrase>
+    <phrase section="Global" data="ERROR">Error</phrase>
+    <phrase section="Global" data="EXT_LINK">External Link</phrase>
+    <phrase section="Global" data="EXIT">Exit</phrase>
+    <phrase section="Global" data="EXPORT">Export</phrase>
+    <phrase section="Global" data="FIELD_R0">Field</phrase>
+    <phrase section="Global" data="FIELD_R1">needs to be [X] characters or shorter in length.</phrase>
+    <phrase section="Global" data="FIELD_R2">needs to be [X] characters or longer in length.</phrase>
+    <phrase section="Global" data="FIELD_R3">is invalid.</phrase>
+    <phrase section="Global" data="FIELD_R4">is invalid date.</phrase>
+    <phrase section="Global" data="FIELD_R4_1">is invalid time.</phrase>
+    <phrase section="Global" data="FIELD_R5">may only contain numeric characters.</phrase>
+    <phrase section="Global" data="FIELD_R6">may only contain numeric value.</phrase>
+    <phrase section="Global" data="FIELD_R7">needs to be exactly [X] characters in length.</phrase>
+    <phrase section="Global" data="FIELD_R8">may only contain alpha characters(a-z).</phrase>
+    <phrase section="Global" data="FIELD_R9">may only contain alpha-numeric characters.</phrase>
+    <phrase section="Global" data="FIELD_R10">may only contain alpha characters &amp; dashes.</phrase>
+    <phrase section="Global" data="FIELD_R11">needs to contain one of these values: [VAL]</phrase>
+    <phrase section="Global" data="FIELD_R12">needs to start with [VAL]</phrase>
+    <phrase section="Global" data="FIELD_R13">does not equal [VAL] field.</phrase>
+    <phrase section="Global" data="FIELD_R14">is not valid url.</phrase>
+    <phrase section="Global" data="FIELD_R15">URL does not exist.</phrase>
+    <phrase section="Global" data="FIELD_R16">is not valid IP.</phrase>
+    <phrase section="Global" data="FIELD_R17">is not credit card number.</phrase>
+    <phrase section="Global" data="FIELD_R18">is not valid email address.</phrase>
+    <phrase section="Global" data="FIELD_R19">is not valid decimal number.</phrase>
+    <phrase section="Global" data="FIELD_R100">is required.</phrase>
+    <phrase section="Global" data="FILE_ERR">File could not be moved from temporary upload folder to image folder.</phrase>
+    <phrase section="Global" data="FIND">Find</phrase>
+    <phrase section="Global" data="FILE">File</phrase>
+    <phrase section="Global" data="FREE">FREE</phrase>
+    <phrase section="Global" data="FROM">From</phrase>
+    <phrase section="Global" data="GATEWAY">Gateway</phrase>
+    <phrase section="Global" data="GO">GO</phrase>
+    <phrase section="Global" data="GRID">Grid</phrase>
+    <phrase section="Global" data="GUEST">Guest</phrase>
+    <phrase section="Global" data="HELLO">Hello</phrase>
+    <phrase section="Global" data="HISTORY">History</phrase>
+    <phrase section="Global" data="HI">Hi,</phrase>
+    <phrase section="Global" data="HITS">Hits</phrase>
+    <phrase section="Global" data="HI_A">Good Afternoon</phrase>
+    <phrase section="Global" data="HI_E">Good Evening</phrase>
+    <phrase section="Global" data="HI_M">Good Morning</phrase>
+    <phrase section="Global" data="HOME">Home</phrase>
+    <phrase section="Global" data="HORIZONTAL">Horizontal</phrase>
+    <phrase section="Global" data="IMAGE">Image</phrase>
+    <phrase section="Global" data="IMAGES">Images</phrase>
+    <phrase section="Global" data="IMPORT">Import</phrase>
+    <phrase section="Global" data="INFO">Info</phrase>
+    <phrase section="Global" data="IN">In</phrase>
+    <phrase section="Global" data="INACTIVE">Inactive</phrase>
+    <phrase section="Global" data="INSERT">Insert</phrase>
+    <phrase section="Global" data="ITEM">Item</phrase>
+    <phrase section="Global" data="ITEMS">Items</phrase>
+    <phrase section="Global" data="ITEMSLUG">Item Slug</phrase>
+    <phrase section="Global" data="LANGUAGE">Language</phrase>
+    <phrase section="Global" data="LIKE">Like</phrase>
+    <phrase section="Global" data="LIKES">Likes</phrase>
+    <phrase section="Global" data="LIST">List</phrase>
+    <phrase section="Global" data="LOGIN">Login</phrase>
+    <phrase section="Global" data="LOGIN_R1">Login and/or password did not match to the database.</phrase>
+    <phrase section="Global" data="LOGIN_R2">Your account has been banned.</phrase>
+    <phrase section="Global" data="LOGIN_R22">Login temporarily disabled. Will be back soon.</phrase>
+    <phrase section="Global" data="LOGIN_R3">Your account it's not activated.</phrase>
+    <phrase section="Global" data="LOGIN_R4">You need to verify your email address.</phrase>
+    <phrase section="Global" data="LOGIN_R5">Please enter valid username and password</phrase>
+    <phrase section="Global" data="LOGIN_R6">Too many login attempts. Please wait [MINUTES] minutes before next login attempt.</phrase>
+    <phrase section="Global" data="LOGIN_R7">Login Success! Redirecting...</phrase>
+    <phrase section="Global" data="LOGOUT">Logout</phrase>
+    <phrase section="Global" data="MAINIMAGE">Main Image</phrase>
+    <phrase section="Global" data="MANAGE">Manage</phrase>
+    <phrase section="Global" data="MAX_R1">maximum</phrase>
+    <phrase section="Global" data="MEMBERSHIP">Membership</phrase>
+    <phrase section="Global" data="MEMBER">Member</phrase>
+    <phrase section="Global" data="MESSAGE">Message</phrase>
+    <phrase section="Global" data="METADESC">Meta Description</phrase>
+    <phrase section="Global" data="METAKEYS">Meta Keywords</phrase>
+    <phrase section="Global" data="MIN_R1">minimum</phrase>
+    <phrase section="Global" data="MODULE">Module</phrase>
+    <phrase section="Global" data="MODULES">Modules</phrase>
+    <phrase section="Global" data="MOVE">Move</phrase>
+    <phrase section="Global" data="MOVTOA">Moved to archive</phrase>
+    <phrase section="Global" data="MOVTOTR">Moved to trash</phrase>
+    <phrase section="Global" data="MTOARCHIVE">Move to Archive</phrase>
+    <phrase section="Global" data="MTOTRASH">Move to Trash</phrase>
+    <phrase section="Global" data="MULTIPLE">Multiple</phrase>
+    <phrase section="Global" data="NAME">Name</phrase>
+    <phrase section="Global" data="NEVER">Never</phrase>
+    <phrase section="Global" data="NEWPASS">New Password</phrase>
+    <phrase section="Global" data="NO">No</phrase>
+    <phrase section="Global" data="NOACCESS">Sorry don't have valid privileges to access this page.</phrase>
+    <phrase section="Global" data="NOFILE">No file...</phrase>
+    <phrase section="Global" data="NONE">none</phrase>
+    <phrase section="Global" data="NOPROCCESS">Nothing to process!</phrase>
+    <phrase section="Global" data="NOTEVAR">Please do not change values between [ ]</phrase>
+    <phrase section="Global" data="NOTPUBLISHED">Not Published</phrase>
+    <phrase section="Global" data="NOW">Now</phrase>
+    <phrase section="Global" data="OFF">Off</phrase>
+    <phrase section="Global" data="of">of</phrase>
+    <phrase section="Global" data="ON">On</phrase>
+    <phrase section="Global" data="OK">OK</phrase>
+    <phrase section="Global" data="PAGE">Page</phrase>
+    <phrase section="Global" data="PAGE_NOT_FOUND">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable!</phrase>
+    <phrase section="Global" data="PASTE">Paste</phrase>
+    <phrase section="Global" data="PENDING">Pending</phrase>
+    <phrase section="Global" data="PLUGIN">Plugin</phrase>
+    <phrase section="Global" data="PLUGINS">Plugins</phrase>
+    <phrase section="Global" data="POST">Post</phrase>
+    <phrase section="Global" data="PRIVACY">Privacy Policy</phrase>
+    <phrase section="Global" data="PREVIEW">Preview</phrase>
+    <phrase section="Global" data="PROCCESS_C_ERR">An error occurred while processing configuration file</phrase>
+    <phrase section="Global" data="PROCCESS_ERR">Please complete the following required fields:</phrase>
+    <phrase section="Global" data="PROCCESS_ERR1">Please complete all of the required fields</phrase>
+    <phrase section="Global" data="PROP">Properties</phrase>
+    <phrase section="Global" data="PUBLIC">Public</phrase>
+    <phrase section="Global" data="PUBLISHED">Published</phrase>
+    <phrase section="Global" data="PRICE">Price</phrase>
+    <phrase section="Global" data="RANGE">Range</phrase>
+    <phrase section="Global" data="RATING">Rating</phrase>
+    <phrase section="Global" data="REFRESH">Refresh</phrase>
+    <phrase section="Global" data="RESET">Reset</phrase>
+    <phrase section="Global" data="REGISTER">הרשמה</phrase>
+    <phrase section="Global" data="REGISTERED">Registered</phrase>
+    <phrase section="Global" data="REMOVE">Remove</phrase>
+    <phrase section="Global" data="RENAME">Rename</phrase>
+    <phrase section="Global" data="REQFIELD1">Fields marked </phrase>
+    <phrase section="Global" data="REQFIELD2"> are required.</phrase>
+    <phrase section="Global" data="RESFRTR">Restored from trash</phrase>
+    <phrase section="Global" data="RESTORE">Restore</phrase>
+    <phrase section="Global" data="REQUIRED">Required</phrase>
+    <phrase section="Global" data="RFCOMPLETE">Restore Original</phrase>
+    <phrase section="Global" data="SAVE">Save</phrase>
+    <phrase section="Global" data="SAVECONFIG">Save Configuration</phrase>
+    <phrase section="Global" data="SECTION">Section</phrase>
+    <phrase section="Global" data="SEARCH">Search</phrase>
+    <phrase section="Global" data="SEARCH2">type and press enter...</phrase>
+    <phrase section="Global" data="SELPIC">Select Photo</phrase>
+    <phrase section="Global" data="SELECT">Select</phrase>
+    <phrase section="Global" data="SELIMG">Select Image</phrase>
+    <phrase section="Global" data="SELECTED">Selected</phrase>
+    <phrase section="Global" data="SELALL">Select All</phrase>
+    <phrase section="Global" data="ALLSELL">all Selected</phrase>
+    <phrase section="Global" data="SELECTMULTI">Select Some Options</phrase>
+    <phrase section="Global" data="SETTINGS">Settings</phrase>
+    <phrase section="Global" data="SORTING">Sorting</phrase>
+    <phrase section="Global" data="SORTING_O">Sorting Options</phrase>
+    <phrase section="Global" data="SOCIAL">Social Media</phrase>
+    <phrase section="Global" data="STATUS">Status</phrase>
+    <phrase section="Global" data="STAFF">Staff</phrase>
+    <phrase section="Global" data="SUBMIT">Submit</phrase>
+    <phrase section="Global" data="SUBMITP">Submit Payment</phrase>
+    <phrase section="Global" data="SUCCESS">Success</phrase>
+    <phrase section="Global" data="SYSERROR">An error occurred while processing this request. Please contact administrator.</phrase>
+    <phrase section="Global" data="SYSTEM_ERR">Please complete the following fields:</phrase>
+    <phrase section="Global" data="SYSTEM_ERR1">System Error!! Invalid value detected - </phrase>
+    <phrase section="Global" data="SYSTEM_ERR2">You don't have permission to access this page.</phrase>
+    <phrase section="Global" data="SYSTEM_PROCCESS">Nothing to process.</phrase>
+    <phrase section="Global" data="TAG">Tag</phrase>
+    <phrase section="Global" data="TAGS">Tags</phrase>
+    <phrase section="Global" data="TAX">tax</phrase>
+    <phrase section="Global" data="TITLE">Title</phrase>
+    <phrase section="Global" data="TIME">Time</phrase>
+    <phrase section="Global" data="TO">To</phrase>
+    <phrase section="Global" data="TRANSACTION">Transaction</phrase>
+    <phrase section="Global" data="TRASH">Trash</phrase>
+    <phrase section="Global" data="THUMB_W">Thumbnail Width</phrase>
+    <phrase section="Global" data="THUMB_H">Thumbnail Height</phrase>
+    <phrase section="Global" data="TYPE">Type</phrase>
+    <phrase section="Global" data="UPDATE">Update</phrase>
+    <phrase section="Global" data="UPDATED">updated successfully!</phrase>
+    <phrase section="Global" data="UPLOAD">Upload</phrase>
+    <phrase section="Global" data="USER">User</phrase>
+    <phrase section="Global" data="USER_A">User Active</phrase>
+    <phrase section="Global" data="USER_B">User Banned</phrase>
+    <phrase section="Global" data="USER_I">User Inactive</phrase>
+    <phrase section="Global" data="USER_P">User Pending</phrase>
+    <phrase section="Global" data="USERNAME">Username</phrase>
+    <phrase section="Global" data="USERNAME_R1">Please Enter Valid Username</phrase>
+    <phrase section="Global" data="USERNAME_R2">Username Is Too Short (less Than 4 Characters Long).</phrase>
+    <phrase section="Global" data="USERNAME_R3">Invalid Characters Found In Username.</phrase>
+    <phrase section="Global" data="USERNAME_R4">Sorry, This Username Is Already Taken</phrase>
+    <phrase section="Global" data="USERNAME_R5">We are sorry, selected username does not exist in our database</phrase>
+    <phrase section="Global" data="VERTICAL">Vertical</phrase>
+    <phrase section="Global" data="VIEW">View</phrase>
+    <phrase section="Global" data="WELCOME">Welcome</phrase>
+    <phrase section="Global" data="WORKING">working....</phrase>
+    <phrase section="Global" data="YES">כן</phrase>
+    <phrase section="Global" data="YOUAREHERE">You are here</phrase>
+    <phrase section="Global" data="QTY">Qty</phrase>
+    <phrase section="Global" data="QUANTITY">Quantity</phrase>
+    <phrase section="Global" data="WELCOMEBACK">Welcome back</phrase>
+
+    <!-- Localization -->
+    <phrase section="Localization" data="_DAY">Day</phrase>
+    <phrase section="Localization" data="_DAYS">Days</phrase>
+    <phrase section="Localization" data="_HOUR">Hour</phrase>
+    <phrase section="Localization" data="_HOURS">Hours</phrase>
+    <phrase section="Localization" data="_MINUTE">Minute</phrase>
+    <phrase section="Localization" data="_MINUTES">Minutes</phrase>
+    <phrase section="Localization" data="_MONTH">Month</phrase>
+    <phrase section="Localization" data="_MONTHS">Months</phrase>
+    <phrase section="Localization" data="_SECOND">Second</phrase>
+    <phrase section="Localization" data="_SECONDS">Seconds</phrase>
+    <phrase section="Localization" data="_WEEK">Week</phrase>
+    <phrase section="Localization" data="_WEEKS">Weeks</phrase>
+    <phrase section="Localization" data="_YEAR">Year</phrase>
+    <phrase section="Localization" data="_YEARS">Years</phrase>
+    <phrase section="Localization" data="AGO">ago</phrase>
+    <phrase section="Localization" data="JUSTNOW">just now</phrase>
+    <phrase section="Localization" data="APR">Apr</phrase>
+    <phrase section="Localization" data="APR_L">April</phrase>
+    <phrase section="Localization" data="AUG">Aug</phrase>
+    <phrase section="Localization" data="AUG_L">August</phrase>
+    <phrase section="Localization" data="DEC">Dec</phrase>
+    <phrase section="Localization" data="DEC_L">December</phrase>
+    <phrase section="Localization" data="FEB">Feb</phrase>
+    <phrase section="Localization" data="FEB_L">February</phrase>
+    <phrase section="Localization" data="FRI">Fr</phrase>
+    <phrase section="Localization" data="FRI_L">Friday</phrase>
+    <phrase section="Localization" data="FRI_M">Fri</phrase>
+    <phrase section="Localization" data="JAN">Jan</phrase>
+    <phrase section="Localization" data="JAN_L">January</phrase>
+    <phrase section="Localization" data="JUL">Jul</phrase>
+    <phrase section="Localization" data="JUL_L">July</phrase>
+    <phrase section="Localization" data="JUN">Jun</phrase>
+    <phrase section="Localization" data="JUN_L">June</phrase>
+    <phrase section="Localization" data="MAR">Mar</phrase>
+    <phrase section="Localization" data="MAR_L">March</phrase>
+    <phrase section="Localization" data="MAY">May</phrase>
+    <phrase section="Localization" data="MAY_L">May</phrase>
+    <phrase section="Localization" data="MON">Mo</phrase>
+    <phrase section="Localization" data="MON_L">Monday</phrase>
+    <phrase section="Localization" data="MON_M">Mon</phrase>
+    <phrase section="Localization" data="NOV">Nov</phrase>
+    <phrase section="Localization" data="NOV_L">November</phrase>
+    <phrase section="Localization" data="OCT">Oct</phrase>
+    <phrase section="Localization" data="OCT_L">October</phrase>
+    <phrase section="Localization" data="SAT">Sa</phrase>
+    <phrase section="Localization" data="SAT_L">Saturday</phrase>
+    <phrase section="Localization" data="SAT_M">Sat</phrase>
+    <phrase section="Localization" data="SEP">Sep</phrase>
+    <phrase section="Localization" data="SEP_L">September</phrase>
+    <phrase section="Localization" data="SUN">Su</phrase>
+    <phrase section="Localization" data="SUN_L">Sunday</phrase>
+    <phrase section="Localization" data="SUN_M">Sun</phrase>
+    <phrase section="Localization" data="THIS_MONTH">This Month</phrase>
+    <phrase section="Localization" data="THIS_WEEK">This Week</phrase>
+    <phrase section="Localization" data="THIS_YEAR">This Year</phrase>
+    <phrase section="Localization" data="NEXT_MONTH">Next Month</phrase>
+    <phrase section="Localization" data="NEXT_WEEK">Next Week</phrase>
+    <phrase section="Localization" data="TNEX_YEAR">Next Year</phrase>
+    <phrase section="Localization" data="LAST_MONTH">Last Month</phrase>
+    <phrase section="Localization" data="LAST_WEEK">Last Week</phrase>
+    <phrase section="Localization" data="LAST_YEAR">Last Year</phrase>
+    <phrase section="Localization" data="THU">Th</phrase>
+    <phrase section="Localization" data="THU_L">Thursday</phrase>
+    <phrase section="Localization" data="THU_M">Thu</phrase>
+    <phrase section="Localization" data="TODAY">Today</phrase>
+    <phrase section="Localization" data="TOMORROW">Tomorrow</phrase>
+    <phrase section="Localization" data="TUE">Tu</phrase>
+    <phrase section="Localization" data="TUE_L">Tuesday</phrase>
+    <phrase section="Localization" data="TUE_M">Tue</phrase>
+    <phrase section="Localization" data="WED">We</phrase>
+    <phrase section="Localization" data="WED_L">Wednesday</phrase>
+    <phrase section="Localization" data="WED_M">Wed</phrase>
+    <phrase section="Localization" data="YESTERDAY">Yesterday</phrase>
+
+    <!-- Accounts -->
+    <phrase section="Accounts" data="M_ADDED">Account [NAME] created successfully.</phrase>
+    <phrase section="Accounts" data="M_ADDRESS">כתובת למשלוח</phrase>
+    <phrase section="Accounts" data="M_CITY">עיר</phrase>
+    <phrase section="Accounts" data="M_STATE">מחוז או מדינה</phrase>
+    <phrase section="Accounts" data="M_ZIP">מיקוד</phrase>
+    <phrase section="Accounts" data="M_R_ID">תעודת זהות</phrase>
+    <phrase section="Accounts" data="M_R_ID_DESCRIPTION">במסירת זכיות יש להציג את תעודת הזהות של בעל החשבון</phrase>
+    <phrase section="Accounts" data="M_DOB">תאריך לידה</phrase>
+    <phrase section="Accounts" data="M_DOB_DESCRIPTION">השימוש באתר לגילאי 18+</phrase>
+    <phrase section="Accounts" data="M_ADDRESS">כתובת</phrase>
+    <phrase section="Accounts" data="M_PHONE">מספר טלפון / וואטסאפ</phrase>
+    <phrase section="Accounts" data="M_ADDRESS_DESCRIPTION">כתובת אליה נוכל להגיע ולמסור זכיות / הפקדות.</phrase>
+    <phrase section="Accounts" data="M_CITY">City</phrase>
+    <phrase section="Accounts" data="M_STATE">Province/State</phrase>
+    <phrase section="Accounts" data="M_ZIP">Postal Code/Zip</phrase>
+    <phrase section="Accounts" data="M_COUNTRY">Country</phrase>
+    <phrase section="Accounts" data="M_EMAIL_DESCRIPTION">לשחזור ושינוי סיסמא ופעולות נוספות באתר.</phrase>
+    <phrase section="Accounts" data="M_COUNTRY">Country</phrase>
+    <phrase section="Accounts" data="M_EMAIL_DESCRIPTION">לשחזור ושינוי סיסמא ופעולות נוספות באתר.</phrase>
+    <phrase section="Accounts" data="M_EMAIL">כתובת דואר אלקטרוני</phrase>
+    <phrase section="Accounts" data="M_EMAIL1">כתובת דואר אלקטרוני</phrase>
+    <phrase section="Accounts" data="M_EMAIL_R1">Please Enter Valid Email Address</phrase>
+    <phrase section="Accounts" data="M_EMAIL_R2">Entered Email Address Is Already In Use.</phrase>
+    <phrase section="Accounts" data="M_EMAIL_R3">Entered Email Address Is Not Valid.</phrase>
+    <phrase section="Accounts" data="M_EMAIL_R4">Entered Email Address Does Not Exist.</phrase>
+    <phrase section="Accounts" data="M_EMAIL_R5">Invalid Email address.</phrase>
+    <phrase section="Accounts" data="M_FNAME">שם פרטי</phrase>
+    <phrase section="Accounts" data="M_INF01">Edit Role Description</phrase>
+    <phrase section="Accounts" data="M_INFO">Click on Access label to grant/deny access options.</phrase>
+    <phrase section="Accounts" data="M_INFO2">Role description updated successfully.</phrase>
+    <phrase section="Accounts" data="M_INFO3">You currently don't have any members...</phrase>
+    <phrase section="Accounts" data="M_INFO4">Do you want to resend email notification to [NAME]?</phrase>
+    <phrase section="Accounts" data="M_INFO5">Notification has been resent successfully.</phrase>
+    <phrase section="Accounts" data="M_INFO6">You dont have any users yet. Please add....</phrase>
+    <phrase section="Accounts" data="M_INFO7">You have successfully completed registration. You may login now or check email for confirmation.</phrase>
+    <phrase section="Accounts" data="M_INFO8">You have successfully completed registration. Redirecting to login page.</phrase>
+    <phrase section="Accounts" data="M_INFO9">You have successfully validated your email.</phrase>
+    <phrase section="Accounts" data="M_INFO9_1">Continue to login...</phrase>
+    <phrase section="Accounts" data="M_INFO10">Invalid email and or token detected.</phrase>
+    <phrase section="Accounts" data="M_INFO11">There was a problem creating your account. Please contact site administrator.</phrase>
+    <phrase section="Accounts" data="M_INFO12">You have successfully activated [NAME].</phrase>
+    <phrase section="Accounts" data="M_INFO13">Here you can select and activate membership access.</phrase>
+    <phrase section="Accounts" data="M_INFO14">Here you can view your membership purchase history.</phrase>
+    <phrase section="Accounts" data="M_INFO15">Here you can update your profile settings.</phrase>
+    <phrase section="Accounts" data="M_LASTIP">Login IP</phrase>
+    <phrase section="Accounts" data="M_LASTLOGIN">Last Login</phrase>
+    <phrase section="Accounts" data="M_LASTSEEN">Last Seen</phrase>
+    <phrase section="Accounts" data="M_JOINED">Joined In</phrase>
+    <phrase section="Accounts" data="M_LNAME">שם משפחה</phrase>
+    <phrase section="Accounts" data="M_MYACCOUNT">My Account</phrase>
+    <phrase section="Accounts" data="M_PASSMATCH">Passwords don't match.</phrase>
+    <phrase section="Accounts" data="M_PASSUPD_OK">Password updated successfully.</phrase>
+    <phrase section="Accounts" data="M_PASSUPDATE">Update Password</phrase>
+    <phrase section="Accounts" data="M_PASSWORD">סיסמה</phrase>
+    <phrase section="Accounts" data="M_PHONE_NUM">מספר טלפון</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_L">forgot password</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_R1">Please Enter Valid Password.</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_R2">Password entered is not alphanumeric.</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_RES">Password Reset</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_RES_D">Password sent successfully. Please check your email!</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_RES_S">Password Reset From</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_RES_T">In order to reset your password, please enter the email address above, you used to register your account.</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_T">Leave it empty unless changing the password.</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_T2">Password must be at least 6 characters long.</phrase>
+    <phrase section="Accounts" data="M_SUB1">Here you can update your personal account information.</phrase>
+    <phrase section="Accounts" data="M_SUB2">Change Password</phrase>
+    <phrase section="Accounts" data="M_SUB3">Here you can manage your site staff members roles and privileges.</phrase>
+    <phrase section="Accounts" data="M_SUB4">Here you can view and manage privileges for currently selected [ROLE] role.</phrase>
+    <phrase section="Accounts" data="M_SUB5">Here you can view and manage your members.</phrase>
+    <phrase section="Accounts" data="M_SUB6">Resend Email</phrase>
+    <phrase section="Accounts" data="M_SUB7">Here you can update user personal account information.</phrase>
+    <phrase section="Accounts" data="M_SUB8">Change Membership</phrase>
+    <phrase section="Accounts" data="M_SUB9">User Type</phrase>
+    <phrase section="Accounts" data="M_SUB10">אני מאשר לקבל תוכן פרסומי</phrase>
+    <phrase section="Accounts" data="M_SUB11">User Note</phrase>
+    <phrase section="Accounts" data="M_SUB12">Here you can add a new user account.</phrase>
+    <phrase section="Accounts" data="M_SUB13">Send Email Notification</phrase>
+    <phrase section="Accounts" data="M_SUB14">Back to login</phrase>
+    <phrase section="Accounts" data="M_SUB15">Extend Membership</phrase>
+    <phrase section="Accounts" data="M_SUB16">User Profile</phrase>
+    <phrase section="Accounts" data="M_SUB17">Module Access</phrase>
+    <phrase section="Accounts" data="M_SUB18">Plugin Access</phrase>
+    <phrase section="Accounts" data="M_SUB19">Login to manage your account.</phrase>
+    <phrase section="Accounts" data="M_SUB20">Don't have an account?</phrase>
+    <phrase section="Accounts" data="M_SUB21">Sign up here</phrase>
+    <phrase section="Accounts" data="M_SUB22">Reset Your Password</phrase>
+    <phrase section="Accounts" data="M_SUB23">Fill out the form to get started.</phrase>
+    <phrase section="Accounts" data="M_SUB24">השלם הרשמה</phrase>
+    <phrase section="Accounts" data="M_SUB25">Pay With</phrase>
+    <phrase section="Accounts" data="M_SUB26">Purchase Summary</phrase>
+    <phrase section="Accounts" data="M_SUB27">Forgot your</phrase>
+    <phrase section="Accounts" data="M_SUB27_1">password?</phrase>
+    <phrase section="Accounts" data="M_SUB28">Enter your email address below and we'll get you back on track.</phrase>
+    <phrase section="Accounts" data="M_SUB29">Request Reset Link</phrase>
+    <phrase section="Accounts" data="M_SUB30">Welcome to</phrase>
+    <phrase section="Accounts" data="M_SUB31">Already have an account?</phrase>
+    <phrase section="Accounts" data="M_SUB32">Hey, I am</phrase>
+    <phrase section="Accounts" data="M_SUB33">Page Access</phrase>
+    <phrase section="Accounts" data="M_TITLE">Account Overview</phrase>
+    <phrase section="Accounts" data="M_TITLE1">Roles Management</phrase>
+    <phrase section="Accounts" data="M_TITLE2">Privileges Management</phrase>
+    <phrase section="Accounts" data="M_TITLE3">Members Overview</phrase>
+    <phrase section="Accounts" data="M_TITLE4">Edit User</phrase>
+    <phrase section="Accounts" data="M_TITLE5">Add User</phrase>
+    <phrase section="Accounts" data="M_INVOICE">Invoice</phrase>
+    <phrase section="Accounts" data="M_SELU">Select User</phrase>
+    <phrase section="Accounts" data="M_SELUS">Select Users</phrase>
+    <phrase section="Accounts" data="M_TRASH_OK">User [NAME] moved to trash successfully.</phrase>
+    <phrase section="Accounts" data="M_UPDATE">עדכן פרטי חשבון</phrase>
+    <phrase section="Accounts" data="M_UPDATED">Account [NAME] updated successfully.</phrase>
+
+
+    <!-- Admin Menus -->
+    <phrase section="Admin Menus" data="ADM_BACKUP">Backup</phrase>
+    <phrase section="Admin Menus" data="ADM_CONTENT">Content</phrase>
+    <phrase section="Admin Menus" data="ADM_CNTR">Countries</phrase>
+    <phrase section="Admin Menus" data="ADM_CFIELDS">Custom Fields</phrase>
+    <phrase section="Admin Menus" data="ADM_COUPONS">Coupons</phrase>
+    <phrase section="Admin Menus" data="ADM_DASH">Dashboard</phrase>
+    <phrase section="Admin Menus" data="ADM_EMTPL">Email Templates</phrase>
+    <phrase section="Admin Menus" data="ADM_FM">File Manager</phrase>
+    <phrase section="Admin Menus" data="ADM_GATE">Payment Options</phrase>
+    <phrase section="Admin Menus" data="ADM_NEWSL">Newsletter</phrase>
+    <phrase section="Admin Menus" data="ADM_LAYOUT">Layout</phrase>
+    <phrase section="Admin Menus" data="ADM_LNGMNG">Languages</phrase>
+    <phrase section="Admin Menus" data="ADM_LOGS">Log Manager</phrase>
+    <phrase section="Admin Menus" data="ADM_MEMBS">Memberships</phrase>
+    <phrase section="Admin Menus" data="ADM_MENUS">Menus</phrase>
+    <phrase section="Admin Menus" data="ADM_PAGES">Pages</phrase>
+    <phrase section="Admin Menus" data="ADM_PERMS">Permissions</phrase>
+    <phrase section="Admin Menus" data="ADM_SYSINFO">System Info</phrase>
+    <phrase section="Admin Menus" data="ADM_CONFIG">Configuration</phrase>
+    <phrase section="Admin Menus" data="ADM_SYSTEM">Configuration</phrase>
+    <phrase section="Admin Menus" data="ADM_TRANS">Transactions</phrase>
+    <phrase section="Admin Menus" data="ADM_UTIL">Utilities</phrase>
+    <phrase section="Admin Menus" data="ADM_TRASH">Trash</phrase>
+    <phrase section="Admin Menus" data="ADM_USERS">Users</phrase>
+
+    <!-- Pages -->
+    <phrase section="Pages" data="PAG_ACCLVL">Access Level</phrase>
+    <phrase section="Pages" data="PAG_ADDED_OK">Page [NAME] added successfully.</phrase>
+    <phrase section="Pages" data="PAG_BODY">Page Content</phrase>
+    <phrase section="Pages" data="PAG_CAPTION">Page Caption</phrase>
+    <phrase section="Pages" data="PAG_INFO">You currently don't have any pages...</phrase>
+    <phrase section="Pages" data="PAG_JSCODE">JavaScript Code</phrase>
+    <phrase section="Pages" data="PAG_MDLASS">Assign Module</phrase>
+    <phrase section="Pages" data="PAG_MDLNOASS">No Module Assigned</phrase>
+    <phrase section="Pages" data="PAG_MDLCOMMENT">Enable Comments</phrase>
+    <phrase section="Pages" data="PAG_NOHEAD">Show Header</phrase>
+    <phrase section="Pages" data="PAG_MEMLVL">Membership Level</phrase>
+    <phrase section="Pages" data="PAG_NAME">Page Name</phrase>
+    <phrase section="Pages" data="PAG_NOMEM_REQ">No Membership Required</phrase>
+    <phrase section="Pages" data="PAG_PGACC">Account Page</phrase>
+    <phrase section="Pages" data="PAG_PGACCT">Activation Page</phrase>
+    <phrase section="Pages" data="PAG_PGADM">Admin Access Only</phrase>
+    <phrase section="Pages" data="PAG_PGCNT">Contact Form</phrase>
+    <phrase section="Pages" data="PAG_PGHOME">Home Page</phrase>
+    <phrase section="Pages" data="PAG_PGLOGIN">Login Page</phrase>
+    <phrase section="Pages" data="PAG_PGNORMAL">Normal Page</phrase>
+    <phrase section="Pages" data="PAG_PGPUB">Public Profile Page</phrase>
+    <phrase section="Pages" data="PAG_PGRGST">Register Page</phrase>
+    <phrase section="Pages" data="PAG_PGSRH">Search Page</phrase>
+    <phrase section="Pages" data="PAG_PGSTMAP">Sitemap Page</phrase>
+    <phrase section="Pages" data="PAG_SLUG">Page Slug</phrase>
+    <phrase section="Pages" data="PAG_SUB">Here you can manage your content pages. Note: Deleting page will also delete layouts under the same page.</phrase>
+    <phrase section="Pages" data="PAG_SUB1">Here you can update your content page.</phrase>
+    <phrase section="Pages" data="PAG_SUB2">Dedicated Pages</phrase>
+    <phrase section="Pages" data="PAG_SUB3">Update Page</phrase>
+    <phrase section="Pages" data="PAG_SUB4">New Page</phrase>
+    <phrase section="Pages" data="PAG_SUB5">Live Editor</phrase>
+    <phrase section="Pages" data="PAG_SUB6">Page Type</phrase>
+    <phrase section="Pages" data="PAG_TRASH_OK">Page [NAME] moved to trash successfully.</phrase>
+    <phrase section="Pages" data="PAG_UPDATE_OK">Page [NAME] updated successfully.</phrase>
+
+    <!-- Menus -->
+    <phrase section="Menus" data="MEN_ADDED_OK">Menu [NAME] added successfully.</phrase>
+    <phrase section="Menus" data="MEN_CAP">Menu Caption</phrase>
+    <phrase section="Menus" data="MEN_COLS">Menu Columns</phrase>
+    <phrase section="Menus" data="MEN_CTYPE">Content Type</phrase>
+    <phrase section="Menus" data="MEN_ICONS">Menu Icons</phrase>
+    <phrase section="Menus" data="MEN_NAME">Menu Name</phrase>
+    <phrase section="Menus" data="MEN_PARENT">Menu Parent</phrase>
+    <phrase section="Menus" data="MEN_SUB">Top Level</phrase>
+    <phrase section="Menus" data="MEN_SUB1">Select Content Type</phrase>
+    <phrase section="Menus" data="MEN_SUB2">Content Link</phrase>
+    <phrase section="Menus" data="MEN_SUB3">Add Menu</phrase>
+    <phrase section="Menus" data="MEN_SUB4">Update Menu</phrase>
+    <phrase section="Menus" data="MEN_TARGET">Target</phrase>
+    <phrase section="Menus" data="MEN_TARGET_B">_Blank</phrase>
+    <phrase section="Menus" data="MEN_TARGET_L">Link Target</phrase>
+    <phrase section="Menus" data="MEN_TARGET_S">_Self</phrase>
+    <phrase section="Menus" data="MEN_TARGET_T">Start url with http://</phrase>
+    <phrase section="Menus" data="MEN_TRASH_OK">Menu [NAME] moved to trash successfully.</phrase>
+    <phrase section="Menus" data="MEN_UPDATE_OK">Menu [NAME] updated successfully.</phrase>
+
+    <!-- Countries -->
+    <phrase section="Countries" data="CNT_TITLE">Country Management</phrase>
+    <phrase section="Countries" data="CNT_INFO">Here you can view and manage country list. Click on VAT/Tax values to edit in place.</phrase>
+    <phrase section="Countries" data="CNT_ABBR">Abbreviation</phrase>
+    <phrase section="Countries" data="CNT_SELECT">Select Country</phrase>
+    <phrase section="Countries" data="CNT_DELOK">Country [NAME] deleted successfully.</phrase>
+    <phrase section="Countries" data="CNT_EDIT">Edit Country</phrase>
+    <phrase section="Countries" data="CNT_NOCOUNTRY">You don't have any countries yet...</phrase>
+    <phrase section="Countries" data="CNT_UPDATE">Update Country</phrase>
+    <phrase section="Countries" data="CNT_UPDATED">Country [NAME] updated successfully.</phrase>
+
+    <!-- Admin Discounts -->
+    <phrase section="Discounts" data="DC_ADDED_OK">Coupon [NAME] added successfully.</phrase>
+    <phrase section="Discounts" data="DC_TITLE">Discounts/Coupons</phrase>
+    <phrase section="Discounts" data="DC_SUB">Here you can manage your discounts/coupons.</phrase>
+    <phrase section="Discounts" data="DC_CODE">Coupon Code</phrase>
+    <phrase section="Discounts" data="DC_CODE_I">Enter coupon code...</phrase>
+    <phrase section="Discounts" data="DC_SUB1">New Coupon</phrase>
+    <phrase section="Discounts" data="DC_SUB2">Update Coupon</phrase>
+    <phrase section="Discounts" data="DC_SUB3">Apply to memberships</phrase>
+    <phrase section="Discounts" data="DC_SUB4">Discount</phrase>
+    <phrase section="Discounts" data="DC_DISC">Discount Amount</phrase>
+    <phrase section="Discounts" data="DC_TYPE">Discount Type</phrase>
+    <phrase section="Discounts" data="DC_NONDISC">You don't have any discounts/coupons yet. Please add...</phrase>
+    <phrase section="Discounts" data="DC_TYPE_A">Fixed Amount</phrase>
+    <phrase section="Discounts" data="DC_TYPE_P">Percentage Amount</phrase>
+    <phrase section="Discounts" data="DC_TRASH_OK">Coupon [NAME] trashed successfully.</phrase>
+    <phrase section="Discounts" data="DC_UPDATE_OK">Coupon [NAME] updated successfully.</phrase>
+
+    <!-- Memberships -->
+    <phrase section="Memberships" data="MEM_ADDED_OK">Membership [NAME] added successfully.</phrase>
+    <phrase section="Memberships" data="MEM_TITLE">Membership Packages</phrase>
+    <phrase section="Memberships" data="MEM_NOMEM">You dont have any memberships yet. Please add...</phrase>
+    <phrase section="Memberships" data="MEM_SUB">Here you can manage your membership packages. Note: Make sure you are not deleting or deactivating packages assigned to active users.</phrase>
+    <phrase section="Memberships" data="MEM_SUB1">New Membership</phrase>
+    <phrase section="Memberships" data="MEM_SUB2">Update Membership</phrase>
+    <phrase section="Memberships" data="MEM_SUB3">Require Membership</phrase>
+    <phrase section="Memberships" data="MEM_TRIAL">Trial Membership</phrase>
+    <phrase section="Memberships" data="MEM_PRIVATE">Private Membership</phrase>
+    <phrase section="Memberships" data="MEM_REC">Recurring Payment</phrase>
+    <phrase section="Memberships" data="MEM_REC1">Recurring</phrase>
+    <phrase section="Memberships" data="MEM_EXP">Expire</phrase>
+    <phrase section="Memberships" data="MEM_ACT">Activated</phrase>
+    <phrase section="Memberships" data="MEM_PRICE">Membership Price</phrase>
+    <phrase section="Memberships" data="MEM_DAYS">Membership Period</phrase>
+    <phrase section="Memberships" data="MEM_NAME">Membership Name</phrase>
+    <phrase section="Memberships" data="MEM_VALID">Valid Until</phrase>
+    <phrase section="Memberships" data="MEM_TRASH_OK">Membership [NAME] moved to trash successfully.</phrase>
+    <phrase section="Memberships" data="MEM_UPDATE_OK">Membership [NAME] updated successfully.</phrase>
+
+    <!-- Admin Newsletter -->
+    <phrase section="Newsletter" data="NL_FROM">Email From </phrase>
+    <phrase section="Newsletter" data="NL_RCPT">Recipients</phrase>
+    <phrase section="Newsletter" data="NL_INFO1">Here you can send newsletter to all users or newsletter subscribers.</phrase>
+    <phrase section="Newsletter" data="NL_SUBJECT">Email Subject</phrase>
+    <phrase section="Newsletter" data="NL_ATTACH">Attachment</phrase>
+    <phrase section="Newsletter" data="NL_TTITLE">System Newsletter</phrase>
+    <phrase section="Newsletter" data="NL_BODY">Email Content</phrase>
+    <phrase section="Newsletter" data="NL_SEND">Send Email</phrase>
+    <phrase section="Newsletter" data="NL_UALL">All Users</phrase>
+    <phrase section="Newsletter" data="NL_UAREG">Registered Members</phrase>
+    <phrase section="Newsletter" data="NL_UPAID">Paid Membership</phrase>
+    <phrase section="Newsletter" data="NL_UNLS">Newsletter Subscribers</phrase>
+    <phrase section="Newsletter" data="NL_SENT">All Email(s) have been sent successfully!</phrase>
+    <phrase section="Newsletter" data="NL_ALERT">Some of the emails could not be reached!</phrase>
+    <phrase section="Newsletter" data="NL_ERROR">There was a problem reaching destination email. Make sure email address is correct.</phrase>
+
+    <!-- Transactions -->
+    <phrase section="Transactions" data="TRX_PAY">Payments</phrase>
+    <phrase section="Transactions" data="TRX_AVERAGE">Average Sale</phrase>
+    <phrase section="Transactions" data="TRX_TAX">TAX/VAT</phrase>
+    <phrase section="Transactions" data="TRX_COUPON">Coupon</phrase>
+    <phrase section="Transactions" data="TRX_TOTAMT">Total Amount</phrase>
+    <phrase section="Transactions" data="TRX_AMOUNT">Amount</phrase>
+    <phrase section="Transactions" data="TRX_SALES">Sales</phrase>
+    <phrase section="Transactions" data="TRX_POPMEM">Sales By Membership</phrase>
+    <phrase section="Transactions" data="TRX_GRTOTAL">Grand Total</phrase>
+    <phrase section="Transactions" data="TRX_SUBTOTAL">Sub Total</phrase>
+    <phrase section="Transactions" data="TRX_PP">Processor</phrase>
+
+    <!-- Plugins -->
+    <phrase section="Plugins" data="PLG_TITLE">Manage Plugins</phrase>
+    <phrase section="Plugins" data="PLG_ADDED_OK">Plugin [NAME] added successfully.</phrase>
+    <phrase section="Plugins" data="PLG_SUB">Here you can manage your content, user and system plugins.</phrase>
+    <phrase section="Plugins" data="PLG_SUB1">New Plugin</phrase>
+    <phrase section="Plugins" data="PLG_SUB2">Update Plugin</phrase>
+    <phrase section="Plugins" data="PLG_CLASS">Additional Class</phrase>
+    <phrase section="Plugins" data="PLG_NOPLG">You currently don't have any plugins...</phrase>
+    <phrase section="Plugins" data="PLG_SHOWTITLE">Show Title</phrase>
+    <phrase section="Plugins" data="PLG_TRASH_OK">Plugin [NAME] moved to trash successfully.</phrase>
+    <phrase section="Plugins" data="PLG_DEL_OK">Plugin [NAME] deleted successfully.</phrase>
+    <phrase section="Plugins" data="PLG_UPDATE_OK">Plugin [NAME] updated successfully.</phrase>
+
+    <!-- Modules -->
+    <phrase section="Modules" data="MDL_TITLE">Manage Modules</phrase>
+    <phrase section="Modules" data="MDL_SUB">Here you can manage your cms modules.</phrase>
+    <phrase section="Modules" data="MDL_SUB1">Update Module</phrase>
+    <phrase section="Modules" data="MDL_NOMOD">You currently don't have any modules...</phrase>
+    <phrase section="Modules" data="MDL_DEL_OK">Module [NAME] deleted successfully.</phrase>
+    <phrase section="Modules" data="MDL_UPDATE_OK">Module [NAME] updated successfully.</phrase>
+
+    <!-- Gateway -->
+    <phrase section="Gateway" data="GW_EDIT">Edit Gateway</phrase>
+    <phrase section="Gateway" data="GW_IPNURL">IPN Url</phrase>
+    <phrase section="Gateway" data="GW_LIVE">Set Live Mode</phrase>
+    <phrase section="Gateway" data="GW_NAME">Gateway Name</phrase>
+    <phrase section="Gateway" data="GW_SUB">Here you can manage your list of available gateways.</phrase>
+    <phrase section="Gateway" data="GW_SUB1">Here you can update your gateway settings.</phrase>
+    <phrase section="Gateway" data="GW_TITLE">Manage Payment Gateways</phrase>
+    <phrase section="Gateway" data="GW_TITLE1">Edit Payment Gateway</phrase>
+    <phrase section="Gateway" data="GW_UPDATE">Update Gateway</phrase>
+    <phrase section="Gateway" data="GW_UPDATED">Gateway [NAME] Updated Successfully</phrase>
+
+    <!-- Pagination -->
+    <phrase section="Pagination" data="CURPAGE">Current Page</phrase>
+    <phrase section="Pagination" data="TOTAL">Total</phrase>
+    <phrase section="Pagination" data="GOTO">Go To</phrase>
+    <phrase section="Pagination" data="IPP">Items Per Page</phrase>
+    <phrase section="Pagination" data="NEXT">Next</phrase>
+    <phrase section="Pagination" data="OF">of</phrase>
+    <phrase section="Pagination" data="PREV">Prev</phrase>
+
+    <!-- Email Templates -->
+    <phrase section="Email Templates" data="ET_BACKUP">Create Backup</phrase>
+    <phrase section="Email Templates" data="ET_DESC">Description</phrase>
+    <phrase section="Email Templates" data="ET_ERROR">Error loading template file</phrase>
+    <phrase section="Email Templates" data="ET_ERROR2">Selected template does not exists.</phrase>
+    <phrase section="Email Templates" data="ET_INFO">It seems your email templates are missing. Please reinstall.</phrase>
+    <phrase section="Email Templates" data="ET_NAME">Template Name</phrase>
+    <phrase section="Email Templates" data="ET_SUB">Here you can design/update existing mailer templates.</phrase>
+    <phrase section="Email Templates" data="ET_SUBJECT">Subject</phrase>
+    <phrase section="Email Templates" data="ET_TITLE">Manage Cms Email Templates</phrase>
+    <phrase section="Email Templates" data="ET_TITLE2">Editing Template</phrase>
+    <phrase section="Email Templates" data="ET_UPDATE">Update Template</phrase>
+    <phrase section="Email Templates" data="ET_UPDATED">Template [NAME] updated successfully.</phrase>
+
+    <!-- Language Manager -->
+    <phrase section="Language Manager" data="LG_ABBR">Country Abbreviation</phrase>
+    <phrase section="Language Manager" data="LG_AUTHOR">Author</phrase>
+    <phrase section="Language Manager" data="LG_COLOR">Language Color</phrase>
+    <phrase section="Language Manager" data="LG_KEY">Key</phrase>
+    <phrase section="Language Manager" data="LG_NAME">Language Name</phrase>
+    <phrase section="Language Manager" data="LG_RESET">Reset Group Filter</phrase>
+    <phrase section="Language Manager" data="LG_SUB">Here you can manage your languages. Note: Deleting language will also delete all database tables containing translations for deleted language. Please be patient as this process might take few seconds to complete.</phrase>
+    <phrase section="Language Manager" data="LG_SUB1">Edit Language</phrase>
+    <phrase section="Language Manager" data="LG_SUB2">Here you can update your language phrases. Note: Do not replace variables between [ ]. Click on Value name to edit.</phrase>
+    <phrase section="Language Manager" data="LG_SUB3">Main Language</phrase>
+    <phrase section="Language Manager" data="LG_SUB4">Phrase Section</phrase>
+    <phrase section="Language Manager" data="LG_SUB5">New Language</phrase>
+    <phrase section="Language Manager" data="LG_INFO">You can't delete default language.</phrase>
+    <phrase section="Language Manager" data="LG_TITLE">Manage CMS Language</phrase>
+    <phrase section="Language Manager" data="LG_TITLE1">Language Phrases</phrase>
+    <phrase section="Language Manager" data="LG_UPDATE">Update Language</phrase>
+    <phrase section="Language Manager" data="LG_UPDATE_OK">Language [NAME] updated successfully.</phrase>
+    <phrase section="Language Manager" data="LG_ADDED_OK">Language [NAME] added successfully.</phrase>
+    <phrase section="Language Manager" data="LG_DEL_OK">Language [NAME] deleted successfully.</phrase>
+    <phrase section="Language Manager" data="LG_VALUE">Value</phrase>
+
+    <!-- Database -->
+    <phrase section="Database" data="DBM_ADD">Create Backup</phrase>
+    <phrase section="Database" data="DBM_BKP_ERR">There was an error creating backup.</phrase>
+    <phrase section="Database" data="DBM_BKP_OK">Backup created successfully!</phrase>
+    <phrase section="Database" data="DBM_DEL">Delete Database Backup</phrase>
+    <phrase section="Database" data="DBM_DEL_OK">Backup [NAME] deleted successfully!</phrase>
+    <phrase section="Database" data="DBM_INFO">Make sure your database is backed up frequently. Click on Create backup to manually backup your database. The backups are stored in the [/uploads/backups/] folder and can be downloaded from the list below. Your most recent backup is highlighted. Make sure you download your most recent backup, and delete the rest.</phrase>
+    <phrase section="Database" data="DBM_RES">Restore Database</phrase>
+    <phrase section="Database" data="DBM_RES_OK">Database [NAME] restored successfully!</phrase>
+    <phrase section="Database" data="DBM_RES_T">Are you sure you want to restore database?</phrase>
+    <phrase section="Database" data="DBM_SUB">Viewing Backups</phrase>
+    <phrase section="Database" data="DBM_TITLE">Database Maintenance</phrase>
+
+    <!-- System Info -->
+    <phrase section="System Info" data="SYS_CMS_INF">CMS Info</phrase>
+    <phrase section="System Info" data="SYS_CMS_VER">CMS Version</phrase>
+    <phrase section="System Info" data="SYS_DBOPTIMIZED">Optimized</phrase>
+    <phrase section="System Info" data="SYS_DBOPTIMIZING">Optimizing</phrase>
+    <phrase section="System Info" data="SYS_DBREPAIRED">Repaired</phrase>
+    <phrase section="System Info" data="SYS_DBREPAIRING">Repairing</phrase>
+    <phrase section="System Info" data="SYS_DBSTATUS">Status</phrase>
+    <phrase section="System Info" data="SYS_DBTABLE">Table</phrase>
+    <phrase section="System Info" data="SYS_DBTABLE_INF">Database Tables</phrase>
+    <phrase section="System Info" data="SYS_DBV">Server Database Version</phrase>
+    <phrase section="System Info" data="SYS_DEF_LANG">Default Language</phrase>
+    <phrase section="System Info" data="SYS_GD_VER">GD Version</phrase>
+    <phrase section="System Info" data="SYS_INFO">The information displayed below is collected from a variety of locations, and summarized here so that you may be able to conveniently find some of the information required when trying to diagnose a problem or request help with your CMS PRO v.[VER] installation.</phrase>
+    <phrase section="System Info" data="SYS_LOG_ERR">Log Errors</phrase>
+    <phrase section="System Info" data="SYS_MEM_LIM">Memory Limit</phrase>
+    <phrase section="System Info" data="SYS_MEMALO">Maximum Allocated Memory</phrase>
+    <phrase section="System Info" data="SYS_MQR">Magic quotes in runtime</phrase>
+    <phrase section="System Info" data="SYS_PHP_INF">PHP Info</phrase>
+    <phrase section="System Info" data="SYS_PHP_INFO">PHP Information</phrase>
+    <phrase section="System Info" data="SYS_PHP_VER">Current PHP Version</phrase>
+    <phrase section="System Info" data="SYS_PMF">Post Max. filesize</phrase>
+    <phrase section="System Info" data="SYS_RG">Register Globals</phrase>
+    <phrase section="System Info" data="SYS_ROOT_PATH">Root Path</phrase>
+    <phrase section="System Info" data="SYS_ROOT_URL">Root Url</phrase>
+    <phrase section="System Info" data="SYS_SER_API">Server API</phrase>
+    <phrase section="System Info" data="SYS_SER_DB">Server Database</phrase>
+    <phrase section="System Info" data="SYS_SER_INF">Server Info</phrase>
+    <phrase section="System Info" data="SYS_SER_MR">Apache Mod Rewrite</phrase>
+    <phrase section="System Info" data="SYS_SER_OS">Server OS</phrase>
+    <phrase section="System Info" data="SYS_SERVER_INFO">Server Information</phrase>
+    <phrase section="System Info" data="SYS_SM">Safe Mode</phrase>
+    <phrase section="System Info" data="SYS_SSP">Session Save Path</phrase>
+    <phrase section="System Info" data="SYS_STS">Server Total Space</phrase>
+    <phrase section="System Info" data="SYS_SUB">Viewing System Information</phrase>
+    <phrase section="System Info" data="SYS_TITLE">System Information</phrase>
+    <phrase section="System Info" data="SYS_UMF">Upload Max. filesize</phrase>
+    <phrase section="System Info" data="SYS_UPL_PATH">Uploads Path</phrase>
+    <phrase section="System Info" data="SYS_UPL_URL">Uploads Url</phrase>
+    <phrase section="System Info" data="SYS_ADMVIEW">Admin View</phrase>
+    <phrase section="System Info" data="SYS_UPL_URL">Uploads Url</phrase>
+
+    <!-- System Utilities -->
+    <phrase section="System Utilities" data="UTL_TITLE">System Utilities</phrase>
+    <phrase section="System Utilities" data="UTL_INFO">Here you can perform site maintenance, such as deleting inactive and banned users, create xml sitemap, and manage module slugs.</phrase>
+    <phrase section="System Utilities" data="UTL_SUB1">Delete Inactive Users</phrase>
+    <phrase section="System Utilities" data="UTL_SUB1_T">This will delete all users (not administrators), who have not logged in to the site within selected number of days. It will not delete users pending verification process.</phrase>
+    <phrase section="System Utilities" data="UTL_SUB2">Delete Pending Users</phrase>
+    <phrase section="System Utilities" data="UTL_SUB2_T">This will delete all [NUMBER] users pending verification process.</phrase>
+    <phrase section="System Utilities" data="UTL_SUB3">Delete Banned Users</phrase>
+    <phrase section="System Utilities" data="UTL_SUB3_T">This will delete all [NUMBER] banned user(s).</phrase>
+    <phrase section="System Utilities" data="UTL_SUB4">Generate Site Map</phrase>
+    <phrase section="System Utilities" data="UTL_SUB4_T">Generate site map xml file that you can submit to search engine. File will be stored in CMS root directory named sitemap.xml.</phrase>
+    <phrase section="System Utilities" data="UTL_SUB5">System Slugs</phrase>
+    <phrase section="System Utilities" data="UTL_SUB5_T">Rename system slugs. No spaces, one word and all lowercase.</phrase>
+    <phrase section="System Utilities" data="UTL_DAYS">Inactive Days</phrase>
+    <phrase section="System Utilities" data="UTL_DELINACTIVE">Delete Inactive</phrase>
+    <phrase section="System Utilities" data="UTL_DELPENDING">Delete Pending</phrase>
+    <phrase section="System Utilities" data="UTL_CART">Empty Cart Data</phrase>
+    <phrase section="System Utilities" data="UTL_CART_T">This will empty cart data, used to store temporary user details.</phrase>
+    <phrase section="System Utilities" data="UTL_INSTALL">Install</phrase>
+    <phrase section="System Utilities" data="UTL_INSTALL_T">Upload and install CMS PRO plugins and modules.</phrase>
+    <phrase section="System Utilities" data="UTL_INSTALL_E">Select file to install.</phrase>
+    <phrase section="System Utilities" data="UTL_CRBTN">Empty Cart</phrase>
+    <phrase section="System Utilities" data="UTL_DELBANNED">Delete Banned</phrase>
+    <phrase section="System Utilities" data="UTL_CREATESM">Create Sitemap</phrase>
+    <phrase section="System Utilities" data="UTL_GENERATE">Generate</phrase>
+    <phrase section="System Utilities" data="UTL_DELPEND_OK">All [NAME] pending users deleted successfully.</phrase>
+    <phrase section="System Utilities" data="UTL_DELBND_OK">All [NAME] banned users deleted successfully.</phrase>
+    <phrase section="System Utilities" data="UTL_DELCRT_OK">Total [NAME] records deleted successfully.</phrase>
+    <phrase section="System Utilities" data="UTL_DELINCT_OK">Total [NAME] inactive user(s) deleted successfully.</phrase>
+    <phrase section="System Utilities" data="UTL_MAP_ERROR">There was an error creating [NAME].</phrase>
+    <phrase section="System Utilities" data="UTL_MAP_OK">Sitemap [NAME] created successfully.</phrase>
+    <phrase section="System Utilities" data="UTL_SLUGS_OK">System slugs updated successfully.</phrase>
+
+    <!-- Layout Manager -->
+    <phrase section="Layout" data="LMG_TITLE">Content Layout Manager</phrase>
+    <phrase section="Layout" data="LMG_SUB">Select Page</phrase>
+    <phrase section="Layout" data="LMG_SUB1">Select Module</phrase>
+    <phrase section="Layout" data="LMG_TOP">Top Section</phrase>
+    <phrase section="Layout" data="LMG_BOTTOM">Bottom Section</phrase>
+    <phrase section="Layout" data="LMG_LEFT">Left Section</phrase>
+    <phrase section="Layout" data="LMG_RIGHT">Right Section</phrase>
+    <phrase section="Layout" data="LMG_MAIN">Main Area</phrase>
+
+    <!-- Admin Custom Fields -->
+    <phrase section="Custom Fields" data="CF_TITLE">Custom Fields</phrase>
+    <phrase section="Custom Fields" data="CF_ADD">New Field</phrase>
+    <phrase section="Custom Fields" data="CF_ADDED_OK">Custom Field [NAME] Added Successfully.</phrase>
+    <phrase section="Custom Fields" data="CF_DEL_OK">Custom Field [NAME] deleted successfully.</phrase>
+    <phrase section="Custom Fields" data="CF_EDIT">Edit Field</phrase>
+    <phrase section="Custom Fields" data="CF_FIELD">Field</phrase>
+    <phrase section="Custom Fields" data="CF_INFO">To reorder fields click and drag item reorder handle, position it where you want it. Position will be updated automatically.</phrase>
+    <phrase section="Custom Fields" data="CF_NOFIELDS">You don't have any custom fields yet. Please add...</phrase>
+    <phrase section="Custom Fields" data="CF_REQUIRED">Required Field</phrase>
+    <phrase section="Custom Fields" data="CF_SUB1">Edit Custom Field</phrase>
+    <phrase section="Custom Fields" data="CF_SUB2">Add Custom Field</phrase>
+    <phrase section="Custom Fields" data="CF_SUB3">Manage Custom Fields</phrase>
+    <phrase section="Custom Fields" data="CF_TIP">Tooltip</phrase>
+    <phrase section="Custom Fields" data="CF_UPDATE">Update Field</phrase>
+    <phrase section="Custom Fields" data="CF_UPDATE_OK">Custom Field [NAME] Updated Successfully.</phrase>
+
+    <!-- File Manager -->
+    <phrase section="File Manager" data="FM_LASTM">Last Modified</phrase>
+    <phrase section="File Manager" data="FM_UNZIP">Unzip</phrase>
+    <phrase section="File Manager" data="FM_FSIZE">Size</phrase>
+    <phrase section="File Manager" data="FM_SPACE">Space</phrase>
+    <phrase section="File Manager" data="FM_DISPLAY">Display</phrase>
+    <phrase section="File Manager" data="FM_SORT">Sort</phrase>
+    <phrase section="File Manager" data="FM_DIR">Directory</phrase>
+    <phrase section="File Manager" data="FM_DIRS">Directories</phrase>
+    <phrase section="File Manager" data="FM_FILE">File</phrase>
+    <phrase section="File Manager" data="FM_FILES">Files</phrase>
+    <phrase section="File Manager" data="FM_NEWFLD">New Folder</phrase>
+    <phrase section="File Manager" data="FM_NEWFLD_S1">Create new folder</phrase>
+    <phrase section="File Manager" data="FM_NEWFLD_S2">Folder name</phrase>
+    <phrase section="File Manager" data="FM_ALL_F">Everything</phrase>
+    <phrase section="File Manager" data="FM_AMG_F">Images</phrase>
+    <phrase section="File Manager" data="FM_VID_F">Video</phrase>
+    <phrase section="File Manager" data="FM_AUD_F">Audio</phrase>
+    <phrase section="File Manager" data="FM_DOC_F">Documents</phrase>
+
+    <!-- File Upload -->
+    <phrase section="File Upload" data="FU_ERROR6">File with the same name already exists.</phrase>
+    <phrase section="File Upload" data="FU_ERROR7">Invalid image detected.</phrase>
+    <phrase section="File Upload" data="FU_ERROR8">Invalid file extension. Allowed extensions are:</phrase>
+    <phrase section="File Upload" data="FU_ERROR9">Sorry but there is an error on our server. Please try again later.</phrase>
+    <phrase section="File Upload" data="FU_ERROR10">File is too big. Maximum allowed size is</phrase>
+    <phrase section="File Upload" data="FU_ERROR11">An unexpected error occurred, please try again later</phrase>
+    <phrase section="File Upload" data="FU_ERROR12">Sorry but there is an error on our server. Please try again later.</phrase>
+    <phrase section="File Upload" data="FU_ERROR13">The file could not be uploaded</phrase>
+    <phrase section="File Upload" data="FU_ERROR14">You need to select at least one file.</phrase>
+    <phrase section="File Upload" data="FU_ERROR15">Invalid file detected.</phrase>
+    <phrase section="File Upload" data="FU_ERROR16">Invalid directory detected.</phrase>
+
+    <!-- Front Section -->
+    <phrase section="Front" data="FRT_MERROR">Oops! You Must Be Logged In to View this Page.</phrase>
+    <phrase section="Front" data="FRT_MERROR_1">The content you are trying to access requires member credentials.</phrase>
+    <phrase section="Front" data="FRT_MERROR_2">The content you are trying to access requires one of these memberships:</phrase>
+    <phrase section="Front" data="FRT_SEARCH_EMPTY">Sorry, your search for </phrase>
+    <phrase section="Front" data="FRT_SEARCH_EMPTY1"> did not yield any results. Please try searching for similar terms.</phrase>
+    <phrase section="Front" data="FRT_SEARCH_EMPTY2">Please enter some keywords into search box to perform search.</phrase>
+    <phrase section="Front" data="FRT_MTNC_TITLE">We're just tuning up a few things</phrase>
+
+    <!-- EU Cookie Law Banner -->
+    <phrase section="Front" data="EU_NOTICE">We use cookies to improve your experience on the website. Some cookies are required to ensure that the site functions correctly, for this reason we may have already set some cookies. Other cookies gather anonymous data about how you are using the website, however these will only be set if you give your consent.</phrase>
+    <phrase section="Front" data="EU_ACCEPT">ACCEPT COOKIES</phrase>
+    <phrase section="Front" data="EU_DECLINE">DECLINE COOKIES</phrase>
+    <phrase section="Front" data="EU_DECLINE_T">In doing so you will be redirected. Do you wish to proceed?</phrase>
+    <phrase section="Front" data="EU_W_COOKIES">What are cookies?</phrase>
+
+
+    <!-- Contact Form -->
+    <phrase section="Contact Form" data="CF_SUBJECT_1">--- Tell us what's about? ---</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_2">Compliment</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_3">Complaint</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_4">Suggestion</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_5">Investor Relations</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_6">Jobs and Careers</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_7">Terms and Policies Related</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_8">Customer Support</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_9">Other</phrase>
+    <phrase section="Contact Form" data="CF_SEND">Send Message</phrase>
+    <phrase section="Contact Form" data="CF_ERR">There was a problem sending email. Please contact site administrator.</phrase>
+    <phrase section="Contact Form" data="CF_OK">Thank you! Your message has been sent successfully.</phrase>
+
+    <!-- Payments -->
+    <phrase section="Payments" data="STR_POK">Thank you! Payment completed successfully. Redirecting in 4 seconds</phrase>
+    <phrase section="Payments" data="STR_POK1">Payment validation, please wait...</phrase>
+    <phrase section="Payments" data="STR_SPCOK">Payment confirmation.</phrase>
+    <phrase section="Payments" data="STR_SPCER">Payment Failed.</phrase>
+    <phrase section="Payments" data="STR_CCN">Card Number</phrase>
+    <phrase section="Payments" data="STR_CCV">CVC</phrase>
+    <phrase section="Payments" data="STR_CEXM">Expiration Month</phrase>
+    <phrase section="Payments" data="STR_CEXY">Expiration Year</phrase>
+    <phrase section="Payments" data="STR_ERR0">Invalid cart detected.</phrase>
+    <phrase section="Payments" data="STR_ERR">Invalid membership detected.</phrase>
+    <phrase section="Payments" data="STR_ERR1">Invalid transaction record detected.</phrase>
+
+    <!-- Admin Configuration -->
+    <phrase section="Configuration" data="CG_AUTOVERIFY">Auto Registration</phrase>
+    <phrase section="Configuration" data="CG_CURRENCY">Default Currency</phrase>
+    <phrase section="Configuration" data="CG_COMPANY">Company Name</phrase>
+    <phrase section="Configuration" data="CG_DIR">Site Directory</phrase>
+    <phrase section="Configuration" data="CG_DTZ">Default Time Zone</phrase>
+    <phrase section="Configuration" data="CG_ETAX">Enable VAT/Tax</phrase>
+    <phrase section="Configuration" data="CG_EUCOOKIE">Enable EU Cookie Law Notice</phrase>
+    <phrase section="Configuration" data="CG_FBID">Facebook ID</phrase>
+    <phrase section="Configuration" data="CG_INFO">Here you can update your system configuration. Please do not make any changes unless you know what you're doing.</phrase>
+    <phrase section="Configuration" data="CG_INVDATA">Invoice Data</phrase>
+    <phrase section="Configuration" data="CG_INVNOTE">Invoice Notes</phrase>
+    <phrase section="Configuration" data="CG_LANG">Default Language</phrase>
+    <phrase section="Configuration" data="CG_LOCALES">Default Locale</phrase>
+    <phrase section="Configuration" data="CG_LOGO">Company Logo</phrase>
+    <phrase section="Configuration" data="CG_LOGO1">Invoice Logo</phrase>
+    <phrase section="Configuration" data="CG_LOGODEL">Delete Logo</phrase>
+    <phrase section="Configuration" data="CG_LONGDATE">Long Date</phrase>
+    <phrase section="Configuration" data="CG_MAILER">Default Mailer</phrase>
+    <phrase section="Configuration" data="CG_NOTIFY_ADMIN">Registration Notification</phrase>
+    <phrase section="Configuration" data="CG_OFFLINE">Offline Payment Info</phrase>
+    <phrase section="Configuration" data="CG_PERPAGE">Items Per Page</phrase>
+    <phrase section="Configuration" data="CG_REGALOWED">Allow Registration</phrase>
+    <phrase section="Configuration" data="CG_REGVERIFY">Registration Verification</phrase>
+    <phrase section="Configuration" data="CG_SHORTDATE">Short Date</phrase>
+    <phrase section="Configuration" data="CG_SITENAME">Website Name</phrase>
+    <phrase section="Configuration" data="CG_SMAILPATH">Sendmail Path</phrase>
+    <phrase section="Configuration" data="CG_SMTP_HOST">SMTP Hostname</phrase>
+    <phrase section="Configuration" data="CG_SMTP_PASS">SMTP Password</phrase>
+    <phrase section="Configuration" data="CG_SMTP_PORT">SMTP Port</phrase>
+    <phrase section="Configuration" data="CG_SMTP_SSL">Requires SSL</phrase>
+    <phrase section="Configuration" data="CG_SMTP_USER">SMTP Username</phrase>
+    <phrase section="Configuration" data="CG_TIMEFORMAT">Time Format</phrase>
+    <phrase section="Configuration" data="CG_THEME">Website Theme</phrase>
+    <phrase section="Configuration" data="CG_PLOADER">Enable Page Loader</phrase>
+    <phrase section="Configuration" data="CG_TWID">Twitter ID</phrase>
+    <phrase section="Configuration" data="CG_UPDATE">Update Configuration</phrase>
+    <phrase section="Configuration" data="CG_UPDATED">Configuration updated successfully!</phrase>
+    <phrase section="Configuration" data="CG_WEBEMAIL">Website Email</phrase>
+    <phrase section="Configuration" data="CG_WEEKSTART">Week Starts On</phrase>
+    <phrase section="Configuration" data="CG_LOGIN_ATTEMPT">Incorrect Login Attempts</phrase>
+    <phrase section="Configuration" data="CG_LOGIN_TIME">Login Wait Time</phrase>
+    <phrase section="Configuration" data="CG_LOG_ON">Log All Actions</phrase>
+    <phrase section="Configuration" data="CG_LOGIN_SHOW">Show Login</phrase>
+    <phrase section="Configuration" data="CG_SEARCH_SHOW">Show Search</phrase>
+    <phrase section="Configuration" data="CG_CRUMBS_SHOW">Show Breadcrumbs</phrase>
+    <phrase section="Configuration" data="CG_LANG_SHOW">Show Language</phrase>
+    <phrase section="Configuration" data="CG_AV_WH">Avatar Width/Height</phrase>
+    <phrase section="Configuration" data="CG_TH_WH">Thumbnail Width/Height</phrase>
+    <phrase section="Configuration" data="CG_IM_WH">Image Width/Height</phrase>
+    <phrase section="Configuration" data="CG_FILESIZE">Max. Filesize</phrase>
+    <phrase section="Configuration" data="CG_FILETYPE">Allowed File Types</phrase>
+    <phrase section="Configuration" data="CG_YTKEY">Youtube API Key</phrase>
+    <phrase section="Configuration" data="CG_GMAPKEY">Google Maps API Key</phrase>
+    <phrase section="Configuration" data="CG_OFFLINE_M">Maintenance Mode</phrase>
+    <phrase section="Configuration" data="CG_OFFLINE_DT">Date/Time End</phrase>
+    <phrase section="Configuration" data="CG_OFFLINE_MS">Maintenance Mode Message</phrase>
+    <phrase section="Configuration" data="CG_GA">Google Analytics Code</phrase>
+
+    <!-- Dashboard -->
+    <phrase section="Dashboard" data="AD_TITLE">Welcome to admin panel</phrase>
+    <phrase section="Dashboard" data="AD_INFO">Here you can view your latest user statistics, such as latest transactions, number of registered users etc.</phrase>
+    <phrase section="Dashboard" data="AD_REVENUE">Site Revenue</phrase>
+    <phrase section="Dashboard" data="AD_TODAY">Today</phrase>
+    <phrase section="Dashboard" data="AD_MY">Month/Year</phrase>
+    <phrase section="Dashboard" data="AD_TYEAR">Total collected all time</phrase>
+    <phrase section="Dashboard" data="AD_USNUM">Monthly Active registered members/affiliates</phrase>
+    <phrase section="Dashboard" data="AD_TINCOME">Total Income</phrase>
+    <phrase section="Dashboard" data="AD_RUSER">Registered</phrase>
+    <phrase section="Dashboard" data="AD_AUSER">Active Users</phrase>
+    <phrase section="Dashboard" data="AD_PUSER">Pending Users</phrase>
+    <phrase section="Dashboard" data="AD_AMEM">Ex Brokers</phrase>
+    <phrase section="Transactions" data="TRXMEMBERS">Members</phrase>
+    <phrase section="Transactions" data="TRXAFF">Affiliates</phrase>
+    <phrase section="Transactions" data="TRXBETN">Bet Numbers</phrase>
+    <phrase section="Transactions" data="TRXBETV">Bet Volume</phrase>
+    <phrase section="Transactions" data="TRXPREMATCH">Prematch Monthly Bet Numbers/Bet volume</phrase>
+    <phrase section="Transactions" data="TRXINPLAY">Inplay Monthly Bet Numbers/Bet volume</phrase>
+
+    <!-- Trash -->
+    <phrase section="Trash" data="TRS_INFO">Items older than 30 days are automatically deleted forever.</phrase>
+    <phrase section="Trash" data="TRS_TITLE">Trash Manager</phrase>
+    <phrase section="Trash" data="TRS_NOTRS">Trash is empty.</phrase>
+    <phrase section="Trash" data="TRS_DELGOOD">Delete Forever</phrase>
+    <phrase section="Trash" data="TRS_INFO">Items older than 30 days are automatically deleted forever.</phrase>
+    <phrase section="Trash" data="TRS_TEMPTY">Empty Trash</phrase>
+    <phrase section="Trash" data="TRS_TRS_OK">All Records in trash can are now removed.</phrase>
+
+    <!-- Meta -->
+    <phrase section="Meta" data="META_T1">Dashboard</phrase>
+    <phrase section="Meta" data="META_T2">User Management</phrase>
+    <phrase section="Meta" data="META_T3">User History</phrase>
+    <phrase section="Meta" data="META_T4">Membership Management</phrase>
+    <phrase section="Meta" data="META_T5">Edit Membership</phrase>
+    <phrase section="Meta" data="META_T6">Create Membership</phrase>
+    <phrase section="Meta" data="META_T7">Membership History</phrase>
+    <phrase section="Meta" data="META_T8">Manage CMS Pages</phrase>
+    <phrase section="Meta" data="META_T9">Edit Page</phrase>
+    <phrase section="Meta" data="META_T10">Email Templates</phrase>
+    <phrase section="Meta" data="META_T11">Edit Email Template</phrase>
+    <phrase section="Meta" data="META_T12">Manage CMS Menus</phrase>
+    <phrase section="Meta" data="META_T13">New Menu</phrase>
+    <phrase section="Meta" data="META_T14">Configuration</phrase>
+    <phrase section="Meta" data="META_T15">Custom Fields</phrase>
+    <phrase section="Meta" data="META_T16">Edit Field</phrase>
+    <phrase section="Meta" data="META_T17">Create Field</phrase>
+    <phrase section="Meta" data="META_T18">Layout Manager</phrase>
+    <phrase section="Meta" data="META_T19">System Utilities</phrase>
+    <phrase section="Meta" data="META_T20">File Manager</phrase>
+    <phrase section="Meta" data="META_T21">Language Manager</phrase>
+    <phrase section="Meta" data="META_T22">Payment Options</phrase>
+    <phrase section="Meta" data="META_T24">Newsletter Manager</phrase>
+    <phrase section="Meta" data="META_T25">Coupon Management</phrase>
+    <phrase section="Meta" data="META_T26">Edit Coupon</phrase>
+    <phrase section="Meta" data="META_T27">Create Coupon</phrase>
+    <phrase section="Meta" data="META_T28">Edit Plugin</phrase>
+    <phrase section="Meta" data="META_T29">New Plugin</phrase>
+    <phrase section="Meta" data="META_T30">Edit Module</phrase>
+    <phrase section="Meta" data="META_T31">Welcome to [COMPANY]</phrase>
+    <phrase section="Meta" data="META_T32">Public Profile</phrase>
+    <phrase section="Meta" data="META_T33">Trash Can</phrase>
+
+    <phrase section="Meta" data="META_ERROR">Page not found!!!</phrase>
+    <phrase section="Meta" data="META_ERROR1">OOPS!!! Page Not Found</phrase>
+    <phrase section="Meta" data="META_ERROR2">Oops! Looks like you followed a bad link.</phrase>
+    <phrase section="Meta" data="META_ERROR3">If you think this is a problem with us, please</phrase>
+    <phrase section="Meta" data="META_ERROR3_1">tell us.</phrase>
+
+
+    <!-- Front Website -->
+    <phrase section="Front_Header" data="LIVE_SPORTS">לייב עכשיו!</phrase>
+    <phrase section="Front_Header" data="UPCOMING">משחקים קרובים</phrase>
+    <phrase section="Front_Header" data="TODAY">משחקים היום</phrase>
+    <phrase section="Front_Header" data="FEATURED">פופולריים</phrase>
+    <phrase section="Front_Header" data="LIVE_CASINO">קזינו לייב</phrase>
+    <phrase section="Front_Header" data="SLOT">מכונות מזל</phrase>
+
+    <phrase section="Front_Header" data="LIVE_CHAT_SUPPORT">צ'אט תמיכה לייב</phrase>
+    <phrase section="Front_Header" data="NO_NEW_NOTIFICATION_FOUND">לא נמצאו התראות</phrase>
+    <phrase section="Front_Header" data="READ_MORE">קרא עוד</phrase>
+    <phrase section="Front_Header" data="HERE">כאן</phrase>
+
+    <phrase section="Front_Header" data="ODDS_FORMAT">פורמט סיכויים</phrase>
+    <phrase section="Front_Header" data="DECIMAL">עשרוני</phrase>
+    <phrase section="Front_Header" data="FRACTION">שבר</phrase>
+    <phrase section="Front_Header" data="AMERICAN">אמריקאי</phrase>
+    <phrase section="Front_Header" data="YOUR_LOCAL_TIME_HAS_BEEN_SET_AT">השעה המקומית שלך היא: </phrase>
+    <phrase section="Front_Header" data="HOURS_GMT">GMT</phrase>
+    <phrase section="Front_Header" data="ENGLISH">אנגלית</phrase>
+
+    <phrase section="Front_Header" data="SEARCH_BY_EVENT_NAME">חפש משחקים או שמות של קבוצות..</phrase>
+    <phrase section="Front_Header" data="LOGIN">התחברות</phrase>
+
+    <phrase section="Front_Header" data="LIVE_HIGHLIGHTS">פופולארי עכשיו</phrase>
+
+    <phrase section="Games" data="AVAILABLE_LIVE_SPORTS">משחקי ספורט לייב עכשיו!</phrase>
+    <phrase section="Games" data="LIVE_BY_COUNTRY">לייב לפי מדינה</phrase>
+    <phrase section="Games" data="BROWSE_BY_SPORT_AND_COUNTRY_WISE">בחר משחקים לפי מדינה</phrase>
+    <phrase section="Games" data="LIVE_EVENTS">משחקים לייב</phrase>
+    <phrase section="Games" data="UPCOMING_EVENTS">משחקים קרובים</phrase>
+
+    <!-- Countries -->
+    <phrase section="Front_Country" data="ISRAEL">ישראל</phrase>
+    <phrase section="Front_Country" data="WORLD">מועדונים בינלאומיים</phrase>
+    <phrase section="Front_Country" data="FRANCE">צרפת</phrase>
+    <phrase section="Front_Country" data="SPAIN">ספרד</phrase>
+    <phrase section="Front_Country" data="ENGLAND">אנגליה</phrase>
+    <phrase section="Front_Country" data="ITALY">איטליה</phrase>
+    <phrase section="Front_Country" data="GERMANY">גרמניה</phrase>
+    <phrase section="Front_Country" data="NETHERLANDS">הולנד</phrase>
+    <phrase section="Front_Country" data="BRAZIL">ברזיל</phrase>
+    <phrase section="Front_Country" data="PORTUGAL">פורטוגל</phrase>
+    <phrase section="Front_Country" data="JAPAN">יפן</phrase>
+    <phrase section="Front_Country" data="TURKEY">טורקיה</phrase>
+    <phrase section="Front_Country" data="RUSSIA">רוסיה</phrase>
+    <phrase section="Front_Country" data="ARGENTINA">ארגנטינה</phrase>
+    <phrase section="Front_Country" data="AUSTRIA">אוסטריה</phrase>
+    <phrase section="Front_Country" data="BELARUS">בלארוס</phrase>
+    <phrase section="Front_Country" data="BELGIUM">בלגיה</phrase>
+    <phrase section="Front_Country" data="BOLIVIA">בוליביה</phrase>
+    <phrase section="Front_Country" data="BOSNIA_AND_HERZEGOVINA">בוסניה והרצגובינה</phrase>
+    <phrase section="Front_Country" data="BULGARIA">בולגריה</phrase>
+    <phrase section="Front_Country" data="CHILE">צ'ילה</phrase>
+    <phrase section="Front_Country" data="COLOMBIA">קולומביה</phrase>
+    <phrase section="Front_Country" data="CROATIA">קרואטיה</phrase>
+    <phrase section="Front_Country" data="CZECH_REPUBLIC">צ'כיה</phrase>
+    <phrase section="Front_Country" data="DENMARK">דנמרק</phrase>
+    <phrase section="Front_Country" data="ECUADOR">אקוודור</phrase>
+    <phrase section="Front_Country" data="EGYPT">מצרים</phrase>
+    <phrase section="Front_Country" data="ESTONIA">אסטוניה</phrase>
+    <phrase section="Front_Country" data="FINLAND">פינלנד</phrase>
+    <phrase section="Front_Country" data="GREECE">יוון</phrase>
+    <phrase section="Front_Country" data="HUNGARY">הונגריה</phrase>
+    <phrase section="Front_Country" data="ICELAND">איסלנד</phrase>
+    <phrase section="Front_Country" data="IRELAND">אירלנד</phrase>
+    <phrase section="Front_Country" data="MEXICO">מקסיקו</phrase>
+    <phrase section="Front_Country" data="MONTENEGRO">מונטנגרו</phrase>
+    <phrase section="Front_Country" data="NORWAY">נורבגיה</phrase>
+    <phrase section="Front_Country" data="PARAGUAY">פרגוואי</phrase>
+    <phrase section="Front_Country" data="PERU">פרו</phrase>
+    <phrase section="Front_Country" data="POLAND">פולין</phrase>
+    <phrase section="Front_Country" data="SOUTH_KOREA">דרום קוריאה</phrase>
+    <phrase section="Front_Country" data="RUMANIA">רומניה</phrase>
+    <phrase section="Front_Country" data="SCOTLAND">סקוטלנד</phrase>
+    <phrase section="Front_Country" data="SERBIA">סרביה</phrase>
+    <phrase section="Front_Country" data="SLOVAKIA">סלובקיה</phrase>
+    <phrase section="Front_Country" data="SLOVENIA">סלובניה</phrase>
+    <phrase section="Front_Country" data="SWEDEN">שבדיה</phrase>
+    <phrase section="Front_Country" data="SWITZERLAND">שווייץ</phrase>
+    <phrase section="Front_Country" data="UKRAINE">אוקראינה</phrase>
+    <phrase section="Front_Country" data="URUGUAY">אורוגוואי</phrase>
+    <phrase section="Front_Country" data="UNITED_STATES">ארצות הברית</phrase>
+    <phrase section="Front_Country" data="VENEZUELA">ונצואלה</phrase>
+    <phrase section="Front_Country" data="HONDURAS">הונדורס</phrase>
+    <phrase section="Front_Country" data="MALTA">מלטה</phrase>
+    <phrase section="Front_Country" data="NICARAGUA">ניקרגואה</phrase>
+    <phrase section="Front_Country" data="PANAMA">פנמה</phrase>
+    <phrase section="Front_Country" data="KOSOVO">קוסובו</phrase>
+    <phrase section="Front_Country" data="CYPRUS">קפריסין</phrase>
+    <phrase section="Front_Country" data="EUROPE">אירופה</phrase>
+    <phrase section="Front_Country" data="UNITED_ARAB_EMIRATES">איחוד האמירויות</phrase>
+    <phrase section="Front_Country" data="SOUTH_AFRICA">דרום אפריקה</phrase>
+    <phrase section="Front_Country" data="LATVIA">לטביה</phrase>
+    <phrase section="Front_Country" data="ASIA">אסיה</phrase>
+    <phrase section="Front_Country" data="NORTH_AMERICA">צפון אמריקה</phrase>
+    <phrase section="Front_Country" data="CANADA">קנדה</phrase>
+    <phrase section="Front_Country" data="DOMINICAN_REPUBLIC">הרפובליקה הדומיניקנית</phrase>
+    <phrase section="Front_Country" data="KOREA_(SOUTH)">דרום קוריאה</phrase>
+    <phrase section="Front_Country" data="GUATEMALA">גואטמלה</phrase>
+    <phrase section="Front_Country" data="USA">ארצות הברית</phrase>
+    <phrase section="Front_Country" data="COSTA_RICA">קוסטה ריקה</phrase>
+    <phrase section="Front_Country" data="AUSTRALIA">אוסטרליה</phrase>
+    <phrase section="Front_Country" data="PUERTO_RICO">פוארטו ריקו</phrase>
+    <phrase section="Front_Country" data="ROMANIA">רומניה</phrase>
+    <phrase section="Front_Country" data="TAJIKISTAN">פקיסטן</phrase>
+    <phrase section="Front_Country" data="JORDAN">ירדן</phrase>
+    <phrase section="Front_Country" data="AFRICA">אפריקה</phrase>
+
+    <phrase section="Front_Footer" data="FOOT_BETTING_TERMS">תנאי שימוש</phrase>
+    <phrase section="Front_Footer" data="FOOT_FAQS">שאלות נפוצות</phrase>
+    <phrase section="Front_Footer" data="FOOT_AFFILIATE">תוכנית שותפים</phrase>
+    <phrase section="Front_Footer" data="FOOT_PRIVACY_AND_COOKIES">מדיניות פרטיות</phrase>
+    <phrase section="Front_Footer" data="FOOT_TERMS">תקנון</phrase>
+    <phrase section="Front_Footer" data="FOOT_CONTACT">צור קשר</phrase>
+    <phrase section="Front_Footer" data="FOOT_CONTACT_DESC">הימורים כרוכים בסיכון. אנא המר רק עם כספים שאתה יכול להרשות לעצמך להפסיד. למרות שאנו כן מציעים ייעוץ ומידע טובים אנו לא יכולים להיות אחראים להפסדים שתגרמו לך כתוצאה מהימורים. אנו עושים כמיטב יכולתנו לוודא שכל המידע שאנו מספקים באתר נכון. לא ניתנות אחריות לגבי התוצאות או הרווח הכספי. כל צורות ההימורים נושאות סיכון כלכלי, וההחלטה היא של האדם לבצע הימורים עם או בלי סיוע של מידע הנמסר באתר זה.</phrase>
+
+
+    <!-- Sports Name -->
+    <phrase section="Sports" data="FOOTBALL">כדורגל</phrase>
+    <phrase section="Sports" data="GOLF">גולף</phrase>
+    <phrase section="Sports" data="ICE_HOCKEY">הוקי קרח</phrase>
+    <phrase section="Sports" data="BASKETBALL">כדורסל</phrase>
+    <phrase section="Sports" data="HANDBALL">כדור יד</phrase>
+    <phrase section="Sports" data="RUGBY_UNION">רוגבי</phrase>
+    <phrase section="Sports" data="TABLE_TENNIS">טניס שולחן</phrase>
+    <phrase section="Sports" data="TENNIS">טניס</phrase>
+    <phrase section="Sports" data="SNOOKER">סנוקר</phrase>
+    <phrase section="Sports" data="VOLLEYBALL">כדור עף</phrase>
+    <phrase section="Sports" data="BEACH_VOLLEYBALL">כדורעף חופים</phrase>
+    <phrase section="Sports" data="CRICKET">קריקט</phrase>
+    <phrase section="Sports" data="RUGBY_LEAGUE">ליגת רוגבי</phrase>
+    <phrase section="Sports" data="CYCLING">רכיבת אופניים</phrase>
+    <phrase section="Sports" data="AMERICAN_FOOTBALL">פוטבול אמריקאי</phrase>
+    <phrase section="Sports" data="BASEBALL">בייסבול</phrase>
+    <phrase section="Sports" data="BOXING">איגרוף</phrase>
+    <phrase section="Sports" data="DARTS">הטלת חיצים</phrase>
+
+
+    <phrase section="Games" data="UPCOMING_SPORTS">משחקים קרובים</phrase>
+    <phrase section="Games" data="SPORTS_BY_COUNTRY">משחקים לפי מדינה</phrase>
+    <phrase section="Games" data="UPCOMING_HIGHLIGHTS">פופולרים בקרוב</phrase>
+    <phrase section="Games" data="UPCOMING_SOON_BG">משחקים קרובים..</phrase>
+    <phrase section="Games" data="LIVE_NOW_BG">לייב עכשיו!</phrase>
+
+    <phrase section="Bet_sidebar" data="MULTI_BET_PARLAYS">הטופס שלי</phrase>
+    <phrase section="Bet_sidebar" data="BET_SLIP">כרטיס הימור</phrase>
+    <phrase section="Bet_sidebar" data="BET_SINGLE_BET">הימור יחיד</phrase>
+    <phrase section="Bet_sidebar" data="BET_EMPTY">רוקן</phrase>
+    <phrase section="Bet_sidebar" data="BET_CLEAR_ALL">מחק הכל</phrase>
+    <phrase section="Bet_sidebar" data="BET_T_ODDS">סכום הימור</phrase>
+    <phrase section="Bet_sidebar" data="BET_T_RETURN">סכום זכיה</phrase>
+    <phrase section="Bet_sidebar" data="BET_LOGIN_TO_BET">התחבר כדי להמר!</phrase>
+    <phrase section="Bet_sidebar" data="BET_SUBMIT_BET">שלח טופס הימור</phrase>
+    <phrase section="Bet_sidebar" data="CLICK_ODD_TO_ADD_SELECTION">בחר כדי להוסיף לטופס ההימור</phrase>
+
+    <phrase section="Game_Page" data="LIVE_MARKETS">משחק בלייב עכשיו</phrase>
+    <phrase section="Game_Page" data="LIST_OF_LIVE_EVENTS">רשימת משחקים לייב</phrase>
+    <phrase section="Game_Page" data="BROWSE_BY_LEAGUE">סנן לפי ליגה</phrase>
+    <phrase section="Game_Page" data="HISTORICAL_STATS">נתונים היסטוריים</phrase>
+    <phrase section="Game_Page" data="EXPERT_ANALYSIS">ניתוח מומחים</phrase>
+
+    <!-- Casino Pages -->
+    <phrase section="Slots_Page" data="SLOT_AND_GAMES">מכונות מזל ומשחקי קזינו</phrase>
+    <phrase section="Slots_Page" data="SLOT_MORE_GAMES">עוד משחקים..</phrase>
+    <phrase section="Slots_Page" data="SLOT_AND_GAMES_DESCRIPTION">אני משתמשים ב- USD כמטבע ברירת מחדל. אם מטבע החשבון שלך אינו דולר, הוא יומר לערך של דולר לפי שערי החליפין האחרונים. כאשר אתה משחק את המשחקים, הזכייה והימור שלך מומרים בחזרה למטבע ברירת המחדל המקומי שלך.</phrase>
+    <phrase section="Slots_Page" data="PLEASE_LOGIN_TO_ACCESS_THIS_PAGE">כדי לצפות בתוכן יש להתחבר</phrase>
+
+    <!-- Account Auth -->
+    <phrase section="Account_Auth" data="AUTH_WELCOME">ברוך</phrase>
+    <phrase section="Account_Auth" data="AUTH_BACK">שובך!</phrase>
+    <phrase section="Account_Auth" data="AUTH_LOGIN_DESCRIPTION">התחבר לחשבון שלך כדי להתחיל</phrase>
+    <phrase section="Account_Auth" data="AUTH_EMAIL">כתובת דואר אלקטרוני</phrase>
+    <phrase section="Account_Auth" data="AUTH_PASSWORD">סיסמה</phrase>
+    <phrase section="Account_Auth" data="AUTH_PASSWORD_RESET">שחכת סיסמה</phrase>
+    <phrase section="Account_Auth" data="AUTH_DONE_HAVE_AN_ACCOUNT">עוד אין לך חשבון</phrase>
+    <phrase section="Account_Auth" data="AUTH_SIGN_UP_HERE">לחץ כאן</phrase>
+    <phrase section="Account_Auth" data="AUTH_WELCOME_TO">ברוך הבא ל </phrase>
+    <phrase section="Account_Auth" data="AUTH_REGISTER_DESCRIPTION">מלא את הפרטים כדי להרשם</phrase>
+    <phrase section="Account_Auth" data="AUTH_FIRST_NAME">שם פרטי</phrase>
+    <phrase section="Account_Auth" data="AUTH_LAST_NAME">שם משפחה</phrase>
+    <phrase section="Account_Auth" data="AUTH_LOCAL_CURRENCY">מטבע</phrase>
+    <phrase section="Account_Auth" data="AUTH_CAPTCHA">בדיקת אבטחה (חזור על הספרות)</phrase>
+    <phrase section="Account_Auth" data="AUTH_POLICY">אני מאשר שקראתי את תנאי השימוש</phrase>
+    <phrase section="Account_Auth" data="AUTH_HAVE_AN_ACCOUNT">יש לך כבר חשבון?</phrase>
+    <phrase section="Account_Auth" data="AUTH_REGISTER_NOW">הרשם עכשיו</phrase>
+
+    <!-- Account Panel -->
+    <phrase section="Account_Panel" data="ACC_DEPOSIT">הפקדה</phrase>
+    <phrase section="Account_Panel" data="ACC_WITHDRAWALABLE">כסף למשיכה</phrase>
+    <phrase section="Account_Panel" data="ACC_BET_CREDITS">קרדיטים</phrase>
+    <phrase section="Account_Panel" data="ACC_BANK">החשבון שלי</phrase>
+    <phrase section="Account_Panel" data="ACC_AGENT_DASHBOARD">ממשק ניהול - סוכן</phrase>
+    <phrase section="Account_Panel" data="ACC_SUPER_AGENT_DASHBOARD">ממשק ניהול - סופר סוכן</phrase>
+    <phrase section="Account_Panel" data="ACC_OPEN_BETSLIPS">כרטיסי הימור</phrase>
+    <phrase section="Account_Panel" data="ACC_SETTLED_BETSLIPS">כרטיסי הימור מסודרים</phrase>
+    <phrase section="Account_Panel" data="ACC_CASINO_SLOT">קזינו וגלגלי מזל, היסטורית הימורים</phrase>
+    <phrase section="Account_Panel" data="ACC_SETTINGS_PROFILE">החשבון חשבון</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_CREDIT">תוכנית שותפים</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING">הודות</phrase>
+    <phrase section="Account_Panel" data="ACC_GAMBLING_CONTROL">שליטה ובקרה</phrase>
+    <phrase section="Account_Panel" data="ACC_LOGOUT">התנתק</phrase>
+
+    <phrase section="Account_Panel" data="ACC_JOIN_AFFILIATES_MAKE_EASY_MONEY">הצטרף לתוכנית השותפים ולהתחיל הרוויח!</phrase>
+    <phrase section="Account_Panel" data="ACC_GO_TO_YOUR_AGENT_PANEL">הכנס לממשק הסוכן שלך</phrase>
+    <phrase section="Account_Panel" data="ACC_GO_TO_YOUR_BROKER_PANEL">הכנס לממשק הסופר-סוכן שלך</phrase>
+    <phrase section="Account_Panel" data="ACC_ONE_STEP_AWAY">עוד צעד אחד</phrase>
+    <phrase section="Account_Panel" data="ACC_ONE_STEP_AWAY_DESC">* רק עוד צעד אחד מלהיות שותף שלנו, תוכל להרוויח כסף על ידי הפניה של קישור הרשמה לאנשים שונים ברשתות החברתיות!.</phrase>
+    <phrase section="Account_Panel" data="ACC_THESE_ARE_SOME_BASIC_FEATURES">כמה פיצרים ייחודיים במערכת השותפים</phrase>
+    <phrase section="Account_Panel" data="ACC_FEATURE_1">קבצי עוגיות של הפניות נשמרות כ - 30 יום</phrase>
+    <phrase section="Account_Panel" data="ACC_FEATURE_2">20% - 30% רווח על הפקדות של אנשים שהפנית אלינו</phrase>
+    <phrase section="Account_Panel" data="ACC_FEATURE_3">הרשמה קלה ומהירה ללא צורך בתיעוד או אימות מסובך</phrase>
+    <phrase section="Account_Panel" data="ACC_FEATURE_4">תשלום קל ופשוט, קבל את הרווחים שלך במהירות ישירות אליך</phrase>
+    <phrase section="Account_Panel" data="ACC_FEATURE_5">הרווחים מתקבלים מכל סוגי ההימורים - קיזנו, גלגלי מזל או הימורי ספורט</phrase>
+    <phrase section="Account_Panel" data="ACC_FEATURE_6">נרשים בקליק ומתחילים לעבוד</phrase>
+    <phrase section="Account_Panel" data="ACC_IMPORTANT">חשוב לזכור</phrase>
+    <phrase section="Account_Panel" data="ACC_DESC2">לאחר ההצטרפות, עליך להפנות לפחות 5 משתמשים לחשבון השותף שלך ב -30 הימים הבאים (רק בהתחלה). אם לא תעשה זאת עלול לגרום לביטול חשבון השותפים. תוכל לעיין  בכל התנאים וההגבלות בתחתית העמוד.</phrase>
+    <phrase section="Account_Panel" data="ACC_DESC3">עליך לספק קישור לרשת חברתית/אתר אינטרנט כדי לבצע אימות. קישור שגוי או מטעה עלול להוביל לביטול חשבון השותפים שלך.</phrase>
+    <phrase section="Account_Panel" data="ACC_DESC4">קישור לאתר/רשת חברתית</phrase>
+    <phrase section="Account_Panel" data="ACC_REQUIRED">שדה זה חובה</phrase>
+    <phrase section="Account_Panel" data="ACC_JOIN_NOW">הצטרף עכשיו!</phrase>
+    <phrase section="Account_Panel" data="ACC_TYPE_PASTE_YOUR_LINK">הדבק את הקישור כאן</phrase>
+    <phrase section="Account_Panel" data="ACC_INCORRECT_WEBSITE_URL">הכתובת שהוזנה שגויה</phrase>
+
+    <phrase section="Account_Panel_Menu" data="ACC_M_BANK">בנק</phrase>
+    <phrase section="Account_Panel_Menu" data="ACC_M_BET_HISTORY">היסטוריית הימורים</phrase>
+    <phrase section="Account_Panel_Menu" data="ACC_M_SETTINGS">הגדרות</phrase>
+    <phrase section="Account_Panel_Menu" data="ACC_M_PROMO_CREDIT">קופונים</phrase>
+    <phrase section="Account_Panel_Menu" data="ACC_M_MESSAGING">הודעות</phrase>
+    <phrase section="Account_Panel_Menu" data="ACC_M_GAMBLING_CONTROL">שליטה ובקרה</phrase>
+
+    <phrase section="Account_Panel" data="ACC_P1_BALANCES">יתרות ארנק</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_DEPOSIT">הפקדה</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_TRANSFER">העברה</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_WITHDRAW">משיכה</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_BACK_TO_DEPOSIT_TAB">חזרה לעמוד הפקדה</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_DESCDE_1"> אין לסגור כרטיסייה/דף זה כאשר אתה שולח כסף לכתובת או לקוד הסריקה. אתה יכול לפתוח בכרטיסייה חדשה ולשלוח כסף. לאחר ששלחת כסף לכתובת הנתונה, חזור לכאן והמתן עד שהעסקה תושלם. עליך להמתין עד להודעה <b> "התשלום הושלם" </b> יוצג על המסך. חשבונך לא יזוכה אם תסגור את הכרטיסייה לפני שתוצג הודעת "התשלום הושלם".</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_SELECT_DENOMINATION_CRYPTOCURRENCY">בחר מטבע ווירטואלי</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_SPORTS_EX_SB">ספורט</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_CASINO_SLOT_GAMES">משחקי קזינו וגלגלי מזל</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_MARKETS">מרקטים</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_UNSETTLED">לא יציב</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_SETTLED">יציב</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_ACTIVE_SLIPS">הימורים פעילים</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_OTHER_MARKETS">אחרים</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_SETTLED_HISTORY">היסטורית הימורים</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_ADD_FILTER">הוסף סנן</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_FROM">מהתאריך</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_TO">לתאריך</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_CASINO_AND_SLOT">קזינו וגלגלי שיניים</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_VIRTUAL">וורטואלי</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_GAMES">משחקים</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_Forex">Forex</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_TOPSTOCK">topstock</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_TOPCRYPTO">topcrypto</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_TOPCOMMODITY">topcommodity</phrase>
+    <phrase section="Account_Panel" data="ACC_P1_TOPMKTOTHERS">topmktothers</phrase>
+
+    <phrase section="Account_Panel" data="ACC_P2_BALANCE_OVERVIEW">ארנק המשתמש שלך</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_SPORTS_CASINO_GAMES_MARKETS">ספורט, קזינו וגלגלי מזל</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_WITHDRAWABLE">כסף למשיכה</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_BET_CREDIT">קרדיטים להימורים</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_TOTAL">סה"כ</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_OTHERS_BALANCE">יתרה אחרת</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_LOCAL_PAYMENTS">תשלום במזומן</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_CRYPTOCURRENCY">תשלום בקריפטו</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_HISTORY">היסטוריה</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_LOCAL_PAYMENT_DESC">על מנת להפקיד כספים באמצעות תשלומים / מזומנים מקומיים עליך לפנות לסוכן הישיר שלך, סוכני Gambabet רשמיים יכולים לקבל תשלום ולזכות את יתרת חשבונך.</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_MESSEGE_AGENT">שלח הודעה לסוכן</phrase>
+    <phrase section="Account_Panel" data="ACC_P2_DEPOSIT_HISTORY">היסטורית הפקדות</phrase>
+
+    <phrase section="Account_Panel" data="TRANSFER_CREDIT">העבר קרדיטים</phrase>
+    <phrase section="Account_Panel" data="TRANSFER_CREDIT_TO_USERS">העבר קרדיטים למשתמשים</phrase>
+    <phrase section="Account_Panel" data="TRANSFER_NOTE_CONTENT">שים לב! רק חברים שהם סוכנים רשאים להעביר יתרת קרדיטים למשתמשים אחרים.</phrase>
+    <phrase section="Account_Panel" data="TRANSFER_NOTE_CONTENT_2">רוצה להצטרף ולהיות סוכן ולהתחיל להרוויח כסף?</phrase>
+    <phrase section="Account_Panel" data="TRANSFER_NOTE_CONTENT_3">עוד פרטים כאן..</phrase>
+    <phrase section="Account_Panel" data="TRANSFER_USE_SA_DASHBOARD_FOR_TRANSFERS">השתמש בלוח הבקרה SA כדי לבצע העברות</phrase>
+    <phrase section="Account_Panel" data="TRANSFER_A2A_TRANSFER">A2A העברת</phrase>
+    <phrase section="Account_Panel" data="TRANSFER_SENT_TO">שלח ל:</phrase>
+    <phrase section="Account_Panel" data="TRANSFER_REF">מפנה:</phrase>
+    <phrase section="Account_Panel" data="TRANSFER_DATE">תאריך:</phrase>
+    <phrase section="Account_Panel" data="TRANSFER_LOAD_MORE">טען עוד..</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_HISTORY_TITLE">משיכה והיסטוריית משיכה</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_HISTORY_H6">משוך יתרה לבנק/ביטקוין/ארנק שלך</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_HISTORY_DESC">שים לב! ניתן לבקש בקשת משיכה אחת ליום, ההגבלה היא כבקשמת משיכה אחת ליום, אם הגשתם 2 השניה תתבצע ביום העסקים הבא.</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_HISTORY_DESC2">מלא את שם הבנק ומספר החשבון</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_HISTORY_MORE">מידע נוסף כאן..</phrase>
+    <phrase section="Account_Panel" data="PAYMENT_BANK_CONTENT">התשלום שלך יישלח לפרטים הבאים. אם זה לא הפרטים הנכונים דאג לתקן אותם. אתה יכול לערוך ישירות כאן</phrase>
+    <phrase section="Account_Panel" data="PAYMENT_BANK_NAME">שם בנק : </phrase>
+    <phrase section="Account_Panel" data="PAYMENT_BANK_NUM">מספר חשבון: </phrase>
+    <phrase section="Account_Panel" data="PAYMENT_BANK_CONTENT_ERROR">שגיאה</phrase>
+    <phrase section="Account_Panel" data="PAYMENT_BANK_CONTENT_ERROR_TEXT">לא הגדרת את פרטי המשיכה בחשבונך. אנא עשה זאת לפני בקשת משיכה</phrase>
+    <phrase section="Account_Panel" data="AVAILABLE_FOR_WITHDRAWALS">זמין למשיכה</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM">ביצוע משיכה</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_HISTORY">היסטורית פעולות</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_PROCESSED">בוצע</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_PROCESSING">בתהליך</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_NO_ACTIVE_RECORDS_FOUND">לא נמצאו רשומות</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_LOAD_MORE">טען עוד..</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_NO_MORE_ACTIVE_RECORDS_FOUND">לא נמצאו רשומות</phrase>
+
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_ERROR">שגיאה! אין לך מספיק בארנק, סכום המשיכה המקסימלי הוא: </phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_MIN">שגיאה! סכום הבקשה קטן מהמינימום </phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_MIN2"> מאושר..</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_ERROR_PENDING">שגיאה! יש לך כבר בקשה אחת בביצוע.</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_SUCCESS">הבקשה הוגשה בהצלחה! פרטים למטה.</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_UNBABEL">אופס! לא הצלחנו לשלוח את הבקשה, נסה שנית מאוחר יותר.</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_METHOD">שיטת משיכה</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_METHOD_MONEY">מזומן</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_AMOUNT">סכום משיכה</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_AMOUNT_min">מינימום</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_NOTES">הערות אם יש (לא חובה)</phrase>
+    <phrase section="Account_Panel" data="WITHDRAWAL_FORM_SUBMIT_REQUEST">שלח בקשה</phrase>
+
+    <phrase section="Account_Panel" data="ACC_SETTINGS_ACCOUNT_SETTINGS">הגדרות חשבון</phrase>
+    <phrase section="Account_Panel" data="ACC_SETTINGS_ACCOUNT_SETTINGS_DESC">בדף זה תוכל לערוך את פרטי החשבון שלך</phrase>
+    <phrase section="Account_Panel" data="ACC_SETTINGS_ACCOUNT_BANKING_DETAILS">פרטים לצורך משיכת כסף</phrase>
+    <phrase section="Account_Panel" data="ACC_SETTINGS_ACCOUNT_KYC">השלמת הגדרות החשבון</phrase>
+    <phrase section="Account_Panel" data="ACC_SETTINGS_ACCOUNT_KYC_CONTENT"> תהליך השלמת החשבון שלך אושרה, תקבל אימייל עם דיווח על אישור התהליך.</phrase>
+
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT">קופונים לקבלת קרדיטים</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_H6">קרדיטים חינם בהזנת קופונים</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_NOTE">הערה*: כל הקופונים הניתנים בחינם למשתמשים באירועים, למשל. במהלך פתיחת החשבון או על ידי סוכנים קופונים אינם זמינים למשיכה תמיד, כל קופון לקידום מכירות עשוי להשתנות מבחינת התנאים למשיכה. אנא עבור על תנאי הקופון שקיבלתם.</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_NOTE_H5">יתרת הקופונים זמינה לשימוש לאחר מיצוי יתרת החשבון בפועל.</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_NOTE_MORE">מידע נוסף כאן..</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_INFO1">יתרת הקופונים שלך זמינה לשימוש רק לאחר שיתרת ההפקדה שלך בפועל הופכת לאפס.</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_INFO2">אם אתה רוצה לוותר על יתרת הקופונים שלך ולהתחיל להמר עם יתרה בפועל, תוכל לנקות יתרת הקופונים שלך.</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_CLEAR">מחק יתרת קופונים</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_OVERVIEW">סיכום יתרה</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_Promo_Bet_Credit_CASINO_SPORTS">קרדיטים לשימוש הימור או משחקים</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_WITHDRAWABLE">כסף שניתן למשוך</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_AMONT">קרדיטים מהימורים</phrase>
+    <phrase section="Account_Panel" data="ACC_PROMO_PROMO_BET_CREDIT_TOTAL">סה"כ</phrase>
+
+    <phrase section="Account_Panel" data="ACC_MESSAGING_TITLE">הודעות</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_TITLE_H6">נתקלת בבעיה? יש לך שאלה? פנה לתמיכה!</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_H6_DESC">שים לב*: כרטיסי התמיכה מוקצים בהתאם לזמן קבלת ההודעות ועומדים בתור לתגובה בהתאם. התגובה עשויה להימשך בין שעה לשעה עד 72 שעות ... כל כרטיס יימחק אחר שלושה חודשים.</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_TITLE_H5">עדיין לא הצטרפת לתוכנית השותפים שלנו ?</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_TITLE_MORE">לחץ כאן למידע נוסף</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_TITLE_INBOX">לחלק על התיבה כדי לשלוח הודעה</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_INBOX">תיבת הודעות*</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_INBOX_OLDER">טען הודעות קודמות..</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_INBOX_STAFF">צוות</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_INBOX_YOU">אתה</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_INBOX_SEND">שלח</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_QUICK_MSG">כרטיסי תמיכה</phrase>
+    <phrase section="Account_Panel" data="ACC_MESSAGING_QUICK_MSG_DESC">השתדל להיות ברור ופרט כמה שיותר על הבעיה או השאלה שלך כדי לקבל מידע מדויק יותר, נשמח לעזור תמיד :).</phrase>
+
+    <phrase section="Account_Panel" data="ACC_CONTROL_BREACK">רוצה לקחת הפסקה?</phrase>
+    <phrase section="Account_Panel" data="ACC_CONTROL_BREACK_NOTE">שים לב! במידה ותחליט לנעול את החשבון תצטרך לפנות לסוכן שלך כדי להפעילו מחדש.</phrase>
+    <phrase section="Account_Panel" data="ACC_CONTROL_BREACK_RESPO">מהמרים באחריות.</phrase>
+    <phrase section="Account_Panel" data="ACC_CONTROL_BREACK_EXCLUSION">נעילה עצמית</phrase>
+    <phrase section="Account_Panel" data="ACC_CONTROL_BREACK_DEACTIVE">לחץ כדי לנעול את החשבון</phrase>
+    <phrase section="Account_Panel" data="ACC_CONTROL_BREACK_OUT">רוצה לדבר עם אחד הסוכנים שלנו?</phrase>
+    <phrase section="Account_Panel" data="ACC_CONTROL_BREACK_SHOULD">אם אתה צריך מישהו שידבר איתך או זקוק לייעוץ, אנא אל תהסס לפנות אלינו. עבור לדף התמיכה שלנו והשאיר את מספר הטלפון וכתובת הדוא"ל שלך.</phrase>
+
+    <phrase section="Affiliate_Panel" data="AFF_MENU">תפריט</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_MONEY_TRANSFER">העברת כספים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TOP_MSG">הנתונים לא מוצגים בזמן אמת, ייתכן דילאיי בין עדכון לעדכון</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_HOME">חזרה לעמוד בית</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_DASH">מבט על</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_LIST">רשימת שחקנים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_CREATE">צור שחקן</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_TICKET">כרטיסים פופולרים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_STATS">סטטיסטיקות וביצועים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_BLOCKED">לקוחות חסומים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_TOOLS">כלים לפרסום</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_WITHDRAWALS">משיכות כסף</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_PRINT_REPORTS">הדפסת דוחות</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_SUPPORT">תמיכה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_DASH_TITLE">מבט העל שלך</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_DASHBOARD">מבט על</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_AFFILIATES">שחקנים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_COMMISSION">עמלות</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_TODAY_REG">היום נרשמו</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_TOTAL_ACTIVE">סה"כ שחקנים פעילים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_TOTAL_PEDING">שחקנים ממתינים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_TODAY_ERNING">סה"כ עמלות היום</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_COMMISSION_CLEAR">עמלות נקיות</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_PEDNING_VOLUME">שחקנים ממתינים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_RECENTLY">שחקנים שנרשמו לאחרונה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_RECENTLY_TABLE_NO">מק"ט</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_RECENTLY_TABLE_COUNTRY">מדינה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_RECENTLY_TABLE_FULL_NAME">שם מלא</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_RECENTLY_TABLE_JOINED">תאריך הרשמה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BACK_PEDNING">ממתין</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_REGISTRATION_CHART">גרף הרשמות חודשי</phrase>
+
+    <phrase section="Affiliate_Panel" data="AFF_LIST_OF_YOUR_AFFILIATES">רשימת סוכנים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TABLE_CC_DESC"></phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TABLE_CC">קוד מדינה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TABLE_LAST_NAME">שם משפחה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_NO_MORE_RECORDS">לא נמצאו עוד רשומות ..</phrase>
+
+
+    <phrase section="Affiliate_Panel" data="AFF_YOUR_AFFILIATES_LATEST_BET">ההימור האחרון של הלקוחות שלך</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_NO_MORE_BET_AFF_DESC">שיב לב! רק כ - 10 רשומות אחרונות של הלקוחות שלך מוצגים כדי לשמור על פרטיות המשתמשים.</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_LATEST_IN_PLAY_TICKETS">הכרטיסים האחרונים במשחק</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_STAKE">הימור</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_EVENT_NAME">שם משחק</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_CATEGORY">קטגוריה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_SELECTION">בחירה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_DATE">תאריך</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_DIVIDE">חלוקה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_LATEST_PRE_MATCH_TICKETS">המשחקים הקרובים האחרונים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_DAILY_24_HOURS_RECORDS">רשומות מה - 24 שעות האחרונות</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TOTAL_CLICKS">סה"כ קליקים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TOTAL_PAGE_VIEWS">סה"כ צפיות בדפים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_REGISTERED">נרשמו</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_ACTIVATED">אומתו</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_STAKE_VOLUME">נפח הימור</phrase>
+
+
+    <phrase section="Affiliate_Panel" data="AFF_WEEKLY_7_DAYS_RECORDS">רשומות מה - 7 ימים האחרונים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_APPROX_EARNINGS">עמלה משוערת</phrase>
+
+    <phrase section="Affiliate_Panel" data="AFF_MONTHLY_30_DAYS_RECORDS">רשומות מה - 30 ימים האחרונים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_CONGRATS_DESC">מזל טוב! בקשת הסוכן שלך התקבלה והופעלה בהצלחה. צא והתחבר מחדש כדי לגשת ללוח המחוונים של סוכן.</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_UNFORT_DESC">מצטערים, לצערנו בקשת ההצטרפות שלך להיות סוכן נדחתה.. נסה שוב אחרי זמן מה.</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_INACTIVE_AFFILIATES">שותפים לא פעילים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_INACTIVE_AFFILIATES_DESC">בעמוד זה יוצגו המשתמשים שלא אימתו את החשבון או שנחסמו.</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TOOLS_AND_MARKETING">כלים לפרסום</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TOOLS_AND_MARKETING_DESC">דף זה מכיל את פרטי השיווק השותפים שלך כולל מזהה קישור הקידום הייחודי שלך.</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_UNIQUE_AFFILIATE_ID">מזהה סוכן ייחודי</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_UNIQUE_DESC">זהו קישור השותפים הייחודי שלך, אותו תוכל להעתיק ולשתף באתרים שונים או לשתף את הקישור ישירות עם חבריך. כל מי שיירשם לאתר בלחיצה על קישור זה יהיה המשתמש הלקוח שלך.</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_IFRAME_PROMOTION_IMAGES">קידום מכירות/תמונות iFrame</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_IFRAME_PROMOTION_IMAGES_DESC">כדי לקדם באמצעות תמונות/פרסומות באתר שלך, השתמש בקוד ה- HTML שלהלן. אתה יכול גם להחליף את התמונות בקלות לפי רצונך. לשם כך, פשוט החלף את קישור התמונה iframe src כלומר src = "".</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_COPY_CODE">העתק מזהה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_SHARE_DIRECTLY">שתף ברשתות החברתיות</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_SHARE_AFFILIATE_WITHDRAWAL_HISTORY">משיכה והיסטוריה של לקוחות</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_WITHDRAW_AFFILIATE_BALANCE_TO_YOUR_BANK">משיכת יתרת לקוחות לבנק שלך:</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_WITHDRAW_AFFILIATE_BALANCE_TO_YOUR_BANK_NOTE">הערה*: עליך להעביר את יתרת השותפים שלך לחשבון ההימורים שלך ולאחר מכן למשוך או לשחק משם. אתה רשאי להעביר את היתרה רק פעם ב - 30 יום. סכום ההעברה המוצג הוא ההיסטוריה היא המטבע המוגדר בחשבון ההימורים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_JOIN_EXCHANGE_MEMBERSHIP_FOR_FASTER_WITHDRAWAL">הצטרף לחברת המרה כדי למשוך כסף יותר מהר?</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TRANSFER_AGENT_BALANCE_TO_BETTING_ACCOUNT">העבר את הבלאנס שלי לקרדיטים להימורים.</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_AFFILIATE_TRANSFER_HISTORY">היסטורית העברות שלך</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TRANSFERRED">הועבר</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_AFFILIATE_COMMISSION">עמלת וסןכ</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_PRINT_YOUR_DAILY_REPORTS">הדפס את הדו"ח היומי שלך</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_PRINT_DATA">מידע // </phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TODAYS_REGISTERED">נרשמו היות</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TOTAL_ACTIVE_USERS">פעילים היום</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_PENDING_USERS">ממתינים לאישור</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_ALL_TIME_USERS">סה"כ משתמשים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TODAYS_EARNINGS">סה"כ עמלות היום</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_PENDING_VOLUME">נפח ממתינים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_CLEARED_COMMISSION">עמלה סופית</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_PRINT_THIS_REPORT">הדפס דו"ח זה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_PRINT_THIS_REPORT_DESC">שים לב* ניתן להדפיס דוחות יומיים לעיון, הדוחות עלולים להתעכב לעתים.</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_SUPPORT_MESSAGING_INBOX">תמיכה/הודעות/תיבת דואר נכנס</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_PLEASE_SEND_MESSAGE_FROM_MESSAGING_PAGE_OR">אנא שלח הודעה מדף ההודעות או</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_CLICK_HERE">לחץ כאן</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_STATUS">סטטוס</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_INACTIVE">לא פעיל</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_PENDING">ממתין</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_BANNED">חסום</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_NO_INACTIVE_PLAYERS_FOUND">לא נמצאו לקוחות לא פעילים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_RED">מפנה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_DATA_PRINTABLE_BLOC">עמוד הדפסת מידע</phrase>
+
+    <phrase section="Affiliate_Panel" data="AFF_TRANSFERDASHBOARD">העברת כספים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_AVAILABLE_BALANCE_FOR_EXCHANGE">יתרה זמינה להעברה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TRANSFER_FUNDS_FROM_YOUR_BALANCE">הערכת כספים לשחקנים</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TRANSFER_FUNDS_FROM_YOUR_BALANCE_DESC">אנא שים לב כי אתה ממלא את כתובת המייל של השחקן הנכון וכותב את הסכום המדויק - לא ניתן לבצע החזרה אחר העברה.</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_INPUT_RECIPIENT_EMAIL">כתובת האימייל של השחקן</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_INPUT_AMOUNT_IN">סכום להעברה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_TRANSFER_HISTORY">היסטורית העברות</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_A2A_TRANSFER">פעולת העברה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_SENT_TO">שחקן</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_MTS_REF">טוקן העברה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_MTS_DATE">תאריך</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_SUCCESSFULLY_TRANSFERRED">העברה בוצעה בהצלחה</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_RECIPIENT_WILL_GET">השקן יקבל</phrase>
+    <phrase section="Affiliate_Panel" data="AFF_SEND_MONEY">שלח כסף</phrase>
+
+    <phrase section="New_Menu" data="MENU_SPORT">ספורט</phrase>
+    <phrase section="New_Menu" data="MENU_LIVE_CASINO">קזינו חי</phrase>
+    <phrase section="New_Menu" data="MENU_LUCK_MACHINE">מכונות מזל</phrase>
+    <phrase section="New_Menu" data="MENU_VIRTUAL_SPORT">ספורט וירטואלי</phrase>
+    <phrase section="New_Menu" data="MENU_POKER">פוקר</phrase>
+
+</language>

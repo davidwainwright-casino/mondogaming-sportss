@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+    <!-- Global Phrases -->
+    <phrase section="Global" data="ABOUT">About</phrase>
+    <phrase section="Global" data="ACCESS">Access</phrase>
+    <phrase section="Global" data="ACTIONS">Actions</phrase>
+    <phrase section="Global" data="ACTIVE">Active</phrase>
+    <phrase section="Global" data="ACTIVATE">Activate</phrase>
+    <phrase section="Global" data="ADD">Add</phrase>
+    <phrase section="Global" data="AGREE">Yes, I agree to privacy policy</phrase>
+    <phrase section="Global" data="ALERT">Alert</phrase>
+    <phrase section="Global" data="ALL">All</phrase>
+    <phrase section="Global" data="APPROVE">Approve</phrase>
+    <phrase section="Global" data="ARCHIVE">Archive</phrase>
+    <phrase section="Global" data="ASSETS">Assets</phrase>
+    <phrase section="Global" data="AVATAR">Avatar</phrase>
+    <phrase section="Global" data="BACK">back</phrase>
+    <phrase section="Global" data="BANNED">Banned</phrase>
+    <phrase section="Global" data="BGIMG">Background Image</phrase>
+    <phrase section="Global" data="BROWSE">Browse...</phrase>
+    <phrase section="Global" data="BY">by</phrase>
+    <phrase section="Global" data="CANCEL">Cancel</phrase>
+    <phrase section="Global" data="CAPTCHA">Captcha</phrase>
+    <phrase section="Global" data="CATEGORY">Category</phrase>
+    <phrase section="Global" data="CATEGORIES">Categories</phrase>
+    <phrase section="Global" data="CATSLUG">Category Slug</phrase>
+    <phrase section="Global" data="CHARSET">A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</phrase>
+    <phrase section="Global" data="CHECKOUT">Checkout</phrase>
+    <phrase section="Global" data="CHOOSE">Choose a file...</phrase>
+    <phrase section="Global" data="CLEAR">Clear</phrase>
+    <phrase section="Global" data="CLOSE">Close</phrase>
+    <phrase section="Global" data="COLOR">Color</phrase>
+    <phrase section="Global" data="COMPLETED">Completed</phrase>
+    <phrase section="Global" data="CON_PAGE">Content Page</phrase>
+    <phrase section="Global" data="CONPASS">Confirm Password</phrase>
+    <phrase section="Global" data="CONTENT">Content</phrase>
+    <phrase section="Global" data="CONTENT_NOT_FOUND">No Content found under this page !.</phrase>
+    <phrase section="Global" data="CONTINUE">Continue</phrase>
+    <phrase section="Global" data="CONTINUE_R">Continue Reading</phrase>
+    <phrase section="Global" data="COPY">Copy</phrase>
+    <phrase section="Global" data="COMMENT">Comment</phrase>
+    <phrase section="Global" data="COMMENTS">Comments</phrase>
+    <phrase section="Global" data="COUNTRY_LIST">Country List</phrase>
+    <phrase section="Global" data="CREATED">Created</phrase>
+    <phrase section="Global" data="CUT">Cut</phrase>
+    <phrase section="Global" data="CURRENCY">Currency</phrase>
+    <phrase section="Global" data="DATE">Date</phrase>
+    <phrase section="Global" data="DEFAULT">Default</phrase>
+    <phrase section="Global" data="DELCONFIRM1">Are you sure you want to delete this record?</phrase>
+    <phrase section="Global" data="DELCONFIRM10">Restore [NAME]?</phrase>
+    <phrase section="Global" data="DELCONFIRM11">This action will restore item to it's original sate.</phrase>
+    <phrase section="Global" data="DELCONFIRM2">This action cannot be undone!!!</phrase>
+    <phrase section="Global" data="DELCONFIRM3">The item will remain in Trash for 30 days. To remove it permanently, go to Trash and empty it.</phrase>
+    <phrase section="Global" data="DELCONFIRM4">Move [NAME] to the archive?</phrase>
+    <phrase section="Global" data="DELCONFIRM5">This will keep the user in your CMS PRO, but prevent them from logging in.</phrase>
+    <phrase section="Global" data="DELCONFIRM6">Remove [NAME] from the archive?</phrase>
+    <phrase section="Global" data="DELCONFIRM7">This action will restore user to it's original sate.</phrase>
+    <phrase section="Global" data="DELCONFIRM8">This action will restore company to it's original sate.</phrase>
+    <phrase section="Global" data="DELETE">Delete</phrase>
+    <phrase section="Global" data="DELETE_REC">Delete Record</phrase>
+    <phrase section="Global" data="DELETED">deleted successfully!</phrase>
+    <phrase section="Global" data="DESCRIPTION">Description</phrase>
+    <phrase section="Global" data="DONE">Done</phrase>
+    <phrase section="Global" data="DOWNLOAD">Download</phrase>
+    <phrase section="Global" data="DOWNLOADS">Downloads</phrase>
+    <phrase section="Global" data="DUPLICATE">Duplicate</phrase>
+    <phrase section="Global" data="EDIT">Edit</phrase>
+    <phrase section="Global" data="EDITOR">Editor</phrase>
+    <phrase section="Global" data="ERROR">Error</phrase>
+    <phrase section="Global" data="EXT_LINK">External Link</phrase>
+    <phrase section="Global" data="EXIT">Exit</phrase>
+    <phrase section="Global" data="EXPORT">Export</phrase>
+    <phrase section="Global" data="FIELD_R0">Field</phrase>
+    <phrase section="Global" data="FIELD_R1">needs to be [X] characters or shorter in length.</phrase>
+    <phrase section="Global" data="FIELD_R2">needs to be [X] characters or longer in length.</phrase>
+    <phrase section="Global" data="FIELD_R3">is invalid.</phrase>
+    <phrase section="Global" data="FIELD_R4">is invalid date.</phrase>
+    <phrase section="Global" data="FIELD_R4_1">is invalid time.</phrase>
+    <phrase section="Global" data="FIELD_R5">may only contain numeric characters.</phrase>
+    <phrase section="Global" data="FIELD_R6">may only contain numeric value.</phrase>
+    <phrase section="Global" data="FIELD_R7">needs to be exactly [X] characters in length.</phrase>
+    <phrase section="Global" data="FIELD_R8">may only contain alpha characters(a-z).</phrase>
+    <phrase section="Global" data="FIELD_R9">may only contain alpha-numeric characters.</phrase>
+    <phrase section="Global" data="FIELD_R10">may only contain alpha characters &amp; dashes.</phrase>
+    <phrase section="Global" data="FIELD_R11">needs to contain one of these values: [VAL]</phrase>
+    <phrase section="Global" data="FIELD_R12">needs to start with [VAL]</phrase>
+    <phrase section="Global" data="FIELD_R13">does not equal [VAL] field.</phrase>
+    <phrase section="Global" data="FIELD_R14">is not valid url.</phrase>
+    <phrase section="Global" data="FIELD_R15">URL does not exist.</phrase>
+    <phrase section="Global" data="FIELD_R16">is not valid IP.</phrase>
+    <phrase section="Global" data="FIELD_R17">is not credit card number.</phrase>
+    <phrase section="Global" data="FIELD_R18">is not valid email address.</phrase>
+    <phrase section="Global" data="FIELD_R19">is not valid decimal number.</phrase>
+    <phrase section="Global" data="FIELD_R100">is required.</phrase>
+    <phrase section="Global" data="FILE_ERR">File could not be moved from temporary upload folder to image folder.</phrase>
+    <phrase section="Global" data="FIND">Find</phrase>
+    <phrase section="Global" data="FILE">File</phrase>
+    <phrase section="Global" data="FREE">FREE</phrase>
+    <phrase section="Global" data="FROM">From</phrase>
+    <phrase section="Global" data="GATEWAY">Gateway</phrase>
+    <phrase section="Global" data="GO">GO</phrase>
+    <phrase section="Global" data="GRID">Grid</phrase>
+    <phrase section="Global" data="GUEST">Guest</phrase>
+    <phrase section="Global" data="HELLO">Hello</phrase>
+    <phrase section="Global" data="HISTORY">History</phrase>
+    <phrase section="Global" data="HI">Hi,</phrase>
+    <phrase section="Global" data="HITS">Hits</phrase>
+    <phrase section="Global" data="HI_A">Good Afternoon</phrase>
+    <phrase section="Global" data="HI_E">Good Evening</phrase>
+    <phrase section="Global" data="HI_M">Good Morning</phrase>
+    <phrase section="Global" data="HOME">Home</phrase>
+    <phrase section="Global" data="HORIZONTAL">Horizontal</phrase>
+    <phrase section="Global" data="IMAGE">Image</phrase>
+    <phrase section="Global" data="IMAGES">Images</phrase>
+    <phrase section="Global" data="IMPORT">Import</phrase>
+    <phrase section="Global" data="INFO">Info</phrase>
+    <phrase section="Global" data="IN">In</phrase>
+    <phrase section="Global" data="INACTIVE">Inactive</phrase>
+    <phrase section="Global" data="INSERT">Insert</phrase>
+    <phrase section="Global" data="ITEM">Item</phrase>
+    <phrase section="Global" data="ITEMS">Items</phrase>
+    <phrase section="Global" data="ITEMSLUG">Item Slug</phrase>
+    <phrase section="Global" data="LANGUAGE">Language</phrase>
+    <phrase section="Global" data="LIKE">Like</phrase>
+    <phrase section="Global" data="LIKES">Likes</phrase>
+    <phrase section="Global" data="LIST">List</phrase>
+    <phrase section="Global" data="LOGIN">Login</phrase>
+    <phrase section="Global" data="LOGIN_R1">Login and/or password did not match to the database.</phrase>
+    <phrase section="Global" data="LOGIN_R2">Your account has been banned.</phrase>
+    <phrase section="Global" data="LOGIN_R22">Login temporarily disabled. Will be back soon.</phrase>
+    <phrase section="Global" data="LOGIN_R3">Your account it's not activated.</phrase>
+    <phrase section="Global" data="LOGIN_R4">You need to verify your email address.</phrase>
+    <phrase section="Global" data="LOGIN_R5">Please enter valid username and password</phrase>
+    <phrase section="Global" data="LOGIN_R6">Too many login attempts. Please wait [MINUTES] minutes before next login attempt.</phrase>
+    <phrase section="Global" data="LOGIN_R7">Login Success! Redirecting...</phrase>
+    <phrase section="Global" data="LOGOUT">Logout</phrase>
+    <phrase section="Global" data="MAINIMAGE">Main Image</phrase>
+    <phrase section="Global" data="MANAGE">Manage</phrase>
+    <phrase section="Global" data="MAX_R1">maximum</phrase>
+    <phrase section="Global" data="MEMBERSHIP">Membership</phrase>
+    <phrase section="Global" data="MEMBER">Member</phrase>
+    <phrase section="Global" data="MESSAGE">Message</phrase>
+    <phrase section="Global" data="METADESC">Meta Description</phrase>
+    <phrase section="Global" data="METAKEYS">Meta Keywords</phrase>
+    <phrase section="Global" data="MIN_R1">minimum</phrase>
+    <phrase section="Global" data="MODULE">Module</phrase>
+    <phrase section="Global" data="MODULES">Modules</phrase>
+    <phrase section="Global" data="MOVE">Move</phrase>
+    <phrase section="Global" data="MOVTOA">Moved to archive</phrase>
+    <phrase section="Global" data="MOVTOTR">Moved to trash</phrase>
+    <phrase section="Global" data="MTOARCHIVE">Move to Archive</phrase>
+    <phrase section="Global" data="MTOTRASH">Move to Trash</phrase>
+    <phrase section="Global" data="MULTIPLE">Multiple</phrase>
+    <phrase section="Global" data="NAME">Name</phrase>
+    <phrase section="Global" data="NEVER">Never</phrase>
+    <phrase section="Global" data="NEWPASS">New Password</phrase>
+    <phrase section="Global" data="NO">No</phrase>
+    <phrase section="Global" data="NOACCESS">Sorry don't have valid privileges to access this page.</phrase>
+    <phrase section="Global" data="NOFILE">No file...</phrase>
+    <phrase section="Global" data="NONE">none</phrase>
+    <phrase section="Global" data="NOPROCCESS">Nothing to process!</phrase>
+    <phrase section="Global" data="NOTEVAR">Please do not change values between [ ]</phrase>
+    <phrase section="Global" data="NOTPUBLISHED">Not Published</phrase>
+    <phrase section="Global" data="NOW">Now</phrase>
+    <phrase section="Global" data="OFF">Off</phrase>
+    <phrase section="Global" data="of">of</phrase>
+    <phrase section="Global" data="ON">On</phrase>
+    <phrase section="Global" data="OK">OK</phrase>
+    <phrase section="Global" data="PAGE">Page</phrase>
+    <phrase section="Global" data="PAGE_NOT_FOUND">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable!</phrase>
+    <phrase section="Global" data="PASTE">Paste</phrase>
+    <phrase section="Global" data="PENDING">Pending</phrase>
+    <phrase section="Global" data="PLUGIN">Plugin</phrase>
+    <phrase section="Global" data="PLUGINS">Plugins</phrase>
+    <phrase section="Global" data="POST">Post</phrase>
+    <phrase section="Global" data="PRIVACY">Privacy Policy</phrase>
+    <phrase section="Global" data="PREVIEW">Preview</phrase>
+    <phrase section="Global" data="PROCCESS_C_ERR">An error occurred while processing configuration file</phrase>
+    <phrase section="Global" data="PROCCESS_ERR">Please complete the following required fields:</phrase>
+    <phrase section="Global" data="PROCCESS_ERR1">Please complete all of the required fields</phrase>
+    <phrase section="Global" data="PROP">Properties</phrase>
+    <phrase section="Global" data="PUBLIC">Public</phrase>
+    <phrase section="Global" data="PUBLISHED">Published</phrase>
+    <phrase section="Global" data="PRICE">Price</phrase>
+    <phrase section="Global" data="RANGE">Range</phrase>
+    <phrase section="Global" data="RATING">Rating</phrase>
+    <phrase section="Global" data="REFRESH">Refresh</phrase>
+    <phrase section="Global" data="RESET">Reset</phrase>
+    <phrase section="Global" data="REGISTER">Register</phrase>
+    <phrase section="Global" data="REGISTERED">Registered</phrase>
+    <phrase section="Global" data="REMOVE">Remove</phrase>
+    <phrase section="Global" data="RENAME">Rename</phrase>
+    <phrase section="Global" data="REQFIELD1">Fields marked </phrase>
+    <phrase section="Global" data="REQFIELD2"> are required.</phrase>
+    <phrase section="Global" data="RESFRTR">Restored from trash</phrase>
+    <phrase section="Global" data="RESTORE">Restore</phrase>
+    <phrase section="Global" data="REQUIRED">Required</phrase>
+    <phrase section="Global" data="RFCOMPLETE">Restore Original</phrase>
+    <phrase section="Global" data="SAVE">Save</phrase>
+    <phrase section="Global" data="SAVECONFIG">Save Configuration</phrase>
+    <phrase section="Global" data="SECTION">Section</phrase>
+    <phrase section="Global" data="SEARCH">Search</phrase>
+    <phrase section="Global" data="SEARCH2">type and press enter...</phrase>
+    <phrase section="Global" data="SELPIC">Select Photo</phrase>
+    <phrase section="Global" data="SELECT">Select</phrase>
+    <phrase section="Global" data="SELIMG">Select Image</phrase>
+    <phrase section="Global" data="SELECTED">Selected</phrase>
+    <phrase section="Global" data="SELALL">Select All</phrase>
+    <phrase section="Global" data="ALLSELL">all Selected</phrase>
+    <phrase section="Global" data="SELECTMULTI">Select Some Options</phrase>
+    <phrase section="Global" data="SETTINGS">Settings</phrase>
+    <phrase section="Global" data="SORTING">Sorting</phrase>
+    <phrase section="Global" data="SORTING_O">Sorting Options</phrase>
+    <phrase section="Global" data="SOCIAL">Social Media</phrase>
+    <phrase section="Global" data="STATUS">Status</phrase>
+    <phrase section="Global" data="STAFF">Staff</phrase>
+    <phrase section="Global" data="SUBMIT">Submit</phrase>
+    <phrase section="Global" data="SUBMITP">Submit Payment</phrase>
+    <phrase section="Global" data="SUCCESS">Success</phrase>
+    <phrase section="Global" data="SYSERROR">An error occurred while processing this request. Please contact administrator.</phrase>
+    <phrase section="Global" data="SYSTEM_ERR">Please complete the following fields:</phrase>
+    <phrase section="Global" data="SYSTEM_ERR1">System Error!! Invalid value detected - </phrase>
+    <phrase section="Global" data="SYSTEM_ERR2">You don't have permission to access this page.</phrase>
+    <phrase section="Global" data="SYSTEM_PROCCESS">Nothing to process.</phrase>
+    <phrase section="Global" data="TAG">Tag</phrase>
+    <phrase section="Global" data="TAGS">Tags</phrase>
+    <phrase section="Global" data="TAX">tax</phrase>
+    <phrase section="Global" data="TITLE">Title</phrase>
+    <phrase section="Global" data="TIME">Time</phrase>
+    <phrase section="Global" data="TO">To</phrase>
+    <phrase section="Global" data="TRANSACTION">Transaction</phrase>
+    <phrase section="Global" data="TRASH">Trash</phrase>
+    <phrase section="Global" data="THUMB_W">Thumbnail Width</phrase>
+    <phrase section="Global" data="THUMB_H">Thumbnail Height</phrase>
+    <phrase section="Global" data="TYPE">Type</phrase>
+    <phrase section="Global" data="UPDATE">Update</phrase>
+    <phrase section="Global" data="UPDATED">updated successfully!</phrase>
+    <phrase section="Global" data="UPLOAD">Upload</phrase>
+    <phrase section="Global" data="USER">User</phrase>
+    <phrase section="Global" data="USER_A">User Active</phrase>
+    <phrase section="Global" data="USER_B">User Banned</phrase>
+    <phrase section="Global" data="USER_I">User Inactive</phrase>
+    <phrase section="Global" data="USER_P">User Pending</phrase>
+    <phrase section="Global" data="USERNAME">Username</phrase>
+    <phrase section="Global" data="USERNAME_R1">Please Enter Valid Username</phrase>
+    <phrase section="Global" data="USERNAME_R2">Username Is Too Short (less Than 4 Characters Long).</phrase>
+    <phrase section="Global" data="USERNAME_R3">Invalid Characters Found In Username.</phrase>
+    <phrase section="Global" data="USERNAME_R4">Sorry, This Username Is Already Taken</phrase>
+    <phrase section="Global" data="USERNAME_R5">We are sorry, selected username does not exist in our database</phrase>
+    <phrase section="Global" data="VERTICAL">Vertical</phrase>
+    <phrase section="Global" data="VIEW">View</phrase>
+    <phrase section="Global" data="WELCOME">Welcome</phrase>
+    <phrase section="Global" data="WORKING">working....</phrase>
+    <phrase section="Global" data="YES">Yes</phrase>
+    <phrase section="Global" data="YOUAREHERE">You are here</phrase>
+    <phrase section="Global" data="QTY">Qty</phrase>
+    <phrase section="Global" data="QUANTITY">Quantity</phrase>
+    <phrase section="Global" data="WELCOMEBACK">Welcome back</phrase>
+
+    <!-- Localization -->
+    <phrase section="Localization" data="_DAY">Day</phrase>
+    <phrase section="Localization" data="_DAYS">Days</phrase>
+    <phrase section="Localization" data="_HOUR">Hour</phrase>
+    <phrase section="Localization" data="_HOURS">Hours</phrase>
+    <phrase section="Localization" data="_MINUTE">Minute</phrase>
+    <phrase section="Localization" data="_MINUTES">Minutes</phrase>
+    <phrase section="Localization" data="_MONTH">Month</phrase>
+    <phrase section="Localization" data="_MONTHS">Months</phrase>
+    <phrase section="Localization" data="_SECOND">Second</phrase>
+    <phrase section="Localization" data="_SECONDS">Seconds</phrase>
+    <phrase section="Localization" data="_WEEK">Week</phrase>
+    <phrase section="Localization" data="_WEEKS">Weeks</phrase>
+    <phrase section="Localization" data="_YEAR">Year</phrase>
+    <phrase section="Localization" data="_YEARS">Years</phrase>
+    <phrase section="Localization" data="AGO">ago</phrase>
+    <phrase section="Localization" data="JUSTNOW">just now</phrase>
+    <phrase section="Localization" data="APR">Apr</phrase>
+    <phrase section="Localization" data="APR_L">April</phrase>
+    <phrase section="Localization" data="AUG">Aug</phrase>
+    <phrase section="Localization" data="AUG_L">August</phrase>
+    <phrase section="Localization" data="DEC">Dec</phrase>
+    <phrase section="Localization" data="DEC_L">December</phrase>
+    <phrase section="Localization" data="FEB">Feb</phrase>
+    <phrase section="Localization" data="FEB_L">February</phrase>
+    <phrase section="Localization" data="FRI">Fr</phrase>
+    <phrase section="Localization" data="FRI_L">Friday</phrase>
+    <phrase section="Localization" data="FRI_M">Fri</phrase>
+    <phrase section="Localization" data="JAN">Jan</phrase>
+    <phrase section="Localization" data="JAN_L">January</phrase>
+    <phrase section="Localization" data="JUL">Jul</phrase>
+    <phrase section="Localization" data="JUL_L">July</phrase>
+    <phrase section="Localization" data="JUN">Jun</phrase>
+    <phrase section="Localization" data="JUN_L">June</phrase>
+    <phrase section="Localization" data="MAR">Mar</phrase>
+    <phrase section="Localization" data="MAR_L">March</phrase>
+    <phrase section="Localization" data="MAY">May</phrase>
+    <phrase section="Localization" data="MAY_L">May</phrase>
+    <phrase section="Localization" data="MON">Mo</phrase>
+    <phrase section="Localization" data="MON_L">Monday</phrase>
+    <phrase section="Localization" data="MON_M">Mon</phrase>
+    <phrase section="Localization" data="NOV">Nov</phrase>
+    <phrase section="Localization" data="NOV_L">November</phrase>
+    <phrase section="Localization" data="OCT">Oct</phrase>
+    <phrase section="Localization" data="OCT_L">October</phrase>
+    <phrase section="Localization" data="SAT">Sa</phrase>
+    <phrase section="Localization" data="SAT_L">Saturday</phrase>
+    <phrase section="Localization" data="SAT_M">Sat</phrase>
+    <phrase section="Localization" data="SEP">Sep</phrase>
+    <phrase section="Localization" data="SEP_L">September</phrase>
+    <phrase section="Localization" data="SUN">Su</phrase>
+    <phrase section="Localization" data="SUN_L">Sunday</phrase>
+    <phrase section="Localization" data="SUN_M">Sun</phrase>
+    <phrase section="Localization" data="THIS_MONTH">This Month</phrase>
+    <phrase section="Localization" data="THIS_WEEK">This Week</phrase>
+    <phrase section="Localization" data="THIS_YEAR">This Year</phrase>
+    <phrase section="Localization" data="NEXT_MONTH">Next Month</phrase>
+    <phrase section="Localization" data="NEXT_WEEK">Next Week</phrase>
+    <phrase section="Localization" data="TNEX_YEAR">Next Year</phrase>
+    <phrase section="Localization" data="LAST_MONTH">Last Month</phrase>
+    <phrase section="Localization" data="LAST_WEEK">Last Week</phrase>
+    <phrase section="Localization" data="LAST_YEAR">Last Year</phrase>
+    <phrase section="Localization" data="THU">Th</phrase>
+    <phrase section="Localization" data="THU_L">Thursday</phrase>
+    <phrase section="Localization" data="THU_M">Thu</phrase>
+    <phrase section="Localization" data="TODAY">Today</phrase>
+    <phrase section="Localization" data="TOMORROW">Tomorrow</phrase>
+    <phrase section="Localization" data="TUE">Tu</phrase>
+    <phrase section="Localization" data="TUE_L">Tuesday</phrase>
+    <phrase section="Localization" data="TUE_M">Tue</phrase>
+    <phrase section="Localization" data="WED">We</phrase>
+    <phrase section="Localization" data="WED_L">Wednesday</phrase>
+    <phrase section="Localization" data="WED_M">Wed</phrase>
+    <phrase section="Localization" data="YESTERDAY">Yesterday</phrase>
+
+    <!-- Accounts -->
+    <phrase section="Accounts" data="M_ADDED">Account [NAME] created successfully.</phrase>
+    <phrase section="Accounts" data="M_ADDRESS">Address</phrase>
+    <phrase section="Accounts" data="M_CITY">City</phrase>
+    <phrase section="Accounts" data="M_STATE">Province/State</phrase>
+    <phrase section="Accounts" data="M_ZIP">Postal Code/Zip</phrase>
+    <phrase section="Accounts" data="M_COUNTRY">Country</phrase>
+    <phrase section="Accounts" data="M_EMAIL">Email Address</phrase>
+    <phrase section="Accounts" data="M_EMAIL1">Email</phrase>
+    <phrase section="Accounts" data="M_EMAIL_R1">Please Enter Valid Email Address</phrase>
+    <phrase section="Accounts" data="M_EMAIL_R2">Entered Email Address Is Already In Use.</phrase>
+    <phrase section="Accounts" data="M_EMAIL_R3">Entered Email Address Is Not Valid.</phrase>
+    <phrase section="Accounts" data="M_EMAIL_R4">Entered Email Address Does Not Exist.</phrase>
+    <phrase section="Accounts" data="M_EMAIL_R5">Invalid Email address.</phrase>
+    <phrase section="Accounts" data="M_FNAME">First Name</phrase>
+    <phrase section="Accounts" data="M_INF01">Edit Role Description</phrase>
+    <phrase section="Accounts" data="M_INFO">Click on Access label to grant/deny access options.</phrase>
+    <phrase section="Accounts" data="M_INFO2">Role description updated successfully.</phrase>
+    <phrase section="Accounts" data="M_INFO3">You currently don't have any members...</phrase>
+    <phrase section="Accounts" data="M_INFO4">Do you want to resend email notification to [NAME]?</phrase>
+    <phrase section="Accounts" data="M_INFO5">Notification has been resent successfully.</phrase>
+    <phrase section="Accounts" data="M_INFO6">You dont have any users yet. Please add....</phrase>
+    <phrase section="Accounts" data="M_INFO7">You have successfully completed registration. You may login now or check email for confirmation.</phrase>
+    <phrase section="Accounts" data="M_INFO8">You have successfully completed registration. Redirecting to login page.</phrase>
+    <phrase section="Accounts" data="M_INFO9">You have successfully validated your email.</phrase>
+    <phrase section="Accounts" data="M_INFO9_1">Continue to login...</phrase>
+    <phrase section="Accounts" data="M_INFO10">Invalid email and or token detected.</phrase>
+    <phrase section="Accounts" data="M_INFO11">There was a problem creating your account. Please contact site administrator.</phrase>
+    <phrase section="Accounts" data="M_INFO12">You have successfully activated [NAME].</phrase>
+    <phrase section="Accounts" data="M_INFO13">Here you can select and activate membership access.</phrase>
+    <phrase section="Accounts" data="M_INFO14">Here you can view your membership purchase history.</phrase>
+    <phrase section="Accounts" data="M_INFO15">Here you can update your profile settings.</phrase>
+    <phrase section="Accounts" data="M_LASTIP">Login IP</phrase>
+    <phrase section="Accounts" data="M_LASTLOGIN">Last Login</phrase>
+    <phrase section="Accounts" data="M_LASTSEEN">Last Seen</phrase>
+    <phrase section="Accounts" data="M_JOINED">Joined In</phrase>
+    <phrase section="Accounts" data="M_LNAME">Last Name</phrase>
+    <phrase section="Accounts" data="M_MYACCOUNT">My Account</phrase>
+    <phrase section="Accounts" data="M_PASSMATCH">Passwords don't match.</phrase>
+    <phrase section="Accounts" data="M_PASSUPD_OK">Password updated successfully.</phrase>
+    <phrase section="Accounts" data="M_PASSUPDATE">Update Password</phrase>
+    <phrase section="Accounts" data="M_PASSWORD">Password</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_L">forgot password</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_R1">Please Enter Valid Password.</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_R2">Password entered is not alphanumeric.</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_RES">Password Reset</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_RES_D">Password sent successfully. Please check your email!</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_RES_S">Password Reset From</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_RES_T">In order to reset your password, please enter the email address above, you used to register your account.</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_T">Leave it empty unless changing the password.</phrase>
+    <phrase section="Accounts" data="M_PASSWORD_T2">Password must be at least 6 characters long.</phrase>
+    <phrase section="Accounts" data="M_PHONE">Phone</phrase>
+    <phrase section="Accounts" data="M_SUB1">Here you can update your personal account information.</phrase>
+    <phrase section="Accounts" data="M_SUB2">Change Password</phrase>
+    <phrase section="Accounts" data="M_SUB3">Here you can manage your site staff members roles and privileges.</phrase>
+    <phrase section="Accounts" data="M_SUB4">Here you can view and manage privileges for currently selected [ROLE] role.</phrase>
+    <phrase section="Accounts" data="M_SUB5">Here you can view and manage your members.</phrase>
+    <phrase section="Accounts" data="M_SUB6">Resend Email</phrase>
+    <phrase section="Accounts" data="M_SUB7">Here you can update user personal account information.</phrase>
+    <phrase section="Accounts" data="M_SUB8">Change Membership</phrase>
+    <phrase section="Accounts" data="M_SUB9">User Type</phrase>
+    <phrase section="Accounts" data="M_SUB10">Newsletter Subscriber</phrase>
+    <phrase section="Accounts" data="M_SUB11">User Note</phrase>
+    <phrase section="Accounts" data="M_SUB12">Here you can add a new user account.</phrase>
+    <phrase section="Accounts" data="M_SUB13">Send Email Notification</phrase>
+    <phrase section="Accounts" data="M_SUB14">Back to login</phrase>
+    <phrase section="Accounts" data="M_SUB15">Extend Membership</phrase>
+    <phrase section="Accounts" data="M_SUB16">User Profile</phrase>
+    <phrase section="Accounts" data="M_SUB17">Module Access</phrase>
+    <phrase section="Accounts" data="M_SUB18">Plugin Access</phrase>
+    <phrase section="Accounts" data="M_SUB19">Login to manage your account.</phrase>
+    <phrase section="Accounts" data="M_SUB20">Don't have an account?</phrase>
+    <phrase section="Accounts" data="M_SUB21">Sign up here</phrase>
+    <phrase section="Accounts" data="M_SUB22">Reset Your Password</phrase>
+    <phrase section="Accounts" data="M_SUB23">Fill out the form to get started.</phrase>
+    <phrase section="Accounts" data="M_SUB24">Complete Registration</phrase>
+    <phrase section="Accounts" data="M_SUB25">Pay With</phrase>
+    <phrase section="Accounts" data="M_SUB26">Purchase Summary</phrase>
+    <phrase section="Accounts" data="M_SUB27">Forgot your</phrase>
+    <phrase section="Accounts" data="M_SUB27_1">password?</phrase>
+    <phrase section="Accounts" data="M_SUB28">Enter your email address below and we'll get you back on track.</phrase>
+    <phrase section="Accounts" data="M_SUB29">Request Reset Link</phrase>
+    <phrase section="Accounts" data="M_SUB30">Welcome to</phrase>
+    <phrase section="Accounts" data="M_SUB31">Already have an account?</phrase>
+    <phrase section="Accounts" data="M_SUB32">Hey, I am</phrase>
+    <phrase section="Accounts" data="M_SUB33">Page Access</phrase>
+    <phrase section="Accounts" data="M_TITLE">Account Overview</phrase>
+    <phrase section="Accounts" data="M_TITLE1">Roles Management</phrase>
+    <phrase section="Accounts" data="M_TITLE2">Privileges Management</phrase>
+    <phrase section="Accounts" data="M_TITLE3">Members Overview</phrase>
+    <phrase section="Accounts" data="M_TITLE4">Edit User</phrase>
+    <phrase section="Accounts" data="M_TITLE5">Add User</phrase>
+    <phrase section="Accounts" data="M_INVOICE">Invoice</phrase>
+    <phrase section="Accounts" data="M_SELU">Select User</phrase>
+    <phrase section="Accounts" data="M_SELUS">Select Users</phrase>
+    <phrase section="Accounts" data="M_TRASH_OK">User [NAME] moved to trash successfully.</phrase>
+    <phrase section="Accounts" data="M_UPDATE">Update Account</phrase>
+    <phrase section="Accounts" data="M_UPDATED">Account [NAME] updated successfully.</phrase>
+
+
+    <!-- Admin Menus -->
+    <phrase section="Admin Menus" data="ADM_BACKUP">Backup</phrase>
+    <phrase section="Admin Menus" data="ADM_CONTENT">Content</phrase>
+    <phrase section="Admin Menus" data="ADM_CNTR">Countries</phrase>
+    <phrase section="Admin Menus" data="ADM_CFIELDS">Custom Fields</phrase>
+    <phrase section="Admin Menus" data="ADM_COUPONS">Coupons</phrase>
+    <phrase section="Admin Menus" data="ADM_DASH">Dashboard</phrase>
+    <phrase section="Admin Menus" data="ADM_EMTPL">Email Templates</phrase>
+    <phrase section="Admin Menus" data="ADM_FM">File Manager</phrase>
+    <phrase section="Admin Menus" data="ADM_GATE">Payment Options</phrase>
+    <phrase section="Admin Menus" data="ADM_NEWSL">Newsletter</phrase>
+    <phrase section="Admin Menus" data="ADM_LAYOUT">Layout</phrase>
+    <phrase section="Admin Menus" data="ADM_LNGMNG">Languages</phrase>
+    <phrase section="Admin Menus" data="ADM_LOGS">Log Manager</phrase>
+    <phrase section="Admin Menus" data="ADM_MEMBS">Memberships</phrase>
+    <phrase section="Admin Menus" data="ADM_MENUS">Menus</phrase>
+    <phrase section="Admin Menus" data="ADM_PAGES">Pages</phrase>
+    <phrase section="Admin Menus" data="ADM_PERMS">Permissions</phrase>
+    <phrase section="Admin Menus" data="ADM_SYSINFO">System Info</phrase>
+    <phrase section="Admin Menus" data="ADM_CONFIG">Configuration</phrase>
+    <phrase section="Admin Menus" data="ADM_SYSTEM">Configuration</phrase>
+    <phrase section="Admin Menus" data="ADM_TRANS">Transactions</phrase>
+    <phrase section="Admin Menus" data="ADM_UTIL">Utilities</phrase>
+    <phrase section="Admin Menus" data="ADM_TRASH">Trash</phrase>
+    <phrase section="Admin Menus" data="ADM_USERS">Users</phrase>
+
+    <!-- Pages -->
+    <phrase section="Pages" data="PAG_ACCLVL">Access Level</phrase>
+    <phrase section="Pages" data="PAG_ADDED_OK">Page [NAME] added successfully.</phrase>
+    <phrase section="Pages" data="PAG_BODY">Page Content</phrase>
+    <phrase section="Pages" data="PAG_CAPTION">Page Caption</phrase>
+    <phrase section="Pages" data="PAG_INFO">You currently don't have any pages...</phrase>
+    <phrase section="Pages" data="PAG_JSCODE">JavaScript Code</phrase>
+    <phrase section="Pages" data="PAG_MDLASS">Assign Module</phrase>
+    <phrase section="Pages" data="PAG_MDLNOASS">No Module Assigned</phrase>
+    <phrase section="Pages" data="PAG_MDLCOMMENT">Enable Comments</phrase>
+    <phrase section="Pages" data="PAG_NOHEAD">Show Header</phrase>
+    <phrase section="Pages" data="PAG_MEMLVL">Membership Level</phrase>
+    <phrase section="Pages" data="PAG_NAME">Page Name</phrase>
+    <phrase section="Pages" data="PAG_NOMEM_REQ">No Membership Required</phrase>
+    <phrase section="Pages" data="PAG_PGACC">Account Page</phrase>
+    <phrase section="Pages" data="PAG_PGACCT">Activation Page</phrase>
+    <phrase section="Pages" data="PAG_PGADM">Admin Access Only</phrase>
+    <phrase section="Pages" data="PAG_PGCNT">Contact Form</phrase>
+    <phrase section="Pages" data="PAG_PGHOME">Home Page</phrase>
+    <phrase section="Pages" data="PAG_PGLOGIN">Login Page</phrase>
+    <phrase section="Pages" data="PAG_PGNORMAL">Normal Page</phrase>
+    <phrase section="Pages" data="PAG_PGPUB">Public Profile Page</phrase>
+    <phrase section="Pages" data="PAG_PGRGST">Register Page</phrase>
+    <phrase section="Pages" data="PAG_PGSRH">Search Page</phrase>
+    <phrase section="Pages" data="PAG_PGSTMAP">Sitemap Page</phrase>
+    <phrase section="Pages" data="PAG_SLUG">Page Slug</phrase>
+    <phrase section="Pages" data="PAG_SUB">Here you can manage your content pages. Note: Deleting page will also delete layouts under the same page.</phrase>
+    <phrase section="Pages" data="PAG_SUB1">Here you can update your content page.</phrase>
+    <phrase section="Pages" data="PAG_SUB2">Dedicated Pages</phrase>
+    <phrase section="Pages" data="PAG_SUB3">Update Page</phrase>
+    <phrase section="Pages" data="PAG_SUB4">New Page</phrase>
+    <phrase section="Pages" data="PAG_SUB5">Live Editor</phrase>
+    <phrase section="Pages" data="PAG_SUB6">Page Type</phrase>
+    <phrase section="Pages" data="PAG_TRASH_OK">Page [NAME] moved to trash successfully.</phrase>
+    <phrase section="Pages" data="PAG_UPDATE_OK">Page [NAME] updated successfully.</phrase>
+
+    <!-- Menus -->
+    <phrase section="Menus" data="MEN_ADDED_OK">Menu [NAME] added successfully.</phrase>
+    <phrase section="Menus" data="MEN_CAP">Menu Caption</phrase>
+    <phrase section="Menus" data="MEN_COLS">Menu Columns</phrase>
+    <phrase section="Menus" data="MEN_CTYPE">Content Type</phrase>
+    <phrase section="Menus" data="MEN_ICONS">Menu Icons</phrase>
+    <phrase section="Menus" data="MEN_NAME">Menu Name</phrase>
+    <phrase section="Menus" data="MEN_PARENT">Menu Parent</phrase>
+    <phrase section="Menus" data="MEN_SUB">Top Level</phrase>
+    <phrase section="Menus" data="MEN_SUB1">Select Content Type</phrase>
+    <phrase section="Menus" data="MEN_SUB2">Content Link</phrase>
+    <phrase section="Menus" data="MEN_SUB3">Add Menu</phrase>
+    <phrase section="Menus" data="MEN_SUB4">Update Menu</phrase>
+    <phrase section="Menus" data="MEN_TARGET">Target</phrase>
+    <phrase section="Menus" data="MEN_TARGET_B">_Blank</phrase>
+    <phrase section="Menus" data="MEN_TARGET_L">Link Target</phrase>
+    <phrase section="Menus" data="MEN_TARGET_S">_Self</phrase>
+    <phrase section="Menus" data="MEN_TARGET_T">Start url with http://</phrase>
+    <phrase section="Menus" data="MEN_TRASH_OK">Menu [NAME] moved to trash successfully.</phrase>
+    <phrase section="Menus" data="MEN_UPDATE_OK">Menu [NAME] updated successfully.</phrase>
+
+    <!-- Countries -->
+    <phrase section="Countries" data="CNT_TITLE">Country Management</phrase>
+    <phrase section="Countries" data="CNT_INFO">Here you can view and manage country list. Click on VAT/Tax values to edit in place.</phrase>
+    <phrase section="Countries" data="CNT_ABBR">Abbreviation</phrase>
+    <phrase section="Countries" data="CNT_SELECT">Select Country</phrase>
+    <phrase section="Countries" data="CNT_DELOK">Country [NAME] deleted successfully.</phrase>
+    <phrase section="Countries" data="CNT_EDIT">Edit Country</phrase>
+    <phrase section="Countries" data="CNT_NOCOUNTRY">You don't have any countries yet...</phrase>
+    <phrase section="Countries" data="CNT_UPDATE">Update Country</phrase>
+    <phrase section="Countries" data="CNT_UPDATED">Country [NAME] updated successfully.</phrase>
+
+    <!-- Admin Discounts -->
+    <phrase section="Discounts" data="DC_ADDED_OK">Coupon [NAME] added successfully.</phrase>
+    <phrase section="Discounts" data="DC_TITLE">Discounts/Coupons</phrase>
+    <phrase section="Discounts" data="DC_SUB">Here you can manage your discounts/coupons.</phrase>
+    <phrase section="Discounts" data="DC_CODE">Coupon Code</phrase>
+    <phrase section="Discounts" data="DC_CODE_I">Enter coupon code...</phrase>
+    <phrase section="Discounts" data="DC_SUB1">New Coupon</phrase>
+    <phrase section="Discounts" data="DC_SUB2">Update Coupon</phrase>
+    <phrase section="Discounts" data="DC_SUB3">Apply to memberships</phrase>
+    <phrase section="Discounts" data="DC_SUB4">Discount</phrase>
+    <phrase section="Discounts" data="DC_DISC">Discount Amount</phrase>
+    <phrase section="Discounts" data="DC_TYPE">Discount Type</phrase>
+    <phrase section="Discounts" data="DC_NONDISC">You don't have any discounts/coupons yet. Please add...</phrase>
+    <phrase section="Discounts" data="DC_TYPE_A">Fixed Amount</phrase>
+    <phrase section="Discounts" data="DC_TYPE_P">Percentage Amount</phrase>
+    <phrase section="Discounts" data="DC_TRASH_OK">Coupon [NAME] trashed successfully.</phrase>
+    <phrase section="Discounts" data="DC_UPDATE_OK">Coupon [NAME] updated successfully.</phrase>
+
+    <!-- Memberships -->
+    <phrase section="Memberships" data="MEM_ADDED_OK">Membership [NAME] added successfully.</phrase>
+    <phrase section="Memberships" data="MEM_TITLE">Membership Packages</phrase>
+    <phrase section="Memberships" data="MEM_NOMEM">You dont have any memberships yet. Please add...</phrase>
+    <phrase section="Memberships" data="MEM_SUB">Here you can manage your membership packages. Note: Make sure you are not deleting or deactivating packages assigned to active users.</phrase>
+    <phrase section="Memberships" data="MEM_SUB1">New Membership</phrase>
+    <phrase section="Memberships" data="MEM_SUB2">Update Membership</phrase>
+    <phrase section="Memberships" data="MEM_SUB3">Require Membership</phrase>
+    <phrase section="Memberships" data="MEM_TRIAL">Trial Membership</phrase>
+    <phrase section="Memberships" data="MEM_PRIVATE">Private Membership</phrase>
+    <phrase section="Memberships" data="MEM_REC">Recurring Payment</phrase>
+    <phrase section="Memberships" data="MEM_REC1">Recurring</phrase>
+    <phrase section="Memberships" data="MEM_EXP">Expire</phrase>
+    <phrase section="Memberships" data="MEM_ACT">Activated</phrase>
+    <phrase section="Memberships" data="MEM_PRICE">Membership Price</phrase>
+    <phrase section="Memberships" data="MEM_DAYS">Membership Period</phrase>
+    <phrase section="Memberships" data="MEM_NAME">Membership Name</phrase>
+    <phrase section="Memberships" data="MEM_VALID">Valid Until</phrase>
+    <phrase section="Memberships" data="MEM_TRASH_OK">Membership [NAME] moved to trash successfully.</phrase>
+    <phrase section="Memberships" data="MEM_UPDATE_OK">Membership [NAME] updated successfully.</phrase>
+
+    <!-- Admin Newsletter -->
+    <phrase section="Newsletter" data="NL_FROM">Email From </phrase>
+    <phrase section="Newsletter" data="NL_RCPT">Recipients</phrase>
+    <phrase section="Newsletter" data="NL_INFO1">Here you can send newsletter to all users or newsletter subscribers.</phrase>
+    <phrase section="Newsletter" data="NL_SUBJECT">Email Subject</phrase>
+    <phrase section="Newsletter" data="NL_ATTACH">Attachment</phrase>
+    <phrase section="Newsletter" data="NL_TTITLE">System Newsletter</phrase>
+    <phrase section="Newsletter" data="NL_BODY">Email Content</phrase>
+    <phrase section="Newsletter" data="NL_SEND">Send Email</phrase>
+    <phrase section="Newsletter" data="NL_UALL">All Users</phrase>
+    <phrase section="Newsletter" data="NL_UAREG">Registered Members</phrase>
+    <phrase section="Newsletter" data="NL_UPAID">Paid Membership</phrase>
+    <phrase section="Newsletter" data="NL_UNLS">Newsletter Subscribers</phrase>
+    <phrase section="Newsletter" data="NL_SENT">All Email(s) have been sent successfully!</phrase>
+    <phrase section="Newsletter" data="NL_ALERT">Some of the emails could not be reached!</phrase>
+    <phrase section="Newsletter" data="NL_ERROR">There was a problem reaching destination email. Make sure email address is correct.</phrase>
+
+    <!-- Transactions -->
+    <phrase section="Transactions" data="TRX_PAY">Payments</phrase>
+    <phrase section="Transactions" data="TRX_AVERAGE">Average Sale</phrase>
+    <phrase section="Transactions" data="TRX_TAX">TAX/VAT</phrase>
+    <phrase section="Transactions" data="TRX_COUPON">Coupon</phrase>
+    <phrase section="Transactions" data="TRX_TOTAMT">Total Amount</phrase>
+    <phrase section="Transactions" data="TRX_AMOUNT">Amount</phrase>
+    <phrase section="Transactions" data="TRX_SALES">Sales</phrase>
+    <phrase section="Transactions" data="TRX_POPMEM">Sales By Membership</phrase>
+    <phrase section="Transactions" data="TRX_GRTOTAL">Grand Total</phrase>
+    <phrase section="Transactions" data="TRX_SUBTOTAL">Sub Total</phrase>
+    <phrase section="Transactions" data="TRX_PP">Processor</phrase>
+
+    <!-- Plugins -->
+    <phrase section="Plugins" data="PLG_TITLE">Manage Plugins</phrase>
+    <phrase section="Plugins" data="PLG_ADDED_OK">Plugin [NAME] added successfully.</phrase>
+    <phrase section="Plugins" data="PLG_SUB">Here you can manage your content, user and system plugins.</phrase>
+    <phrase section="Plugins" data="PLG_SUB1">New Plugin</phrase>
+    <phrase section="Plugins" data="PLG_SUB2">Update Plugin</phrase>
+    <phrase section="Plugins" data="PLG_CLASS">Additional Class</phrase>
+    <phrase section="Plugins" data="PLG_NOPLG">You currently don't have any plugins...</phrase>
+    <phrase section="Plugins" data="PLG_SHOWTITLE">Show Title</phrase>
+    <phrase section="Plugins" data="PLG_TRASH_OK">Plugin [NAME] moved to trash successfully.</phrase>
+    <phrase section="Plugins" data="PLG_DEL_OK">Plugin [NAME] deleted successfully.</phrase>
+    <phrase section="Plugins" data="PLG_UPDATE_OK">Plugin [NAME] updated successfully.</phrase>
+
+    <!-- Modules -->
+    <phrase section="Modules" data="MDL_TITLE">Manage Modules</phrase>
+    <phrase section="Modules" data="MDL_SUB">Here you can manage your cms modules.</phrase>
+    <phrase section="Modules" data="MDL_SUB1">Update Module</phrase>
+    <phrase section="Modules" data="MDL_NOMOD">You currently don't have any modules...</phrase>
+    <phrase section="Modules" data="MDL_DEL_OK">Module [NAME] deleted successfully.</phrase>
+    <phrase section="Modules" data="MDL_UPDATE_OK">Module [NAME] updated successfully.</phrase>
+
+    <!-- Gateway -->
+    <phrase section="Gateway" data="GW_EDIT">Edit Gateway</phrase>
+    <phrase section="Gateway" data="GW_IPNURL">IPN Url</phrase>
+    <phrase section="Gateway" data="GW_LIVE">Set Live Mode</phrase>
+    <phrase section="Gateway" data="GW_NAME">Gateway Name</phrase>
+    <phrase section="Gateway" data="GW_SUB">Here you can manage your list of available gateways.</phrase>
+    <phrase section="Gateway" data="GW_SUB1">Here you can update your gateway settings.</phrase>
+    <phrase section="Gateway" data="GW_TITLE">Manage Payment Gateways</phrase>
+    <phrase section="Gateway" data="GW_TITLE1">Edit Payment Gateway</phrase>
+    <phrase section="Gateway" data="GW_UPDATE">Update Gateway</phrase>
+    <phrase section="Gateway" data="GW_UPDATED">Gateway [NAME] Updated Successfully</phrase>
+
+    <!-- Pagination -->
+    <phrase section="Pagination" data="CURPAGE">Current Page</phrase>
+    <phrase section="Pagination" data="TOTAL">Total</phrase>
+    <phrase section="Pagination" data="GOTO">Go To</phrase>
+    <phrase section="Pagination" data="IPP">Items Per Page</phrase>
+    <phrase section="Pagination" data="NEXT">Next</phrase>
+    <phrase section="Pagination" data="OF">of</phrase>
+    <phrase section="Pagination" data="PREV">Prev</phrase>
+
+    <!-- Email Templates -->
+    <phrase section="Email Templates" data="ET_BACKUP">Create Backup</phrase>
+    <phrase section="Email Templates" data="ET_DESC">Description</phrase>
+    <phrase section="Email Templates" data="ET_ERROR">Error loading template file</phrase>
+    <phrase section="Email Templates" data="ET_ERROR2">Selected template does not exists.</phrase>
+    <phrase section="Email Templates" data="ET_INFO">It seems your email templates are missing. Please reinstall.</phrase>
+    <phrase section="Email Templates" data="ET_NAME">Template Name</phrase>
+    <phrase section="Email Templates" data="ET_SUB">Here you can design/update existing mailer templates.</phrase>
+    <phrase section="Email Templates" data="ET_SUBJECT">Subject</phrase>
+    <phrase section="Email Templates" data="ET_TITLE">Manage Cms Email Templates</phrase>
+    <phrase section="Email Templates" data="ET_TITLE2">Editing Template</phrase>
+    <phrase section="Email Templates" data="ET_UPDATE">Update Template</phrase>
+    <phrase section="Email Templates" data="ET_UPDATED">Template [NAME] updated successfully.</phrase>
+
+    <!-- Language Manager -->
+    <phrase section="Language Manager" data="LG_ABBR">Country Abbreviation</phrase>
+    <phrase section="Language Manager" data="LG_AUTHOR">Author</phrase>
+    <phrase section="Language Manager" data="LG_COLOR">Language Color</phrase>
+    <phrase section="Language Manager" data="LG_KEY">Key</phrase>
+    <phrase section="Language Manager" data="LG_NAME">Language Name</phrase>
+    <phrase section="Language Manager" data="LG_RESET">Reset Group Filter</phrase>
+    <phrase section="Language Manager" data="LG_SUB">Here you can manage your languages. Note: Deleting language will also delete all database tables containing translations for deleted language. Please be patient as this process might take few seconds to complete.</phrase>
+    <phrase section="Language Manager" data="LG_SUB1">Edit Language</phrase>
+    <phrase section="Language Manager" data="LG_SUB2">Here you can update your language phrases. Note: Do not replace variables between [ ]. Click on Value name to edit.</phrase>
+    <phrase section="Language Manager" data="LG_SUB3">Main Language</phrase>
+    <phrase section="Language Manager" data="LG_SUB4">Phrase Section</phrase>
+    <phrase section="Language Manager" data="LG_SUB5">New Language</phrase>
+    <phrase section="Language Manager" data="LG_INFO">You can't delete default language.</phrase>
+    <phrase section="Language Manager" data="LG_TITLE">Manage CMS Language</phrase>
+    <phrase section="Language Manager" data="LG_TITLE1">Language Phrases</phrase>
+    <phrase section="Language Manager" data="LG_UPDATE">Update Language</phrase>
+    <phrase section="Language Manager" data="LG_UPDATE_OK">Language [NAME] updated successfully.</phrase>
+    <phrase section="Language Manager" data="LG_ADDED_OK">Language [NAME] added successfully.</phrase>
+    <phrase section="Language Manager" data="LG_DEL_OK">Language [NAME] deleted successfully.</phrase>
+    <phrase section="Language Manager" data="LG_VALUE">Value</phrase>
+
+    <!-- Database -->
+    <phrase section="Database" data="DBM_ADD">Create Backup</phrase>
+    <phrase section="Database" data="DBM_BKP_ERR">There was an error creating backup.</phrase>
+    <phrase section="Database" data="DBM_BKP_OK">Backup created successfully!</phrase>
+    <phrase section="Database" data="DBM_DEL">Delete Database Backup</phrase>
+    <phrase section="Database" data="DBM_DEL_OK">Backup [NAME] deleted successfully!</phrase>
+    <phrase section="Database" data="DBM_INFO">Make sure your database is backed up frequently. Click on Create backup to manually backup your database. The backups are stored in the [/uploads/backups/] folder and can be downloaded from the list below. Your most recent backup is highlighted. Make sure you download your most recent backup, and delete the rest.</phrase>
+    <phrase section="Database" data="DBM_RES">Restore Database</phrase>
+    <phrase section="Database" data="DBM_RES_OK">Database [NAME] restored successfully!</phrase>
+    <phrase section="Database" data="DBM_RES_T">Are you sure you want to restore database?</phrase>
+    <phrase section="Database" data="DBM_SUB">Viewing Backups</phrase>
+    <phrase section="Database" data="DBM_TITLE">Database Maintenance</phrase>
+
+    <!-- System Info -->
+    <phrase section="System Info" data="SYS_CMS_INF">CMS Info</phrase>
+    <phrase section="System Info" data="SYS_CMS_VER">CMS Version</phrase>
+    <phrase section="System Info" data="SYS_DBOPTIMIZED">Optimized</phrase>
+    <phrase section="System Info" data="SYS_DBOPTIMIZING">Optimizing</phrase>
+    <phrase section="System Info" data="SYS_DBREPAIRED">Repaired</phrase>
+    <phrase section="System Info" data="SYS_DBREPAIRING">Repairing</phrase>
+    <phrase section="System Info" data="SYS_DBSTATUS">Status</phrase>
+    <phrase section="System Info" data="SYS_DBTABLE">Table</phrase>
+    <phrase section="System Info" data="SYS_DBTABLE_INF">Database Tables</phrase>
+    <phrase section="System Info" data="SYS_DBV">Server Database Version</phrase>
+    <phrase section="System Info" data="SYS_DEF_LANG">Default Language</phrase>
+    <phrase section="System Info" data="SYS_GD_VER">GD Version</phrase>
+    <phrase section="System Info" data="SYS_INFO">The information displayed below is collected from a variety of locations, and summarized here so that you may be able to conveniently find some of the information required when trying to diagnose a problem or request help with your CMS PRO v.[VER] installation.</phrase>
+    <phrase section="System Info" data="SYS_LOG_ERR">Log Errors</phrase>
+    <phrase section="System Info" data="SYS_MEM_LIM">Memory Limit</phrase>
+    <phrase section="System Info" data="SYS_MEMALO">Maximum Allocated Memory</phrase>
+    <phrase section="System Info" data="SYS_MQR">Magic quotes in runtime</phrase>
+    <phrase section="System Info" data="SYS_PHP_INF">PHP Info</phrase>
+    <phrase section="System Info" data="SYS_PHP_INFO">PHP Information</phrase>
+    <phrase section="System Info" data="SYS_PHP_VER">Current PHP Version</phrase>
+    <phrase section="System Info" data="SYS_PMF">Post Max. filesize</phrase>
+    <phrase section="System Info" data="SYS_RG">Register Globals</phrase>
+    <phrase section="System Info" data="SYS_ROOT_PATH">Root Path</phrase>
+    <phrase section="System Info" data="SYS_ROOT_URL">Root Url</phrase>
+    <phrase section="System Info" data="SYS_SER_API">Server API</phrase>
+    <phrase section="System Info" data="SYS_SER_DB">Server Database</phrase>
+    <phrase section="System Info" data="SYS_SER_INF">Server Info</phrase>
+    <phrase section="System Info" data="SYS_SER_MR">Apache Mod Rewrite</phrase>
+    <phrase section="System Info" data="SYS_SER_OS">Server OS</phrase>
+    <phrase section="System Info" data="SYS_SERVER_INFO">Server Information</phrase>
+    <phrase section="System Info" data="SYS_SM">Safe Mode</phrase>
+    <phrase section="System Info" data="SYS_SSP">Session Save Path</phrase>
+    <phrase section="System Info" data="SYS_STS">Server Total Space</phrase>
+    <phrase section="System Info" data="SYS_SUB">Viewing System Information</phrase>
+    <phrase section="System Info" data="SYS_TITLE">System Information</phrase>
+    <phrase section="System Info" data="SYS_UMF">Upload Max. filesize</phrase>
+    <phrase section="System Info" data="SYS_UPL_PATH">Uploads Path</phrase>
+    <phrase section="System Info" data="SYS_UPL_URL">Uploads Url</phrase>
+    <phrase section="System Info" data="SYS_ADMVIEW">Admin View</phrase>
+    <phrase section="System Info" data="SYS_UPL_URL">Uploads Url</phrase>
+
+    <!-- System Utilities -->
+    <phrase section="System Utilities" data="UTL_TITLE">System Utilities</phrase>
+    <phrase section="System Utilities" data="UTL_INFO">Here you can perform site maintenance, such as deleting inactive and banned users, create xml sitemap, and manage module slugs.</phrase>
+    <phrase section="System Utilities" data="UTL_SUB1">Delete Inactive Users</phrase>
+    <phrase section="System Utilities" data="UTL_SUB1_T">This will delete all users (not administrators), who have not logged in to the site within selected number of days. It will not delete users pending verification process.</phrase>
+    <phrase section="System Utilities" data="UTL_SUB2">Delete Pending Users</phrase>
+    <phrase section="System Utilities" data="UTL_SUB2_T">This will delete all [NUMBER] users pending verification process.</phrase>
+    <phrase section="System Utilities" data="UTL_SUB3">Delete Banned Users</phrase>
+    <phrase section="System Utilities" data="UTL_SUB3_T">This will delete all [NUMBER] banned user(s).</phrase>
+    <phrase section="System Utilities" data="UTL_SUB4">Generate Site Map</phrase>
+    <phrase section="System Utilities" data="UTL_SUB4_T">Generate site map xml file that you can submit to search engine. File will be stored in CMS root directory named sitemap.xml.</phrase>
+    <phrase section="System Utilities" data="UTL_SUB5">System Slugs</phrase>
+    <phrase section="System Utilities" data="UTL_SUB5_T">Rename system slugs. No spaces, one word and all lowercase.</phrase>
+    <phrase section="System Utilities" data="UTL_DAYS">Inactive Days</phrase>
+    <phrase section="System Utilities" data="UTL_DELINACTIVE">Delete Inactive</phrase>
+    <phrase section="System Utilities" data="UTL_DELPENDING">Delete Pending</phrase>
+    <phrase section="System Utilities" data="UTL_CART">Empty Cart Data</phrase>
+    <phrase section="System Utilities" data="UTL_CART_T">This will empty cart data, used to store temporary user details.</phrase>
+    <phrase section="System Utilities" data="UTL_INSTALL">Install</phrase>
+    <phrase section="System Utilities" data="UTL_INSTALL_T">Upload and install CMS PRO plugins and modules.</phrase>
+    <phrase section="System Utilities" data="UTL_INSTALL_E">Select file to install.</phrase>
+    <phrase section="System Utilities" data="UTL_CRBTN">Empty Cart</phrase>
+    <phrase section="System Utilities" data="UTL_DELBANNED">Delete Banned</phrase>
+    <phrase section="System Utilities" data="UTL_CREATESM">Create Sitemap</phrase>
+    <phrase section="System Utilities" data="UTL_GENERATE">Generate</phrase>
+    <phrase section="System Utilities" data="UTL_DELPEND_OK">All [NAME] pending users deleted successfully.</phrase>
+    <phrase section="System Utilities" data="UTL_DELBND_OK">All [NAME] banned users deleted successfully.</phrase>
+    <phrase section="System Utilities" data="UTL_DELCRT_OK">Total [NAME] records deleted successfully.</phrase>
+    <phrase section="System Utilities" data="UTL_DELINCT_OK">Total [NAME] inactive user(s) deleted successfully.</phrase>
+    <phrase section="System Utilities" data="UTL_MAP_ERROR">There was an error creating [NAME].</phrase>
+    <phrase section="System Utilities" data="UTL_MAP_OK">Sitemap [NAME] created successfully.</phrase>
+    <phrase section="System Utilities" data="UTL_SLUGS_OK">System slugs updated successfully.</phrase>
+
+    <!-- Layout Manager -->
+    <phrase section="Layout" data="LMG_TITLE">Content Layout Manager</phrase>
+    <phrase section="Layout" data="LMG_SUB">Select Page</phrase>
+    <phrase section="Layout" data="LMG_SUB1">Select Module</phrase>
+    <phrase section="Layout" data="LMG_TOP">Top Section</phrase>
+    <phrase section="Layout" data="LMG_BOTTOM">Bottom Section</phrase>
+    <phrase section="Layout" data="LMG_LEFT">Left Section</phrase>
+    <phrase section="Layout" data="LMG_RIGHT">Right Section</phrase>
+    <phrase section="Layout" data="LMG_MAIN">Main Area</phrase>
+
+    <!-- Admin Custom Fields -->
+    <phrase section="Custom Fields" data="CF_TITLE">Custom Fields</phrase>
+    <phrase section="Custom Fields" data="CF_ADD">New Field</phrase>
+    <phrase section="Custom Fields" data="CF_ADDED_OK">Custom Field [NAME] Added Successfully.</phrase>
+    <phrase section="Custom Fields" data="CF_DEL_OK">Custom Field [NAME] deleted successfully.</phrase>
+    <phrase section="Custom Fields" data="CF_EDIT">Edit Field</phrase>
+    <phrase section="Custom Fields" data="CF_FIELD">Field</phrase>
+    <phrase section="Custom Fields" data="CF_INFO">To reorder fields click and drag item reorder handle, position it where you want it. Position will be updated automatically.</phrase>
+    <phrase section="Custom Fields" data="CF_NOFIELDS">You don't have any custom fields yet. Please add...</phrase>
+    <phrase section="Custom Fields" data="CF_REQUIRED">Required Field</phrase>
+    <phrase section="Custom Fields" data="CF_SUB1">Edit Custom Field</phrase>
+    <phrase section="Custom Fields" data="CF_SUB2">Add Custom Field</phrase>
+    <phrase section="Custom Fields" data="CF_SUB3">Manage Custom Fields</phrase>
+    <phrase section="Custom Fields" data="CF_TIP">Tooltip</phrase>
+    <phrase section="Custom Fields" data="CF_UPDATE">Update Field</phrase>
+    <phrase section="Custom Fields" data="CF_UPDATE_OK">Custom Field [NAME] Updated Successfully.</phrase>
+
+    <!-- File Manager -->
+    <phrase section="File Manager" data="FM_LASTM">Last Modified</phrase>
+    <phrase section="File Manager" data="FM_UNZIP">Unzip</phrase>
+    <phrase section="File Manager" data="FM_FSIZE">Size</phrase>
+    <phrase section="File Manager" data="FM_SPACE">Space</phrase>
+    <phrase section="File Manager" data="FM_DISPLAY">Display</phrase>
+    <phrase section="File Manager" data="FM_SORT">Sort</phrase>
+    <phrase section="File Manager" data="FM_DIR">Directory</phrase>
+    <phrase section="File Manager" data="FM_DIRS">Directories</phrase>
+    <phrase section="File Manager" data="FM_FILE">File</phrase>
+    <phrase section="File Manager" data="FM_FILES">Files</phrase>
+    <phrase section="File Manager" data="FM_NEWFLD">New Folder</phrase>
+    <phrase section="File Manager" data="FM_NEWFLD_S1">Create new folder</phrase>
+    <phrase section="File Manager" data="FM_NEWFLD_S2">Folder name</phrase>
+    <phrase section="File Manager" data="FM_ALL_F">Everything</phrase>
+    <phrase section="File Manager" data="FM_AMG_F">Images</phrase>
+    <phrase section="File Manager" data="FM_VID_F">Video</phrase>
+    <phrase section="File Manager" data="FM_AUD_F">Audio</phrase>
+    <phrase section="File Manager" data="FM_DOC_F">Documents</phrase>
+
+    <!-- File Upload -->
+    <phrase section="File Upload" data="FU_ERROR6">File with the same name already exists.</phrase>
+    <phrase section="File Upload" data="FU_ERROR7">Invalid image detected.</phrase>
+    <phrase section="File Upload" data="FU_ERROR8">Invalid file extension. Allowed extensions are:</phrase>
+    <phrase section="File Upload" data="FU_ERROR9">Sorry but there is an error on our server. Please try again later.</phrase>
+    <phrase section="File Upload" data="FU_ERROR10">File is too big. Maximum allowed size is</phrase>
+    <phrase section="File Upload" data="FU_ERROR11">An unexpected error occurred, please try again later</phrase>
+    <phrase section="File Upload" data="FU_ERROR12">Sorry but there is an error on our server. Please try again later.</phrase>
+    <phrase section="File Upload" data="FU_ERROR13">The file could not be uploaded</phrase>
+    <phrase section="File Upload" data="FU_ERROR14">You need to select at least one file.</phrase>
+    <phrase section="File Upload" data="FU_ERROR15">Invalid file detected.</phrase>
+    <phrase section="File Upload" data="FU_ERROR16">Invalid directory detected.</phrase>
+
+    <!-- Front Section -->
+    <phrase section="Front" data="FRT_MERROR">Oops! You Must Be Logged In to View this Page.</phrase>
+    <phrase section="Front" data="FRT_MERROR_1">The content you are trying to access requires member credentials.</phrase>
+    <phrase section="Front" data="FRT_MERROR_2">The content you are trying to access requires one of these memberships:</phrase>
+    <phrase section="Front" data="FRT_SEARCH_EMPTY">Sorry, your search for </phrase>
+    <phrase section="Front" data="FRT_SEARCH_EMPTY1"> did not yield any results. Please try searching for similar terms.</phrase>
+    <phrase section="Front" data="FRT_SEARCH_EMPTY2">Please enter some keywords into search box to perform search.</phrase>
+    <phrase section="Front" data="FRT_MTNC_TITLE">We're just tuning up a few things</phrase>
+
+    <!-- EU Cookie Law Banner -->
+    <phrase section="Front" data="EU_NOTICE">We use cookies to improve your experience on the website. Some cookies are required to ensure that the site functions correctly, for this reason we may have already set some cookies. Other cookies gather anonymous data about how you are using the website, however these will only be set if you give your consent.</phrase>
+    <phrase section="Front" data="EU_ACCEPT">ACCEPT COOKIES</phrase>
+    <phrase section="Front" data="EU_DECLINE">DECLINE COOKIES</phrase>
+    <phrase section="Front" data="EU_DECLINE_T">In doing so you will be redirected. Do you wish to proceed?</phrase>
+    <phrase section="Front" data="EU_W_COOKIES">What are cookies?</phrase>
+
+
+    <!-- Contact Form -->
+    <phrase section="Contact Form" data="CF_SUBJECT_1">--- Tell us what's about? ---</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_2">Compliment</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_3">Complaint</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_4">Suggestion</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_5">Investor Relations</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_6">Jobs and Careers</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_7">Terms and Policies Related</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_8">Customer Support</phrase>
+    <phrase section="Contact Form" data="CF_SUBJECT_9">Other</phrase>
+    <phrase section="Contact Form" data="CF_SEND">Send Message</phrase>
+    <phrase section="Contact Form" data="CF_ERR">There was a problem sending email. Please contact site administrator.</phrase>
+    <phrase section="Contact Form" data="CF_OK">Thank you! Your message has been sent successfully.</phrase>
+
+    <!-- Payments -->
+    <phrase section="Payments" data="STR_POK">Thank you! Payment completed successfully. Redirecting in 4 seconds</phrase>
+    <phrase section="Payments" data="STR_POK1">Payment validation, please wait...</phrase>
+    <phrase section="Payments" data="STR_SPCOK">Payment confirmation.</phrase>
+    <phrase section="Payments" data="STR_SPCER">Payment Failed.</phrase>
+    <phrase section="Payments" data="STR_CCN">Card Number</phrase>
+    <phrase section="Payments" data="STR_CCV">CVC</phrase>
+    <phrase section="Payments" data="STR_CEXM">Expiration Month</phrase>
+    <phrase section="Payments" data="STR_CEXY">Expiration Year</phrase>
+    <phrase section="Payments" data="STR_ERR0">Invalid cart detected.</phrase>
+    <phrase section="Payments" data="STR_ERR">Invalid membership detected.</phrase>
+    <phrase section="Payments" data="STR_ERR1">Invalid transaction record detected.</phrase>
+
+    <!-- Admin Configuration -->
+    <phrase section="Configuration" data="CG_AUTOVERIFY">Auto Registration</phrase>
+    <phrase section="Configuration" data="CG_CURRENCY">Default Currency</phrase>
+    <phrase section="Configuration" data="CG_COMPANY">Company Name</phrase>
+    <phrase section="Configuration" data="CG_DIR">Site Directory</phrase>
+    <phrase section="Configuration" data="CG_DTZ">Default Time Zone</phrase>
+    <phrase section="Configuration" data="CG_ETAX">Enable VAT/Tax</phrase>
+    <phrase section="Configuration" data="CG_EUCOOKIE">Enable EU Cookie Law Notice</phrase>
+    <phrase section="Configuration" data="CG_FBID">Facebook ID</phrase>
+    <phrase section="Configuration" data="CG_INFO">Here you can update your system configuration. Please do not make any changes unless you know what you're doing.</phrase>
+    <phrase section="Configuration" data="CG_INVDATA">Invoice Data</phrase>
+    <phrase section="Configuration" data="CG_INVNOTE">Invoice Notes</phrase>
+    <phrase section="Configuration" data="CG_LANG">Default Language</phrase>
+    <phrase section="Configuration" data="CG_LOCALES">Default Locale</phrase>
+    <phrase section="Configuration" data="CG_LOGO">Company Logo</phrase>
+    <phrase section="Configuration" data="CG_LOGO1">Invoice Logo</phrase>
+    <phrase section="Configuration" data="CG_LOGODEL">Delete Logo</phrase>
+    <phrase section="Configuration" data="CG_LONGDATE">Long Date</phrase>
+    <phrase section="Configuration" data="CG_MAILER">Default Mailer</phrase>
+    <phrase section="Configuration" data="CG_NOTIFY_ADMIN">Registration Notification</phrase>
+    <phrase section="Configuration" data="CG_OFFLINE">Offline Payment Info</phrase>
+    <phrase section="Configuration" data="CG_PERPAGE">Items Per Page</phrase>
+    <phrase section="Configuration" data="CG_REGALOWED">Allow Registration</phrase>
+    <phrase section="Configuration" data="CG_REGVERIFY">Registration Verification</phrase>
+    <phrase section="Configuration" data="CG_SHORTDATE">Short Date</phrase>
+    <phrase section="Configuration" data="CG_SITENAME">Website Name</phrase>
+    <phrase section="Configuration" data="CG_SMAILPATH">Sendmail Path</phrase>
+    <phrase section="Configuration" data="CG_SMTP_HOST">SMTP Hostname</phrase>
+    <phrase section="Configuration" data="CG_SMTP_PASS">SMTP Password</phrase>
+    <phrase section="Configuration" data="CG_SMTP_PORT">SMTP Port</phrase>
+    <phrase section="Configuration" data="CG_SMTP_SSL">Requires SSL</phrase>
+    <phrase section="Configuration" data="CG_SMTP_USER">SMTP Username</phrase>
+    <phrase section="Configuration" data="CG_TIMEFORMAT">Time Format</phrase>
+    <phrase section="Configuration" data="CG_THEME">Website Theme</phrase>
+    <phrase section="Configuration" data="CG_PLOADER">Enable Page Loader</phrase>
+    <phrase section="Configuration" data="CG_TWID">Twitter ID</phrase>
+    <phrase section="Configuration" data="CG_UPDATE">Update Configuration</phrase>
+    <phrase section="Configuration" data="CG_UPDATED">Configuration updated successfully!</phrase>
+    <phrase section="Configuration" data="CG_WEBEMAIL">Website Email</phrase>
+    <phrase section="Configuration" data="CG_WEEKSTART">Week Starts On</phrase>
+    <phrase section="Configuration" data="CG_LOGIN_ATTEMPT">Incorrect Login Attempts</phrase>
+    <phrase section="Configuration" data="CG_LOGIN_TIME">Login Wait Time</phrase>
+    <phrase section="Configuration" data="CG_LOG_ON">Log All Actions</phrase>
+    <phrase section="Configuration" data="CG_LOGIN_SHOW">Show Login</phrase>
+    <phrase section="Configuration" data="CG_SEARCH_SHOW">Show Search</phrase>
+    <phrase section="Configuration" data="CG_CRUMBS_SHOW">Show Breadcrumbs</phrase>
+    <phrase section="Configuration" data="CG_LANG_SHOW">Show Language</phrase>
+    <phrase section="Configuration" data="CG_AV_WH">Avatar Width/Height</phrase>
+    <phrase section="Configuration" data="CG_TH_WH">Thumbnail Width/Height</phrase>
+    <phrase section="Configuration" data="CG_IM_WH">Image Width/Height</phrase>
+    <phrase section="Configuration" data="CG_FILESIZE">Max. Filesize</phrase>
+    <phrase section="Configuration" data="CG_FILETYPE">Allowed File Types</phrase>
+    <phrase section="Configuration" data="CG_YTKEY">Youtube API Key</phrase>
+    <phrase section="Configuration" data="CG_GMAPKEY">Google Maps API Key</phrase>
+    <phrase section="Configuration" data="CG_OFFLINE_M">Maintenance Mode</phrase>
+    <phrase section="Configuration" data="CG_OFFLINE_DT">Date/Time End</phrase>
+    <phrase section="Configuration" data="CG_OFFLINE_MS">Maintenance Mode Message</phrase>
+    <phrase section="Configuration" data="CG_GA">Google Analytics Code</phrase>
+
+    <!-- Dashboard -->
+    <phrase section="Dashboard" data="AD_TITLE">Welcome to admin panel</phrase>
+    <phrase section="Dashboard" data="AD_INFO">Here you can view your latest user statistics, such as latest transactions, number of registered users etc.</phrase>
+    <phrase section="Dashboard" data="AD_REVENUE">Site Revenue</phrase>
+    <phrase section="Dashboard" data="AD_TODAY">Today</phrase>
+    <phrase section="Dashboard" data="AD_MY">Month/Year</phrase>
+    <phrase section="Dashboard" data="AD_TYEAR">Total collected all time</phrase>
+    <phrase section="Dashboard" data="AD_USNUM">Monthly Active registered members/affiliates</phrase>
+    <phrase section="Dashboard" data="AD_TINCOME">Total Income</phrase>
+    <phrase section="Dashboard" data="AD_RUSER">Registered</phrase>
+    <phrase section="Dashboard" data="AD_AUSER">Active Users</phrase>
+    <phrase section="Dashboard" data="AD_PUSER">Pending Users</phrase>
+    <phrase section="Dashboard" data="AD_AMEM">Ex Brokers</phrase>
+    <phrase section="Transactions" data="TRXMEMBERS">Members</phrase>
+    <phrase section="Transactions" data="TRXAFF">Affiliates</phrase>
+    <phrase section="Transactions" data="TRXBETN">Bet Numbers</phrase>
+    <phrase section="Transactions" data="TRXBETV">Bet Volume</phrase>
+    <phrase section="Transactions" data="TRXPREMATCH">Prematch Monthly Bet Numbers/Bet volume</phrase>
+    <phrase section="Transactions" data="TRXINPLAY">Inplay Monthly Bet Numbers/Bet volume</phrase>
+
+    <!-- Trash -->
+    <phrase section="Trash" data="TRS_INFO">Items older than 30 days are automatically deleted forever.</phrase>
+    <phrase section="Trash" data="TRS_TITLE">Trash Manager</phrase>
+    <phrase section="Trash" data="TRS_NOTRS">Trash is empty.</phrase>
+    <phrase section="Trash" data="TRS_DELGOOD">Delete Forever</phrase>
+    <phrase section="Trash" data="TRS_INFO">Items older than 30 days are automatically deleted forever.</phrase>
+    <phrase section="Trash" data="TRS_TEMPTY">Empty Trash</phrase>
+    <phrase section="Trash" data="TRS_TRS_OK">All Records in trash can are now removed.</phrase>
+
+    <!-- Meta -->
+    <phrase section="Meta" data="META_T1">Dashboard</phrase>
+    <phrase section="Meta" data="META_T2">User Management</phrase>
+    <phrase section="Meta" data="META_T3">User History</phrase>
+    <phrase section="Meta" data="META_T4">Membership Management</phrase>
+    <phrase section="Meta" data="META_T5">Edit Membership</phrase>
+    <phrase section="Meta" data="META_T6">Create Membership</phrase>
+    <phrase section="Meta" data="META_T7">Membership History</phrase>
+    <phrase section="Meta" data="META_T8">Manage CMS Pages</phrase>
+    <phrase section="Meta" data="META_T9">Edit Page</phrase>
+    <phrase section="Meta" data="META_T10">Email Templates</phrase>
+    <phrase section="Meta" data="META_T11">Edit Email Template</phrase>
+    <phrase section="Meta" data="META_T12">Manage CMS Menus</phrase>
+    <phrase section="Meta" data="META_T13">New Menu</phrase>
+    <phrase section="Meta" data="META_T14">Configuration</phrase>
+    <phrase section="Meta" data="META_T15">Custom Fields</phrase>
+    <phrase section="Meta" data="META_T16">Edit Field</phrase>
+    <phrase section="Meta" data="META_T17">Create Field</phrase>
+    <phrase section="Meta" data="META_T18">Layout Manager</phrase>
+    <phrase section="Meta" data="META_T19">System Utilities</phrase>
+    <phrase section="Meta" data="META_T20">File Manager</phrase>
+    <phrase section="Meta" data="META_T21">Language Manager</phrase>
+    <phrase section="Meta" data="META_T22">Payment Options</phrase>
+    <phrase section="Meta" data="META_T24">Newsletter Manager</phrase>
+    <phrase section="Meta" data="META_T25">Coupon Management</phrase>
+    <phrase section="Meta" data="META_T26">Edit Coupon</phrase>
+    <phrase section="Meta" data="META_T27">Create Coupon</phrase>
+    <phrase section="Meta" data="META_T28">Edit Plugin</phrase>
+    <phrase section="Meta" data="META_T29">New Plugin</phrase>
+    <phrase section="Meta" data="META_T30">Edit Module</phrase>
+    <phrase section="Meta" data="META_T31">Welcome to [COMPANY]</phrase>
+    <phrase section="Meta" data="META_T32">Public Profile</phrase>
+    <phrase section="Meta" data="META_T33">Trash Can</phrase>
+
+    <phrase section="Meta" data="META_ERROR">Page not found!!!</phrase>
+    <phrase section="Meta" data="META_ERROR1">OOPS!!! Page Not Found</phrase>
+    <phrase section="Meta" data="META_ERROR2">Oops! Looks like you followed a bad link.</phrase>
+    <phrase section="Meta" data="META_ERROR3">If you think this is a problem with us, please</phrase>
+    <phrase section="Meta" data="META_ERROR3_1">tell us.</phrase>
+</language>

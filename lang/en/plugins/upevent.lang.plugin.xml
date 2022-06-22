@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_UE_TITLE1">Manage Upcoming Events</phrase>
+  <phrase data="_PLG_UE_SELECT">Select Events</phrase>
+  <phrase data="_PLG_UE_NOEVENT">--- Please create at least one event ---</phrase>
+  <phrase data="_PLG_UE_ERR">Please select at least one event</phrase>
+  <phrase data="_PLG_UE_UPDATED">Upcoming Event configuration updated successfully!</phrase>
+</language>

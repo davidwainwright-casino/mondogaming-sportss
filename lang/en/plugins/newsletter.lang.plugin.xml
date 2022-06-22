@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_NSL_TITLE">Manage Newsletter Subscribers</phrase>
+  <phrase data="_PLG_NSL_INFO">You have total of [TOTAL] newsletter subscribers.</phrase>
+  <phrase data="_PLG_NSL_SUB">Subscribe</phrase>
+  <phrase data="_PLG_NSL_SUB1">Unsubscribe</phrase>
+  <phrase data="_PLG_NSL_SUBOK">You have been subscribed successfully.</phrase>
+  <phrase data="_PLG_NSL_UNSUBOK">You have been unsubscribed successfully.</phrase>
+</language>

@@ -1,0 +1,383 @@
+/* == Images == */
+.yoyo.image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+img.yoyo.image {
+  background: none;
+}
+.yoyo.image .caption {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: .8em;
+  text-align: center;
+  box-shadow: inset 0 1px 0 0 #fff;
+  position: relative;
+}
+.yoyo.image img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: top;
+  border: 0
+}
+/* == State == */
+.yoyo.disabled.image {
+  cursor: default;
+  opacity: 0.3;
+}
+/* == Variations == */
+.yoyo.basic.image {
+  box-shadow: none;
+}
+.yoyo.rounded.images .image,
+.yoyo.rounded.images img,
+.yoyo.rounded.image img,
+.yoyo.rounded.image {
+  border-radius: 0.250em;
+}
+.yoyo.rounded.left.images .image,
+.yoyo.rounded.left.images img,
+.yoyo.rounded.left.image img,
+.yoyo.rounded.left.image {
+  border-radius: 0.250em 0 0 0.250em;
+}
+.yoyo.rounded.right.images .image,
+.yoyo.rounded.right.images img,
+.yoyo.rounded.right.image img,
+.yoyo.rounded.right.image {
+  border-radius: 0 0.250em 0.250em 0;
+}
+.yoyo.circular.images .image,
+.yoyo.circular.images img,
+.yoyo.circular.image img,
+.yoyo.circular.image {
+  border-radius: 500rem;
+}
+.yoyo.avatar.images .image,
+.yoyo.avatar.images img,
+.yoyo.avatar.image img,
+.yoyo.avatar.image {
+  margin-right: 0.5em;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 500rem;
+  box-shadow: 0 0 0 2px #fff;
+}
+.yoyo.avatar.small.images .image,
+.yoyo.avatar.small.images img,
+.yoyo.avatar.small.image img,
+.yoyo.avatar.small.image {
+  margin-right: 1em;
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 500rem;
+}
+.yoyo.category.images .image,
+.yoyo.category.images img,
+.yoyo.category.image img,
+.yoyo.category.image {
+  margin-right: 0.5em;
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 500rem;
+}
+.yoyo.floated.image,
+.yoyo.floated.images {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.yoyo.right.floated.images,
+.yoyo.right.floated.image {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+.yoyo.inverted.image {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.yoyo.circular.primary.image img,
+.yoyo.circular.primary.image {
+  box-shadow: none;
+}
+.yoyo.circular.primary.image {
+  border: 2px solid #DADDDE;
+  padding: 1px;
+  background-color: #fff;
+}
+.yoyo.centered.image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.yoyo.centered.image img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.yoyo.image > .indicating.label {
+  position: absolute;
+  border: 2px solid #fff;
+  bottom: 0;
+  box-shadow: 0 3px 6px 0 rgba(140, 152, 164, 0.25);
+}
+.yoyo.image .meta {
+  padding: 1em 0;
+  position: relative;
+}
+.yoyo.image .meta .date {
+  text-align: center;
+  line-height: 1;
+  color: #fff;
+  background-color: #C0392B;
+  padding: .25em 0.5em;
+  top: -50%;
+  right: 0;
+  -webkit-transform: translateY(-50%, -50%);
+          transform: translateY(-50%, -50%);
+  position: absolute;
+  font-weight: 500;
+  font-size: 2em;
+}
+.yoyo.image .meta .date > span {
+  font-size: 1rem;
+  display: block
+}
+.yoyo.image .description {
+  padding: .5em;
+  background-color: #F6F7F8;
+}
+.yoyo.image.lightbox span.viewer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  line-height: 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #377dff;
+  border-radius: 50%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+}
+.yoyo.image.lightbox span.viewer .icon {
+  line-height: 2.5rem;
+}
+.yoyo.image.lightbox:hover span.viewer {
+  opacity: 1;
+  visibility: visible;
+}
+.yoyo.wide.image,
+.yoyo.wide.images {
+  height: 250px;
+}
+.yoyo.thumb img,
+.yoyo.thumb .holder {
+  height: 120px;
+  width: 200px;
+  position: relative;
+  z-index: 1;
+}
+.yoyo.thumb {
+  border: 1px solid #DDDDDD;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+.yoyo.thumb .actions {
+  position: absolute;
+  z-index: 2;
+  right: .875em;
+  top: .875em;
+}
+.yoyo.image.cover {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover
+}
+.yoyo.image.fill {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+.yoyo.hero.image {
+  min-height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+}
+.yoyo.hero.image::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: -webkit-linear-gradient(bottom, #1e2022 0%, transparent 75%);
+  background: linear-gradient(0deg, #1e2022 0%, transparent 75%);
+  background-repeat: repeat-x;
+  border-radius: 0.25rem;
+  -webkit-transition: opacity 0.45s;
+  transition: opacity 0.45s;
+}
+.yoyo.hero.image:hover::before {
+  background: -webkit-linear-gradient(bottom, #1e2022 0%, transparent 75%);
+  background: linear-gradient(0deg, #1e2022 0%, transparent 75%);
+  opacity: 0;
+}
+/* == Hover Effects == */
+.yoyo.hover.slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.yoyo.hover.slide.rounded {
+  border-radius: .250rem;
+}
+.yoyo.hover .item {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+.yoyo.hover.rounded .item {
+  border-radius: .250rem;
+}
+.yoyo.hover .media {
+  display: block;
+  top: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: -webkit-transform .35s;
+  transition: -webkit-transform .35s;
+  transition: transform .35s;
+  transition: transform .35s, -webkit-transform .35s;
+}
+.yoyo.hover.rounded .media {
+  border-radius: .250rem;
+}
+.yoyo.hover .caption {
+  display: block;
+  height: auto;
+  -webkit-transition: -webkit-transform .35s;
+  transition: -webkit-transform .35s;
+  transition: transform .35s;
+  transition: transform .35s, -webkit-transform .35s;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+  background-color: #377dff;
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
+.yoyo.hover:hover .media {
+  -webkit-transform: translateY(-32px);
+  transform: translateY(-32px);
+}
+.yoyo.hover:hover .caption {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+/* == Size == */
+.yoyo.tiny.images .image,
+.yoyo.tiny.images img,
+.yoyo.tiny.image {
+  width: 24px;
+  font-size: 0.7rem;
+}
+.yoyo.mini.images .image,
+.yoyo.mini.images img,
+.yoyo.mini.image {
+  width: 32px;
+  font-size: 0.8rem;
+}
+.yoyo.small.images .image,
+.yoyo.small.images img,
+.yoyo.small.image {
+  width: 64px;
+  font-size: 0.9rem;
+}
+.yoyo.normal.images .image,
+.yoyo.normal.images img,
+.yoyo.normal.image {
+  width: 128px;
+  font-size: 0.9rem;
+}
+.yoyo.medium.images .image,
+.yoyo.medium.images img,
+.yoyo.medium.image {
+  width: 160px;
+  font-size: 1rem;
+}
+.yoyo.large.images .image,
+.yoyo.large.images img,
+.yoyo.large.image {
+  width: 256px;
+  font-size: 1.1rem;
+}
+.yoyo.big.images .image,
+.yoyo.big.images img,
+.yoyo.big.image {
+  width: 448px;
+  font-size: 1.1rem;
+}
+.yoyo.huge.images .image,
+.yoyo.huge.images img,
+.yoyo.huge.image {
+  width: 512px;
+  font-size: 1.2rem;
+}
+.yoyo.massive.images .image,
+.yoyo.massive.images img,
+.yoyo.massive.image {
+  width: 640px;
+  font-size: 1.2rem;
+}
+/* == Groups == */
+.yoyo.images {
+  font-size: 0;
+  margin: 0 -0.25rem 0;
+}
+.yoyo.images .image,
+.yoyo.images img {
+  display: inline-block;
+  margin: 0 0.25em 0.5em;
+}
+
+@media screen and (min-width:40.625em) and (max-width:64em) {
+.yoyo.responsive.large.image img,
+.yoyo.responsive.large.image {
+  width: 150px
+}
+}

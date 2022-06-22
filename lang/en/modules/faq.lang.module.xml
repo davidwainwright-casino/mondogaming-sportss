@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <phrase data="_MOD_FAQ_NEW">New Question</phrase>
+  <phrase data="_MOD_FAQ_DEL_OK">Question [NAME] deleted successfully!</phrase>
+  <phrase data="_MOD_FAQ_QUESTION">Question</phrase>
+  <phrase data="_MOD_FAQ_NOFAQS">You don't have any question yet. Please add.</phrase>
+  <phrase data="_MOD_FAQ_TITLE">F.A.Q. Manager</phrase>
+  <phrase data="_MOD_FAQ_TITLE1">Question Edit</phrase>
+  <phrase data="_MOD_FAQ_TITLE2">Add Question</phrase>
+  <phrase data="_MOD_FAQ_SUB">Frequently Asked Questions</phrase>
+  <phrase data="_MOD_FAQ_SUB1">New Category</phrase>
+  <phrase data="_MOD_FAQ_SUB2">Update Category</phrase>
+  <phrase data="_MOD_FAQ_SUB3">FAQ Categories</phrase>
+  <phrase data="_MOD_FAQ_INFO">Most Common Questions</phrase>
+  <phrase data="_MOD_FAQ_UPDATE">Update Question</phrase>
+  <phrase data="_MOD_FAQ_UPDATED">Question [NAME] updated successfully!</phrase>
+  <phrase data="_MOD_FAQ_ADDED">Question [NAME] added successfully!</phrase>
+  <phrase data="_MOD_FAQ_CAT_UPDATE_OK">Category [NAME] updated successfully!</phrase>
+  <phrase data="_MOD_FAQ_CAT_ADDED_OK">Category [NAME] added successfully!</phrase>
+  <phrase data="_MOD_FAQ_CAT_DEL_OK">Category [NAME] deleted successfully!</phrase>
+  <phrase data="_MOD_FAQ_NOFAQF">Sorry we dont have any questions yet...</phrase>
+</language>
