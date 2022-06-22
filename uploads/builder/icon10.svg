@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <style>
+    .icon-10-1{fill:none;stroke:#bdc5d1}.icon-10-4{fill:none;stroke:#377dff}.icon-10-5{fill:none;stroke:#fff}
+  </style>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M118.3 45v67.4c0 3.2-2.7 5.9-5.9 5.9H7.6c-3.2 0-5.9-2.7-5.9-5.9V7.6c0-3.2 2.7-5.9 5.9-5.9h104.9c3.2 0 5.9 2.7 5.9 5.9v19.3" class="icon-10-1"/>
+  <path fill="#bdc5d1" d="M23.1 22h86.6v20H23.1z" opacity=".5"/>
+  <path fill="#377dff" d="M15.8 16.9h88v20h-88z"/>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M65 87.1h15.2v10.5H65zM40.8 87.1H56v10.5H40.8zM16.5 87.1h15.2v10.5H16.5zM65 69.4h15.2v10.5H65zM40.8 69.4H56v10.5H40.8zM16.5 69.4h15.2v10.5H16.5z" class="icon-10-1"/>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M88.6 69.4h15.2v28.2H88.6z" class="icon-10-4"/>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M88.6 51.7h15.2v10.5H88.6zM65 51.7h15.2v10.5H65zM40.8 51.7H56v10.5H40.8zM16.5 51.7h15.2v10.5H16.5z" class="icon-10-1"/>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M93 85.8h6.4M93 81.3h6.4" class="icon-10-4"/>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M91.4 32.7h2.1M91.4 20.9h2.1M89.4 30v-6.7M96 30v-6.7M40.2 23.3L33 30.6M31.4 23.3l-7.3 7.3" class="icon-10-5"/>
+</svg>

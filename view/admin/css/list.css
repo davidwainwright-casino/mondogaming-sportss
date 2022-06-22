@@ -1,0 +1,990 @@
+/* == List == */
+ul.yoyo.list,
+ol.yoyo.list,
+.yoyo.list {
+  list-style-type: none;
+  margin: 1em 0em;
+  padding: 0em 0em;
+}
+ul.yoyo.list:first-child,
+ol.yoyo.list:first-child,
+.yoyo.list:first-child {
+  margin-top: 0em;
+  padding-top: 0em;
+}
+ul.yoyo.list:last-child,
+ol.yoyo.list:last-child,
+.yoyo.list:last-child {
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+/* == Content == */
+ul.yoyo.list li,
+ol.yoyo.list li,
+.yoyo.list > .item,
+.yoyo.list .list > .item {
+  display: list-item;
+  table-layout: fixed;
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0.188em 0em;
+  line-height: 1.125em;
+}
+/*
+ul.yoyo.list > li:first-child:after,
+ol.yoyo.list > li:first-child:after,
+.yoyo.list > .list > .item,
+.yoyo.list > .item:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+*/
+ul.yoyo.list li:first-child,
+ol.yoyo.list li:first-child,
+.yoyo.list .list > .item:first-child,
+.yoyo.list > .item:first-child {
+  padding-top: 0em;
+}
+ul.yoyo.list li:last-child,
+ol.yoyo.list li:last-child,
+.yoyo.list .list > .item:last-child,
+.yoyo.list > .item:last-child {
+  padding-bottom: 0em;
+}
+ul.yoyo.list ul,
+ol.yoyo.list ol,
+.yoyo.list .list {
+  clear: both;
+  margin: 0em;
+  padding: 0.75em 0em 0.25em 0.5em;
+}
+ul.yoyo.list ul li,
+ol.yoyo.list ol li,
+.yoyo.list .list > .item {
+  padding: 0.125em 0em;
+  line-height: inherit;
+}
+/* == Icon == */
+.yoyo.icon.list > .item {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.yoyo.list .list > .item > i.icon,
+.yoyo.list > .item > i.icon {
+   display: inline-flex;
+  margin: 0em;
+  padding-top: 0;
+  margin-right: 0.5em;
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+}
+.yoyo.list .list > .item > i.icon:only-child,
+.yoyo.list > .item > i.icon:only-child {
+  display: inline-flex;
+}
+/* == Image == */
+.yoyo.list .list > .item > .image,
+.yoyo.list > .item > .image {
+  display: table-cell;
+  background-color: transparent;
+  margin: 0em;
+  vertical-align: top;
+}
+.yoyo.list .list > .item > .image:not(:only-child):not(img),
+.yoyo.list > .item > .image:not(:only-child):not(img) {
+  padding-right: 0.5em;
+}
+.yoyo.list .list > .item > .image img,
+.yoyo.list > .item > .image img {
+  vertical-align: top;
+}
+.yoyo.list .list > .item > img.image,
+.yoyo.list .list > .item > .image:only-child,
+.yoyo.list > .item > img.image,
+.yoyo.list > .item > .image:only-child {
+  display: inline-block;
+}
+/* == Content == */
+.yoyo.list .list > .item > .content,
+.yoyo.list > .item > .content {
+  line-height: 1.125em;
+}
+.yoyo.list .list > .item > .image + .content,
+.yoyo.list .list > .item > .icon + .content,
+.yoyo.list > .item > .image + .content,
+.yoyo.list > .item > .icon + .content {
+  display: table-cell;
+  padding: 0em 0em 0em 0.5em;
+  vertical-align: top;
+}
+.yoyo.list .list > .item > img.image + .content,
+.yoyo.list > .item > img.image + .content {
+  display: inline-block;
+}
+.yoyo.list .list > .item > .content > .list,
+.yoyo.list > .item > .content > .list {
+  margin-left: 0em;
+  padding-left: 0em;
+}
+/* == Header == */
+.yoyo.list .list > .item .header,
+.yoyo.list > .item .header {
+  display: block;
+  margin: 0em;
+  font-weight: 700;
+}
+.yoyo.list .list > .item .description,
+.yoyo.list > .item .description {
+  display: block;
+}
+.yoyo.list .list > a.item:hover,
+.yoyo.list > a.item:hover {
+}
+.yoyo.list .list > a.item i.icon,
+.yoyo.list > a.item i.icon {
+  color: rgba(0, 0, 0, 0.4);
+}
+.yoyo[class*="left floated"].list {
+  float: left;
+}
+.yoyo[class*="right floated"].list {
+  float: right;
+}
+.yoyo.list .list > .item [class*="left floated"],
+.yoyo.list > .item [class*="left floated"] {
+  float: left;
+  margin: 0em 1em 0em 0em;
+}
+.yoyo.list .list > .item [class*="right floated"],
+.yoyo.list > .item [class*="right floated"] {
+  float: right;
+  margin: 0em 0em 0em 1em;
+}
+/* == Coupling == */
+.yoyo.menu .yoyo.list > .item,
+.yoyo.menu .yoyo.list .list > .item {
+  display: list-item;
+  table-layout: fixed;
+  background-color: transparent;
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0.188em 0em;
+  line-height: 1.125em;
+}
+.yoyo.menu .yoyo.list .list > .item:before,
+.yoyo.menu .yoyo.list > .item:before {
+  border: none;
+  background: none;
+}
+.yoyo.menu .yoyo.list .list > .item:first-child,
+.yoyo.menu .yoyo.list > .item:first-child {
+  padding-top: 0em;
+}
+.yoyo.menu .yoyo.list .list > .item:last-child,
+.yoyo.menu .yoyo.list > .item:last-child {
+  padding-bottom: 0em;
+}
+/* == Horizontal == */
+.yoyo.horizontal.list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+.yoyo.horizontal.list > .item {
+  display: inline-block;
+  margin-left: 1em;
+  font-size: 1rem;
+}
+.yoyo.horizontal.list:not(.celled) > .item:first-child {
+  margin-left: 0em !important;
+  padding-left: 0em !important;
+}
+.yoyo.horizontal.list .list {
+  padding-left: 0em;
+  padding-bottom: 0em;
+}
+.yoyo.horizontal.list > .item > .image,
+.yoyo.horizontal.list .list > .item > .image,
+.yoyo.horizontal.list > .item > .icon,
+.yoyo.horizontal.list .list > .item > .icon,
+.yoyo.horizontal.list > .item > .content,
+.yoyo.horizontal.list .list > .item > .content {
+  vertical-align: middle;
+}
+.yoyo.horizontal.list > .item:first-child,
+.yoyo.horizontal.list > .item:last-child {
+  padding-top: 0.188em;
+  padding-bottom: 0.188em;
+}
+.yoyo.horizontal.list > .item > i.icon {
+  margin: 0em;
+  padding: 0em 0.25em 0em 0em;
+}
+.yoyo.horizontal.list > .item > .icon,
+.yoyo.horizontal.list > .item > .icon + .content {
+  float: none;
+  display: inline-block;
+}
+.yoyo.horizontal.list > .item.divider {
+  width: 1px;
+  background: rgba(0,0,0,0.1);
+  padding: 0;
+  height: 1em;
+}
+/* == Grid == */
+.yoyo.grid.list {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.yoyo.grid.list > .content {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  min-width: 0;
+  padding: 1em 0;
+  line-height: 1;
+}
+.yoyo.grid.list > .content > .icon,
+.yoyo.grid.list > .content > img {
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+.yoyo.grid.list > .content.shrink {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+/* == States == */
+.yoyo.list .list > .disabled.item,
+.yoyo.list > .disabled.item {
+  pointer-events: none;
+  color: rgba(40, 40, 40, 0.3) !important;
+}
+.yoyo.inverted.list .list > .disabled.item,
+.yoyo.inverted.list > .disabled.item {
+  color: rgba(225, 225, 225, 0.3) !important;
+}
+.yoyo.list .list > a.item:hover .icon,
+.yoyo.list > a.item:hover .icon {
+  color: rgba(0, 0, 0, 0.87);
+}
+/* == Variations == */
+.yoyo.list[class*="top aligned"] .image,
+.yoyo.list[class*="top aligned"] .content,
+.yoyo.list [class*="top aligned"] {
+  vertical-align: top !important;
+}
+.yoyo.list[class*="middle aligned"] .image,
+.yoyo.list[class*="middle aligned"] .content,
+.yoyo.list [class*="middle aligned"] {
+  vertical-align: middle !important;
+}
+.yoyo.list[class*="bottom aligned"] .image,
+.yoyo.list[class*="bottom aligned"] .content,
+.yoyo.list [class*="bottom aligned"] {
+  vertical-align: bottom !important;
+}
+.yoyo.link.list .item,
+.yoyo.link.list a.item,
+.yoyo.link.list .item a:not(.yoyo) {
+  color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.1s color ease;
+  transition: 0.1s color ease;
+}
+.yoyo.link.list a.item:hover,
+.yoyo.link.list .item a:not(.yoyo):hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+.yoyo.link.list a.item:active,
+.yoyo.link.list .item a:not(.yoyo):active {
+  color: #C51162;
+  font-weight: 500;
+}
+.yoyo.link.list .active.item,
+.yoyo.link.list .active.item a:not(.yoyo) {
+  color: #C51162;
+  font-weight: 500;
+}
+/* == Selection == */
+.yoyo.selection.list .list > .item,
+.yoyo.selection.list > .item {
+  cursor: pointer;
+  background: transparent;
+  padding: 0.5em 0.5em;
+  margin: 0em;
+  color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.1s color ease, 0.1s padding-left ease, 0.1s background-color ease;
+  transition: 0.1s color ease, 0.1s padding-left ease, 0.1s background-color ease;
+}
+.yoyo.selection.list .list > .item:last-child,
+.yoyo.selection.list > .item:last-child {
+  margin-bottom: 0em;
+}
+.yoyo.selection.list.list > .item:hover,
+.yoyo.selection.list > .item:hover {
+  background: rgba(0, 0, 0, 0.03);
+  color: rgba(0, 0, 0, 0.8);
+}
+.yoyo.selection.list .list > .item:active,
+.yoyo.selection.list > .item:active {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.9);
+}
+.yoyo.selection.list .list > .item.active,
+.yoyo.selection.list > .item.active {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.95);
+}
+/* == Fitted == */
+.yoyo.fitted.list:not(.selection) .list > .item,
+.yoyo.fitted.list:not(.selection) > .item {
+  padding-left: 0em;
+  padding-right: 0em;
+}
+.yoyo.fitted.selection.list .list > .item,
+.yoyo.fitted.selection.list > .item {
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+/* == Bulleted == */
+ul.yoyo.list,
+.yoyo.bulleted.list {
+  margin-left: 1.25rem;
+}
+ul.yoyo.list li,
+.yoyo.bulleted.list .list > .item,
+.yoyo.bulleted.list > .item {
+  position: relative;
+}
+ul.yoyo.list li:before,
+.yoyo.bulleted.list .list > .item:before,
+.yoyo.bulleted.list > .item:before {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  top: auto;
+  left: auto;
+  margin-left: -1.25rem;
+  content: '•';
+  opacity: 1;
+  color: inherit;
+  vertical-align: top;
+}
+ul.yoyo.list ul,
+.yoyo.bulleted.list .list {
+  padding-left: 1.25rem;
+}
+ul.yoyo.horizontal.bulleted.list,
+.yoyo.horizontal.bulleted.list {
+  margin-left: 0em;
+}
+ul.yoyo.horizontal.bulleted.list li,
+.yoyo.horizontal.bulleted.list > .item {
+  margin-left: 1.75rem;
+}
+ul.yoyo.horizontal.bulleted.list li:first-child,
+.yoyo.horizontal.bulleted.list > .item:first-child {
+  margin-left: 0em;
+}
+ul.yoyo.horizontal.bulleted.list li::before,
+.yoyo.horizontal.bulleted.list > .item::before {
+  color: rgba(0, 0, 0, 0.87);
+}
+ul.yoyo.horizontal.bulleted.list li:first-child::before,
+.yoyo.horizontal.bulleted.list > .item:first-child::before {
+  display: none;
+}
+/* == Ordered == */
+ol.yoyo.list,
+.yoyo.ordered.list,
+.yoyo.ordered.list .list,
+ol.yoyo.list ol {
+  counter-reset: ordered;
+  margin-left: 1.25rem;
+  list-style-type: none;
+}
+ol.yoyo.list li,
+.yoyo.ordered.list .list > .item,
+.yoyo.ordered.list > .item {
+  list-style-type: none;
+  position: relative;
+}
+ol.yoyo.list li:before,
+.yoyo.ordered.list .list > .item:before,
+.yoyo.ordered.list > .item:before {
+  position: absolute;
+  top: auto;
+  left: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  margin-left: -1.25rem;
+  counter-increment: ordered;
+  content: counters(ordered, ".") " ";
+  text-align: right;
+  color: rgba(0, 0, 0, 0.87);
+  vertical-align: middle;
+  opacity: 0.8;
+}
+ol.yoyo.inverted.list li:before,
+.yoyo.ordered.inverted.list .list > .item:before,
+.yoyo.ordered.inverted.list > .item:before,
+.yoyo.inverted.list {
+  color: rgba(255, 255, 255, 0.7);
+}
+.yoyo.ordered.list > .list > .item[data-value],
+.yoyo.ordered.list > .item[data-value] {
+  content: attr(data-value);
+}
+ol.yoyo.list li[value]:before {
+  content: attr(value);
+}
+ol.yoyo.list ol,
+.yoyo.ordered.list .list {
+  margin-left: 1em;
+}
+ol.yoyo.list ol li:before,
+.yoyo.ordered.list .list > .item:before {
+  margin-left: -2em;
+}
+ol.yoyo.horizontal.list,
+.yoyo.ordered.horizontal.list {
+  margin-left: 0em;
+}
+ol.yoyo.horizontal.list li:before,
+.yoyo.ordered.horizontal.list .list > .item:before,
+.yoyo.ordered.horizontal.list > .item:before {
+  position: static;
+  margin: 0em 0.5em 0em 0em;
+}
+/* == Divided == */
+.yoyo.divided.list > .item {
+  border-top: 1px solid #dddddd;
+}
+.yoyo.divided.list .list > .item {
+  border-top: none;
+}
+.yoyo.divided.list .item .list > .item {
+  border-top: none;
+}
+.yoyo.divided.list .list > .item:first-child,
+.yoyo.divided.list > .item:first-child {
+  border-top: none;
+}
+.yoyo.divided.list:not(.horizontal) .list > .item:first-child {
+  border-top-width: 1px;
+}
+.yoyo.divided.bulleted.list:not(.horizontal),
+.yoyo.divided.bulleted.list .list {
+  margin-left: 0em;
+  padding-left: 0em;
+}
+.yoyo.divided.bulleted.list > .item:not(.horizontal) {
+  padding-left: 1.25rem;
+}
+.yoyo.divided.ordered.list {
+  margin-left: 0em;
+}
+.yoyo.divided.ordered.list .list > .item,
+.yoyo.divided.ordered.list > .item {
+  padding-left: 1.25rem;
+}
+.yoyo.divided.ordered.list .item .list {
+  margin-left: 0em;
+  margin-right: 0em;
+  padding-bottom: 0.188em;
+}
+.yoyo.divided.ordered.list .item .list > .item {
+  padding-left: 1em;
+}
+.yoyo.divided.selection.list .list > .item,
+.yoyo.divided.selection.list > .item {
+  margin: 0em;
+  border-radius: 0em;
+}
+.yoyo.divided.horizontal.list {
+  margin-left: 0em;
+}
+.yoyo.divided.horizontal.list > .item {
+  border-top: none;
+  margin: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  line-height: 1;
+  position:relative;
+}
+.yoyo.divided.horizontal.list > .item::before {
+  position:absolute;
+  content:"";
+  height:60%;
+  top:20%;
+  width:1px;
+  left:0;
+  background:#dddddd;
+}
+.yoyo.horizontal.divided.list > .item:first-child::before {
+  border-left: none;
+  background:transparent;
+}
+/* == Celled == */
+.yoyo.celled.list > .item,
+.yoyo.celled.list > .list {
+  border-top: 1px solid #dddddd;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.yoyo.celled.list > .item:last-child {
+  border-bottom: 1px solid #dddddd;
+}
+.yoyo.celled.list > .item:first-child,
+.yoyo.celled.list > .item:last-child {
+  padding-top: 0.188em;
+  padding-bottom: 0.188em;
+}
+.yoyo.celled.list .item .list > .item {
+  border-width: 0px;
+}
+.yoyo.celled.list .list > .item:first-child {
+  border-top-width: 0px;
+}
+.yoyo.celled.bulleted.list {
+  margin-left: 0em;
+}
+.yoyo.celled.bulleted.list .list > .item,
+.yoyo.celled.bulleted.list > .item {
+  padding-left: 1.25rem;
+}
+.yoyo.celled.bulleted.list .item .list {
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+  padding-bottom: 0.188em;
+}
+.yoyo.celled.ordered.list {
+  margin-left: 0em;
+}
+.yoyo.celled.ordered.list .list > .item,
+.yoyo.celled.ordered.list > .item {
+  padding-left: 1.25rem;
+}
+.yoyo.celled.ordered.list .item .list {
+  margin-left: 0em;
+  margin-right: 0em;
+  padding-bottom: 0.188em;
+}
+.yoyo.celled.ordered.list .list > .item {
+  padding-left: 1em;
+}
+.yoyo.horizontal.celled.list {
+  margin-left: 0em;
+}
+.yoyo.horizontal.celled.list .list > .item,
+.yoyo.horizontal.celled.list > .item {
+  border-top: none;
+  border-left: 1px solid #dddddd;
+  margin: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  line-height: 0.6;
+}
+.yoyo.horizontal.celled.list .list > .item:last-child,
+.yoyo.horizontal.celled.list > .item:last-child {
+  border-bottom: none;
+  border-right: 1px solid #dddddd;
+}
+/* == Relaxed == */
+.yoyo.relaxed.list:not(.horizontal) > .item {
+  padding-top: 0.375em;
+  padding-bottom: 0.375em;
+}
+.yoyo.relaxed.list:not(.horizontal) .list > .item {
+  padding-top: 0.188em;
+  padding-bottom: 0.188em;
+}
+.yoyo.horizontal.relaxed.list > .item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* == Very Relaxed == */
+.yoyo[class*="very relaxed"].list:not(.horizontal) > .item {
+  padding-top: 0.813em;
+  padding-bottom: 0.813em;
+}
+.yoyo[class*="very relaxed"].list:not(.horizontal) .list > .item {
+  padding-top: 0.250em;
+  padding-bottom: 0.250em;
+}
+.yoyo.horizontal[class*="very relaxed"].list .list > .item,
+.yoyo.horizontal[class*="very relaxed"].list > .item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+/* == Flex == */
+.yoyo.flex.list:not(.horizontal) > .item {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  position: relative;
+}
+.yoyo.flex.list:not(.horizontal) > .item .content,
+.yoyo.flex.list:not(.horizontal) > .item > .yoyo.label {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  min-width: 0;
+}
+.yoyo.flex.list.align-middle > .item {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.yoyo.flex.list .item .content.shrink {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+.yoyo.flex.list .item.progress {
+  margin-bottom: .5em;
+  padding-bottom: .25em;
+}
+.yoyo.horizontal.flex.list {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.yoyo.horizontal.flex.list > .item {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+.yoyo.horizontal.flex.list > .item .yoyo.label,
+.yoyo.horizontal.flex.list > .item .icon {
+  vertical-align: middle
+}
+/* == Attached == */
+.yoyo.attached.list {
+  margin: 0!important
+}
+/* == Sortable == */
+.dd {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dd-list {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dd-list .dd-list {
+  padding-left: 2em;
+}
+.dd-collapsed .dd-list {
+  display: none;
+}
+.dd-item,
+.dd-empty,
+.dd-placeholder {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;/*min-height: 2em;*/
+}
+.dd-item {
+  box-shadow: 0 1px 0 0 #1E88E5, 1px 0 0 0 #1E88E5;
+}
+.dd-item:first-child {
+  box-shadow: 0 1px 0 0 #1E88E5, 0 -1px 0 0 #1E88E5, 1px 0 0 0 #1E88E5;
+}
+.dd-handle {
+  display: block;
+  height: 2em;
+  margin: 5px 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  background: #fafafa;
+  box-sizing: border-box;
+}
+.dd-handle:hover {
+  color: #2ea8e5;/*background: #fff;*/
+}
+.dd-item > button {
+  font-family: 'YoyoIcons';
+  display: block;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 32px;
+  height: 20px;
+  margin: 5px 0;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  background: transparent;
+  text-align: center;
+}
+.dd-item > button:before {
+  content: "\e948";
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  margin-top: -6px
+}
+.dd-item > button[data-action="collapse"]:before {
+  content: "\e94b";
+}
+.dd-placeholder,
+.dd-empty {
+  padding: 0;
+  min-height: 2em;
+  background: #f2fbff;
+  border: 1px dashed #1E88E5;
+  box-sizing: border-box;
+}
+.dd-empty {
+  border: 1px dashed #bbb;
+  min-height: 100px;
+  background-color: #e5e5e5;
+}
+.dd-dragel {
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+}
+.dd-dragel > .dd-item .dd-handle {
+  margin-top: 0;
+}
+.dd-dragel .dd-handle {
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+.dd3-content {
+  display: block;
+  margin: 0;
+  padding: .750em 1em .750em 4em;
+  font-size: .875em;
+  text-decoration: none;
+  /*box-shadow: 0 1px 0 0 #1E88E5;*/
+  box-sizing: border-box;
+  white-space: nowrap;
+  line-height: 1;
+}
+.dd3-content:hover {
+}
+.dd3-content > a {
+  margin-right: 2em;
+  color: #222;
+  font-weight: 400;
+}
+.dd-dragel > .dd3-item > .dd3-content {
+  margin: 0;
+}
+.dd3-item > button {
+  margin-left: 2.5em;
+}
+.dd3-handle {
+  font-family: 'YoyoIcons';
+  position: absolute;
+  margin: 0;
+  left: 0;
+  top: 0;
+  cursor: move;
+  width: 2em;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #1E88E5;
+  line-height: 1;
+}
+.dd3-handle:before {
+  content: "\ea1a";
+  position: absolute;
+  left: 0;
+  top: .5em;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.dd3-handle:hover {
+  background-color: #212F38;
+}
+.dd3-content .actions {
+  float: right;
+}
+/* == Sortable == */
+#sortable .ghost > .segment,
+#sortable .ghost > .acard {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.yoyo.sortable {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  min-height: 2em;
+}
+.yoyo.sortable li {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 1px 0;
+}
+.yoyo.sortable .handle,
+.yoyo.sortable .content,
+.yoyo.sortable .action {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  min-width: 0;
+}
+.yoyo.sortable .handle,
+.yoyo.sortable .action {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+.yoyo.sortable .handle {
+  width: 2em;
+  text-align: center
+}
+.yoyo.sortable .content {
+  padding: .25em;
+}
+.yoyo.sortable.simple .handle:hover {
+  color: #161F27;
+  cursor: move;
+}
+.yoyo.sortable.celled > .item {
+  box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.yoyo.sortable.celled > .item:last-child {
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1), 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.yoyo.placeholder,
+.yoyo.sortable .empty,
+.sort.active,
+.yoyo.sortable .ghost {
+  margin: 0;
+  padding: 0;
+  background: #f2fbff;
+  box-shadow: 0 0 0 1px #1E88E5;
+}
+.draggable {
+  cursor: move;
+}
+/* == Sizes == */
+.yoyo.mini.list {
+  font-size: 0.688em;
+}
+.yoyo.tiny.list {
+  font-size: 0.750em;
+}
+.yoyo.small.list {
+  font-size: 0.875em;
+}
+.yoyo.list {
+  font-size: 1em;
+}
+.yoyo.large.list {
+  font-size: 1.125em;
+}
+.yoyo.big.list {
+  font-size: 1.250em;
+}
+.yoyo.huge.list {
+  font-size: 1.375em;
+}
+.yoyo.massive.list {
+  font-size: 1.625em;
+}
+.yoyo.mini.horizontal.list .list > .item,
+.yoyo.mini.horizontal.list > .item {
+  font-size: 0.688rem;
+}
+.yoyo.tiny.horizontal.list .list > .item,
+.yoyo.tiny.horizontal.list > .item {
+  font-size: 0.750rem;
+}
+.yoyo.small.horizontal.list .list > .item,
+.yoyo.small.horizontal.list > .item {
+  font-size: 0.813rem;
+}
+.yoyo.horizontal.list .list > .item,
+.yoyo.horizontal.list > .item {
+  font-size: 1rem;
+}
+.yoyo.large.horizontal.list .list > .item,
+.yoyo.large.horizontal.list > .item {
+  font-size: 1.125rem;
+}
+.yoyo.big.horizontal.list .list > .item,
+.yoyo.big.horizontal.list > .item {
+  font-size: 1.250rem;
+}
+.yoyo.huge.horizontal.list .list > .item,
+.yoyo.huge.horizontal.list > .item {
+  font-size: 1.375rem;
+}
+.yoyo.massive.horizontal.list .list > .item,
+.yoyo.massive.horizontal.list > .item {
+  font-size: 1.625rem;
+}

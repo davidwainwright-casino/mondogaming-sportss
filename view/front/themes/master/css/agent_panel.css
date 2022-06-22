@@ -1,0 +1,801 @@
+
+ul.sidenavs {
+    padding: 0;
+}
+
+i.icon.chevron.right {
+    float: right;
+    margin-top: 5px;
+}
+
+.sidenavs li:hover {
+    background: #e3e0e0;
+}
+
+.sidenavs li {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e7e7e7;
+    cursor: pointer;
+    color: #000000;
+    letter-spacing: .5px;
+}
+
+.sagentd {
+    background: #e7e7e7;
+    padding: 10px;
+}
+
+.supadm {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+i.icon.users {
+    font-size: 20px;
+}
+
+li.supplogo img {
+    max-width: 130px;
+}
+
+.suppcol.sleft {
+    background-color: #f8f8f8;
+    max-width: 300px;
+}
+
+.supp-header {
+    background-color: #1f1f1f;
+    border-color: #e7e7e7;
+    z-index: 1000;
+    border-width: 0 0 1px;
+    border-bottom: 1px solid #e7e7e7;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+ul.suppmenu {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.suppmenu li {
+    display: table-cell;
+    width: 50%;
+}
+
+.menuv {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+}
+
+i.icon.reorder {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.menuv:hover {
+    color: #f00;
+}
+
+li.suppsubmenu {
+    text-align: right;
+    padding-right: 10px;
+}
+
+span.supbal {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+}
+
+div#superuser {
+    float: right;
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+    line-height: 0;
+    vertical-align: text-bottom;
+}
+
+.wrapper-sa {
+    max-width: 780px;
+    margin: 0 auto;
+    min-height: 200px;
+    margin-top: 10px;
+    border-left: 5px solid #f3f3f3;
+    padding-left: 5px;
+}
+
+.containersa {
+    min-height: 100px;
+    color: #fff;
+}
+
+
+.colsa {
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    background: #282828;
+    width: calc(33.33% - 10px);
+}
+
+#noo a {
+    color: #000;
+}
+
+.containersa:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.agdwn {
+    border-bottom: 3px solid;
+    background: #e7e7e7;
+    padding: 5px 10px;
+    border-color: #eb1515;
+}
+
+span.righelse {
+    float: right;
+}
+
+span.usvalue {
+    float: right;
+    font-size: 30px;
+    margin-right: 2px;
+}
+
+span.userle {
+    float: left;
+    margin-top: 10px;
+}
+
+div#cott .colsa {
+    background: #c42929;
+}
+
+.infcontent a {
+    color: red;
+}
+
+.noteus {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffc409;
+    margin-top: 10px;
+}
+
+.backmeif, .backmeifx, .backmeiftr {
+    background: #d0d0d0;
+    display: inline-block;
+    padding: 3px 20px;
+    cursor: pointer;
+    margin-bottom: 20px
+}
+
+.backmeif:hover, .backmeifx:hover {
+    background: #a7a7a7;
+}
+
+.shadowme, .shadowmex, .shadowmey {
+    cursor: pointer;
+    color: #0377da;
+}
+
+.shadowme:hover, .shadowmex:hover, .shadowmey:hover {
+    color: #f00;
+}
+
+a#ksow {
+    display: inline-block;
+    padding: 10px;
+}
+
+.countrec {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #009688;
+}
+
+.ollist {
+    font-size: 12px;
+    padding: 0;
+}
+
+.showmo {
+    display: inline-block;
+}
+
+.srid {
+    display: inline-block;
+    float: right;
+}
+
+.srid i.find.icon {
+    padding: 10px;
+    font-size: 10px;
+    background: #e2e5e2;
+    cursor: pointer;
+}
+
+.srid input {
+    padding: 6px 10px;
+    width: 220px;
+    border: 1px solid #eb1515;
+}
+
+.srid input:focus {
+    background: #efefef;
+}
+
+.srid i.find.icon:hover {
+    background: #908e8e;
+}
+
+.topwwp {
+    display: block;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 20px;
+}
+
+span.searck {
+    color: #f00;
+    cursor: pointer;
+}
+
+span.searck:hover {
+    color: #000;
+}
+
+/*withdrawal*/
+#paymenttype, #mamount, #tref, #acnum {
+    width: 260px;
+    padding: 8px 10px;
+    border: 1px solid #86bcfb;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.agform {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    background-color: #ededed;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #777777;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+span.payclose {
+    position: absolute;
+    margin-top: -15px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 0px 6px;
+    background: #f00;
+    color: #fff;
+}
+
+.wrapallmsg {
+    display: table;
+    margin: 0 auto;
+    max-width: 460px;
+    width: 100%;
+}
+
+input#submail {
+    width: 100%;
+    padding: 6px;
+}
+
+textarea#msgcontent {
+    width: 100%;
+    min-height: 100px
+}
+
+.awrequest, .msgrequest {
+    padding: 3px 10px;
+    background: #eaff94;
+    max-width: 245px;
+    margin-left: 5px;
+    text-align: center;
+    background-color: #44c767;
+    border-radius: 28px;
+    border: 1px solid #18ab29;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.showwith {
+    color: #f00;
+}
+
+ul.deptshow {
+    float: left;
+    padding: 0;
+    width: 96%;
+    margin-left: 2%;
+}
+
+ul.deptshow.k li {
+    background: #dcdcdc;
+    border-left: 3px solid #2196F3;
+}
+
+ul.deptshow li {
+    display: inline-block;
+    background: #f5f5f5;
+    width: 100%;
+    max-width: 660px;
+    padding: 10px;
+}
+
+.ccredit {
+    border-bottom: 1px solid #eceaea;
+    font-size: 15px;
+}
+
+span.deptright {
+    float: right;
+}
+
+._mandeposit {
+    max-width: 460px;
+    background: #fffef6;
+    font-size: 16px;
+    padding: 10px;
+    color: #00794d;
+}
+
+#mancashback {
+    margin: 0px 20px;
+}
+
+.wrequest:hover {
+    background: #f9ea67;
+}
+
+.wpending {
+    position: absolute;
+    margin-top: -20px;
+    color: #f00;
+    border-radius: 50%;
+    background: #000;
+    line-height: 10px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input#paynum {
+    padding: 6px;
+}
+
+button#paynu {
+    padding: 6px;
+    cursor: pointer;
+}
+
+button#paynu:hover {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.shreturn {
+    color: #f00;
+}
+
+div#shower {
+    color: #f00;
+}
+
+.printwrap {
+    max-width: 560px;
+    background: #f8f8f8;
+    margin: 0 auto;
+}
+
+span.rightpr {
+    float: right;
+    font-weight: bold;
+}
+
+ul.printul li {
+    border-bottom: 1px solid #dcdcdc;
+    padding: 5px 25px;
+}
+
+.wrtp {
+    padding: 7px 15px;
+    background: #1f1f1f;
+    color: #fff;
+}
+
+span.righttp {
+    float: right;
+    font-weight: bold;
+}
+
+button#prstats {
+    display: table;
+    margin: 0 auto;
+}
+
+.mydash, .mytransfer, .myhistory {
+    background-color: #e8e8e8;
+    border-radius: 28px;
+    border: 1px solid #d02222;
+    display: inline-block;
+    cursor: pointer;
+    color: #1f1f1f;
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 7px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #c62828;
+}
+
+.mydash:hover, .mytransfer:hover, .myhistory:hover {
+    background-color: #5cbf2a;
+}
+
+.mydash:active, .mytransfer:active, .myhistory:active {
+    position: relative;
+    top: 1px;
+}
+
+a.mydash.active, a.myhistory.active, a.mytransfer.active {
+    background: #fff;
+}
+
+b.abchp {
+    font-size: 24px;
+    color: #a30851;
+}
+
+.infowro {
+    padding: 10px;
+    border: 1px solid #d8d7d7;
+    border-radius: 3px;
+    background: #f9f9f9;
+}
+
+.infcontent {
+    margin: 10px;
+    background: #232221;
+    color: #fff;
+    line-height: 20px;
+    padding: 10px 2px;
+}
+
+.ifys {
+    background: #009688;
+    padding: 10px;
+    color: #fff;
+}
+
+span#ttcount {
+    background: #0d0d0d;
+    position: absolute;
+    padding: 3px 10px;
+    border-radius: 50%;
+    color: #f00;
+    margin-top: -20px;
+    margin-left: -5px;
+}
+
+.depositform {
+    border: 1px solid #009688;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: #f3f3f3;
+}
+
+.sacur {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    background: #ebebeb;
+}
+
+div#showavl {
+    color: #000;
+    margin-bottom: 10px;
+    display: table;
+}
+
+input#putcash {
+    padding: 5px 10px;
+    border: 2px solid #d52020;
+    border-radius: 5px;
+}
+
+.subtransfer {
+    padding: 5px 10px;
+    background: #eb1515;
+    display: block;
+    max-width: 180px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+}
+
+.subtransfer:hover {
+    background: #f00;
+}
+
+.warnintxt {
+    font-size: 13px;
+    line-height: 15px;
+    padding: 5px;
+    background: #f3f3f3;
+    margin-bottom: 10px;
+}
+
+span.searcktr {
+    color: #f00;
+    cursor: pointer;
+}
+
+span.searcktr:hover {
+    color: #000;
+}
+
+div#withbroker {
+    margin-bottom: 200px;
+}
+
+span.supspan {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.superearning {
+    padding: 0px 10px;
+}
+
+.sasubtransferag {
+    padding: 5px 10px;
+    background: #eb1515;
+    display: block;
+    max-width: 180px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+}
+
+.sasubtransferag:hover {
+    background: #f00;
+}
+
+.sashowvaltotr {
+    padding: 5px 10px;
+    margin-top: 10px;
+    max-width: 300px;
+    color: #f00;
+}
+
+input#saagpaynum {
+    padding: 5px 10px;
+    border: 2px solid #2196F3;
+    border-radius: 3px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.suppcol {
+    float: left;
+    min-height: 300px;
+}
+
+.supprow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+li.supplogo {
+    text-align: center;
+}
+
+.supprow {
+    margin-top: 56px;
+}
+
+.menuv.adk:before {
+    content: "X";
+    margin-right: 5px;
+    color: #000;
+}
+
+a.ohcollapse {
+    position: absolute;
+    margin-top: 0px;
+    background: #000000;
+    padding: 0px 10px;
+    color: #f00;
+}
+
+a.mrkpr, a.crkpr {
+    font-size: 14px;
+}
+
+a.kgpPending {
+    color: #7a1313;
+}
+
+a.crkpr {
+    color: #02a70e;
+}
+
+a.crkpr:hover, a.mrkpr:hover {
+    color: #f00;
+}
+
+input#sendfunds {
+    width: 300px;
+    padding: 7px;
+    border: 2px solid #b7b7b7;
+    border-radius: 5px;
+}
+
+i#fico {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.txnhistory {
+    display: inline-block;
+    background: #f3f3f3;
+    cursor: pointer;
+    border-bottom: 3px solid #cd2525;
+    margin-bottom: 20px;
+}
+
+.txnhistory:hover {
+    background: #fff387;
+}
+
+.singbt a {
+    color: #c52929 !important;
+}
+
+/*for transfer history*/
+ul.deptshow li {
+    display: inline-block;
+    background: #f5f5f5;
+    width: 100%;
+    max-width: 660px;
+    padding: 10px;
+}
+
+ul.deptshow {
+    float: left;
+    padding: 0;
+    width: 99%;
+    margin-left: 0%;
+}
+
+ul.deptshow.k li {
+    background: #fff8f8;
+    border-left: 3px solid #f00;
+}
+
+span.deptright {
+    float: right;
+}
+
+.ccredit {
+    border-bottom: 1px solid #eceaea;
+    font-size: 15px;
+}
+
+.depositform {
+    font-size: 85%;
+    margin: 15px;
+    border: 1px solid #43ff1b;
+    padding: 5px;
+    line-height: 18px;
+    max-width: 660px;
+}
+
+div#lrembankb {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 799px) {
+    .suppcol.sleft {
+        display: none;
+    }
+
+    .suppcol.sleft.noso {
+        display: none;
+    }
+
+    .suppcol.sright {
+        width: 100% !Important;
+    }
+
+    span.userle {
+        margin-top: 3px !Important;
+    }
+
+    span.usvalue {
+        font-size: 16px !important;
+    }
+
+    div#superuser {
+        margin-top: 20px;
+    }
+
+    .supp-header {
+        padding: 0px
+    }
+
+    .menuv {
+        padding: 10px;
+        margin-top: 15px;
+        color: #fff;
+    }
+
+    li.supplogo img {
+        max-width: 140px;
+        margin-top: 3px;
+    }
+
+    span.supbal {
+        font-size: 16px;
+    }
+
+    .supprow {
+        margin-top: 68px;
+    }
+
+    .suppcol.sleft.shmob {
+        display: block;
+        width: 100% !Important;
+        max-width: 799px;
+    }
+}
+

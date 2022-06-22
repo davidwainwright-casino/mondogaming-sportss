@@ -1,0 +1,71 @@
+/* == Divider == */
+.yoyo.divider {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  border-top: 1px solid #e7eaf3;
+  letter-spacing: .05em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+.yoyo.dashed.divider {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  border-top: 1px dashed #e7eaf3;
+}
+.yoyo.linear.divider {
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #ccc, transparent);
+}
+.yoyo.icon.divider {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-weight: 600;
+  font-size: .875rem;
+}
+.yoyo.icon.divider::after,
+.yoyo.icon.divider::before {
+  position: absolute;
+  height: 1px;
+  background: #e7eaf3;
+  content: '';
+  width: calc(50% - 2rem);
+  right: 0;
+}
+.yoyo.icon.divider::before {
+  width: calc(50% - 2rem);
+  left: 0;
+  right: auto;
+}
+/* == Size == */
+.yoyo.top.attached.divider {
+  margin-bottom: 3.5rem;
+  margin-top: 0;
+}
+.yoyo.bottom.attached.divider {
+  margin-bottom: 0;
+  margin-top: 3.5rem;
+}
+.yoyo.basic.divider {
+  margin: 0
+}
+.yoyo.small.divider {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.yoyo.inverted.divider {
+  border-top: 1px solid rgba(255,255,255,.2);
+}
+.yoyo.half.divider {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}

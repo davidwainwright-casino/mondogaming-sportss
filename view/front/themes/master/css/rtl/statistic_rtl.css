@@ -1,0 +1,347 @@
+/* == Statistics == */
+.yoyo.statistic {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 1em 0em;
+  max-width: auto;
+}
+.yoyo.statistic + .yoyo.statistic {
+  margin: 0em 0em 0em 1.5em;
+}
+.yoyo.statistic:first-child {
+  margin-top: 0em;
+}
+.yoyo.statistic:last-child {
+  margin-bottom: 0em;
+}
+/* == Group == */
+.yoyo.statistics {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.yoyo.statistics > .statistic {
+  display: inline-flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  margin: 0em 1.5em 2em;
+  max-width: auto;
+}
+.yoyo.statistics {
+  display: flex;
+  margin: 1em -1.5em -2em;
+}
+.yoyo.statistics:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.yoyo.statistics:first-child {
+  margin-top: 0em;
+}
+.yoyo.statistics:last-child {
+  margin-bottom: 0em;
+}
+/* == Content == */
+.yoyo.statistics .statistic > .value,
+.yoyo.statistic > .value {
+  font-weight: 300;
+  font-size: 4rem;
+  line-height: 1em;
+  color: #1B1C1D;
+  text-transform: uppercase;
+  text-align: center;
+}
+.yoyo.statistics .statistic > .label,
+.yoyo.statistic > .label {
+  font-weight: 500;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.87);
+  text-transform: uppercase;
+  text-align: center;
+}
+/* Top Label */
+.yoyo.statistics .statistic > .label ~ .value,
+.yoyo.statistic > .label ~ .value {
+  margin-top: 0rem;
+}
+/* Bottom Label */
+.yoyo.statistics .statistic > .value ~ .label,
+.yoyo.statistic > .value ~ .label {
+  margin-top: 0rem;
+}
+/* == Types == */
+.yoyo.statistics .statistic > .value .icon,
+.yoyo.statistic > .value .icon {
+  opacity: 1;
+  width: auto;
+  margin: 0em;
+}
+.yoyo.statistics .statistic > .text.value,
+.yoyo.statistic > .text.value {
+  line-height: 1em;
+  min-height: 2em;
+  font-weight: 600;
+  text-align: center;
+}
+.yoyo.statistics .statistic > .text.value + .label,
+.yoyo.statistic > .text.value + .label {
+  text-align: center;
+}
+.yoyo.statistics .statistic > .value img,
+.yoyo.statistic > .value img {
+  max-height: 3rem;
+  vertical-align: baseline;
+}
+/* == Variations == */
+.yoyo.horizontal.statistic {
+  flex-direction: row;
+  align-items: center;
+}
+.yoyo.horizontal.statistics {
+  flex-direction: column;
+  margin: 0em;
+  max-width: none;
+}
+.yoyo.horizontal.statistics .statistic {
+  flex-direction: row;
+  align-items: center;
+  max-width: none;
+  margin: 1em 0em;
+}
+.yoyo.horizontal.statistic > .text.value,
+.yoyo.horizontal.statistics > .statistic > .text.value {
+  min-height: 0em;
+}
+.yoyo.horizontal.statistics .statistic > .value .icon,
+.yoyo.horizontal.statistic > .value .icon {
+  width: 1.18em;
+}
+.yoyo.horizontal.statistics .statistic > .value,
+.yoyo.horizontal.statistic > .value {
+  display: inline-block;
+  vertical-align: middle;
+}
+.yoyo.horizontal.statistics .statistic > .label,
+.yoyo.horizontal.statistic > .label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0em 0em 0em 0.75em;
+}
+/* == Colors == */
+.yoyo.red.statistics .statistic > .value,
+.yoyo.statistics .red.statistic > .value,
+.yoyo.red.statistic > .value {
+  color: #DB2828;
+}
+.yoyo.orange.statistics .statistic > .value,
+.yoyo.statistics .orange.statistic > .value,
+.yoyo.orange.statistic > .value {
+  color: #F2711C;
+}
+.yoyo.yellow.statistics .statistic > .value,
+.yoyo.statistics .yellow.statistic > .value,
+.yoyo.yellow.statistic > .value {
+  color: #FBBD08;
+}
+.yoyo.olive.statistics .statistic > .value,
+.yoyo.statistics .olive.statistic > .value,
+.yoyo.olive.statistic > .value {
+  color: #B5CC18;
+}
+.yoyo.green.statistics .statistic > .value,
+.yoyo.statistics .green.statistic > .value,
+.yoyo.green.statistic > .value {
+  color: #21BA45;
+}
+.yoyo.teal.statistics .statistic > .value,
+.yoyo.statistics .teal.statistic > .value,
+.yoyo.teal.statistic > .value {
+  color: #00B5AD;
+}
+.yoyo.blue.statistics .statistic > .value,
+.yoyo.statistics .blue.statistic > .value,
+.yoyo.blue.statistic > .value {
+  color: #2185D0;
+}
+.yoyo.violet.statistics .statistic > .value,
+.yoyo.statistics .violet.statistic > .value,
+.yoyo.violet.statistic > .value {
+  color: #6435C9;
+}
+.yoyo.purple.statistics .statistic > .value,
+.yoyo.statistics .purple.statistic > .value,
+.yoyo.purple.statistic > .value {
+  color: #A333C8;
+}
+.yoyo.pink.statistics .statistic > .value,
+.yoyo.statistics .pink.statistic > .value,
+.yoyo.pink.statistic > .value {
+  color: #E03997;
+}
+.yoyo.brown.statistics .statistic > .value,
+.yoyo.statistics .brown.statistic > .value,
+.yoyo.brown.statistic > .value {
+  color: #A5673F;
+}
+.yoyo.grey.statistics .statistic > .value,
+.yoyo.statistics .grey.statistic > .value,
+.yoyo.grey.statistic > .value {
+  color: #767676;
+}
+/* == Inverted == */
+.yoyo.inverted.statistics .statistic > .value,
+.yoyo.inverted.statistic .value {
+  color: #FFFFFF;
+}
+.yoyo.inverted.statistics .statistic > .label,
+.yoyo.inverted.statistic .label {
+  color: rgba(255, 255, 255, 0.9);
+}
+.yoyo.inverted.red.statistics .statistic > .value,
+.yoyo.statistics .inverted.red.statistic > .value,
+.yoyo.inverted.red.statistic > .value {
+  color: #FF695E;
+}
+.yoyo.inverted.orange.statistics .statistic > .value,
+.yoyo.statistics .inverted.orange.statistic > .value,
+.yoyo.inverted.orange.statistic > .value {
+  color: #FF851B;
+}
+.yoyo.inverted.yellow.statistics .statistic > .value,
+.yoyo.statistics .inverted.yellow.statistic > .value,
+.yoyo.inverted.yellow.statistic > .value {
+  color: #FFE21F;
+}
+.yoyo.inverted.olive.statistics .statistic > .value,
+.yoyo.statistics .inverted.olive.statistic > .value,
+.yoyo.inverted.olive.statistic > .value {
+  color: #D9E778;
+}
+.yoyo.inverted.green.statistics .statistic > .value,
+.yoyo.statistics .inverted.green.statistic > .value,
+.yoyo.inverted.green.statistic > .value {
+  color: #2ECC40;
+}
+.yoyo.inverted.teal.statistics .statistic > .value,
+.yoyo.statistics .inverted.teal.statistic > .value,
+.yoyo.inverted.teal.statistic > .value {
+  color: #6DFFFF;
+}
+.yoyo.inverted.blue.statistics .statistic > .value,
+.yoyo.statistics .inverted.blue.statistic > .value,
+.yoyo.inverted.blue.statistic > .value {
+  color: #54C8FF;
+}
+.yoyo.inverted.violet.statistics .statistic > .value,
+.yoyo.statistics .inverted.violet.statistic > .value,
+.yoyo.inverted.violet.statistic > .value {
+  color: #A291FB;
+}
+.yoyo.inverted.purple.statistics .statistic > .value,
+.yoyo.statistics .inverted.purple.statistic > .value,
+.yoyo.inverted.purple.statistic > .value {
+  color: #DC73FF;
+}
+.yoyo.inverted.pink.statistics .statistic > .value,
+.yoyo.statistics .inverted.pink.statistic > .value,
+.yoyo.inverted.pink.statistic > .value {
+  color: #FF8EDF;
+}
+.yoyo.inverted.brown.statistics .statistic > .value,
+.yoyo.statistics .inverted.brown.statistic > .value,
+.yoyo.inverted.brown.statistic > .value {
+  color: #D67C1C;
+}
+.yoyo.inverted.grey.statistics .statistic > .value,
+.yoyo.statistics .inverted.grey.statistic > .value,
+.yoyo.inverted.grey.statistic > .value {
+  color: #DCDDDE;
+}
+.yoyo[class*="left floated"].statistic {
+  float: left;
+  margin: 0em 2em 1em 0em;
+}
+.yoyo[class*="right floated"].statistic {
+  float: right;
+  margin: 0em 0em 1em 2em;
+}
+.yoyo.floated.statistic:last-child {
+  margin-bottom: 0em;
+}
+/* == Sizes == */
+.yoyo.mini.statistics .statistic > .value,
+.yoyo.mini.statistic > .value {
+  font-size: 1.5rem;
+}
+.yoyo.mini.horizontal.statistics .statistic > .value,
+.yoyo.mini.horizontal.statistic > .value {
+  font-size: 1.5rem;
+}
+.yoyo.mini.statistics .statistic > .text.value,
+.yoyo.mini.statistic > .text.value {
+  font-size: 1rem;
+}
+.yoyo.tiny.statistics .statistic > .value,
+.yoyo.tiny.statistic > .value {
+  font-size: 2rem;
+}
+.yoyo.tiny.horizontal.statistics .statistic > .value,
+.yoyo.tiny.horizontal.statistic > .value {
+  font-size: 2rem;
+}
+.yoyo.tiny.statistics .statistic > .text.value,
+.yoyo.tiny.statistic > .text.value {
+  font-size: 1rem;
+}
+.yoyo.small.statistics .statistic > .value,
+.yoyo.small.statistic > .value {
+  font-size: 3rem;
+}
+.yoyo.small.horizontal.statistics .statistic > .value,
+.yoyo.small.horizontal.statistic > .value {
+  font-size: 2rem;
+}
+.yoyo.small.statistics .statistic > .text.value,
+.yoyo.small.statistic > .text.value {
+  font-size: 1rem;
+}
+.yoyo.statistics .statistic > .value,
+.yoyo.statistic > .value {
+  font-size: 4rem;
+}
+.yoyo.horizontal.statistics .statistic > .value,
+.yoyo.horizontal.statistic > .value {
+  font-size: 3rem;
+}
+.yoyo.statistics .statistic > .text.value,
+.yoyo.statistic > .text.value {
+  font-size: 2rem;
+}
+.yoyo.large.statistics .statistic > .value,
+.yoyo.large.statistic > .value {
+  font-size: 5rem;
+}
+.yoyo.large.horizontal.statistics .statistic > .value,
+.yoyo.large.horizontal.statistic > .value {
+  font-size: 4rem;
+}
+.yoyo.large.statistics .statistic > .text.value,
+.yoyo.large.statistic > .text.value {
+  font-size: 2.5rem;
+}
+.yoyo.huge.statistics .statistic > .value,
+.yoyo.huge.statistic > .value {
+  font-size: 6rem;
+}
+.yoyo.huge.horizontal.statistics .statistic > .value,
+.yoyo.huge.horizontal.statistic > .value {
+  font-size: 5rem;
+}
+.yoyo.huge.statistics .statistic > .text.value,
+.yoyo.huge.statistic > .text.value {
+  font-size: 2.5rem;
+}

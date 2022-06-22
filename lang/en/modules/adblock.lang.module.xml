@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_AB_TITLE">Ad Block Manager</phrase>
+  <phrase data="_MOD_AB_INFO">Deleting Ad Campaign will also delete all images and plugin assigned under the same adblock.</phrase>
+  <phrase data="_MOD_AB_NEW">New Campaign</phrase>
+  <phrase data="_MOD_AB_ADD">Add Campaign</phrase>
+  <phrase data="_MOD_AB_NO_CMP">You dont have any campaigns tet. Please add...</phrase>
+  <phrase data="_MOD_AB_OFFLINE">Offline</phrase>
+  <phrase data="_MOD_AB_ONLINE">Online</phrase>
+  <phrase data="_MOD_AB_EDIT">Edit Campaign</phrase>
+  <phrase data="_MOD_AB_UPDATE">Update Campaign</phrase>
+  <phrase data="_MOD_AB_ADDED_OK">Campaign [NAME] added successfully!</phrase>
+  <phrase data="_MOD_AB_UPDATE_OK">Campaign [NAME] updated successfully!</phrase>
+  <phrase data="_MOD_AB_DEL_OK">Campaign [NAME] deleted successfully!</phrase>
+  <phrase data="_MOD_AB_SUB">Date Start/End</phrase>
+  <phrase data="_MOD_AB_SUB1">Total Views Allowed</phrase>
+  <phrase data="_MOD_AB_SUB2">Total Clicks Allowed</phrase>
+  <phrase data="_MOD_AB_SUB3">Minimum CTR</phrase>
+  <phrase data="_MOD_AB_SUB4">Banner Image</phrase>
+  <phrase data="_MOD_AB_SUB5">Banner Link</phrase>
+  <phrase data="_MOD_AB_SUB6">Banner ALT</phrase>
+  <phrase data="_MOD_AB_SUB7">Banner HTML Code</phrase>
+  <phrase data="_MOD_AB_SUB8">Clicks</phrase>
+  <phrase data="_MOD_AB_SUB9">Views</phrase>
+  <phrase data="_MOD_AB_SUB10">Date Start</phrase>
+  <phrase data="_MOD_AB_SUB11">Date End</phrase>
+  <phrase data="_MOD_AB_SUB12">Advertisement Media</phrase>
+</language>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_DP_TITLE">Manage CMS Donation Plugin</phrase>
+  <phrase data="_PLG_DP_TITLE1">Donate Configuration</phrase>
+  <phrase data="_PLG_DP_SUB">New Donation Campaign</phrase>
+  <phrase data="_PLG_DP_SUB1">Campaign Name</phrase>
+  <phrase data="_PLG_DP_SUB2">Payment Options</phrase>
+  <phrase data="_PLG_DP_SUB3">Success Redirect Page</phrase>
+  <phrase data="_PLG_DP_SUB4">Update Donation Campaign</phrase>
+  <phrase data="_PLG_DP_INFO">Here you can manage your donation plugin.</phrase>
+  <phrase data="_PLG_DP_NEW">New Donation</phrase>
+  <phrase data="_PLG_DP_TARGET">Target Amount</phrase>
+  <phrase data="_PLG_DP_DONATE">Donate</phrase>
+  <phrase data="_PLG_DP_NODON">You dont have any donation plugins yet...</phrase>
+  <phrase data="_PLG_DP_UPDATE_OK">Campaign [NAME] updated successfuly!</phrase>
+  <phrase data="_PLG_DP_ADDED_OK">Campaign [NAME] added successfuly!</phrase>
+</language>

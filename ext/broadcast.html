@@ -1,0 +1,12 @@
+
+<script src="/jquery/dist/jquery.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+
+<script>   
+    var socket = io.connect('https://cricmarkets.com:4200');
+        socket.on('connect', function(data) {
+        socket.emit('join', 'Hello World from client');
+    });
+    socket.emit('messages', "start_update");
+</script>
+

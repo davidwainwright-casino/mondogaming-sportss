@@ -1,0 +1,1 @@
+<button data-weditable="true" class="yoyo primary button" data-type="button"> Button</button>

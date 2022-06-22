@@ -1,0 +1,334 @@
+/* == Date Picker  == */
+.yoyo.calendar.popup,
+.yoyo.mini.calendar.popup {
+  max-width: none;
+  padding: 0;
+  border: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: .875rem;
+}
+.yoyo.calendar .yoyo.popup::before {
+  background: #F9FAFB;
+}
+.yoyo.calendar .yoyo.popup.top::before {
+  background: #fff;
+}
+.yoyo.calendar .calendar:focus {
+  outline: 0;
+}
+.yoyo.calendar .yoyo.table.year,
+.yoyo.calendar .yoyo.table.month,
+.yoyo.calendar .yoyo.table.minute {
+  min-width: 15em;
+}
+.yoyo.calendar .yoyo.table.day {
+  min-width: 18em;
+}
+.yoyo.calendar .yoyo.table.hour {
+  min-width: 20em;
+}
+.yoyo.calendar .yoyo.table tr th,
+.yoyo.calendar .yoyo.table tr td {
+  padding: 0.5em;
+  white-space: nowrap;
+}
+.yoyo.calendar .yoyo.table tr th {
+  border-left: none;
+}
+.yoyo.calendar .yoyo.table tr th .icon {
+  margin: 0;
+}
+.yoyo.calendar .yoyo.table tr th .icon {
+  margin: 0;
+}
+.yoyo.calendar .yoyo.table tr:first-child th {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+.yoyo.calendar .yoyo.table.day tr:first-child th {
+  border: none;
+}
+.yoyo.calendar .yoyo.table.day tr:nth-child(2) th {
+  padding-top: 0.2em;
+  padding-bottom: 0.3em;
+}
+.yoyo.calendar .yoyo.table tr td {
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+}
+.yoyo.calendar .yoyo.table tr .link {
+  cursor: pointer;
+}
+.yoyo.calendar .yoyo.table tr .prev.link {
+  width: 14.28571429%;
+  position: absolute;
+  left: 0;
+}
+.yoyo.calendar .yoyo.table tr .next.link {
+  width: 14.28571429%;
+  position: absolute;
+  right: 0;
+}
+.yoyo.calendar .yoyo.table tr .disabled {
+  pointer-events: none;
+  color: rgba(40, 40, 40, 0.3);
+}
+/* == States  == */
+.yoyo.calendar .yoyo.table tr td.today {
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.yoyo.calendar .yoyo.table tr td.range {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.95);
+  box-shadow: none;
+}
+.yoyo.calendar .yoyo.table.inverted tr td.range {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  box-shadow: none;
+}
+.yoyo.calendar .calendar:focus .yoyo.table tbody tr td.focus,
+.yoyo.calendar .calendar.active .yoyo.table tbody tr td.focus {
+  box-shadow: inset 0 0 0 1px #33BFC1;
+}
+.yoyo.calendar .yoyo.table tbody tr td.active {
+  background: #33BFC1;
+  color: #fff
+}
+.yoyo.calendar .calendar:focus .yoyo.table.inverted tbody tr td.focus,
+.yoyo.calendar .calendar.active .yoyo.table.inverted tbody tr td.focus {
+  box-shadow: inset 0 0 0 1px #33BFC1;
+}
+/* == Calendar  == */
+.yoyo.calendar .header {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  background: #fff;
+  box-shadow: inset 0 1px 0 0 rgba(0,0,0,0.1), inset 0 -1px 0 0 rgba(0,0,0,0.1);
+}
+.yoyo.calendar .header div {
+  width: 14.28%!important;
+  display: table-cell;
+  box-sizing: border-box;
+  position: relative;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  padding: .5em;
+  font-size: .875em;
+}
+/* Calendar days wrapper */
+.yoyo.calendar .content {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+.yoyo.calendar .weeks {
+  display: table-row;
+  width: 100%;
+}
+/* Calendar Days */
+.yoyo.calendar .weeks .cell {
+  width: 14.28%!important;
+  display: table-cell;
+  vertical-align: top;
+  box-sizing: border-box;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+  transition: .25s;
+  padding: 0;
+  text-decoration: none;
+}
+.yoyo.calendar .weeks .day:before {
+  content: " ";
+  display: block;
+  padding-top: 100%;
+  float: left;
+}
+.yoyo.calendar .weeks .empty {
+  background-color: #FDFDFD;
+}
+.yoyo.calendar .weeks .date {
+  position: absolute;
+  line-height: 1em;
+  text-align: right;
+  top: 2px;
+  right: 5px;
+  font-size: .750em;
+  color: rgba(0,0,0,0.5)
+}
+/* Current day style */
+.yoyo.calendar .weeks .day.today {
+  background: #fffde7;
+}
+.yoyo.calendar .weeks .day.today .date {
+  color: #E2747E;
+}
+.yoyo.calendar .progress {
+  position: relative;
+  text-align: center;
+  line-height: 0;
+  max-width: 20px;
+  margin: 0 auto;
+  padding-top: 30%;
+}
+.yoyo.calendar .indicator {
+  display: inline-block;
+  margin: 1px;
+  width: 8px;
+  height: 8px;
+  vertical-align: middle;
+  border-radius: 6px;
+  background-color: #2B3D4C;
+  font-size: 0;
+  color: transparent;
+}
+.yoyo.calendar .indicator:hover {
+  cursor: pointer;
+}
+/* Current events */
+.yoyo.calendar .list {
+  background: rgba(255, 255, 255, 0.85);
+  overflow: auto;
+  position: absolute;
+  top: 38px;
+  width: 100%;
+  height: calc(100% - 40px);
+  display: none;
+}
+.yoyo.calendar .list .event {
+  display: block;
+  padding: .5em .875em;
+  border-radius: .188em;
+  margin-bottom: .5em;
+  position: relative
+}
+.yoyo.calendar .list .event p {
+  font-size: .875em;
+  color: rgba(0, 0, 0, 0.65);
+}
+.yoyo.calendar .list .event > a {
+  font-size: .875em;
+  font-weight: 500;
+  color: rgba(255,255,255,0.75)
+}
+.yoyo.calendar .list .event > a:hover {
+  color: rgba(255,255,255,1)
+}
+.yoyo.calendar .list .event .time {
+  font-weight: 400;
+  position: absolute;
+  right: 0.875em;
+  bottom: .5em;
+  color: rgba(255,255,255,0.75);
+}
+.yoyo.calendar .list .event .time .start,
+.yoyo.calendar .list .event .time .end {
+  font-size: .750em;
+  display: inline-block;
+}
+.yoyo.calendar .list .event .time .end:not(:empty):before {
+  content: '-';
+  padding: 0 2px;
+}
+.yoyo.calendar .list .date {
+  width: 4.5em;
+  position: absolute;
+  left: 0;
+  top: 0.875em;
+  text-align: center;
+  font-size: .875em;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.yoyo.calendar .list .date > span {
+  display: block;
+}
+.yoyo.calendar .list .today .date {
+  color: #E2747E;
+}
+.yoyo.calendar .event-item {
+  position: relative;
+  padding: .875em 0.875em .5em 4.5em;
+  display: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  text-align: left;
+}
+.yoyo.calendar .event-item:after {
+  content: '-/-';
+  padding: .5em .875em;
+  display: block;
+  margin-bottom: .5em;
+}
+.yoyo.calendar .event-item .remove {
+  top: 1em;
+  position: absolute;
+  right: 1.5em;
+  color: #fff
+}
+.yoyo.calendar .list .active {
+  display: block;
+}
+.yoyo.calendar .list .active .event:last-child {
+  margin-bottom: 0
+}
+.yoyo.calendar .list .active:after {
+  display: none!important;
+}
+
+@media (min-width: 400px) {
+.yoyo.calendar .weeks .date {
+  top: 5px;
+  left: 5px;
+  font-size: .785em;
+}
+}
+
+@media (min-width: 600px) {
+.yoyo.calendar .weeks .day {
+  padding-top: 1.5em;
+  position: relative;
+}
+.yoyo.calendar .weeks .day:before {
+  padding-top: 77%;
+}
+.yoyo.calendar .progress {
+  width: auto;
+  max-width: none;
+}
+.yoyo.calendar .progress {
+  padding: 0;
+}
+.yoyo.calendar .indicator {
+  font-weight: 500;
+  text-align: left;
+  display: block;
+  margin: 0 0 1px 0;
+  width: auto;
+  font-size: 0.688em;
+  padding: 1em;
+  border-radius: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.yoyo.calendar .indicator.start {
+  border-radius: 3px 0 0 3px;
+}
+.yoyo.calendar .indicator.end {
+  border-radius: 0 3px 3px 0;
+}
+}

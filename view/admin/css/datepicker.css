@@ -1,0 +1,381 @@
+v/* == Date Picker  == */
+.wojo.calendar .wojo.popup,
+.wojo.mini.calendar .wojo.popup {
+  max-width: none;
+  padding: 0;
+  border: none;
+  user-select: none;
+  font-size: .938rem;
+}
+.wojo.calendar .wojo.popup::before {
+  background: #F9FAFB;
+}
+.wojo.calendar .wojo.popup.top::before {
+  background: #fff;
+}
+.wojo.calendar .calendar:focus {
+  outline: 0;
+}
+.wojo.calendar .wojo.table,
+.wojo.calendar .wojo.table tr,
+.wojo.calendar .wojo.table tr td,
+.wojo.calendar .wojo.tab/* == Date Picker  == */
+.yoyo.calendar .yoyo.popup,
+.yoyo.mini.calendar .yoyo.popup {
+  max-width: none;
+  padding: 0;
+  border: none;
+  user-select: none;
+  font-size: .938rem;
+}
+.yoyo.calendar .yoyo.popup::before {
+  background: #F9FAFB;
+}
+.yoyo.calendar .yoyo.popup.top::before {
+  background: #fff;
+}
+.yoyo.calendar .calendar:focus {
+  outline: 0;
+}
+.yoyo.calendar .yoyo.table,
+.yoyo.calendar .yoyo.table tr,
+.yoyo.calendar .yoyo.table tr td,
+.yoyo.calendar .yoyo.table thead th {
+  border: 0;
+}
+.yoyo.calendar .yoyo.table.year,
+.yoyo.calendar .yoyo.table.month,
+.yoyo.calendar .yoyo.table.minute {
+  min-width: 15em;
+}
+.yoyo.calendar .yoyo.table.day {
+  min-width: 18em;
+}
+.yoyo.calendar .yoyo.table.hour {
+  min-width: 20em;
+}
+.yoyo.calendar .yoyo.table tr th,
+.yoyo.calendar .yoyo.table tr td {
+  padding: 0.5em;
+  white-space: nowrap;
+  border-left: 0;
+}
+.yoyo.calendar .yoyo.table tr th {
+  border-left: 0;
+  background: #fff
+}
+.yoyo.calendar .yoyo.table tr th .icon {
+  margin: 0;
+}
+.yoyo.calendar .yoyo.table tr th .icon {
+  margin: 0;
+}
+.yoyo.calendar .yoyo.table tr:first-child th {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+.yoyo.calendar .yoyo.table.day tr:first-child th {
+  border: none;
+}
+.yoyo.calendar .yoyo.table.day tr:nth-child(2) th {
+  padding-top: 0.2em;
+  padding-bottom: 0.3em;
+}
+.yoyo.calendar .yoyo.table tr td {
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-radius:.188em;
+}
+.yoyo.calendar .yoyo.table tr .link {
+  cursor: pointer;
+}
+.yoyo.calendar .yoyo.table tr .prev.link {
+  width: calc(100% /7);
+  position: absolute;
+  left: 0;
+}
+.yoyo.calendar .yoyo.table tr .next.link {
+  width: calc(100% /7);
+  position: absolute;
+  right: 0;
+}
+.yoyo.calendar .yoyo.table tr .disabled {
+  pointer-events: none;
+  color: rgba(40, 40, 40, 0.3);
+}
+/* == States  == */
+.yoyo.calendar .yoyo.table tr td.today {
+  font-weight: 500;
+  background-color: #ed7020;
+  color: #fff;
+}
+.yoyo.calendar .yoyo.table tr td.range {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.95);
+  box-shadow: none;
+}
+.yoyo.calendar .yoyo.table.inverted tr td.range {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  box-shadow: none;
+}
+.yoyo.calendar .calendar:focus .yoyo.table tbody tr td.focus,
+.yoyo.calendar .calendar.active .yoyo.table tbody tr td.focus {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius:.188em;
+}
+.yoyo.calendar .yoyo.table tbody tr td.active {
+  background: #E91E63;
+  color: #fff
+}
+.yoyo.calendar .calendar:focus .yoyo.table.inverted tbody tr td.focus,
+.yoyo.calendar .calendar.active .yoyo.table.inverted tbody tr td.focus {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius:.188em;
+}
+/* == Calendar  == */
+.yoyo.calendar {
+  border-radius:0.375em;
+}
+.yoyo.calendar .header {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.1);
+}
+.yoyo.calendar .header div {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  min-width: 0;
+  position: relative;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  padding: .5em;
+  font-size: .938em;
+}
+/* Calendar days wrapper */
+.yoyo.calendar .content {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  overflow: hidden;
+  border-radius:0.375em;
+}
+.yoyo.calendar .weeks {
+  display: table-row;
+  width: 100%;
+}
+/* Calendar Days */
+.yoyo.calendar .weeks .cell {
+  width: Calc(100% /7);
+  display: table-cell;
+  vertical-align: top;
+  box-sizing: border-box;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+  -webkit-transition: .25s;
+  transition: .25s;
+  padding: 0;
+  text-decoration: none;
+}
+.yoyo.calendar .weeks .day:before {
+  content: " ";
+  display: block;
+  padding-top: 100%;
+  float: left;
+}
+.yoyo.calendar .weeks .empty {
+  background-color: #FDFDFD;
+}
+.yoyo.calendar .weeks .date {
+  position: absolute;
+  line-height: 2em;
+  top: 2px;
+  right: 5px;
+  font-size: .875em;
+  color: rgba(0,0,0,0.5);
+  width:2em;
+  height:2em;
+  text-align:center;
+  border-radius:2em;
+}
+/* Current day style */
+.yoyo.calendar .weeks .day.today .date {
+  background: #ed7020;
+}
+.yoyo.calendar .weeks .day.today .date {
+  color: #fff;
+}
+.yoyo.calendar .progress {
+  position: relative;
+  text-align: center;
+  line-height: 0;
+  max-width: 20px;
+  margin: 0 auto;
+  padding-top:1.75em;
+}
+.yoyo.calendar .indicator {
+  display: inline-block;
+  margin: 1px;
+  width: 8px;
+  height: 8px;
+  vertical-align: middle;
+  border-radius: 6px;
+  background-color: #2B3D4C;
+  font-size: 0;
+  color: transparent;
+}
+.yoyo.calendar .indicator:hover {
+  cursor: pointer;
+}
+/* Current events */
+.yoyo.calendar .list {
+  background: rgba(255, 255, 255, 0.85);
+  overflow: auto;
+  position: absolute;
+  top: 38px;
+  width: 100%;
+  height: calc(100% - 40px);
+  display: none;
+}
+.yoyo.calendar .list .event {
+  display: block;
+  color: #fff;
+  padding: .5em .938em;
+  border-radius: .188em;
+  margin-bottom: .5em;
+  position: relative
+}
+.yoyo.calendar .list .event .description {
+  font-size: .938em;
+  margin:0.25em 0
+}
+.yoyo.calendar .list .event > a {
+  font-size: .938em;
+  font-weight: 700;
+  color: rgba(255,255,255,0.75)
+}
+.yoyo.calendar .list .event > a:hover {
+  color: rgba(255,255,255,1)
+}
+.yoyo.calendar .list .event .time {
+  font-weight: 700;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.yoyo.calendar .list .event .time .start,
+.yoyo.calendar .list .event .time .end {
+  font-size: .875em;
+  display: inline-block;
+}
+.yoyo.calendar .list .event .time .end:not(:empty):before {
+  content: '-';
+  padding: 0 2px;
+}
+.yoyo.calendar .list .date {
+  width: 4.5em;
+  position: absolute;
+  left: 0;
+  top: 0.938em;
+  text-align: center;
+  font-size: .938em;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.yoyo.calendar .list .date > span {
+  display: block;
+}
+.yoyo.calendar .list .today .date {
+  color: #5E35B1;
+}
+.yoyo.calendar .event-item {
+  position: relative;
+  padding: .938em 0.938em .5em 4.5em;
+  display: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  text-align: left;
+}
+.yoyo.calendar .event-item:after {
+  content: '-/-';
+  padding: .5em .938em;
+  display: block;
+  margin-bottom: .5em;
+}
+.yoyo.calendar .event-item .remove {
+  top: 1em;
+  position: absolute;
+  right: 1.5em;
+  color: #fff
+}
+.yoyo.calendar .list .active {
+  display: block;
+}
+.yoyo.calendar .list .active:after {
+  display: none!important;
+}
+
+@media (min-width: 400px) {
+.yoyo.calendar .weeks .date {
+  top: 5px;
+  left: 5px;
+  font-size: .750em;
+}
+}
+
+@media (min-width: 600px) {
+.yoyo.calendar .weeks .day {
+  padding-top: 1.5em;
+  position: relative;
+}
+.yoyo.calendar .weeks .day:before {
+  padding-top: 77%;
+}
+.yoyo.calendar .progress {
+  width: auto;
+  max-width: none;
+  padding-top:0.5em;
+}
+.yoyo.calendar .list .event .time {
+  position: absolute;
+  left:auto;
+  right:0.5em
+}
+.yoyo.calendar .indicator {
+  font-weight: 500;
+  text-align: left;
+  display: block;
+  margin: 0 0 1px 0;
+  width: auto;
+  font-size: 0.750em;
+  padding: 1em;
+  border-radius: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.yoyo.calendar .indicator.start {
+  border-radius: 1em 0 0 1em;
+}
+.yoyo.calendar .indicator.end {
+  border-radius: 0 1em 1em 0;
+}
+.yoyo.calendar .indicator.full {
+  border-radius: 1em;
+}
+}

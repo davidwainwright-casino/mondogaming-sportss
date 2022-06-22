@@ -1,0 +1,39 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+
+
+
+
+<div class="cdeposit" id="10">
+  <a class="buy-with-crypto"
+     href="https://commerce.coinbase.com/checkout/2e7e164a-712d-42e8-bd4b-41d61dae4c47">
+   Deposit With Crypto
+  </a>
+  <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807&onload=seeSuccess()">
+  </script>
+</div>
+
+
+
+
+
+
+
+
+
+ 
+<script>
+jQuery(document).ready(function(){
+    jQuery('.cdeposit').on('click', function() {
+        alert("deposit 10");
+    });
+    
+	});
+
+BuyWithCrypto.registerCallback('onSuccess', function(e){
+    alert("success deposit");
+});
+
+</script>

@@ -1,0 +1,12 @@
+{
+   "cplugset":[
+    {
+        "code": "agenda",
+        "name": "Agenda"
+    },
+    {
+        "code": "aid kit",
+        "name": "Aid Kit"
+    },
+   ]
+}

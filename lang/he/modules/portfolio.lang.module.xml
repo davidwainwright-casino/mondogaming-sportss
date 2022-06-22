@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_PF_TITLE">Manage CMS Portfolio Module</phrase>
+  <phrase data="_MOD_PF_SUB">Item Management</phrase>
+  <phrase data="_MOD_PF_SUB1">Client</phrase>
+  <phrase data="_MOD_PF_ADD">Add Item</phrase>
+  <phrase data="_MOD_PF_SUB2">Edit Item</phrase>
+  <phrase data="_MOD_PF_SUB3">Portfolio Categories</phrase>
+  <phrase data="_MOD_PF_SUB4">Edit Category</phrase>
+  <phrase data="_MOD_PF_SUB4">Portfolio Configuration</phrase>
+  <phrase data="_MOD_PF_SUB5">Items Per Category Page</phrase>
+  <phrase data="_MOD_PF_SUB6">Items Per Home Page</phrase>
+  <phrase data="_MOD_PF_SUB7">Item Layout</phrase>
+  <phrase data="_MOD_PF_SUB8">Show Category Navigation</phrase>
+  <phrase data="_MOD_PF_SUB12">Show Social Icons</phrase>
+  <phrase data="_MOD_PF_SUB9">Show Sorting Options</phrase>
+  <phrase data="_MOD_PF_SUB10">Show Featured Only</phrase>
+  <phrase data="_MOD_PF_SUB11">Featured Item</phrase>
+  <phrase data="_MOD_PF_SUB13">Latest Items</phrase>
+  <phrase data="_MOD_PF_NOPROJ">You dont have any item yet. Please add...</phrase>
+  <phrase data="_MOD_PF_DEL_OK">Item [NAME] deleted successfuly!</phrase>
+  <phrase data="_MOD_PF_CUPDATED">Portfolio settings updated successfully!</phrase>
+  <phrase data="_MOD_PF_CAT_UPDATE_OK">Category [NAME] updated successfully!</phrase>
+  <phrase data="_MOD_PF_CAT_ADDED_OK">Category [NAME] added successfully!</phrase>
+  <phrase data="_MOD_PF_ITM_UPDATE_OK">Item [NAME] updated successfully!</phrase>
+  <phrase data="_MOD_PF_ITM_ADDED_OK">Item [NAME] added successfully!</phrase>
+  <phrase data="_MOD_PF_CAT_DEL_OK">Category [NAME] deleted successfully!</phrase>
+  <phrase data="_MOD_PF_UPDATECAT">Update Category</phrase>
+  <phrase data="_MOD_PF_UPDATEITM">Update Item</phrase>
+  <phrase data="_MOD_PF_NEWITM">New Item</phrase>
+  <phrase data="_MOD_PF_NEWCAT">New Category</phrase>
+</language>

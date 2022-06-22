@@ -1,0 +1,328 @@
+/* == Progress == */
+.yoyo.progress {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  border: none;
+  margin: 0;
+  box-shadow: none;
+  background-color: #E2E1E6;
+  padding: 0em;
+  border-radius: 0.28571429rem;
+}
+.yoyo.progress:first-child {
+  margin: 0em 0em 2.5em;
+}
+.yoyo.progress:last-child {
+  margin: 0em 0em 1.5em;
+}
+/* == Content == */
+.yoyo.progress .bar {
+  display: block;
+  line-height: 1;
+  position: relative;
+  width: 0%;
+  min-width: 0em;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0.188rem;
+  -webkit-transition: width 0.1s ease, background-color 0.1s ease;
+  transition: width 0.1s ease, background-color 0.1s ease;
+}
+.yoyo.progress .bar > .progress {
+  white-space: nowrap;
+  position: absolute;
+  width: auto;
+  font-size: 0.92857143em;
+  top: 50%;
+  right: 0.5em;
+  left: auto;
+  bottom: auto;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: none;
+  margin-top: -0.5em;
+  font-weight: bold;
+  text-align: left;
+}
+/* == Label == */
+.yoyo.progress > .label {
+  position: absolute;
+  width: 100%;
+  font-size: 1em;
+  top: 100%;
+  right: auto;
+  left: 0%;
+  bottom: auto;
+  color: rgba(0, 0, 0, 0.87);
+  text-shadow: none;
+  font-weight: 700;
+  margin-top: 0.2em;
+  text-align: center;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+.yoyo.progress > .small.label {
+  font-size: .875em;
+  font-weight: 500;
+}
+/* == Types == */
+.yoyo.indicating.progress[data-percent^="1"] .bar,
+.yoyo.indicating.progress[data-percent^="2"] .bar {
+  background-color: #f44336;
+}
+.yoyo.indicating.progress[data-percent^="3"] .bar {
+  background-color: #ff9800;
+}
+.yoyo.indicating.progress[data-percent^="4"] .bar,
+.yoyo.indicating.progress[data-percent^="5"] .bar {
+  background-color: #ffc107;
+}
+.yoyo.indicating.progress[data-percent^="6"] .bar {
+  background-color: #ffeb3b;
+}
+.yoyo.indicating.progress[data-percent^="7"] .bar,
+.yoyo.indicating.progress[data-percent^="8"] .bar {
+  background-color: #eb1515;
+}
+.yoyo.indicating.progress[data-percent^="9"] .bar,
+.yoyo.indicating.progress[data-percent^="100"] .bar {
+  background-color: #eb1515;
+}
+.yoyo.indicating.progress[data-percent^="1"] .label,
+.yoyo.indicating.progress[data-percent^="2"] .label {
+  color: rgba(0, 0, 0, 0.87);
+}
+.yoyo.indicating.progress[data-percent^="3"] .label {
+  color: rgba(0, 0, 0, 0.87);
+}
+.yoyo.indicating.progress[data-percent^="4"] .label,
+.yoyo.indicating.progress[data-percent^="5"] .label {
+  color: rgba(0, 0, 0, 0.87);
+}
+.yoyo.indicating.progress[data-percent^="6"] .label {
+  color: rgba(0, 0, 0, 0.87);
+}
+.yoyo.indicating.progress[data-percent^="7"] .label,
+.yoyo.indicating.progress[data-percent^="8"] .label {
+  color: rgba(0, 0, 0, 0.87);
+}
+.yoyo.indicating.progress[data-percent^="9"] .label,
+.yoyo.indicating.progress[data-percent^="100"] .label {
+  color: rgba(0, 0, 0, 0.87);
+}
+.yoyo.indicating.progress[data-percent="1"] .bar,
+.yoyo.indicating.progress[data-percent="2"] .bar,
+.yoyo.indicating.progress[data-percent="3"] .bar,
+.yoyo.indicating.progress[data-percent="4"] .bar,
+.yoyo.indicating.progress[data-percent="5"] .bar,
+.yoyo.indicating.progress[data-percent="6"] .bar,
+.yoyo.indicating.progress[data-percent="7"] .bar,
+.yoyo.indicating.progress[data-percent="8"] .bar,
+.yoyo.indicating.progress[data-percent="9"] .bar {
+  background-color: #F44336;
+}
+.yoyo.indicating.progress[data-percent="1"] .label,
+.yoyo.indicating.progress[data-percent="2"] .label,
+.yoyo.indicating.progress[data-percent="3"] .label,
+.yoyo.indicating.progress[data-percent="4"] .label,
+.yoyo.indicating.progress[data-percent="5"] .label,
+.yoyo.indicating.progress[data-percent="6"] .label,
+.yoyo.indicating.progress[data-percent="7"] .label,
+.yoyo.indicating.progress[data-percent="8"] .label,
+.yoyo.indicating.progress[data-percent="9"] .label {
+  color: rgba(0, 0, 0, 0.87);
+}
+.yoyo.indicating.progress.success .label {
+  color: #6CBB6F;
+}
+/* == States == */
+.yoyo.progress.success .bar {
+  background-color: #6CBB6F !important;
+}
+.yoyo.progress.success .bar,
+.yoyo.progress.success .bar::after {
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+.yoyo.progress.success > .label {
+  color: #6CBB6F;
+}
+.yoyo.progress.warning .bar {
+  background-color: #FBA92F !important;
+}
+.yoyo.progress.warning .bar,
+.yoyo.progress.warning .bar::after {
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+.yoyo.progress.warning > .label {
+  color: #FBA92F;
+}
+.yoyo.progress.error .bar {
+  background-color: #49A7F1 !important;
+}
+.yoyo.progress.error .bar,
+.yoyo.progress.error .bar::after {
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+.yoyo.progress.error > .label {
+  color: #49A7F1;
+}
+.yoyo.progress.transparent .bar {
+  background-color: rgba(255,255,255,0.5) !important;
+}
+.yoyo.active.progress .bar {
+  position: relative;
+  min-width: 2em;
+}
+.yoyo.active.progress .bar::after {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: #ffffff;
+  border-radius: 0.28571429rem;
+  -webkit-animation: progress-active 2s ease infinite;
+  animation: progress-active 2s ease infinite;
+}
+@-webkit-keyframes progress-active {
+ 0% {
+ opacity: 0.3;
+ width: 0;
+}
+ 100% {
+ opacity: 0;
+ width: 100%;
+}
+}
+@keyframes progress-active {
+ 0% {
+ opacity: 0.3;
+ width: 0;
+}
+ 100% {
+ opacity: 0;
+ width: 100%;
+}
+}
+.yoyo.disabled.progress {
+  opacity: 0.35;
+}
+.yoyo.disabled.progress .bar,
+.yoyo.disabled.progress .bar::after {
+  -webkit-animation: none !important;
+  animation: none !important;
+}
+/* == Variations == */
+.yoyo.progress.attached {
+  background: transparent;
+  position: relative;
+  border: none;
+  margin: 0em;
+}
+.yoyo.progress.attached,
+.yoyo.progress.attached .bar {
+  display: block;
+  height: 3px;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 0;
+}
+.yoyo.progress.attached .bar {
+  border-radius: 0em;
+}
+.yoyo.progress.top.attached,
+.yoyo.progress.top.attached .bar {
+  top: 0px;
+  border-radius: 0;
+}
+.yoyo.progress.top.attached .bar {
+  border-radius: 0em;
+}
+.yoyo.segment > .yoyo.attached.progress,
+.yoyo.card > .yoyo.attached.progress,
+.yoyo.list .item > .yoyo.attached.progress,
+.yoyo.flex .yoyo.attached.progress {
+  position: absolute;
+  top: auto;
+  left: 0;
+  bottom: 100%;
+  width: 100%;
+}
+.yoyo.segment > .yoyo.bottom.attached.progress,
+.yoyo.card > .yoyo.bottom.attached.progress,
+.yoyo.list .item > .yoyo.bottom.attached.progress,
+.yoyo.flex .yoyo.bottom.progress {
+  top: 100%;
+  bottom: auto;
+}
+.yoyo.progress .bar {
+  height: 1.75em;
+}
+.yoyo.pointing.progress,
+.yoyo.pointing.progress:first-child,
+.yoyo.pointing.progress:last-child {
+  margin: 0;
+  height: 2px;
+}
+.yoyo.pointing.progress .bar {
+  height: 2px;
+}
+.yoyo.pointing.progress .bar:after {
+  height: 12px;
+  width: 12px;
+  right: 0;
+  top: 50%;
+  border-radius: 500em;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  content: "";
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* == Sizes == */
+.yoyo.mini.progress {
+  font-size: 0.625rem;
+  border-radius: .063rem
+}
+.yoyo.mini.progress .bar {
+  height: 0.35em;
+  border-radius: .063rem
+}
+.yoyo.tiny.progress {
+  font-size: 0.85714286rem;
+  border-radius: .063rem
+}
+.yoyo.tiny.progress .bar {
+  height: 0.5em;
+  border-radius: .063rem
+}
+.yoyo.small.progress {
+  font-size: 0.92857143rem;
+  border-radius: .125rem
+}
+.yoyo.small.progress .bar {
+  height: 1em;
+  border-radius: .125rem
+}
+.yoyo.progress {
+  font-size: 1rem;
+}
+.yoyo.large.progress {
+  font-size: 1.14285714rem;
+}
+.yoyo.large.progress .bar {
+  height: 2.5em;
+}
+.yoyo.big.progress {
+  font-size: 1.28571429rem;
+}
+.yoyo.big.progress .bar {
+  height: 3.5em;
+}

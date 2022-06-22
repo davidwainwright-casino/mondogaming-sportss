@@ -1,0 +1,12 @@
+
+ { "greyhound_names":["psycho","all saturdays","the norman","t-rex","nice tuft","baloo"],
+    "odd_win_bet":[3.7,5.5,2.2,11.75,17.25,8.75],
+    "odd_place_bet":[1.95,2.55,1.25,5.5,7.75,3.05],
+    "odd_show_bet":[1.25,1.7,1.09,2.55,4,1.75],
+    "forecast":[{"first":1,"second":2,"odd":20},{"first":1,"second":3,"odd":6.25},{"first":1,"second":4,"odd":60},{"first":1,"second":5,"odd":80},{"first":1,"second":6,"odd":23},
+                {"first":2,"second":1,"odd":28},{"first":2,"second":3,"odd":10.25},{"first":2,"second":4,"odd":65},{"first":2,"second":5,"odd":68},{"first":2,"second":6,"odd":38},
+                {"first":3,"second":1,"odd":5.75},{"first":3,"second":2,"odd":8.75},{"first":3,"second":4,"odd":26},{"first":3,"second":5,"odd":31},{"first":3,"second":6,"odd":9},
+                {"first":4,"second":1,"odd":84},{"first":4,"second":2,"odd":56},{"first":4,"second":3,"odd":23},{"first":4,"second":5,"odd":80},{"first":4,"second":6,"odd":65},
+                {"first":5,"second":1,"odd":70},{"first":5,"second":2,"odd":70},{"first":5,"second":3,"odd":68},{"first":5,"second":4,"odd":84},{"first":5,"second":6,"odd":80},
+                {"first":6,"second":1,"odd":48},{"first":6,"second":2,"odd":58},{"first":6,"second":3,"odd":13},{"first":6,"second":4,"odd":70},{"first":6,"second":5,"odd":80}]
+ }

@@ -1,0 +1,115 @@
+/* == Segment == */
+.yoyo.segment {
+  position: relative;
+  background: #ffffff;
+  margin: 2rem 0em;
+  padding: 2em;
+  border-radius: .250rem;
+  box-shadow: 0 0 35px rgba(140, 152, 164, 0.125);
+}
+.yoyo.top.attached.segment {
+  margin-top: 0px;
+  margin-bottom: 2em;
+}
+.yoyo.bottom.attached.segment {
+  margin-bottom: 0px;
+  margin-top: 2em;
+}
+.yoyo.attached.segment {
+  margin: 0 0;
+}
+.yoyo.basic.segment {
+  box-shadow: 0 0 0 1px rgba(0,0,0,.14);
+}
+.yoyo.simple.segment {
+  box-shadow: none;
+}
+.yoyo.fitted.segment {
+  padding: 0
+}
+.yoyo.passive.segment {
+  box-shadow: none;
+  padding: 0
+}
+.yoyo.segment.active {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(0,0,0, 0.4);
+}
+.yoyo.plugin.segment {
+  box-shadow: 0 0.375rem 1.5rem 0 rgba(140, 152, 164, 0.125);
+  border: 1px solid #e7eaf3;
+}
+/* == Loading == */
+.yoyo.loading.segment .yoyo.loader {
+  position: relative;
+  cursor: default;
+  point-events: none;
+  text-shadow: none !important;
+  color: transparent !important;
+  transition: all 0s linear;
+}
+.yoyo.loading.segment::before,
+.yoyo.loader::before {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left: 0%;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  border-radius: 0.250;
+  z-index: 100;
+}
+.yoyo.loading.segment::after,
+.yoyo.loader::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  margin: -1.5em 0em 0em -1.5em;
+  width: 3em;
+  height: 3em;
+  -webkit-animation: segment-spin 0.6s linear;
+  animation: segment-spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #767676 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 0.2em;
+  box-shadow: 0px 0px 0px 1px transparent;
+  visibility: visible;
+  z-index: 101;
+}
+.yoyo.small.loading.segment:after,
+.yoyo.small.loader:after {
+  margin: -1em 0em 0em -1em;
+  width: 2em;
+  height: 2em;
+}
+@-webkit-keyframes segment-spin {
+ from {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@keyframes segment-spin {
+ from {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+/* == Size == */
+.yoyo.relaxed.segment {
+  padding: 3em;
+}
+.yoyo.very.relaxed.segment {
+  padding: 4em;
+}

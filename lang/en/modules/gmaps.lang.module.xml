@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_GM_TITLE">Manage Location Maps</phrase>
+  <phrase data="_MOD_GM_TITLE1">Edit Location Maps</phrase>
+  <phrase data="_MOD_GM_TITLE2">New Location Maps</phrase>
+  <phrase data="_MOD_GM_UPDATE">Update Map</phrase>
+  <phrase data="_MOD_GM_SUB">Map Type</phrase>
+  <phrase data="_MOD_GM_SUB1">Zoom Level</phrase>
+  <phrase data="_MOD_GM_SUB1_1">Min/Max Zoom Level</phrase>
+  <phrase data="_MOD_GM_SUB2">Type Control</phrase>
+  <phrase data="_MOD_GM_SUB3">Street View</phrase>
+  <phrase data="_MOD_GM_SUB4">Preset Styles</phrase>
+  <phrase data="_MOD_GM_NEW">New Location</phrase>
+  <phrase data="_MOD_GM_SUB5">Find Address</phrase>
+  <phrase data="_MOD_GM_SUB6">Pin</phrase>
+  <phrase data="_MOD_GM_SUB7">New Location</phrase>
+  <phrase data="_MOD_GM_PINS">Custom Pins</phrase>
+  <phrase data="_MOD_GM_LAT">Latitude</phrase>
+  <phrase data="_MOD_GM_LNG">Longitude</phrase>
+  <phrase data="_MOD_GM_NOMAPS">You dont have any locations yet. Please add...</phrase>
+  <phrase data="_MOD_GM_DEL_OK">Location [NAME] deleted successfuly!</phrase>
+  <phrase data="_MOD_GM_UPDATE_OK">Location [NAME] updated successfuly!</phrase>
+  <phrase data="_MOD_GM_ADDED_OK">Location [NAME] added successfuly!</phrase>
+</language>

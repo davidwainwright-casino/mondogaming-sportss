@@ -1,0 +1,25 @@
+{
+	"name": "forum",
+	"version": "1.4.0",
+	"description": "Simple Forum",
+	"main": "gulpfile.js",
+	"author": "Mian Saleem",
+	"license": "Envato Regular License",
+	"scripts": {
+		"gulp": "gulp",
+		"ms": "gulp ms",
+		"style": "gulp style",
+		"build": "gulp build",
+		"watch": "gulp watch",
+		"styles": "gulp styles",
+		"scripts": "gulp scripts"
+	},
+	"devDependencies": {
+		"copyfiles": "^2.1.1",
+		"del": "^5.1.0",
+		"gulp": "^4.0.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-minify": "^3.1.0",
+		"gulp-sass": "^4.0.2"
+	}
+}

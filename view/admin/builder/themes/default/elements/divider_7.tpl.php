@@ -1,0 +1,1 @@
+<div class="yoyo icon divider" data-weditable="true">or</div>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title><?php echo $app->trans('install.title') ?></title>
+
+        <!-- Fonts -->
+
+        <?php echo $app->renderView('blocks/fonts.html'); ?>
+
+        <!-- Styles -->
+
+        <link rel="icon" type="image/icon" href="<?php echo $app->asset('img/fav.ico') ?>">
+
+        <link rel="stylesheet" href="<?php echo $app->asset('css/jquery.mCustomScrollbar.css') ?>" />
+        <link rel="stylesheet" href="<?php echo $app->asset('css/framework.css') ?>" />
+        <link rel="stylesheet" href="<?php echo $app->asset('css/main.css') ?>" />
+        <link rel="stylesheet" href="<?php echo $app->asset('css/admin.css') ?>" />
+        <link rel="stylesheet" href="<?php echo $app->asset('css/bootstrap.css') ?>" />
+    </head>
+    <body class="install-wizard">
+
+        <img class="logo" src="<?php echo $app->asset('img/logo.png') ?>">
+
+        <div class="panel">
+
+            <div class="header"><?php echo $app->trans('install.title') ?></div>
+
+            <div class="content">
+
+                <!-- Introduction -->
+
+                <p class="intro">
+                    <?php echo $app->trans('wizard.verify.intro') ?>
+                    <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-" target="_blank"><?php echo $app->trans('verify.find.code') ?></a>.
+                </p>
+
+                <?php if(isset($vars['error'])) { ?>
+                <p class="error">
+                    <?php echo $app->trans('wizard.input.err') ?>
+                </p>
+                <?php } ?>
+
+                <?php if(isset($vars['notWritable'])) { ?>
+                <p class="error">
+                    <?php echo $app->trans('wizard.files.err') ?>
+                    <br><br>
+                    <?php foreach($vars['notWritable'] as $path => $type) { ?>
+                        - <b><?php echo $path ?></b> <?php echo ($type == 'dir' ? 'directory' : 'file') ?><br>
+                    <?php } ?>
+                    <br>
+                    <?php echo $app->trans('wizard.files.err.2') ?>
+                </p>
+                <?php } ?>
+
+                <?php if(isset($vars['errors']['services']['verify']['token'])) { ?>
+                    <p class="error"><?php echo $vars['errors']['services']['verify']['token'][0] ?></p>
+                <?php } ?>
+
+                <form class="verify-form" action="<?php echo $app->path('Install:verifySubmit') ?>" method="post">
+
+                    <input type="hidden" class="token" name="config[services][verify][token]" value="<?php echo $vars['config']['services']['verify']['token'] ?>">
+
+                    <h2><?php echo $app->trans('verify.info') ?></h2>
+
+                    <div class="section">
+
+                        <p class="error error--main"></p>
+
+                        <div class="row">
+                            <div class="col3"><label><?php echo $app->trans('purchase.code') ?></label></div>
+                            <div class="col9 verify-form__code-wrapper">
+                                <input type="text" class="code" name="config[services][verify][code]" value="<?php echo $vars['config']['services']['verify']['code'] ?>" placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx">
+                                <img class="verify-form__loading loading" src="<?php echo $app->asset('img/loading.gif') ?>">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Actions -->
+
+                    <div class="row buttons">
+                        <div class="col6">
+                            <a class="btn secondary" href="<?php echo $app->path('Admin:index') ?>">
+                                <i class="icon-remove-sign icon-white"></i>
+                                <?php echo $app->trans('cancel') ?>
+                            </a>
+                        </div>
+
+                        <div class="col6">
+                            <button class="btn" type="submit">
+                                <?php echo $app->trans('save') ?>
+                                <i class="icon-circle-arrow-right icon-white"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+        <!-- Scripts -->
+
+        <?php echo $app->renderView('blocks/debugScripts.html'); ?>
+
+        <!--[if lte IE 9]>
+        <script type="text/javascript" src="<?php echo $app->asset('js/lib/es5-shim.min.js') ?>"></script>
+        <![endif]-->
+        <script src="<?php echo $app->asset('js/lib/jquery.js') ?>"></script>
+        <!--[if lte IE 9]>
+        <script type="text/javascript" src="<?php echo $app->asset('js/lib/placeholders.jquery.min.js') ?>"></script>
+        <![endif]-->
+
+        <script src="<?php echo $app->asset('js/lib/json2.js') ?>"></script>
+        <script src="<?php echo $app->asset('js/lib/underscore.js') ?>"></script>
+        <script src="<?php echo $app->asset('js/lib/handlebars.js') ?>"></script>
+        <script src="<?php echo $app->asset('js/lib/backbone.js') ?>"></script>
+        <script src="<?php echo $app->asset('js/lib/backbone.marionette.js') ?>"></script>
+
+        <script type="text/javascript">
+            window.chatConfig = {
+
+                services : {
+
+                    verify : {
+
+                        url : '<?php echo $vars["config"]["services"]["verify"]["url"] ?>',
+                        app : '<?php echo $vars["config"]["services"]["verify"]["app"] ?>'
+                    }
+                },
+
+                trans : <?php echo $vars["trans"] ?>
+            };
+        </script>
+
+        <script src="<?php echo $app->asset('js/app/Application.js') ?>"></script>
+        <script src="<?php echo $app->asset('js/app/service/I18n.js') ?>"></script>
+        <script src="<?php echo $app->asset('js/app/service/Verification.js') ?>"></script>
+        <script src="<?php echo $app->asset('js/app/view/admin/VerificationFormView.js') ?>"></script>
+        <script src="<?php echo $app->asset('js/verify.js') ?>"></script>
+
+    </body>
+</html>

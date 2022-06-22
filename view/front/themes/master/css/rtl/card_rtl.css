@@ -1,0 +1,256 @@
+/* == Card == */
+.yoyo.card {
+  position: relative;
+  background: #ffffff;
+  margin: 2rem 0em;
+  padding: 2em;
+  border-radius: .250rem;
+  box-shadow: 0 0.375rem 1.5rem 0 rgba(140, 152, 164, 0.125);
+  display: flex;
+  flex: 1 0 0%;
+  align-content: stretch;
+  flex-direction: column;
+}
+.yoyo.card > .content {
+  padding: 2em;
+  flex: 0 1 auto;
+}
+.yoyo.card > .footer,
+.yoyo.cards .card > .footer {
+  padding: 1.5em 2em;
+  flex: 0 1 auto;
+  border-radius: 0 0 .250rem .250rem;
+}
+.yoyo.card > .divided.footer,
+.yoyo.cards .card > .divided.footer {
+  border-top: 1px solid #e7eaf3
+}
+.yoyo.card > .fitted.footer,
+.yoyo.cards .card > .fitted.footer {
+  padding: 0
+}
+.yoyo.card .header:first-child {
+  border-radius: .250rem .250rem 0 0;
+}
+.yoyo.photo.card {
+  padding: 0;
+}
+.yoyo.photo.card > .image,
+.yoyo.cards .photo.card > img {
+  border-radius: .250rem .250rem 0 0;
+}
+.yoyo.photo.card.only > .image {
+  border-radius: .250rem;
+}
+.yoyo.top.attached.card {
+  margin-top: 0px;
+  margin-bottom: 2em;
+}
+.yoyo.bottom.attached.card {
+  margin-bottom: 0px;
+  margin-top: 2em;
+}
+.yoyo.attached.card {
+  margin: 0 0;
+}
+/* == Colors == */
+.yoyo.primary.card {
+  background-color: #377dff;
+  color: #ffffff;
+  box-shadow: 0 0 50px rgba(55, 125, 255, 0.4);
+}
+.yoyo.primary.card .header {
+  color: #ffffff;
+}
+.yoyo.positive.card {
+  background-color: #00c9a7;
+  color: #ffffff;
+  box-shadow: 0 0 50px rgba(0,201,167,0.4);
+}
+.yoyo.positive.card .header {
+  color: #ffffff;
+}
+.yoyo.negative.card {
+  background-color: #de4437;
+  color: #ffffff;
+  box-shadow: 0 0 50px rgba(222,68,55,0.4);
+}
+.yoyo.negative.card .header {
+  color: #ffffff;
+}
+.yoyo.card.grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+/* == Grid == */
+.yoyo.cards {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -1.5rem;
+  flex-wrap: wrap;
+}
+.yoyo.cards .card {
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e7eaf3;
+  border-radius: 0.25rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.yoyo.cards .card.full {
+  flex-direction: column;
+  display: flex;
+}
+.yoyo.cards .card > .content {
+  padding: 2em;
+}
+.yoyo.cards .card > .content.bottom.attached {
+  padding: 2em 2em 0 2em;
+}
+/* == Variations == */
+.yoyo.basic.card {
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+.yoyo.fitted.card {
+  padding: 0;
+  margin: 0
+}
+.yoyo.transparent.card {
+  background: transparent;
+  box-shadow: none;
+}
+.yoyo.tall.cards .card > .content {
+  padding: 8em 2em
+}
+.yoyo.link.card {
+  transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+}
+.yoyo.link.card:hover {
+  box-shadow: 0 0 35px rgba(55, 125, 255, 0.125);
+  border: 1px solid rgba(55, 125, 255, 0.3);
+}
+.yoyo.active.card,
+.yoyo.cards .active.card {
+  border-color: rgba(55, 125, 255, 0.3);
+  box-shadow: 0 0 35px rgba(55, 125, 255, 0.125);
+}
+.yoyo.basic.cards .card {
+  border: 0;
+  box-shadow: none;
+}
+.yoyo.card.grow,
+.yoyo.card .content.grow {
+  height: 100%;
+}
+.yoyo.cards .full.card > .footer {
+  margin-top: auto;
+}
+
+/* Screen */
+@media screen and (min-width: 64.063em) {
+.yoyo.cards.screen-block-1,
+.yoyo.cards.screen-block-2,
+.yoyo.cards.screen-block-3,
+.yoyo.cards.screen-block-4,
+.yoyo.cards.screen-block-5 {
+  flex-wrap: wrap;
+}
+.yoyo.cards.screen-block-1 > .card {
+  flex: 0 0 calc(100% - 1.5rem);
+  max-width: calc(100% - 1.5rem);
+}
+.yoyo.cards.screen-block-2 > .card {
+  flex: 0 0 calc(50% - 1.5rem);
+  max-width: calc(50% - 1.5rem);
+}
+.yoyo.cards.screen-block-3 > .card {
+  flex: 0 0 calc(100% / 3 - 1.5rem);
+  max-width: calc(100% / 3 - 1.5rem);
+}
+.yoyo.cards.screen-block-4 > .card {
+  flex: 0 0 calc(25% - 1.5rem);
+  max-width: calc(25% - 1.5rem);
+}
+.yoyo.cards.screen-block-5 > .card {
+  flex: 0 0 calc(20% - 1.5rem);
+  max-width: calc(20% - 1.5rem);
+}
+}
+
+/* Tablet */
+@media screen and (min-width:40.625em) and (max-width:64em) {
+.yoyo.cards.tablet-block-1,
+.yoyo.cards.tablet-block-2,
+.yoyo.cards.tablet-block-3,
+.yoyo.cards.tablet-block-4,
+.yoyo.cards.tablet-block-5 {
+  flex-wrap: wrap;
+}
+.yoyo.cards.tablet-block-1 > .card {
+  flex: 0 0 calc(100% - 1.5rem);
+  max-width: calc(100% - 1.5rem);
+}
+.yoyo.cards.tablet-block-2 > .card {
+  flex: 0 0 calc(50% - 1.5rem);
+  max-width: calc(50% - 1.5rem);
+}
+.yoyo.cards.tablet-block-3 > .card {
+  flex: 0 0 calc(100% / 3 - 1.5rem);
+  max-width: calc(100% / 3 - 1.5rem);
+}
+.yoyo.cards.tablet-block-4 > .card {
+  flex: 0 0 calc(25% - 1.5rem);
+  max-width: calc(25% - 1.5rem);
+}
+.yoyo.cards.tablet-block-5 > .card {
+  flex: 0 0 calc(20% - 1.5rem);
+  max-width: calc(20% - 1.5rem);
+}
+}
+
+/* Mobile */
+@media screen and (max-width:48.063em) {
+.yoyo.cards.mobile-block-1,
+.yoyo.cards.mobile-block-2,
+.yoyo.cards.mobile-block-3,
+.yoyo.cards.mobile-block-4,
+.yoyo.cards.mobile-block-5 {
+  flex-wrap: wrap;
+}
+.yoyo.cards.mobile-block-1 > .card {
+  flex: 0 0 calc(100% - 1.5rem);
+  max-width: calc(100% - 1.5rem);
+}
+.yoyo.cards.mobile-block-2 > .card {
+  flex: 0 0 calc(50% - 1.5rem);
+  max-width: calc(50% - 1.5rem);
+}
+.yoyo.cards.mobile-block-3 > .card {
+  flex: 0 0 calc(100% / 3 - 1.5rem);
+  max-width: calc(100% / 3 - 1.5rem);
+}
+.yoyo.cards.mobile-block-4 > .card {
+  flex: 0 0 calc(25% - 1.5rem);
+  max-width: calc(25% - 1.5rem);
+}
+.yoyo.cards.mobile-block-5 > .card {
+  flex: 0 0 calc(20% - 1.5rem);
+  max-width: calc(20% - 1.5rem);
+}
+}
+
+/* Phone */
+@media screen and (max-width:30em) {
+.yoyo.cards.phone-block-1 > .card,
+.yoyo.cards.phone-block-2 > .card,
+.yoyo.cards.phone-block-3 > .card,
+.yoyo.cards.phone-block-4 > .card,
+.yoyo.cards.phone-block-5 > .card {
+  flex: 0 0 calc(100% - 1.5rem);
+  max-width: calc(100% - 1.5rem);
+}
+}

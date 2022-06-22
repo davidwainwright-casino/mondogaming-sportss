@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_EM_TITLE">Event Manager</phrase>
+  <phrase data="_MOD_EM_TITLE1">Edit Event</phrase>
+  <phrase data="_MOD_EM_TITLE2">New Event</phrase>
+  <phrase data="_MOD_EM_TITLE3">This Year Events</phrase>
+  <phrase data="_MOD_EM_SUB">Add Event</phrase>
+  <phrase data="_MOD_EM_SUB1">Venue</phrase>
+  <phrase data="_MOD_EM_SUB2">Contact</phrase>
+  <phrase data="_MOD_EM_SUB23">Ending</phrase>
+  <phrase data="_MOD_EM_SUB3">Latest events for year [YEAR]</phrase>
+  <phrase data="_MOD_EM_CONTACT">Contact Person</phrase>
+  <phrase data="_MOD_EM_VENUE">Venue Title</phrase>
+  <phrase data="_MOD_EM_PHONE">Contact Phone</phrase>
+  <phrase data="_MOD_EM_EMAIL">Contact Email</phrase>
+  <phrase data="_MOD_EM_COLOUR">Color Marker</phrase>
+  <phrase data="_MOD_EM_UPDATE">Update Event</phrase>
+  <phrase data="_MOD_EM_DATE_S">Date/Time Start</phrase>
+  <phrase data="_MOD_EM_DATE_SE">Date/Time End</phrase>
+  <phrase data="_MOD_EM_DATE_ST">Date Start</phrase>
+  <phrase data="_MOD_EM_DATE_E">Date End</phrase>
+  <phrase data="_MOD_EM_TIME_S">Time Start/Time End</phrase>
+  <phrase data="_MOD_EM_TIME_ST">Time Start</phrase>
+  <phrase data="_MOD_EM_TIME_ET">Time End</phrase>
+  <phrase data="_MOD_EM_NOEVENTS">You dont have any events yet. Please add...</phrase>
+  <phrase data="_MOD_EM_NOEVENTSF">Sorry we dont have any events yet...</phrase>
+  <phrase data="_MOD_EM_DEL_OK">Event [NAME] deleted successfuly!</phrase>
+  <phrase data="_MOD_EM_UPDATE_OK">Event [NAME] updated successfuly!</phrase>
+  <phrase data="_MOD_EM_ADDED_OK">Event [NAME] added successfuly!</phrase>
+</language>

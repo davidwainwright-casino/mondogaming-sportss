@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="36 -36 120 120">
+  <path fill="#BDC5D1" d="M109 10.6l-7.5-7.7-2-2.1-2.2-2.3-9.5-9.8-24.5-5.4L43.4 2.6l4.7 24.7 9.5 9.8 2.1 2.2 2.1 2.2L102 82.6c1.8 1.8 4.7 1.9 6.6.1l32.9-32c1.8-1.8 1.9-4.7.1-6.6l-5.7-5.8" opacity=".5"/>
+  <path fill="#FFF" stroke="#BDC5D1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4" d="M111.1-6.9l-7.5-7.7-2-2.1-2.2-2.3-9.5-9.8-24.5-5.4-19.8 19.3 4.7 24.7 9.5 9.8 2.1 2.2L64 24l40.1 41.2c1.8 1.8 4.7 1.9 6.6.1l32.9-32c1.8-1.8 1.9-4.7.1-6.6l-5.7-5.8"/>
+  <ellipse cx="132.4" cy="3.3" fill="#BDC5D1" opacity=".5" rx="16.2" ry="16.2"/>
+  <ellipse cx="67.8" cy="-11.8" fill="none" stroke="#377DFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" rx="7" ry="7"/>
+  <ellipse cx="124.5" cy="6.8" fill="#377DFF" rx="16.2" ry="16.2"/>
+  <path fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M118.6 1l10.5 10.8M118.4 11.6l10.8-10.5"/>
+  <path fill="none" stroke="#377DFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M93.2 18.8l-8.1 7.6"/>
+  <path fill="none" stroke="#377DFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M102.9 23.3l-11 10.4M109.4 30.8L98.7 40.9" opacity=".5"/>
+</svg>

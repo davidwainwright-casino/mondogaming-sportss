@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple forums is the most useful for those who need private forum for their clietns. This item can be used for general purpose forum or bulletin board too.">
+    <title>Simple Forum Documentation</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+            <div class="navbar navbar-default navbar-fixed-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand">Simple Forum Guide</a>
+                  <button href="#menu-toggle" id="menu-toggle" type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+                <li><a target="_blank" href="http://support.tecdiary.com/">Paid Support</a></li>
+                <li><a target="_blank" href="http://codecanyon.net/item/simple-forum-responsive-bulletin-board/13289844?ref=Tecdiary">Buy Simple Forum</a></li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav nav">
+            <li class="sidebar-brand"><a href="#">Forum</a></li>
+            <li><a class="scroll-to" href="#install">Install Guide</a></li>
+            <li><a class="scroll-to" href="#update">Update Guide</a></li>
+            <li><a class="scroll-to" href="#demo">Demo</a></li>
+            <li><a class="scroll-to" href="#credit">Credits</a></li>
+            <li><a class="scroll-to" href="#faqs">FAQs</a></li>
+            <li><a class="scroll-to" href="#guide">User Guide</a></li>
+            <li><a class="scroll-to" href="#language">Adding New Language</a></li>
+            <li><a class="scroll-to" href="#support">Support</a></li>
+        </ul>
+    </div>
+
+
+    <div id="page-content-wrapper">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="jumbotron">
+                        <h1 class="text-center">Simple Forum</h1>
+                        <p class="text-center">Simple Forum is responsive forum script with private and public mode.</p>
+                        <p class="text-center">Documentation Version 1.0</p>
+                    </div>
+
+                    <div class="set" id="install">
+                        <div class="set-description">
+                            <h3>Installation Instruction</h3>
+                            <p>Requirements: Apache 2.2+, Mysql 5.4+ (only_full_group_by disabled), PHP 5.4+ </p>
+                            <ol>
+                                <li>Copy/Upload the folder and files to your web server using cPanel or FTP</li>
+                                <li>If you are installing in sub folder, please make sure there is no space in folder names</li>
+                                <li>Create mysql database, database user and grant all permission to user for this database.</li>
+                                <li>Open the <strong><code>http://yourdomain.com/pathtoupload/install/index.php</code></strong></li>
+                                <li>Step 1: Pre-install system checklist - If there is any issue with checklist, you will need to fix it first to proceed to next step.</li>
+                                <li>Step2: Provide you Envato Username and Purchase Code to validate the purchase.</li>
+                                <li>Step 3: Provide the database host, database user, database password and database name to proceed to next step. <code>Please make sure you don't have $ sign in your password.</code></li>
+                                <li>Step 4: Site Config: Please Fill in you Simple Stock Base URL and select your timezone. <code>You must check the site url as installer might guess it wrong</code>
+                                    <ul>
+                                        <li>Base URL for public_html or www/htdocs folder will be <code>http://yourdomain.com/</code> or <code>http://localhost/</code></li>
+                                        <li>Base URL for sub-domain will be <code>http://subdomain.yourdomain.com/</code> </li>
+                                        <li>Base URL for sub-folder will be <code>http://yourdomain.com/subfolder/</code> or <code>http://localhost/subfolder/</code> </li>
+                                        <li>Base URL must not have space and it should end with a trailing slash</li>
+                                    </ul>
+                                </li>
+                                <li>If every thing goes smooth, You will be redirect to final page with login details.</li>
+                                <li>Remove the install folder.</li>
+                                <li>Login using default username and password and add new admin user before editing/delete the default user.</li>
+                                <li>Simple Forum is ready to use.</li>
+                            </ol>
+                            <h4>Request Installation</h4>
+                            <p>We will provide the service to install the item for $20 To request the installation, please send $20 to saleem@tecdiary.com by Paypal or Skrill and email us your license file and hosting control panel details with reference of your payment to support@tecdiary.com</p>
+                        </div>
+                    </div>
+
+                    <div class="set" id="update">
+                        <div class="set-description">
+                            <h3>Update Instructions</h3>
+                            <p>Requirements: Apache 2.2+, Mysql 5.4+ (only_full_group_by disabled), PHP 5.4+ </p>
+                            <ol><li><strong>Backup all your files/folders and database (must do backup before stating update).</strong></li>
+                                <li>Download and save app/config/dataabse.php</li>
+                                <li>Delete all the files/folders from the main directory and upload all the files and folders in new version using cPanel or FTP.</li>
+                                <li>Edit newly updated <code>app/config/database.php</code> and set the correct <code>dbhost, dbuser, dbpass and dbname</code> from the download database.php in step 2.</li>
+                                <li>Open the <code>http://yourdomain.com/pathtoupload/update/index.php</code></li>
+                                <li>Go through the checklist and click next and verify the purchase and follow the step on screen.</li>
+                                <li>You will be redirect to final page and now you can login to Simple Forum with your old login.</li>
+                                <li>Remove the install and update folders. You are done. In case you have any issue after this, please refer to the <a href="#faqs" class="scroll-to">FAQs</a> section below.</li>
+                            </ol>
+                            <hr>
+                            <h4>Request Update</h4>
+                            <p>We will provide the service to update the item for $20 To request the installation, please send $20 to saleem@tecdiary.com by Paypal or Skrill and email us your license file and hosting control panel details with reference of your payment to support@tecdiary.com</p>
+                        </div>
+                    </div>
+
+                    <div class="set" id="demo">
+                        <div class="set-description">
+                            <h3>Live Demo For Simple Forum V0.1</h3>
+
+                            <h4>Demo Link: <a href="http://forum.tecdiary.my/" target="_blank">http://forum.tecdiary.my/</a></h4>
+
+                            <h4>Login Details:</h4>
+                            <div class="smallshow">
+                                <p><pre><strong>Role:               Username                 Password</strong><br><strong>Admin:</strong>              admin@tecdiary.com       12345678<br><strong>Moderator:</strong>          mod@tecdiary.com         12345678<br><strong>Member:</strong>             user@tecdiary.com        12345678</pre></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="set" id="credit">
+                        <div class="set-description">
+                            <h3>Credits</h3>
+                            <h4>Thanks to all great people who are developing open source software.</h4>
+                            <ul>
+                                <li><strong>CodeIgniter</strong> - PHP-Framework under <a href="http://www.codeigniter.com/userguide3/license.html" target="_blank">MIT License</a></li>
+                                <li><strong>Ion_auth</strong> - A simple, lightweight authentication library by Ben Edmunds under  the Apache License v2</li>
+                                <li><strong>Bootstrap</strong> - Most popular HTML, CSS, and JS framework under MIT License</li>
+                                <li><strong>jQuery</strong> - A fast, small, and feature-rich JavaScript library under MIT License</li>
+                                <li><strong>Font Awesome</strong> - The iconic font and CSS toolkit under GPL License.</li>
+                                <li><strong>Bootstrap-datetimepicker</strong> - Under MIT License</li>
+                                <li><strong>Select2</strong> - Under MIT License</li>
+                                <li><strong>Trumbowyg</strong> - Under MIT License</li>
+                                <li><strong>SCEditor</strong> - Under MIT License</li>
+                                <li><strong>SimpleDME</strong> - Under MIT License</li>
+                                <li><strong>Toastr</strong> - Under MIT License</li>
+                                <li><strong>Commercial Licenses</strong>
+                                    <ul>
+                                        <li>FormValidator</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p></p>
+                            <p><strong>Thanks to all the friends for their suggestions, feedback and help.</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="set" id="faqs">
+                        <div class="set-description">
+                            <h3>Frequently Asked Questions</h3>
+                            <div class="clear"></div>
+                            <div class="faq">
+
+                                <div class="faq-items">
+                                    <ul id="basics" class="faq-group">
+                                        <li class="faq-title"><h4>General</h4></li>
+
+                                        <li>
+                                            <a class="default">How to enable HTTPS support?</a>
+                                            <div class="faq-content">
+                                                <p>You can easily enable https by editing the 2 lines in config file (<code>app/config/config.php</code>) as following:
+                                                    <ol>
+                                                        <li>Update base url from <code>http://yoursite.com</code> to <code>https://yoursite.com</code></li>
+                                                        <li>Set <code>$config['cookie_secure']</code> to TRUE</li>
+                                                    </ol>
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <a class="default">Can I modify the item?</a>
+                                            <div class="faq-content">
+                                                <p>Yes, you can modify the script as per your needs and license.</p>
+                                                <p>
+                                                    We offer <a href="http://codecanyon.net/licenses/terms/regular" target="_blank">Regular License</a> only that allows you to use the Item to create one single End Product for yourself or for one client (a “single application”). If you have more then once clients, you will need to purchase separate license for each client.
+                                                </p>
+                                                <p>
+                                                    You can <a href="http://codecanyon.net/licenses/faq">visit this link to licensing faqs</a> page of Evnato marketplace.
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <a class="default">Can I white label it to have my forum name?</a>
+                                            <div class="faq-content">
+                                                <p>Yes, you can. Please update the settings with site name.</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <a class="default">How can I translate into other language?</a>
+                                            <div class="faq-content">
+                                                <p>You can easily add new languages to Simple Forum. Please <a class="scroll-to" href="#language">click here</a> to jump to guide.</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <a class="default">Can I install this item on localhost with wamp/xampp/easyphp?</a>
+                                            <div class="faq-content">
+                                                <p>You can install this item on localhost with any web platform xampp, mamp, lamp, wamp or easyphp. Internet connectivity is required for installation to verify the purchase. Once installed, you can use it without Internet.</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <a class="default">Will I get the full source code?</a>
+                                            <div class="faq-content">
+                                                <p>Yes, you will get 100% source code including php, js, html and css.</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <a class="default">Are you using a PHP Framework for this item?</a>
+                                            <div class="faq-content">
+                                                <p>Yes, <strong>CodeIgniter</strong> – PHP Framework created by EllisLab and is now a project of the British Columbia Institute of Technology.</p>
+                                            </div>
+                                        </li>
+
+                                            <li>
+                                                <a class="default">Where are the header and footer view files?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        The header and footer files are in <code>themes/default/views/</code>
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+
+
+                                        <ul id="account" class="faq-group">
+                                            <li class="faq-title"><h4>Account and Users</h4></li>
+                                            <li>
+                                                <a class="default">What type of account are available?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        These are the account type
+                                                        <ol>
+                                                            <li>Admin - will have all rigths, and can perform any action. </li>
+                                                            <li>Moderator - will have all admin rights except users, settings and delete</li>
+                                                            <li>Member - will have standard member rights to add topics and replies and edit their own.</li>
+                                                        </ol>
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">I am admin and how do I reset the password for other user?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        Please visit list user and check profile of the user then select edit tab to reset the password.
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">How do I delete account?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        If you want to delete account, please visit list users. All the account are listed on this page and you can delete any of them.
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+
+                                        <ul id="errors" class="faq-group">
+                                            <li class="faq-title"><h4>Error</h4></li>
+                                            <li>
+                                                <a class="default">Why am I getting CloudFlare Security or Blank error on verification while installation the item?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        If you are not getting any error but blank red alert or CloudFlare Security error mean your request is no reaching to verification server. Please check that you server is not blocking the curl request and secondly there are chances that CloudFlare might be challenging your request due to various reasons. Please check with your host and request them to white list CloudFlare ips <a href="https://www.cloudflare.com/ips" target="_blank">https://www.cloudflare.com/ips</a>
+                                                    </p>
+                                                    <p>
+                                                        Updating your Anti-Virus and Browser might help. You can check with your host too.
+                                                    </p>
+                                                    <p>
+                                                        You can try different host and/or install it locally with any web platform <strong>easyphp/lamp/mamp/wamp/xampp</strong>.
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">Why I am getting "no input specified" error after install/update?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        Please add the ? 'question sign' after index.php in the .htaccess file, you line will be look as <code>RewriteRule ^(.*)$ /index.php?$1 [L]</code>code.
+                                                        You might need to change the <strong>Hauth_base_url</strong> in app/config/hybridauthlib.php, if you are using the social authentication like Facebook and Google.
+                                                    </p>
+                                                    <p>
+                                                        For more information, please visit <a href="https://github.com/bcit-ci/CodeIgniter/wiki/Godaddy-Installation-Tips" target="_blank">this guide page</a>.
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">Why the installer/update tool is locked?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        After successfully installation/update, the installer/update tool will be automatically locked.
+                                                    </p>
+                                                    <p>
+                                                        If you having any issue after installation or like to perform the installation again, please upload the files again.
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">Why am I getting 404/500 error page after installation?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        Please
+                                                        <ol>
+                                                            <li>make sure that your apache mod_rewite is enabled</li>
+                                                            <li>check that .htaccess file is successfully uploaded and exists in the main directory of installation</li>
+                                                            <li>base_url in app/config/config.php</li>
+                                                            <li>check your database settings in app/config/database.php</li>
+                                                            <li>check your folders/files permissions (folders should have 755 and files should have 644 permissions).</li>
+                                                        </ol>
+                                                    </p>
+                                                    <p>
+                                                        If you are using godaddy or iPage, please visit the codeigniter official guide <a href="https://github.com/bcit-ci/CodeIgniter/wiki/Godaddy-Installation-Tips" target="_blank">here</a>. You might need to check and modify you .htaccess files too.
+                                                    </p>
+                                                    <p>
+                                                        You can always check your error log to get more information about the issue.
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">Why time is different from my computer time?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        Forum will use your server local time, please check your timezone in index.php and make sure that you have set the correct time zone. You can find your timezone at <a href="http://php.net/manual/en/timezones.php" target="_blank">http://php.net/manual/en/timezones.php</a>
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">Why I can't send emails?</a>
+                                                <div class="faq-content">
+                                                    <p>Please update your email protocol in settings, if you need check the semd_email method, the file will be app/libraries/tec.php and look for <code>send_email()</code></p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">Why I can't login and getting time out error?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        Timeout feature has been enabled. The user will be timed out after 3 unsuccessful login attempts for 10 minutes. You can disabled this in app/config/ion_auth.php by changing the
+
+                                                        <code>$config['track_login_attempts'] = TRUE;</code>
+                                                        to
+                                                        <code>$config['track_login_attempts'] = FALSE;</code>
+                                                        or you can increase the attempts from 3 to any number you like.
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">Why I can't upload any file?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        This could be due to permission on the /uploads. Please set 777 permission to /uploads and all other folder in the /uploads/
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">Why I getting db error and can't login?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        Please check your db configuration in app/config/database.php
+                                                    </p>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <a class="default">Can I use this on Windows server with IIS?</a>
+                                                <div class="faq-content">
+                                                    <p>
+                                                        Yes but we haven't tested this and don't provide any support for setup.
+                                                    </p>
+                                                    <p>
+                                                        If URL Rewrite module is not installed, please install it from here <a href="http://www.iis.net/downloads/microsoft/url-rewrite" target="_blank">http://www.iis.net/downloads/microsoft/url-rewrite</a>. Please check the complete web.config file. Place this in the main installation folder where the index.php is placed.
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;configuration&gt;
+    &lt;system.webServer&gt;
+        &lt;rewrite&gt;
+            &lt;rules&gt;
+                &lt;rule name=&quot;Imported Rule 1&quot; stopProcessing=&quot;true&quot;&gt;
+                    &lt;match url=&quot;^(.*)$&quot; ignoreCase=&quot;false&quot; /&gt;
+                    &lt;conditions logicalGrouping=&quot;MatchAll&quot;&gt;
+                        &lt;add input=&quot;{REQUEST_FILENAME}&quot; matchType=&quot;IsDirectory&quot; negate=&quot;true&quot; /&gt;
+                        &lt;add input=&quot;{REQUEST_FILENAME}&quot; matchType=&quot;IsFile&quot; negate=&quot;true&quot; /&gt;
+                    &lt;/conditions&gt;
+                    &lt;action type=&quot;Rewrite&quot; url=&quot;index.php?url={R:1}&quot; appendQueryString=&quot;true&quot; /&gt;
+                &lt;/rule&gt;
+            &lt;/rules&gt;
+        &lt;/rewrite&gt;
+    &lt;/system.webServer&gt;
+&lt;/configuration&gt;</code></pre>
+                                                        </p>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <a class="default">Can I use this with NGINX?</a>
+                                                    <div class="faq-content">
+                                                        <p>
+                                                            Yes but we haven't tested this and don't provide any support for setup.
+                                                        </p>
+                                                        <p>
+                                                            You can follow the guide <a href="http://wiki.nginx.org/Codeigniter" target="_blank">http://wiki.nginx.org/Codeigniter</a>. Your nginx.conf file will look like this.
+<pre><code>server {
+    server_name domain.tld;
+
+    root /var/www/codeignitor;
+    index index.html index.php;
+
+    # set expiration of assets to MAX for caching
+    location ~* \.(ico|css|js|gif|jpe?g|png)(\?[0-9]+)?$ {
+        expires max;
+        log_not_found off;
+    }
+
+    location / {
+    # Check if a file or directory index file exists, else route it to index.php.
+    try_files $uri $uri/ /index.php;
+    }
+
+    location ~* \.php$ {
+    fastcgi_pass 127.0.0.1:9000;
+    include fastcgi.conf;
+    }
+
+    location ~ /files {
+    deny all;
+    return 404;
+    }
+}</code></pre>
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a class="default">Why Wordpress showing 404 page when I access the Simple Forum?</a>
+                                    <div class="faq-content">
+                                        <p>
+                                            You can exclude sub-directory from RewriteRule of wordpress by adding the line below to your .htaccess file in main directory of wordpress.
+                                            <pre><code>RewriteCond %{REQUEST_URI} !^/(mydir|mydir/.*)$</code></pre>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="set" id="guide">
+        <div class="set-description">
+            <h3>User Guide</h3>
+            <img src="images/login.png" alt="SimpleForum" class="img-responsive img-thumbnail"><br><br>
+            <img src="images/forum.png" alt="SimpleForum" class="img-responsive img-thumbnail"><br><br>
+            <img src="images/add_thread.png" alt="SimpleForum" class="img-responsive img-thumbnail"><br><br>
+            <img src="images/users.png" alt="SimpleForum" class="img-responsive img-thumbnail"><br><br>
+            <img src="images/settings.png" alt="SimpleForum" class="img-responsive img-thumbnail"><br><br>
+            <img src="images/edit_user.png" alt="SimpleForum" class="img-responsive img-thumbnail"><br><br>
+
+        </div>
+    </div>
+
+    <div id="big-wrap">
+    <div id="inner-wrap">
+
+
+<div class="set" id="language">
+    <div class="inner-set">
+        <div class="set-description">
+            <h3>Adding Language</h3>
+            <p>Please be informed that some javascript libraries are not translate able. You can translate all the general language for Simple Forum
+                <ul>
+                    <li>Please create new folder in app/language/ and name it <code>yourlanguagename</code></li>
+                    <li>Folder name should be without space and all lower letters.</li>
+                    <li>Copy all the files from app/language/english/ and paste then to app/language/<code>yourlanguagename</code>/</li>
+                    <li>Now you can translate these all file to your language</li>
+                    <li>Download flag image (format: png, width: 16px, height: 11px) and paste it in themes/default/assets/img/</li>
+                    <li>You can add new key to language array. (See Code Section)</li>
+                </ul>
+            </p>
+            <p>
+                Please replace the <code>yourlanguagename</code> with your language For example, spanish, french, chinese etc
+            </p>
+        </div>
+        <div class="set-dev">
+
+            <p>To add select option in setting's language</p>
+            <p>Please open <code>themes/<strong>default</strong>/views/settings/index.php</code> and search for ( <code>$available_lang =</code> ) You can replace the <code><strong>default</strong></code> with your theme if you are using different theme. You can add new array key for your language as following:<br><br></p>
+            <pre><code>$available_lang = array(<br>       'english' => 'English', <br>        'yourlanguagename' => 'Your Language Name', <br>        );</code></pre>
+            <p><code>yourlanguagename</code> must be same folder name that you created in app/language/</p>
+            <p><strong>If you are getting the error "<code>Unable to load the requested language file: language/yourlanguagename/form_validation_lang.php</code>" Then you will need to add your language in lib/language/ as you did above for app/language/ and translate the system language files to your language.</strong></p>
+        </div>
+
+    </div>
+</div>
+
+<div class="set" id="support">
+    <div class="inner-set">
+        <div class="set-description">
+            <h3>Request Installation</h3>
+            <p>
+                We will provide the service to install the item for $20 To request the installation, please send $20 to saleem@tecdiary.com by Paypal or Skrill and email us your license file and hosting control panel details with reference of your payment to support@tecdiary.com
+            </p>
+        </div>
+
+        <div class="set-description">
+            <h3>Request Update</h3>
+            <p>
+                We will provide the service to update the item from v3 for $20 To request the update, please send $20 to saleem@tecdiary.com by Paypal or Skrill and email us your license file, v3 installation path/link with login details and hosting control panel details with reference of your payment to support@tecdiary.com
+            </p>
+        </div>
+
+        <div class="set-description">
+            <h3>Custom Modifications</h3>
+            <p>
+                Yes, we do provide customization services to modify/enhance the item functionality to suit your needs. We charge $50 per hour. Please email to saleem@tecdiary.com to check availability, estimated cost and time.
+            </p>
+        </div>
+
+        <div class="set-description">
+            <h3>Feature Request</h3>
+            <p>Yes, we would love to listen your requests/feedback. Please prepare the details with examples before emailing to saleem@tecdiary.com</p>
+        </div>
+    </div>
+</div>
+
+<div class="clear"></div>
+
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    $('body').scrollspy({ target: '#sidebar-wrapper', offset: 80 })
+    $(".scroll-to").click(function(e) {
+        e.preventDefault();
+        var did = $(this).attr('href');
+        console.log(did);
+        $('html,body').animate({
+        scrollTop: (($(did).offset().top)-50)},
+        'slow');
+    });
+</script>
+
+</body>
+
+</html>

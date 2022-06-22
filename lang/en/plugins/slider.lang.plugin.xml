@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_PLG_SL_ADDED">Slide [NAME] added successfully.</phrase>
+  <phrase data="_PLG_SL_SUB">Here you can add new slide.</phrase>
+  <phrase data="_PLG_SL_SUB1">Here you can update your current slide.</phrase>
+  <phrase data="_PLG_SL_SUB2">Here you can configure universal slider plugin.</phrase>
+  <phrase data="_PLG_SL_SUB3">Shape Settings</phrase>
+  <phrase data="_PLG_SL_SUB4">Colors</phrase>
+  <phrase data="_PLG_SL_SUB5">Border Radius</phrase>
+  <phrase data="_PLG_SL_SUB6">Width/Height</phrase>
+  <phrase data="_PLG_SL_SUB7">New Slider</phrase>
+  <phrase data="_PLG_SL_SUB8">Save Configuration</phrase>
+  <phrase data="_PLG_SL_DEL_OK">Slider [NAME] deleted successfully.</phrase>
+  <phrase data="_PLG_SL_SUB9">Text Editing</phrase>
+  <phrase data="_PLG_SL_SUB10">Insert Layer</phrase>
+  <phrase data="_PLG_SL_SUB11">Animations</phrase>
+  <phrase data="_PLG_SL_SUB12">Main Bg Image</phrase>
+  <phrase data="_PLG_SL_SUB13">Change Image</phrase>
+  <phrase data="_PLG_SL_SUB14">Slider Preview</phrase>
+  <phrase data="_PLG_SL_NOSLIDER">You don't have any slides yet. Please add...</phrase>
+  <phrase data="_PLG_SL_TITLE">Manage CMS Universal Slider Plugin</phrase>
+  <phrase data="_PLG_SL_TITLE1">Add Slide</phrase>
+  <phrase data="_PLG_SL_TITLE2">Edit Slide</phrase>
+  <phrase data="_PLG_SL_UPDATE">Update Slide</phrase>
+  <phrase data="_PLG_SL_UPDATED">Slide [NAME] updated successfully.</phrase>
+  <phrase data="_PLG_SL_ICON">Icon</phrase>
+  <phrase data="_PLG_SL_VIDEO">Video</phrase>
+  <phrase data="_PLG_SL_SHAPE">Shape</phrase>
+  <phrase data="_PLG_SL_HEAD">Header</phrase>
+  <phrase data="_PLG_SL_PARA">Text</phrase>
+  <phrase data="_PLG_SL_BUTTON">Button</phrase>
+  <phrase data="_PLG_SL_AUTOPLAY">Autoplay</phrase>
+  <phrase data="_PLG_SL_LOOP">Loop Video</phrase>
+  <phrase data="_PLG_SL_LOOPS">Loop</phrase>
+  <phrase data="_PLG_SL_PONHOVER">Pause on Hover</phrase>
+  <phrase data="_PLG_SL_ASPEED">Autoplay Speed</phrase>
+  <phrase data="_PLG_SL_HEIGHT">Slider Viewport Height</phrase>
+  <phrase data="_PLG_SL_FSCREEN">Full Screen</phrase>
+  <phrase data="_PLG_SL_ALANIM">Slide Animation</phrase>
+  <phrase data="_PLG_SL_ANSPEED">Animation Speed</phrase>
+  <phrase data="_PLG_SL_IMGSCALE">Image Scale Mode</phrase>
+  <phrase data="_PLG_SL_LAYOUT">Slider Layout</phrase>
+  <phrase data="_PLG_SL_THUMBS_P">Thumbnails Placement</phrase>
+</language>

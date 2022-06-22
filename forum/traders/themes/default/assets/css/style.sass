@@ -1,0 +1,1707 @@
+$white: white
+$black: black
+$color1: #ecf0f1
+$color2: #bdc3c7
+$color3: #888888
+$color4: #363838
+$color5: #757575
+$color6: #f1f1f1
+$color12: #f3f5f9
+$color13: #e9ecf3
+$color14: #697683
+$color15: #eaeaea
+$color16: #cfd5d7
+$color17: #ccd2dc
+$color18: #e0e4e5
+
+$input_border_color: #ccc
+$odd_bg: #FCFCFC
+$even_bg: #F9F9F9
+$text_color: #333
+$blue: #00a3d9
+$blue2: #0797c7
+$green: #2bb676
+$green2: #1faa6a
+$orange: #ff812d
+$orange2: #f2721c
+$red: #d44747
+$red2: #cd3939
+
+@mixin border-radius($radius)
+	-moz-border-radius: $radius
+	-webkit-border-radius: $radius
+	-ms-border-radius: $radius
+	border-radius: $radius
+
+@mixin border-radius-top($radius)
+	-webkit-border-top-left-radius: $radius
+	-webkit-border-top-right-radius: $radius
+	-moz-border-radius-topleft: $radius
+	-moz-border-radius-topright: $radius
+	border-top-left-radius: $radius
+	border-top-right-radius: $radius
+
+@mixin border-radius-bottom($radius)
+	-webkit-border-bottom-left-radius: $radius
+	-webkit-border-bottom-right-radius: $radius
+	-moz-border-radius-bottomleft: $radius
+	-moz-border-radius-bottomright: $radius
+	border-bottom-left-radius: $radius
+	border-bottom-right-radius: $radius
+
+@mixin background-size($width)
+	-o-background-size: $width
+	-webkit-background-size: $width
+	-khtml-background-size: $width
+	-moz-background-size: $width
+	background-size: $width
+
+@mixin size($width, $height: $width)
+	width: $width
+	height: $height
+
+@mixin linx($link, $hover)
+	a
+		color: $link
+		&:hover,
+		&:active,
+		&:focus
+			color: $hover
+			text-decoration: none
+
+@mixin pad($pads)
+	padding: $pads
+
+@mixin mar($margs)
+	margin: $margs
+
+@mixin prefix($property, $value)
+	-webkit-#{$property}: #{$value}
+	-khtml-#{$property}: #{$value}
+	-moz-#{$property}: #{$value}
+	-ms-#{$property}: #{$value}
+	-o-#{$property}: #{$value}
+	#{$property}: #{$value}
+
+@mixin word-wrap()
+	overflow: hidden
+	// overflow-wrap: break-word;
+	// word-wrap: break-word;
+	// -ms-word-break: break-all;
+	// word-break: break-all; // break-word or break-all;
+	// -ms-hyphens: none;
+	// -moz-hyphens: none;
+	// -webkit-hyphens: none;
+	// hyphens: none;
+
+@mixin word-wrap-container()
+	overflow: hidden
+
+///////////////////////////////////////////////////////////////////////////////
+
+.font300
+	font-weight: normal
+
+.font700
+	font-weight: bold
+
+*
+	margin: 0
+	padding: 0
+	&:hover, &:active, &:visited, &:focus
+		outline: none !important
+
+@include linx($blue, $blue2)
+
+ul
+	list-style-type: none
+
+label
+	display: block
+
+////////////////////////////////////////////////////////////////////////////////
+
+html
+	position: relative
+	min-height: 100%
+body
+	line-height: 1.5em
+	background: $color1
+	margin-bottom: 120px
+	font-family: 'Open Sans', sans-serif
+
+.content
+	background: $color1
+	@include pad(30px 0)
+
+.header
+	@include pad(15px 0)
+#logo
+	font-size: 48px
+	height: 50px
+	@include pad(0)
+	@include mar(0)
+	text-decoration: none
+	font-weight: bold
+	display: block
+	max-width: 300px
+	img
+		width: 100%
+		height: 100%
+	h2
+		line-height: 50px
+		height: 50px
+
+.circle
+	@include size(45px)
+	@include border-radius(50%)
+	// border: 2px solid $white
+	position: relative
+	display: inline-block
+	vertical-align: middle
+	img
+		width: 100%
+		height: 100%
+	.small-circle
+		@include size(12px)
+		@include border-radius(50%)
+		border: 2px solid $white
+		position: absolute
+		right: -5px
+		top: 0px
+	.online
+		background: $green
+	.offline
+		background: $red
+	.circle-avatar .avatar
+		padding: 0 !important
+		display: flex !important
+		align-items: center
+		justify-content: center
+
+.topic-box .circle
+	.small-circle
+		@include size(14px)
+		right: 5px
+		top: 0px
+
+.reply-box .circle,
+.post-box .circle
+	.small-circle
+		@include size(14px)
+		right: -4px
+		top: 0px
+
+.header-search
+	width: 300px
+	display: inline-block
+	position: relative
+	@include mar(0 18px 0 0)
+	input
+		@include size(100%, 48px)
+		@include border-radius(3px)
+		@include pad(0 20px)
+		background-color: rgba(255, 255, 255, 0.5)
+		border: 1px solid $color13
+	button
+		position: absolute
+		right: 40px
+		top: 12px
+		border: none
+		background: none
+		font-size: 18px
+		color: $color2
+	.search-filter
+		position: absolute
+		right: 10px
+		top: 12px
+		border: none
+		background: none
+		font-size: 18px
+		color: $color2
+
+.btn-group.open .dropdown-toggle
+	background: none !important
+	box-shadow: none !important
+
+.cabinet-box
+	display: inline-block
+
+////////////////////////////////////////////////////////////////////////////////
+
+.hidden-content-box-left
+	position: absolute
+	left: 0
+	top: 82px
+	width: 255px
+	background: $white
+	border: 1px solid rgba(37, 170, 225, 0.5)
+	@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+	@include pad(20px)
+	@include border-radius(3px)
+	z-index: 5
+	text-align: left
+	.udata img
+		position: absolute
+		top: 5%
+		left: 50%
+		margin-left: -30px
+	&:after, &:before
+		top: -23px
+		left: 43px
+		border: solid transparent
+		content: " "
+		height: 0
+		width: 0
+		position: absolute
+		pointer-events: none
+	&:after
+		border-bottom-color: $white
+		border-width: 12px
+		margin-left: -12px
+		z-index: 1
+	&:before
+		border-bottom-color: rgba(37, 170, 225, 0.5)
+		border-width: 11px
+		margin-left: -11px
+	h2
+		font-size: 16px
+		font-weight: 400
+		color: $color4
+		@include mar(0 0 0 0)
+		line-height: 22px
+	h3
+		font-size: 13px
+		font-weight: normal
+		color: $color5
+		@include mar(0 0 0 0)
+		line-height: 20px
+	h4
+		font-size: 14px
+		font-weight: 400
+		color: $color4
+		margin-bottom: 0
+		span
+			font-weight: normal
+			font-size: 13px
+	.circle
+		float: left
+		@include mar(0 10px 0 0)
+		display: block
+	.block
+		display: block
+		color: $color4
+		@include mar(5px 0)
+		@include pad(0)
+		font-weight: normal
+	.awards-box
+		border-top: 1px solid $color6
+		border-bottom: 1px solid $color6
+		overflow: hidden
+		@include mar(15px 0 0 0)
+		li
+			float: left
+			@include pad(7px)
+			.fa
+				color: $color4
+				font-size: 21px
+
+.content-box
+	background: $white
+	display: flex
+	align-items: strech
+	@include mar(0 0 10px 0)
+	@include border-radius(3px)
+	@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+	position: relative
+	.top-con
+		position: absolute
+		top: -2px
+		right: 0
+		// left: 50%
+		// width: 50px
+		// @include mar(-2px 0 0 -25px)
+		// text-align: center
+		.label
+			@include border-radius(0 3px 0 3px)
+	.meta-box
+		@include pad(0 0 5px 0)
+		a
+			text-decoration: none
+	.content-box-left
+		// float: left
+		min-width: 90px
+		text-align: center
+		@include pad(25px 0 0 0)
+		position: relative
+		.pinned-box
+			@include pad(0)
+			@include mar(15px 20px 0)
+			color: $color3
+	.content-box-middle, .content-box-middle2
+		padding: 1px 10px
+		// margin: 0 125px 0 0
+		flex-grow: 1 !important
+		border-right: 1px solid $color6
+		h2
+			@include mar(20px 0 10px 0)
+			font-size: 18px
+			color: $color4
+			text-transform: uppercase
+			@include word-wrap-container()
+			a
+				text-decoration: none
+				font-weight: bold
+		h3
+			font-size: 14px
+			color: $color5
+			font-weight: normal
+			line-height: 1.5em
+			@include mar(10px 0 20px 0)
+			min-height: 40px
+			@include word-wrap-container()
+		button
+			width: 170px
+			height: 38px
+			background-color: $color17
+			border-radius: 3px
+			@include prefix(box-shadow, inset 0 -2px 0 rgba(179, 186, 201, 0.75))
+			text-align: center
+			line-height: 38px
+			@include mar(20px auto 0)
+			border: none
+			color: $white
+			display: block
+			&:active
+				box-shadow: none
+	.content-box-middle2
+		border: 1px dashed $color18
+	.content-box-right
+		// position: absolute
+		// top: 0
+		// right: 0
+		min-width: 140px
+		display: flex
+		flex-direction: column
+		// display: inline-block
+		// height: 100%
+		// min-height: 150px
+		align-self: center
+		// border-left: 1px solid $color6
+		@include pad(5px 0 5px 10px)
+		h2
+			@include mar(35px 0 10px 0)
+		h3
+			font-size: 14px
+			color: $color3
+			@include mar(5px 0)
+			i
+				width: 16px
+				color: $color2
+				font-size: 16px
+				margin-right: 5px
+				display: inline-block
+			span
+				height: 1.2em
+				width: 100px
+				overflow: hidden
+				display: inline-block
+				text-overflow: ellipsis
+
+.sticky
+		background: $even_bg
+		.content-box-middle, .content-box-middle2
+			h3
+				color: $color4
+		.content-box-right
+			// border-left: 1px solid $color15
+			h3
+				color: $color4
+				i
+					color: $color4
+
+.topic-box
+	background: $white
+	@include mar(0)
+	@include pad(15px)
+	@include border-radius(3px 3px 0 0)
+	h2
+		text-transform: uppercase
+		color: $blue
+		font-weight: bold
+		@include mar(15px 0 10px 0)
+		@include word-wrap-container()
+	.meta-box
+		border-bottom: 1px solid $color1
+		padding-top: 2px
+		padding-bottom: 5px
+	ol, li
+		padding-left: 20px
+	.content-box-top
+		@include mar(0 0 25px 0)
+	.circle
+		// float: left
+		width: 75px
+		height: 75px
+		text-align: center
+		@include mar(0 15px 0 0)
+	.hidden-content-box-left
+		top: 122px
+		left: 15px
+		&:after, &:before
+			left: 50px
+		.circle
+			width: 45px
+			height: 45px
+	.content-box-md
+		@include word-wrap-container()
+		*
+			@include word-wrap-container()
+		img
+			max-width: 100%
+			@include border-radius(3px)
+
+.post-box
+	background: $white
+	@include pad(15px)
+	@include mar(0)
+	position: relative
+	border-bottom: 1px solid $color1
+	&:nth-child(odd)
+		background: $odd_bg
+	&:nth-child(even)
+		background: $even_bg
+	.content-box-left
+		@include mar(0)
+		width: 80px
+		float: left
+		text-align: center
+		.meta-box .label,
+		.meta-box a .label
+			@include mar(5px)
+			display: block
+		.meta-box .label:last-child,
+		.meta-box a .label:last-child
+			margin-bottom: 0
+			display: block
+		.circle
+			height: 60px
+			width: 60px
+			img
+				@include border-radius(30px)
+	.content-box-md
+		margin-left: 80px
+		img
+			max-width: 100%
+			@include border-radius(3px)
+		.meta-box
+			border-bottom: 1px solid $color1
+			margin-bottom: 5px
+			padding-bottom: 5px
+		div, p
+			@include word-wrap-container()
+	.hidden-content-box-left
+		top: 87px
+		z-index: 100
+		&:after, &:before
+			left: 52px
+		.circle
+			width: 45px
+			height: 45px
+
+.posts-box
+	background: $white
+	@include pad(15px)
+	@include mar(0 0 10px 0)
+	position: relative
+	@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+	@include border-radius(3px)
+	.thread
+		background: $even_bg
+		@include mar(-15px -15px 15px -15px)
+		@include pad(15px)
+		@include border-radius(3px 3px 0 0)
+		border-bottom: 1px solid $color1
+		position: relative
+		h3
+			@include mar(0)
+			font-weight: bold
+			font-size: 18px
+			overflow: hidden;
+		.top-con
+			position: absolute
+			top: 0
+			right: 0
+			.label
+				@include border-radius(0 3px 0 3px)
+	.content-box-left
+		@include mar(0)
+		width: 80px
+		float: left
+		text-align: center
+		.meta-box .label,
+		.meta-box a .label
+			@include mar(5px)
+			display: block
+		.meta-box .label:last-child,
+		.meta-box a .label:last-child
+			margin-bottom: 0
+			display: block
+		.circle
+			height: 60px
+			width: 60px
+			img
+				@include border-radius(30px)
+	.content-box-md
+		margin-left: 80px
+		overflow: hidden;
+		img
+			max-width: 100%
+			@include border-radius(3px)
+		.meta-box
+			border-bottom: 1px solid $color1
+			margin-bottom: 5px
+			padding-bottom: 5px
+	.hidden-content-box-left
+		top: 87px
+		z-index: 100
+		&:after, &:before
+			left: 52px
+		.circle
+			width: 45px
+			height: 45px
+
+.last
+		@include border-radius(0 0 3px 3px)
+		border-bottom: 0
+		margin-bottom: 5px
+		@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+
+.info-box
+	height: 40px
+	background-color: $color2
+	@include border-radius(20px)
+	position: relative
+	font-weight: bold
+	font-size: 14px
+	text-align: center
+	color: $white
+	line-height: 40px
+	@include mar(25px auto)
+	@include pad(0 25px)
+	display: inline-block
+
+.reply-box
+	@include pad(15px 0)
+	@include mar(0 0 10px 0)
+	position: relative
+	.content-box-left
+		@include mar(0)
+		width: 80px
+		float: left
+		margin-top: 15px;
+	.content-box-md
+		margin-left: 80px
+		img
+			max-width: 100%
+	.circle
+		height: 60px
+		width: 60px
+
+.page-box
+	@include pad(15px)
+	background: $white
+	@include mar(0 0 10px 0)
+	@include border-radius(3px)
+	h2
+		text-transform: uppercase
+		color: $blue
+		font-weight: bold
+	h3
+		color: $blue
+	.meta-box
+		border-top: 1px solid $color1
+		border-bottom: 1px solid $color1
+		padding-top: 2px
+		padding-bottom: 5px
+	ol, li
+		padding-left: 20px
+	.content-box-top
+		@include mar(0 0 15px 0)
+	.pagination-box li
+		padding-left: 0
+
+.pagination-box
+	text-align: right
+	.pagination
+		margin: 0
+		a
+			font-weight: bold
+	.page-info
+		@include mar(7px 0 0 0)
+	.nav-input-page
+		display: inline-block
+		vertical-align: middle
+		width: 100px
+
+////////////////////////////////////////////////////////////////////////////////
+
+.categories-box
+	background: $white
+	width: 100%
+	height: auto
+	@include border-radius(3px)
+	@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+	h2
+		@include mar(0)
+		@include pad(25px 30px)
+		font-weight: bold
+		color: $color4
+		font-size: 14px
+		i
+			font-size: 18px
+			color: $color2
+	ul
+		@include pad(0 0 20px 0)
+		li:hover a, a:hover, li a:active, li a:focus
+			color: $color4
+			text-decoration: none
+		li
+			border-top: 1px solid $color6
+			a
+				font-weight: normal
+				font-size: 14px
+				@include mar(0)
+				@include pad(10px 30px)
+				display: block
+				vertical-align: middle
+				color: $color4
+				&:hover
+					background: $color1
+			span
+				float: right
+				@include mar(2px 0 0 0)
+
+.forum-box
+	background: $white
+	width: 100%
+	height: auto
+	@include mar(0 0 10px 0)
+	@include border-radius(3px)
+	@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+	h2
+		@include mar(0)
+		@include pad(25px 30px)
+		font-weight: bold
+		color: $color4
+		font-size: 14px
+		i
+			font-size: 18px
+			color: $color2
+	ul
+		@include mar(0 0 0 0)
+		overflow: hidden
+		li
+			text-align: center
+			float: left
+			@include pad(20px 0 10px 0)
+			width: 33%
+			height: 100%
+			border-top: 1px solid $color6
+			&:nth-child(2)
+				border-right: 1px solid $color6
+				border-left: 1px solid $color6
+			h3
+				font-weight: normal
+				color: $color5
+				font-size: 14px
+				@include mar(10px 0 0 0)
+			h4
+				font-weight: bold
+				color: $color4
+				font-size: 14px
+
+.thread-box
+	background: $white
+	width: 100%
+	height: auto
+	@include border-radius(3px)
+	@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+	h2
+		@include mar(0)
+		@include pad(25px 30px)
+		font-weight: bold
+		color: $color4
+		font-size: 14px
+		i
+			font-size: 18px
+			color: $color2
+	ul
+		@include pad(0 0 20px 0)
+		li:hover a, a:hover, li a:active, li a:focus
+			color: $color4
+			text-decoration: none
+		li
+			border-top: 1px solid $color6
+			a
+				font-weight: normal
+				font-size: 14px
+				@include mar(0)
+				@include pad(10px 30px)
+				display: block
+				color: $color4
+				@include word-wrap-container()
+				// @include word-wrap()
+				&:hover
+					background: $color1
+		span
+			float: right
+			@include mar(1px 0 0 0)
+
+.events-box
+	background: $white
+	width: 100%
+	height: auto
+	@include border-radius(3px)
+	@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+	h2
+		@include mar(0)
+		@include pad(25px 30px)
+		font-weight: bold
+		color: $color4
+		font-size: 14px
+		border-bottom: 1px solid $color6
+		i
+			font-size: 18px
+			color: $color2
+	ul
+		@include mar(0 0 0 0)
+		display: flex
+		overflow: hidden
+		align-items: strech
+		border-bottom: 1px solid $color6
+		&:last-child
+			border-bottom: 0
+		li
+			// float: left
+			// height: 100%
+			text-align: center
+			@include pad(20px 0)
+			// border-top: 1px solid $color6
+			&:first-child
+				width: 33%
+				border-right: 1px solid $color6
+				h3
+					@include mar(12px 0)
+			&:last-child
+				width: 67%
+				display: flex
+				align-items: center
+				// @include pad(12px 0 12px 25px)
+				text-align: left
+				h3
+					@include mar(0 12px)
+					line-height: 20px
+			h3
+				color: $color4
+				font-size: 14px
+				max-width: 100%
+				overflow: hidden
+				font-weight: normal
+				text-overflow: ellipsis
+
+.add-box
+	background: $white
+	width: 100%
+	height: auto
+	@include border-radius(3px)
+	@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+	@include mar(0 0 10px 0)
+	h2
+		@include mar(0)
+		font-weight: bold
+		color: $color4
+		font-size: 14px
+		a
+			@include pad(25px 30px)
+			@include border-radius(3px)
+			display: block
+		i
+			font-size: 18px
+.fade-icon h2 a i
+	color: $color2
+
+////////////////////////////////////////////////////////////////////////////////
+
+.footer
+	position: absolute
+	bottom: 0
+	width: 100%
+	height: 100px
+	padding-top: 20px
+	background: $white
+	.footer-box
+		@include mar(0)
+		h2
+			color: $color5
+			font-size: 14px
+			font-weight: normal
+			line-height: 25px
+			@include pad(10px 0 0 0)
+			@include mar(0)
+			border-top: 1px solid $color6
+			span
+				float: right
+				a
+					color: $color5
+					font-size: 14px
+					font-weight: normal
+					@include mar(0 0 0 10px)
+					&:hover, &:active, &:focus
+						text-decoration: none
+				i
+					@include mar(0 3px 0 0)
+					font-size: 6px
+					font-weight: 400
+					position: relative
+					top: -2px
+		.footer-nav
+			display: inline-block
+			ul
+				overflow: hidden
+				li
+					float: left
+					@include mar(0 20px 0 0)
+					i
+						@include mar(0 3px 0 0)
+						font-size: 6px
+						font-weight: 400
+						position: relative
+						top: -2px
+					a
+						color: $color5
+						font-size: 14px
+						font-weight: normal
+						&:hover, &:active, &:focus
+							text-decoration: none
+		.social-nav
+			float: right
+			li
+				float: left
+				@include mar(0 0 0 20px)
+			i
+				@include mar(0 3px 0 0)
+			a
+				color: $color5
+				font-size: 14px
+				font-weight: normal
+				&:hover, &:active, &:focus
+					text-decoration: none
+
+
+////////////////////// MARGIN & PADDING HELPING CLASSES //////////////////////
+
+#logo
+		padding: 0
+		h2
+				margin: 0
+				padding: 0
+				a
+						color: $blue
+						font-size: 36px
+						font-weight: bold
+						&:hover
+								color: $blue2
+
+.m0
+	margin: 0
+
+.mtb
+	margin-top: 15px
+	margin-bottom: 15px
+
+.mrl
+	margin-right: 15px
+	margin-left: 15px
+
+.mt
+	margin-top: 15px
+
+.mr
+	margin-right: 15px
+
+.mb
+	margin-bottom: 15px
+
+.ml
+	margin-left: 15px
+
+.ptb
+	padding-top: 15px
+	padding-bottom: 15px
+
+.prl
+	padding-right: 15px
+	padding-left: 15px
+
+.pt
+	padding-top: 15px
+
+.pr
+	padding-right: 15px
+
+.pb
+	padding-bottom: 15px
+
+.pl
+	padding-left: 15px
+
+.mh
+	height: 100px !important
+
+.pointer
+	cursor: pointer
+blockquote
+	font-size: 1em
+
+.checkbox,
+.radio
+	display: inline-block
+	font-weight: normal
+	padding-right: 20px
+	input
+		display: none
+	.icon
+		text-align: center
+		display: inline-block
+		border: 1px solid $input_border_color
+		padding: 2px 4px
+		height: 1.9em
+		width: 1.9em
+		border-radius: 3px
+		margin-right: 5px
+	.icon .fa
+		visibility: hidden
+	&:hover .icon
+		border-color: $text_color
+	input:checked + .icon .fa
+		visibility: visible
+
+.radio
+	.icon
+		border-radius: 13px
+.has-error
+	.icon
+		border-color: $red
+.has-success
+	.icon
+		border-color: $green
+
+#errors
+		border-left: 5px solid $red
+		padding-left: 15px
+		margin: 0 0 15px 15px
+		small
+				color: $red
+
+//////////////////////// BOOTSTRAP OVER WRITES ////////////////////////
+
+.navbar
+	margin-bottom: 0
+	padding: 15px 0
+	@include border-radius(0)
+.navbar-default
+	background: $white
+	border-bottom: 1px solid $color6
+.navbar-nav > li > .dropdown-menu
+	border-radius: 0 3px 3px 3px;
+.navbar-nav.navbar-right > li > .dropdown-menu
+	border-radius: 3px 0 3px 3px;
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover
+	border-radius: 3px 3px 0 0
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand
+	margin-left: 0
+
+.dropdown-menu .divider
+	margin: 4px 0
+.dropdown i
+	padding-right: 5px
+
+.tab-pane
+	border: 1px solid #ddd
+	border-top: none
+	background: $white
+	@include border-radius(0 0 3px 3px)
+.list-group-item i
+	float: right
+	font-size: 1.2em
+.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"], .radio input[type="radio"], .radio-inline input[type="radio"]
+	margin-left: 0
+.modal-content
+		@include border-radius(0)
+.btn-primary
+		background-color: $blue
+		border-color: $blue2
+		color: $white
+		&:hover,
+		&:focus,
+		.focus,
+		.active
+				background-color: $blue2
+				border-color: $blue2
+				&:hover,
+				&:focus
+						background-color: $blue2
+						border-color: $blue2
+.label-info
+		background-color: $blue
+.label-warning
+		background-color: $orange
+.label-success
+		background-color: $green
+.label-danger
+		background-color: $red
+.btn-info
+		background-color: $blue
+		border-color: $blue2
+.btn-warning
+		background-color: $orange
+		border-color: $orange2
+.btn-success
+		background-color: $green
+		border-color: $green2
+.btn-danger
+		background-color: $red
+		border-color: $red2
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover
+		background-color: $blue
+		border-color: $blue2
+.pagination > li > a, .pagination > li > span
+		color: $blue
+		&:hover
+				color: $blue2
+.table th
+		text-align: center
+.has-error .form-control
+		border-color: $red
+.has-success .form-control
+		border-color: $green
+.btn-group-xs > .btn, .btn-xs
+		line-height: 1
+		padding: 2px 5px 3px 5px
+
+//////////////////////// SELECT2 OVER WRITES ////////////////////////
+
+.select2-container .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.select2-container--default .select2-selection--single .select2-selection__arrow
+		height: 34px
+
+.select2-container--default .select2-selection--single .select2-selection__rendered
+		line-height: 34px
+
+.select2-container--default .select2-selection--single
+		border: 1px solid $input_border_color
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset
+.has-error
+		.select2-container--default .select2-selection--single
+				border: 1px solid $red
+.has-success
+		.select2-container--default .select2-selection--single
+				border: 1px solid $green
+
+//////////////////////// REDACTOR WYSIWYG EDITOR ////////////////////////
+#editor
+	padding: 5px
+	@include border-radius(0 0 3px 3px)
+.redactor-box
+	margin-bottom: 0
+	@include border-radius(3px)
+	border: 1px solid $input_border_color
+	.redactor-editor
+		border: none
+		@include border-radius(0 0 3px 3px)
+	.redactor-toolbar
+		border: none
+		z-index: 1
+		@include border-radius(3px 3px 0 0)
+		border-bottom: 1px solid $input_border_color
+		box-shadow: none
+		&::after
+			content: none
+
+.redactor-dropdown
+	border: 1px solid $input_border_color
+	box-shadow: none
+	&:hover
+		margin-top: 0
+	a
+		padding: 5px 10px
+		border-bottom: 1px solid $input_border_color
+.redactor-toolbar-tooltip
+	display: none !important
+
+.CodeMirror
+	background: $white
+	padding: 5px
+	height: 200px
+	border: 1px solid $input_border_color
+	@include border-radius(0 0 3px 3px)
+.editor-toolbar
+	background: $white
+	padding: 5px
+	opacity: 1
+	border: 1px solid $input_border_color
+	@include border-radius(3px 3px 0 0)
+	border-bottom: 0
+	&:hover
+		opacity: 1
+	&::before, &::after
+		content: none
+		margin: 0
+	.icon-fullscreen
+		display: none
+.editor-preview
+	padding: 5px 10px
+.editor-statusbar
+	display: none
+.sceditor-container
+	width: 100% !important
+	border: 1px solid $input_border_color
+	iframe
+		width: 99% !important
+div.sceditor-toolbar
+	background: none
+	border-bottom: 1px solid $input_border_color
+.wbb-code
+ display: block
+ .fa-code
+	 color: #333
+	 font-size: 18px
+	 line-height: 28px
+	 text-align: center
+	 font-weight: bold
+	 text-shadow: 0 1px 0 #fff
+
+.wysibb
+	@include border-radius(3px)
+	.wysibb-text
+		@include pad(0)
+		.wysibb-texarea
+			background: $black
+			color: $white
+			box-shadow: none
+			@include pad(5px)
+		.wysibb-text-editor
+			@include pad(5px)
+.wysibb .bottom-resize-line
+	height: 0
+
+textarea
+	height: 200px !important
+
+.has-error
+		.redactor-box
+				border-color: $red
+.has-success
+		.redactor-box
+				border-color: $green
+//////////////////////// LOGIN & REGISTER PAGE ////////////////////////
+.login
+		background: $color1
+		.logo
+			width: 300px
+			text-align: center
+			margin: 30px auto 20px auto
+.login-box
+		z-index: 100
+
+.login-form-links
+	padding: 5px 15px
+	text-align: left
+	width: 280px
+	margin: 0 auto
+	p
+		margin-bottom: 5px
+
+.main-login-form
+	background: $white
+	@include mar(10px 0)
+	@include pad(15px)
+	@include border-radius(3px)
+	@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+	a
+		color: $blue
+		&:hover
+			color: $blue2
+	a.btn
+		color: $black
+		text-align: left
+		&:hover
+			color: $black
+
+.login-form
+	text-align: left
+	width: 280px
+	margin: 0 auto
+	display: block
+
+.register-form
+	text-align: left
+	max-width: 550px
+	min-width: 280px
+	margin: 0 auto
+	display: block
+
+.form-group
+	img
+	 border-radius: 3px 0 0 3px
+	 border: 1px solid $input_border_color
+	 border-left: none
+	 width: 100%
+.captcha-image
+	width: 100%
+	height: 34px
+	display: block
+	img
+		width: 100%
+		height: 100%
+		@include border-radius(4px 0 0 4px)
+.terms-text
+	color: $text_color
+	@include border-radius(0 !important)
+
+//////////////////////// AJAX CALL INDICATOR ////////////////////////
+
+#ajaxCall
+	display: none
+	background: $white
+	border-radius: 25px
+	top: 2%
+	right: 1%
+	position: fixed
+	width: 50px
+	height: 50px
+	padding-top: 5px
+	z-index: 55555
+	text-align: center
+
+//////////////////////// MODAL OVER WRITES ////////////////////////
+
+.mm-content, .mm-body, .mm-footer
+	background: $color1
+	border: 0
+
+.mm-body
+	padding-bottom: 0
+
+.mm-footer
+	padding-top: 0
+	border-top: 0
+
+.mm-header
+	background: $white
+	border-color: $white
+
+.list-box
+	border: 1px solid $color6
+	border-bottom: 0
+	@include pad(15px)
+	&:first-child
+		@include border-radius-top(3px)
+	&:last-child
+		@include border-radius-bottom(3px)
+		border-bottom: 1px solid $color12
+	&:hover
+		background: $color6
+	h3
+		margin-top: 0
+		font-weight: normal
+
+.menu-box
+	background: $white
+	width: 100%
+	height: auto
+	@include border-radius(3px)
+	@include prefix(box-shadow, 0 1px 0 rgba(0, 0, 0, 0.05))
+	h2
+		@include mar(0)
+		@include pad(25px 30px)
+		font-weight: bold
+		color: $color4
+		font-size: 14px
+		i
+			font-size: 18px
+			color: $color2
+	ul
+		@include pad(0 0 20px 0)
+		li:hover a, a:hover, li a:active, li a:focus
+			background: $color6
+			color: $color4
+			text-decoration: none
+		li
+			border-top: 1px solid $color6
+			height: 40px
+			line-height: 40px
+			a
+				font-weight: normal
+				font-size: 14px
+				@include mar(0)
+				@include pad(0 30px)
+				display: block
+				vertical-align: middle
+				color: $color4
+
+//////////////////////// MISC STYLES ////////////////////////
+
+.modal-section
+	padding: 0 20px
+	margin-bottom: 20px
+	&::after
+		clear: both
+.re-clips
+	display: inline-block
+	font: normal normal normal 14px/1 FontAwesome
+	font-size: inherit
+	text-rendering: auto
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	&::before
+		content: "\f118"
+.smileys
+	width: 19px
+	height: 19px
+	display: block
+	float: left
+	margin: 2px
+.redactor-box img
+	border: 0
+	padding: 0
+	width: auto
+#redactor-droparea-placeholder
+	font-size: 1.5em
+.break-words
+	@include word-wrap()
+
+//////////////////////// MODAL OVER WRITES ////////////////////////
+
+@media screen and (max-width: 998px)
+	.header-search
+		width: 250px
+	.content-box
+		width: 100%
+		display: block
+		.content-box-left
+			width: 70px
+			float: left
+			margin-left: 15px
+		.content-box-middle
+			margin-left: 90px
+			float: none
+			padding-top: 5px
+			margin-right: 0
+			&::after
+				clear: both
+			h3
+				margin: 10px 0
+		.content-box-right
+			position: static
+			flex-direction: row
+			width: 100% !important
+			justify-content: space-between
+			align-items: center
+			padding: 10px
+			border-top: 1px solid $color6
+			border-left: none
+			h3
+				// width: 25%
+				// float: left
+				margin: 0 10px 0 0
+				i
+					float: left
+				span
+					width: auto
+					height: auto
+					max-width: 120px
+
+@media screen and (max-width: 600px)
+	.content-box .content-box-right h3 i span
+		max-width: 80px
+
+@media screen and (max-width: 990px)
+	.meta-box
+		.label
+			padding-left: 0
+		.label-success,
+		.label-info,
+		.label-warning,
+		.label-danger
+			background-color: transparentize($white, 1)
+			color: $blue
+			&:hover
+				color: $blue2
+
+@media screen and (max-width: 767px)
+	body
+		margin-bottom: 150px
+		min-width: 280px
+	.container-fluid > .navbar-collapse,
+	.container-fluid > .navbar-header,
+	.container > .navbar-collapse,
+	.container > .navbar-header
+		margin-left: 0
+		margin-right: 0
+	.navbar-collapse
+		margin-top: 15px
+	.header-search
+		width: 100% !important
+		margin: -15px 0 0 0
+		input
+			border: 1px solid $input_border_color
+	li
+		.label
+			padding: 0.2em 0.6em 0.3em
+	.pagination-box
+		margin-bottom: 15px
+	.dropdown-toggle .caret
+		float: right
+	.footer
+		min-height: 150px
+		min-width: 280px
+		height: auto
+		.footer-box
+			.footer-nav,
+			.social-nav
+				width: 100%
+				li
+					margin: 5px 15px 0 0 !important
+			h2
+				width: 100% !important
+				span
+					float: none !important
+					display: block
+
+.ad
+	dispaly: block
+	margin-bottom: 8px
+	max-width: 100%
+
+/////////////////////// Login Modal //////////////////////
+
+.vertical-alignment-helper
+	display: table
+	height: 100%
+	width: 100%
+	pointer-events: none
+	.vertical-align-center
+		display: table-cell
+		vertical-align: middle
+		pointer-events: none
+	.modal-content
+		width: inherit
+		height: inherit
+		margin: 0 auto
+		pointer-events: all
+
+// .modal-backdrop
+// 	opacity: 0.8 !important
+
+//////////////////////// MESSAGES ////////////////////////
+
+.vamd
+	td
+		vertical-align: middle !important
+		.checkbox,
+		.radio
+			padding-right: 0
+			margin: 0
+			.icon
+				margin-right: 0
+.num-badge
+	position: relative
+	.number
+		margin: 0
+		top: 5px
+		right: 5px
+		position: absolute
+		padding: 1px 4px 2px 4px
+		font-size: 0.7em
+		font-weight: normal
+//$green: #86BB71
+//$blue: #94C2ED
+//$orange: #E38968
+$gray: #92959E
+
+.active
+	td
+		font-weight: bold
+.bold_msg
+	td
+		font-weight: bold
+.chat
+	color: #434651
+	.chat-header
+		background: white
+		padding: 20px
+		border-bottom: 2px solid white
+		border-radius: 5px 5px 0 0
+		img
+			float: left
+		.chat-about
+			float: left
+			padding-left: 10px
+			margin-top: 6px
+		.chat-with
+			font-weight: bold
+			font-size: 16px
+		.chat-num-messages
+			color: $gray
+		.fa-star
+			float: right
+			color: #D8DADF
+			font-size: 20px
+			margin-top: 12px
+	.chat-history
+		background: #F2F5F8
+		padding: 30px 30px 20px
+		border-bottom: 2px solid white
+		.message-data
+			margin-bottom: 15px
+		.message-data-time
+			color: lighten($gray, 8%)
+			padding-left: 6px
+		.message
+			color: white
+			padding: 18px 20px
+			line-height: 26px
+			font-size: 16px
+			border-radius: 7px
+			margin-bottom: 30px
+			width: 90%
+			position: relative
+			&:after
+				bottom: 100%
+				left: 7%
+				border: solid transparent
+				content: " "
+				height: 0
+				width: 0
+				position: absolute
+				pointer-events: none
+				border-bottom-color: $green
+				border-width: 10px
+				margin-left: -10px
+		.my-message
+			background: $green
+		.other-message
+			background: $blue
+			&:after
+				border-bottom-color: $blue
+				left: 93%
+	.chat-message
+		background: #F2F5F8
+		padding: 30px
+		border-radius: 0 0 5px 5px
+		textarea
+			width: 100%
+			height: 150px !important
+			border: none
+			border-radius: 3px
+			padding: 10px 20px
+			margin-bottom: 10px
+			resize: none
+
+.user-info h2
+	margin: 0
+
+.online, .offline, .me
+		margin-right: 3px
+		font-size: 10px
+
+.online
+	color: $green
+
+.offline
+	color: $orange
+
+.me
+	color: $blue
+
+.align-left
+	text-align: left
+
+.align-right
+	text-align: right
+
+.float-right
+	float: right
+
+.clearfix:after
+	visibility: hidden
+	display: block
+	font-size: 0
+	content: " "
+	clear: both
+	height: 0
+
+.rating-container .rating-stars::before, .rating-container-rtl::before
+	text-shadow: none !important
+
+.rating-container .rating-stars, .rating-container-rtl
+	color: $black
+
+.replies .quoting
+	color: $color5;
+	font-size: 0.75em;
+	font-weight: bold;
+	position: absolute;
+	bottom: -10px;
+	right: -1px;
+	background: #ddd;
+	padding: 2px 4px;
+	border-radius: 2px 0 2px 2px;
+
+.replies blockquote
+	border: 1px solid #ddd;
+	padding: 5px 5px 5px 8px;
+	border-left: 5px solid #ddd;
+	border-radius: 0 2px 2px 0;
+	background: rgba(240, 240, 240, 0.5);
+	position: relative;
+
+#flagForm
+	overflow: hidden;
+
+.quoting
+	color: $color17;
+
+.trumbowyg-box
+	border-radius: 4px;
+	border-color: $input_border_color;
+.trumbowyg-button-pane
+	border-radius: 4px 4px 0 0;
+.trumbowyg-box.trumbowyg-editor-visible
+	min-height: 150px;
+.trumbowyg-editor
+	background-color: $white;
+	min-height: 150px;
+.trumbowyg-editor img, .trumbowyg-dropdown-emoji img
+	border: none;
+
+.fileUpload
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	input.upload
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+		font-size: 20px;
+		cursor: pointer;
+		opacity: 0;
+		filter: alpha(opacity=0);

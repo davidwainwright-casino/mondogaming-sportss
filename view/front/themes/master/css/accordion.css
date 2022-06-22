@@ -1,0 +1,51 @@
+/* == Accordion == */
+.yoyo.accordion {
+  background: #fff;
+  position: relative;
+  margin-bottom: 1rem;
+  border: 1px solid #e7eaf3;
+  border-radius: 0.25rem;
+}
+.yoyo.accordion .header {
+  font-size: 1.25em;
+  cursor: default;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #f1f5f9;
+  transition: 0.3s ease-in-out;
+}
+.yoyo.accordion .header:hover {
+  background-color: #f8fafd;
+}
+.yoyo.accordion .header:hover span {
+  color: #377dff;
+}
+.yoyo.accordion .header span,
+.yoyo.accordion .header .icon {
+  flex: 1 1 0px;
+  min-width: 0;
+}
+.yoyo.accordion .header span {
+  color: #1e2022;
+  font-weight: 300;
+}
+.yoyo.accordion.acive .header span {
+  color: #2b87da;
+}
+.yoyo.accordion .header .icon {
+  flex: 0 0 auto;
+  max-width: 100%;
+  white-space: nowrap;
+  color: #377dff;
+}
+.yoyo.accordion .content {
+  padding: 1rem;
+}
+.yoyo.accordion.active > .header .icon {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

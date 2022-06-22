@@ -1,0 +1,63 @@
+var CANVAS_WIDTH = 1280;
+var CANVAS_HEIGHT = 768;
+
+var EDGEBOARD_X = 90;
+var EDGEBOARD_Y = 95;
+
+var FPS = 30;
+var FPS_TIME      = 1000/FPS;
+var DISABLE_SOUND_MOBILE = false;
+
+var STATE_LOADING = 0;
+var STATE_MENU    = 1;
+var STATE_HELP    = 1;
+var STATE_GAME    = 3;
+
+var STATE_GAME_WAITING_FOR_BET = 0;
+var STATE_GAME_SPINNING        = 1;
+var STATE_GAME_SHOW_WINNER     = 2;
+var STATE_DISTRIBUTE_FICHES    = 3;
+
+var ON_SHOW_BET_ON_TABLE = 0;
+var ON_SHOW_ENLIGHT = 1;
+var ON_HIDE_ENLIGHT = 2;
+
+var ON_MOUSE_DOWN = 0;
+var ON_MOUSE_UP   = 1;
+var ON_MOUSE_OVER = 2;
+var ON_MOUSE_OUT  = 3;
+var ON_DRAG_START = 4;
+var ON_DRAG_END   = 5;
+var ON_CONTROLLER_END    = 6;
+var ON_CONTROLLER_REMOVE = 7;
+var ON_CONTROLLER_ROLL = 8;
+
+var COLOR_RED   = "red";
+var COLOR_BLACK = "black";
+var COLOR_ZERO  = "zero";
+
+var TOTAL_MONEY;
+var NUM_FICHE_VALUES = 6;
+var NUMBERS_TO_BET =38//37;
+var NUM_FICHES = 6;
+var MIN_BET;
+var MAX_BET;
+var WIN_OCCURRENCE;
+var TIME_WAITING_BET;
+var TIME_SHOW_WINNER;
+var TIME_FICHES_MOV = 1500;
+var DOUBLE_ZERO = 37;
+
+var NUM_MASK_BALL_SPIN_FRAMES = 100;
+var NUM_BALL_SPIN_FRAMES = 200;
+var NUM_HAND_FOR_ADS;
+var WIDTH_CELL_NUMBER;
+var HEIGHT_CELL_NUMBER;
+var ROW_HISTORY = 19;
+
+var FONT1 = "arialbold";
+var FONT2 = "plantagenet_cherokeeregular";
+
+var ENABLE_FULLSCREEN;
+var ENABLE_CHECK_ORIENTATION;
+var SHOW_CREDITS;

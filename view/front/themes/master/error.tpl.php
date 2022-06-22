@@ -1,0 +1,1 @@
+<div class="yoyo error message"><?php echo $this->error;?></div>

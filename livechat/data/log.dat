@@ -1,0 +1,72 @@
+Application path: /livechat/php/app.php?install-wizard-2
+2021-08-11 00:24:14 [error] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Stack trace:
+/var/www/gambabet.com/livechat/php/service/Database.php:50 (Logger:error())
+/var/www/gambabet.com/livechat/php/service/Database.php:68 (Database:connect())
+/var/www/gambabet.com/livechat/php/service/Database.php:28 (Database:reconnect())
+/var/www/gambabet.com/livechat/php/lib/Service.php:17 (Database:onRegister())
+/var/www/gambabet.com/livechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/var/www/gambabet.com/livechat/php/lib/Controller.php:33 (ServiceContainer:get())
+/var/www/gambabet.com/livechat/php/controller/InstallController.php:2 (Controller:get())
+/var/www/gambabet.com/livechat/php/app/Application.php:165 (InstallController:wizard2Action())
+/var/www/gambabet.com/livechat/php/app/Application.php:89 (Application:runAction())
+/var/www/gambabet.com/livechat/php/app.php:27 (Application:run())
+
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-11 00:34:50 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-11 00:35:09 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-11 00:35:15 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-11 00:35:26 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-11 00:35:43 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-11 00:38:16 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-11 00:38:45 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-11 00:38:53 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-11 15:31:40 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-11 15:48:42 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-12 18:34:46 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-12 18:34:49 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-12 19:04:04 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?upload-upload
+2021-08-13 20:40:16 Undefined index: files on line 172 in /var/www/gambabet.com/livechat/php/controller/UploadController.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-14 08:58:37 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-17 02:54:37 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?upload-upload
+2021-08-17 15:15:42 Undefined index: files on line 172 in /var/www/gambabet.com/livechat/php/controller/UploadController.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-20 08:59:41 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-21 06:09:26 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-21 07:13:10 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-21 11:55:10 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-21 12:42:51 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?upload-upload
+2021-08-21 15:09:58 Undefined index: files on line 172 in /var/www/gambabet.com/livechat/php/controller/UploadController.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-21 20:25:05 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?upload-upload
+2021-08-21 22:21:53 Undefined index: files on line 172 in /var/www/gambabet.com/livechat/php/controller/UploadController.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-22 15:45:16 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-22 16:01:54 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php
+Application path: /livechat/php/app.php?upload-upload
+2021-08-23 01:24:20 Undefined index: files on line 172 in /var/www/gambabet.com/livechat/php/controller/UploadController.php
+Application path: /livechat/php/app.php?operator-is-online
+2021-08-24 21:19:06 count(): Parameter must be an array or an object that implements Countable on line 447 in /var/www/gambabet.com/livechat/php/model/UserModel.php

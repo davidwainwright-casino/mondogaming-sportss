@@ -1,0 +1,412 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url('../fonts/roboto100.woff2') format('woff2'), url('../fonts/roboto100.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/roboto300.woff2') format('woff2'), url('../fonts/roboto300.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto400.woff2') format('woff2'), url('../fonts/roboto400.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/roboto500.woff2') format('woff2'), url('../fonts/roboto500.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/roboto700.woff2') format('woff2'), url('../fonts/roboto700.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url('../fonts/roboto900.woff2') format('woff2'), url('../fonts/roboto900.woff') format('woff');
+}
+html,
+body {
+  font-size: 16px;
+  height: 100%;
+  background-color: #ed7020;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+}
+a {
+  color: #92badd;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+  outline: none;
+  cursor: pointer;
+}
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 40px 8px 10px;
+  color: #cccccc;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+#formContent {
+  border-radius: 10px;
+  background: #fff;
+  padding: 0;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+.formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+button[name=submit],
+button[name=doopass] {
+  outline: none;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 0 10px 30px 0 rgba(156, 39, 176,0.4);
+  border-radius: 5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin: 5px 20px 40px;
+  padding: 15px 80px;
+  background: #ed7020;
+}
+button[name=submit]:hover {
+  background-color: #7E57C2;
+}
+button[name=submit]:active,
+button[name=doopass]:active {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+button[name=doopass] {
+  background-color: #ED5454;
+  box-shadow: 0 10px 30px 0 rgba(233,94,94,0.4);
+}
+button[name=doopass]:hover {
+  background-color: #E73838;
+}
+input[type="text"],
+input[type="password"] {
+  background-color: #f6f6f6;
+  color: #0d0d0d;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  outline: none;
+  -webkit-appearance: none;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+input[type=text]:focus,
+input[type="password"]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+ input[type=text]:placeholder, input[type="password"]:placeholder {
+ color: #cccccc;
+}
+ input:-webkit-autofill {
+ box-shadow: 0 0 0px 30px #fff inset;
+ background-color: #fff;
+ -webkit-text-color: #fff;
+ color:#fff;
+}
+input:-webkit-autofill:focus {
+ -webkit-text-color: #fff;
+ color:#fff;
+}
+::-webkit-input-placeholder {
+ color:#cccccc;
+}
+.input-container.error {
+  background-color: rgba(248,0,0,0.15);
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 16px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.85);
+}
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ @-webkit-keyframes fadeInDown {
+ 0% {
+ opacity: 0;
+ -webkit-transform: translate3d(0, -100%, 0);
+ transform: translate3d(0, -100%, 0);
+}
+ 100% {
+ opacity: 1;
+ -webkit-transform: none;
+ transform: none;
+}
+}
+ @keyframes fadeInDown {
+ 0% {
+ opacity: 0;
+ -webkit-transform: translate3d(0, -100%, 0);
+ transform: translate3d(0, -100%, 0);
+}
+ 100% {
+ opacity: 1;
+ -webkit-transform: none;
+ transform: none;
+}
+}
+@-webkit-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+opacity:1;
+}
+}
+@-moz-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+opacity:1;
+}
+}
+@keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+opacity:1;
+}
+}
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.fadeIn.first {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.fadeIn.second {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+.fadeIn.third {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+.fadeIn.fourth {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #ed7020;
+  content: "";
+  transition: width 0.2s;
+}
+.underlineHover:hover {
+  color: #0d0d0d;
+}
+.underlineHover:hover:after {
+  width: 100%;
+}
+footer {
+  text-align: center;
+  margin-top: 2em;
+  font-size: .938em;
+}
+#yoyo-overlay {
+  position: fixed;
+  width: auto;
+  top: 50%;
+  right: 0;
+  z-index: 80000;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.yoyo.notice {
+  max-width: 500px;
+  min-width: 300px;
+  position: relative;
+}
+.yoyo.notice .content {
+  padding: 1em;
+  color: #fff;
+}
+.yoyo.notice span {
+  font-size: 1em;
+  display: block;
+  font-weight: 700;
+}
+.yoyo.notice p {
+  margin-top: 0;
+  font-size: .938em;
+}
+.yoyo.notice a.notice-close {
+  opacity: 0;
+}
+.yoyo.notice:hover a.notice-close {
+  opacity: 1;
+}
+.yoyo.notice.success {
+  background-color: rgba(84,237,191,0.85);
+  box-shadow: 0 10px 30px 0 rgba(0,0,0, 0.1);
+}
+.yoyo.notice.error {
+  background-color: rgba(237,86,86,0.85);
+  box-shadow: 0 10px 30px 0 rgba(0,0,0, 0.1);
+}
+/* == Loading == */
+button.loading {
+  position: relative;
+  cursor: default;
+  color: transparent;
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transition: all 0s linear, opacity 0.1s ease;
+  transition: all 0s linear, opacity 0.1s ease;
+}
+button.loading:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 500rem;
+  transform: translate(-50%, -50%);
+  border: 4px solid rgba(0, 0, 0, 0.15);
+}
+button.loading:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: -.875em;
+  margin-top: -.875em;
+  -webkit-animation: button-spin 0.6s linear;
+  animation: button-spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #ffffff transparent transparent;
+  border-style: solid;
+  border-width: 4px;
+  box-shadow: 0px 0px 0px 1px transparent;
+}
+@-webkit-keyframes button-spin {
+ from {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@keyframes button-spin {
+ from {
+ -webkit-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+*:focus {
+  outline: none;
+}
+#icon {
+  width: 60%;
+}

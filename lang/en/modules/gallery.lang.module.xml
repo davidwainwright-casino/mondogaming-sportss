@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <phrase data="_MOD_GA_TITLE">Manage CMS Gallery</phrase>
+  <phrase data="_MOD_GA_SUB">Here you can configure your gallery module.</phrase>
+  <phrase data="_MOD_GA_TITLE1">Edit Gallery</phrase>
+  <phrase data="_MOD_GA_NEW">New Gallery</phrase>
+  <phrase data="_MOD_GA_PHOTOS">Photos</phrase>
+  <phrase data="_MOD_GA_DEL_OK">Gallery [NAME] deleted succesfuly!</phrase>
+  <phrase data="_MOD_GA_NOGAL">You dont have any galleries yet...</phrase>
+  <phrase data="_MOD_GA_NOPHOTO">You dont have any photos yet...</phrase>
+  <phrase data="_MOD_GA_SUB2">Update Gallery</phrase>
+  <phrase data="_MOD_GA_SUB3">Create Gallery</phrase>
+  <phrase data="_MOD_GA_SUB4">Manage Photos</phrase>
+  <phrase data="_MOD_GA_SUB5">Add Photos</phrase>
+  <phrase data="_MOD_GA_SUB6">Select Gallery</phrase>
+  <phrase data="_MOD_GA_SUB7">Attach Gallery</phrase>
+  <phrase data="_MOD_GA_UPDATE_OK">Gallery [NAME] updated successfully.</phrase>
+  <phrase data="_MOD_GA_ADDED_OK">Gallery [NAME] added successfully.</phrase>
+  <phrase data="_MOD_GA_PHOTO_OK">Photo [NAME] updated successfully.</phrase>
+  <phrase data="_MOD_GA_PHOTO_DEL_OK">Photo [NAME] deleted successfully.</phrase>
+  <phrase data="_MOD_GA_THUMBW">Thumbnail Width</phrase>
+  <phrase data="_MOD_GA_THUMBH">Thumbnail Height</phrase>
+  <phrase data="_MOD_GA_COLS">Column Size</phrase>
+  <phrase data="_MOD_GA_WMARK">Enable Watermark</phrase>
+  <phrase data="_MOD_GA_LIKE">Enable Like</phrase>
+  <phrase data="_MOD_GA_DIR">Invalid Gallery Folder</phrase>
+  <phrase data="_MOD_GA_POSTER">Poster</phrase>
+  <phrase data="_MOD_GA_RESIZE_TH">Resize Image Thumbnails</phrase>
+  <phrase data="_MOD_GA_RESIZE_THE">Resize Method</phrase>
+  <phrase data="_MOD_GA_RESIZE_OK">[NUMBER] images resized successfully.</phrase>
+  <phrase data="_MOD_GA_INFO">Please be patient, this action might take some time.</phrase>
+</language>

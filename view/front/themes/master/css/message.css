@@ -1,0 +1,349 @@
+/* == Message == */
+.yoyo.message {
+  position: relative;
+  min-height: 1em;
+  margin: 1em 0em;
+  background-color: #D2D2D3;
+  padding: 1em 1.5em;
+  line-height: 1.375em;
+  color: #101112;
+  transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+  border-radius: 0.250rem;
+}
+.yoyo.message:first-child {
+  margin-top: 0em;
+}
+.yoyo.message:last-child {
+  margin-bottom: 0em;
+}
+/* Header */
+.yoyo.message .header {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+/* Paragraph */
+.yoyo.message p {
+  opacity: 0.85;
+  margin: 0.75em 0em;
+}
+.yoyo.message p:first-child {
+  margin-top: 0em;
+}
+.yoyo.message p:last-child {
+  margin-bottom: 0em;
+}
+.yoyo.message .header + p {
+  margin-top: 0.5em;
+}
+/* List */
+.yoyo.message .list:not(.yoyo) {
+  text-align: left;
+  padding: 0em;
+  opacity: 0.85;
+  list-style-position: inside;
+  margin: 0.5em 0em 0em;
+}
+.yoyo.message .list:not(.yoyo):first-child {
+  margin-top: 0em;
+}
+.yoyo.message .list:not(.yoyo):last-child {
+  margin-bottom: 0em;
+}
+.yoyo.message .list:not(.yoyo) li {
+  position: relative;
+  list-style-type: none;
+  margin: 0em 0em 0.3em 1em;
+  padding: 0em;
+}
+.yoyo.message .list:not(.yoyo) li:before {
+  position: absolute;
+  content: '•';
+  left: -1em;
+  height: 100%;
+  vertical-align: baseline;
+}
+.yoyo.message .list:not(.yoyo) li:last-child {
+  margin-bottom: 0em;
+}
+/* Icon */
+.yoyo.message > .icon {
+  margin-right: 1.5em;
+}
+/* Image */
+.yoyo.message > .yoyo.image {
+  margin-right: 1em;
+}
+/* Close Icon */
+.yoyo.message > .close.icon {
+  cursor: pointer;
+  position: absolute;
+  margin: 0em;
+  top: 0.78575em;
+  right: 0.5em;
+  opacity: 0.7;
+  transition: opacity 0.1s ease;
+}
+.yoyo.message > .close.icon:hover {
+  opacity: 1;
+}
+/* First / Last Element */
+.yoyo.message > :first-child {
+  margin-top: 0em;
+}
+.yoyo.message > :last-child {
+  margin-bottom: 0em;
+}
+.yoyo.dropdown .menu > .message {
+  margin: 0px -1px;
+}
+.yoyo.visible.visible.visible.visible.message {
+  display: block;
+}
+.yoyo.icon.visible.visible.visible.visible.message {
+  display: flex;
+}
+.yoyo.hidden.hidden.hidden.hidden.message {
+  display: none;
+}
+/* == Variations == */
+.yoyo.compact.message {
+  display: inline-flex!important;
+  padding: .5em 1em;
+}
+.yoyo.rounded.message {
+  border-radius: 2rem;
+}
+.yoyo.attached.message {
+  margin-bottom: -1px;
+  border-radius: 0.188rem 0.188rem 0em 0em;
+  box-shadow: 0em 0em 0em 1px rgba(34, 36, 38, 0.15) inset;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+.yoyo.attached + .yoyo.attached.message:not(.top):not(.bottom) {
+  margin-top: -1px;
+  border-radius: 0em;
+}
+.yoyo.bottom.attached.message {
+  margin-top: -1px;
+  border-radius: 0em 0em 0.188rem 0.188rem;
+  box-shadow: 0em 0em 0em 1px rgba(34, 36, 38, 0.15) inset, 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+}
+.yoyo.bottom.attached.message:not(:last-child) {
+  margin-bottom: 1em;
+}
+.yoyo.attached.icon.message {
+  width: auto;
+}
+.yoyo.icon.message {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.yoyo.icon.message > .icon:not(.close) {
+  min-width: 0;
+  flex: 0 0 auto;
+  max-width: 100%;
+  opacity: 0.8;
+}
+.yoyo.icon.message > .content {
+  flex: 1 1 0px;
+  min-width: 0;
+}
+.yoyo.icon.message > .content.shrink {
+  flex: 0 0 auto;
+  max-width: 100%;
+}
+.yoyo.icon.message .icon:not(.close) + .content {
+  padding-left: 0rem;
+}
+.yoyo.floating.message {
+  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.22) inset, 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
+}
+.yoyo.basic.message {
+  border: 0;
+  margin: 0;
+  background: none;
+}
+.yoyo.fitted.message {
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: none;
+}
+/* == Colors == */
+.yoyo.black.message {
+  background-color: #1B1C1D;
+  color: rgba(255, 255, 255, 0.9);
+}
+.yoyo.primary.message {
+  background-color: #D7E5FF;
+  color: #1d4185;
+}
+.yoyo.secondary.message {
+  background-color: #E4E6E9;
+  color: #3e444a;
+}
+.yoyo.success.message,
+.yoyo.positive.message {
+  background-color: #CCF4ED;
+  color: #006957;
+}
+.yoyo.negative.message,
+.yoyo.error.message {
+  background-color: #F8DAD7;
+  color: #73231d;
+}
+.yoyo.info.message {
+  background-color: #CCF9FE;
+  color: #007483;
+}
+.yoyo.alert.message,
+.yoyo.warning.message {
+  background-color: #FFF3CD;
+  color: #856404
+}
+.yoyo.inverted.message {
+  background-color: #1B1C1D;
+  color: rgba(255, 255, 255, 0.9);
+}
+.yoyo.white.message {
+  background-color: #fff;
+}
+.yoyo.white.inverted.message {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.yoyo.rounded.message {
+  border-radius: 4rem;
+}
+a.yoyo.message:hover {
+  border-color: rgba(55, 125, 255, 0.3);
+  box-shadow: 0 0 35px rgba(55, 125, 255, 0.125);
+}
+/* == Notices == */
+#yoyo-overlay {
+  position: fixed;
+  width: auto;
+  top: 50%;
+  right: 0;
+  z-index: 80000;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.yoyo.notice {
+  max-width: 500px;
+  min-width: 300px;
+  position: relative;
+  color: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14), 0px 7px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.yoyo.notice .content {
+  padding: 1.25em;
+  margin-left: 2em;
+}
+.yoyo.notice:before {
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5;
+  position: absolute;
+  border-radius: 100em;
+  left: 1em;
+  top: -1.25em;
+  font-family: 'YoyoIcons';
+  content: "\e923";
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 10px 30px -12px rgba(0, 0, 0, 0.42), 0px 4px 25px 0px rgba(0, 0, 0, 0.12), 0px 8px 10px -5px rgba(0, 0, 0, 0.2);
+  z-index: 3
+}
+.yoyo.notice span {
+  font-size: 1em;
+  display: block;
+  font-weight: 500;
+}
+.yoyo.notice p {
+  margin-top: 0;
+  color: #a5a5a5;
+}
+.yoyo.notice a.notice-close {
+  opacity: 0;
+}
+.yoyo.notice:hover a.notice-close {
+  opacity: 1;
+}
+.yoyo.notice i.icon.delete {
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  color: rgba(255,255,255,0.8)
+}
+.yoyo.notice.success {
+  background-color: #00C9A7;
+  color: #21ca00;
+  box-shadow: 0 4px 17px rgba(0, 201, 167, 0.35);
+}
+.yoyo.notice.success:before {
+  color: #00C9A7;
+}
+.yoyo.notice.success .yoyo.progress.transparent .bar {
+  background-color: rgba(255,255,255,0.5)!important;
+}
+.yoyo.notice.info {
+  background-color: #377DFF;
+  color: #ffedeb;
+  box-shadow: 0 4px 17px rgba(55, 125, 255, 0.35);
+}
+.yoyo.notice.info:before {
+  color: #377DFF;
+}
+.yoyo.notice.info .yoyo.progress.transparent .bar {
+  background-color: rgba(255,255,255,0.5)!important;
+}
+.yoyo.notice.alert {
+  background-color: #B88D0F;
+  color: #FFF9E6;
+  box-shadow: 0 4px 17px rgba(255, 193, 7, 0.35);
+}
+.yoyo.notice.alert:before {
+  color: #B88D0F;
+}
+.yoyo.notice.alert .yoyo.progress.transparent .bar {
+  background-color: rgba(255,255,255,0.5)!important;
+}
+.yoyo.notice.error {
+  background-color: #fff;
+  color: #afafaf;
+  box-shadow: 0 4px 17px rgba(222, 68, 55, 0.35);
+}
+.yoyo.notice.error:before {
+  color: #de4437;
+}
+.yoyo.notice.error .yoyo.progress.transparent .bar {
+  background-color: rgba(255,255,255,0.5)!important;
+}
+/* == Sizes == */
+.yoyo.mini.message {
+  font-size: 0.78571429em;
+}
+.yoyo.tiny.message {
+  font-size: 0.85714286em;
+}
+.yoyo.small.message {
+  font-size: 0.92857143em;
+}
+.yoyo.message {
+  font-size: 1em;
+}
+.yoyo.large.message {
+  font-size: 1.14285714em;
+}
+.yoyo.big.message {
+  font-size: 1.188em;
+}
+.yoyo.huge.message {
+  font-size: 1.42857143em;
+}
+.yoyo.massive.message {
+  font-size: 1.71428571em;
+}

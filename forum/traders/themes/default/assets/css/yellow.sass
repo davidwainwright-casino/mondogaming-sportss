@@ -1,0 +1,251 @@
+$white: white
+$black: black
+$color: #f2d94c
+$color2: #e7ca2b
+$text_color: #454545
+$text_color2: #333
+$alt_text_color: #333
+$dim_text: rgba($text_color, 0.5)
+
+@mixin prefix($property, $value)
+    -webkit-#{$property}: #{$value}
+    -khtml-#{$property}: #{$value}
+    -moz-#{$property}: #{$value}
+    -ms-#{$property}: #{$value}
+    -o-#{$property}: #{$value}
+    #{$property}: #{$value}
+
+///////////////////////////////////////////////////////////////////////////////
+
+a
+    color: $color
+    &:hover
+        color: $color2
+#logo h2 a
+    color: $text_color
+    &:hover
+        color: $text_color2
+.header-search
+    input
+        background-color: rgba(203, 203, 203, 0.2)
+        border: 1px solid rgba(203, 203, 203, 0.1)
+        color: $text_color
+    .search-filter
+        color: $text_color2
+.content .header-search
+    input
+        color: $alt_text_color
+    .search-filter
+        color: $alt_text_color
+////////////////////////////////////////////////////////////////////////////////
+
+.topic-box
+    h2
+        color: $color
+.page-box
+    h3
+        color: $color
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+.categories-box
+    background: $color
+    color: $text_color2
+    @include prefix(box-shadow, 0 1px 0 $color2)
+    h2
+        color: $text_color
+        i
+            color: $dim_text
+    ul
+        li
+            border-color: $color2
+            a
+                color: $text_color
+            .label-info
+                background-color: $white
+                color: $color
+            &:hover .label-info
+                background-color: $color
+                color: $white
+
+.forum-box
+    background: $color
+    color: $text_color2
+    @include prefix(box-shadow, 0 1px 0 $color2)
+    h2
+        color: $text_color
+        i
+            color: $dim_text
+    ul
+        li
+            border-color: $color2
+            &:nth-child(2)
+                border-color: $color2
+            h3
+                color: $text_color2
+            h4
+                color: $text_color2
+
+.thread-box
+    background: $color
+    h2
+        color: $text_color
+        i
+            color: $dim_text
+    ul
+        li
+            border-color: $color2
+            a
+                color: $text_color2
+            .label-info
+                background-color: $white
+                color: $color
+            &:hover .label-info
+                background-color: $color
+                color: $white
+
+.events-box
+    background: $color
+    color: $text_color2
+    @include prefix(box-shadow, 0 1px 0 $color2)
+    h2
+        color: $text_color
+        i
+            color: $dim_text
+    ul
+        li
+            border-color: $color2
+            &:first-child
+                border-color: $color2
+            h3
+                color: $text_color2
+
+.add-box
+    background: $color
+    &:hover
+        background: $color2
+    a
+        color: $text_color
+    .btn
+        background: $color !important
+    h2
+        color: $text_color2
+
+.fade-icon h2 a i
+    color: $dim_text
+
+////////////////////////////////////////////////////////////////////////////////
+
+.footer
+  background: $color
+  .footer-box
+    h2
+      color: $text_color
+      small
+        color: $white
+      span
+        a
+          color: $text_color
+    .footer-nav
+      ul
+        li
+          a
+            color: $text_color
+    .social-nav
+      a
+        color: $text_color
+
+////////////////////// MARGIN & PADDING HELPING CLASSES //////////////////////
+
+.checkbox,
+.radio
+  .icon
+  &:hover .icon
+    border-color: $color
+
+//////////////////////// BOOTSTRAP OVER WRITES ////////////////////////
+
+.navbar-default
+  background: $color
+  border: 0
+
+.navbar-default .navbar-brand
+    color: $text_color
+    &:hover
+        color: $text_color
+
+.navbar-default .navbar-nav > li > a
+    color: $text_color2
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+    color: $text_color
+.dropdown-menu
+    border-color: $white
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover
+    background: $white
+.btn-primary
+    background-color: $color
+    border-color: $color2
+    color: $text_color
+    &:hover,
+    &:focus,
+    .focus,
+    .active
+        background-color: $color2
+        border-color: $color2
+        &:hover,
+        &:focus
+            background-color: $color2
+            border-color: $color2
+.modal-header
+    background-color: $color
+    color: $text_color
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover
+    background-color: $color
+    border-color: $color2
+.pagination > li > a, .pagination > li > span
+    color: $color
+    &:hover
+        color: $color2
+
+@media screen and (max-width: 767px)
+    .navbar-toggle
+        background-color: $text_color2
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a
+        color: $text_color2
+        &:hover
+            color: $text_color
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form
+        border-color: $color2
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover
+        border-radius: 0
+    .dropdown-menu .divider
+        background-color: $color2
+
+//////////////////////// LOGIN & REGISTER PAGE ////////////////////////
+.login
+    background: $color
+    color: $text_color
+    a
+        color: $text_color2
+        &:hover
+            color: $text_color
+    .reload-captcha, .reload-captcha:hover
+        color: $color
+.main-login-form
+    background: $white
+    color: $alt_text_color
+    a
+      color: $color
+      &:hover
+        color: $color2
+.checkbox,
+.radio
+    .icon
+        color: $color
+
+.sticky
+    background: transparentize($color, 0.8)
+
+.rating-container .rating-stars, .rating-container-rtl
+  color: $color
